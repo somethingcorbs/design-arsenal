@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "category": "Web & product UI inspiration",
+      "definition": "Reference-only galleries of live websites, product/app screens, user flows, navigation patterns and recorded micro-interactions. You study them for patterns and craft; nothing is installed or exported."
+    },
+    {
+      "category": "Graphic, print & visual-culture inspiration",
+      "definition": "Non-web visual references (branding case studies, print flyers, book covers, patterns and textures) plus the moodboard app used to collect them. This is where a direction escapes web-template sameness."
+    },
+    {
+      "category": "Aesthetic vocabulary & design specs",
+      "definition": "Resources that put design decisions into words, tokens or checklists: named-aesthetic indexes, style guides for prompting, DESIGN.md token files for coding agents, and UX completeness checklists and audit skills."
+    },
+    {
+      "category": "Component & section libraries (code)",
+      "definition": "React/Tailwind components, animated components, page sections and templates you copy or install as source (shadcn registries, CLIs, MCP servers) into your own repo."
+    },
+    {
+      "category": "Animation & motion libraries (code)",
+      "definition": "Runtime packages and snippets for animation: tweening/timeline engines, smooth scroll, physics micro-interactions and loaders. These are motion primitives, not full UI components."
+    },
+    {
+      "category": "Visual generators & image effects",
+      "definition": "Browser tools that generate backgrounds, gradients, patterns, particle or shader effects, or apply treatments (dither, halftone, ASCII, contours) to images and video. Output is files or small code exports, not a hosted project."
+    },
+    {
+      "category": "Color & type tools",
+      "definition": "Tools for choosing or generating color palettes and scales, and for creating custom fonts."
+    },
+    {
+      "category": "Illustration & image asset sources",
+      "definition": "Libraries of ready-made illustration or imagery that can go on a site, subject to each item's license."
+    },
+    {
+      "category": "Design, motion & site-building platforms",
+      "definition": "Hosted editors with their own canvas, file format or hosting: HTML/CSS design canvases, interactive and Lottie animation authoring, no-code site builders and brand asset hubs. Usually seat-priced SaaS."
+    },
+    {
+      "category": "AI design & generative media",
+      "definition": "Prompt- and credit-driven AI products that generate UI directions, full sites, interactive visual effects, or images and video."
+    }
+  ],
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Layout & case-study structure",
+    "Typography",
+    "Color & theming",
+    "Hero & signature visuals",
+    "Motion & scroll storytelling",
+    "UI components & sections",
+    "Imagery, illustration & textures",
+    "Project media & mockups",
+    "Site builder & hosting",
+    "Quality checks (a11y, performance, UX)",
+    "AI-assisted design & build"
+  ],
+  "tiers": {
+    "Core": "Reach for it constantly when building a portfolio.",
+    "Strong": "Very useful for most portfolio builds.",
+    "Situational": "Useful for specific needs or styles.",
+    "Low fit": "Off-target for portfolio sites (wrong platform, dated, or unrelated)."
+  }
+}

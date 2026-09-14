@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "focus": "Portfolio websites: personal portfolios for designers, developers and product builders (case studies, shipped projects, about/resume pages), and portfolio sites built for clients or small studios. Builders work in code (React/Next.js/Tailwind, often with AI coding agents) or in no-code tools.",
+  "finds_per_week_max": 10,
+  "quality_bar": {
+    "min_portfolio_fit": 3,
+    "require_license_known": true,
+    "max_months_inactive": 12,
+    "redundancy_rule": "A candidate that overlaps an existing Core/Strong record must name that record id and a concrete differentiator (price, license, framework, output, skill level); otherwise drop it or propose it as a replacement."
+  },
+  "backpressure_undecided_max": 20,
+  "exploration_slots": 1,
+  "upkeep": { "llm_reverify_max": 5, "reverify_after_days": 180 },
+  "limits": { "max_web_searches_per_run": 120, "gap_queries_per_run": 10, "lead_share_max": 0.4, "lead_max_attempts": 2 },
+  "decisions_csv_url": "",
+  "sheet": { "published_tab": "Inbox" },
+  "models": { "orchestrator": "sonnet", "triager": "haiku", "quick_look": "haiku", "researcher": "sonnet", "verifier": "sonnet" },
+  "sources": [
+    { "id": "bestofjs", "type": "json", "url": "https://bestofjs-static-api.vercel.app/projects.json", "min_items": 100, "note": "Filter by tags such as animation, scroll, react-components, css, 3d; rank by weekly star trend.", "enabled": true },
+    { "id": "sidebar", "type": "rss", "url": "https://sidebar.io/feed.xml", "min_items": 5, "enabled": true },
+    { "id": "codrops", "type": "rss", "url": "https://tympanus.net/codrops/feed/", "min_items": 5, "weight": 0.5, "note": "Tutorials: propose only the libraries/tools they introduce, not the articles.", "enabled": true },
+    { "id": "hn-show", "type": "json", "url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E%3D30&hitsPerPage=100", "min_items": 10, "note": "Keep only design/frontend-relevant hits.", "enabled": true },
+    { "id": "webtoolsweekly", "type": "html", "url": "https://webtoolsweekly.com/archives", "min_items": 3, "enabled": true },
+    { "id": "toools", "type": "html", "url": "https://www.toools.design/", "min_items": 10, "enabled": true },
+    { "id": "onepagelove", "type": "html", "url": "https://onepagelove.com/", "min_items": 5, "note": "Signal: mine tools/templates credited on portfolio features.", "enabled": true },
+    { "id": "framer-portfolio", "type": "html", "url": "https://www.framer.com/marketplace/templates/category/portfolio/", "min_items": 5, "note": "Signal for no-code portfolio patterns; propose template sources, not individual templates.", "enabled": true },
+    { "id": "uneed", "type": "html", "url": "https://www.uneed.best/", "min_items": 5, "enabled": true },
+    { "id": "awwwards-portfolio", "type": "html", "url": "https://www.awwwards.com/websites/portfolio/", "min_items": 5, "signal_only": true, "note": "Mine 'Technologies & Tools' tags on winning portfolio pages. Never propose the sites themselves.", "enabled": true }
+  ]
+}

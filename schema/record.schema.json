@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/somethingcorbs/design-arsenal/schema/record.schema.json",
+  "title": "Design Arsenal resource record",
+  "description": "One web-design resource. Stored as data/<state>/<id>.json. schema_version 1.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "name", "url", "status", "origin", "added_at", "last_verified_at",
+    "one_liner", "what_it_offers", "resource_type", "tags", "output_type", "tech_stack", "skill_level", "design_stages",
+    "portfolio_fit", "portfolio_fit_reason", "portfolio_jobs", "client_ok", "client_ok_note", "best_use_for_portfolio",
+    "category", "subcategory", "tier", "tier_reason", "overlap_group", "pick_over_overlaps", "website_design_score", "score_rationale",
+    "pricing_model", "billing_type", "free_tier", "paid_entry_usd_month", "paid_entry_label", "paid_top_label", "one_time_usd",
+    "pricing_source_url", "pricing_quote", "pricing_fetched_at", "commercial_use_license", "license_quote", "signup_required",
+    "agent_friendly", "maintenance_signal", "caveats",
+    "confidence", "fact_checked", "unverified_fields", "evidence_urls",
+    "aliases", "dedupe_keys", "parent_id", "comparables", "user_notes"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,60}$", "description": "Immutable slug. Never changes after creation." },
+    "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "url": { "type": "string", "pattern": "^https://", "maxLength": 300 },
+    "status": { "enum": ["active", "stale", "dead", "acquired"] },
+    "origin": { "type": "string", "pattern": "^(seed-2026-09|scout-\\d{4}-W\\d{2}|manual)$" },
+    "added_at": { "type": "string", "format": "date" },
+    "last_verified_at": { "type": "string", "format": "date" },
+
+    "one_liner": { "type": "string", "maxLength": 240 },
+    "what_it_offers": { "type": "string", "maxLength": 1500 },
+    "resource_type": { "type": "string", "maxLength": 80 },
+    "tags": { "type": "array", "items": { "type": "string", "maxLength": 40 }, "maxItems": 15 },
+    "output_type": { "enum": ["Code", "Downloadable assets", "Reference only", "Hosted design/app", "Mixed"] },
+    "tech_stack": { "type": "string", "maxLength": 200 },
+    "skill_level": { "enum": ["No-code", "Low-code", "Developer", "Any"] },
+    "design_stages": { "type": "array", "items": { "enum": ["Research & moodboard", "Visual direction", "Layout & UX patterns", "Build", "Motion & interaction", "Assets & graphics"] } },
+
+    "portfolio_fit": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "portfolio_fit_reason": { "type": "string", "maxLength": 400 },
+    "portfolio_jobs": { "type": "array", "minItems": 1, "maxItems": 3, "items": { "$ref": "#/$defs/portfolio_job" } },
+    "client_ok": { "enum": ["Yes", "Check license", "No", "N/A (reference only)"] },
+    "client_ok_note": { "type": "string", "maxLength": 300 },
+    "best_use_for_portfolio": { "type": "string", "maxLength": 800 },
+
+    "category": { "type": "string", "maxLength": 80, "description": "Must be a category in config/taxonomy.json" },
+    "subcategory": { "type": "string", "maxLength": 80 },
+    "tier": { "enum": ["Core", "Strong", "Situational", "Low fit"] },
+    "tier_reason": { "type": "string", "maxLength": 400 },
+    "overlap_group": { "type": "string", "maxLength": 80 },
+    "pick_over_overlaps": { "type": "string", "maxLength": 600 },
+    "website_design_score": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "score_rationale": { "type": "string", "maxLength": 800 },
+
+    "pricing_model": { "enum": ["Free", "Open source (free)", "Freemium", "Paid", "Free trial then paid", "Unconfirmed"] },
+    "billing_type": { "enum": ["None", "Subscription", "One-time / lifetime", "Usage / credits", "Mixed", "Unconfirmed"] },
+    "free_tier": { "type": "string", "maxLength": 1500 },
+    "paid_entry_usd_month": { "type": ["number", "null"], "minimum": 0 },
+    "paid_entry_label": { "type": "string", "maxLength": 1500 },
+    "paid_top_label": { "type": "string", "maxLength": 1500 },
+    "one_time_usd": { "type": ["number", "null"], "minimum": 0 },
+    "pricing_source_url": { "type": "string", "maxLength": 300 },
+    "pricing_quote": { "type": ["string", "null"], "maxLength": 240, "description": "Verbatim snippet (<=25 words) from pricing_source_url containing the entry price. Required for scout-origin priced records." },
+    "pricing_fetched_at": { "type": ["string", "null"], "format": "date" },
+    "commercial_use_license": { "type": "string", "maxLength": 1500 },
+    "license_quote": { "type": ["string", "null"], "maxLength": 240 },
+    "signup_required": { "enum": ["No", "For some features", "Yes", "Unconfirmed"] },
+
+    "agent_friendly": { "type": "string", "maxLength": 1500 },
+    "maintenance_signal": { "type": "string", "maxLength": 800 },
+    "caveats": { "type": "string", "maxLength": 2000 },
+
+    "confidence": { "enum": ["high", "medium", "low"] },
+    "fact_checked": { "type": "boolean" },
+    "unverified_fields": { "type": "array", "items": { "type": "string", "maxLength": 600 } },
+    "evidence_urls": { "type": "array", "items": { "type": "string", "maxLength": 400 }, "maxItems": 30 },
+
+    "aliases": { "type": "array", "items": { "type": "string", "maxLength": 120 }, "description": "Former names, legacy ids (e.g. s01)." },
+    "dedupe_keys": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^(host|github|npm|pub|name):[^\\s]+$" } },
+    "parent_id": { "type": ["string", "null"], "pattern": "^[a-z0-9][a-z0-9-]{1,60}$" },
+    "comparables": {
+      "type": "array", "maxItems": 5,
+      "items": { "type": "object", "additionalProperties": false, "required": ["name", "url", "why"],
+        "properties": { "name": { "type": "string", "maxLength": 120 }, "url": { "type": "string", "maxLength": 300 }, "why": { "type": "string", "maxLength": 400 } } }
+    },
+    "user_notes": { "type": "string", "maxLength": 2000 }
+  },
+  "$defs": {
+    "portfolio_job": {
+      "enum": [
+        "Visual direction & moodboard", "Layout & case-study structure", "Typography", "Color & theming",
+        "Hero & signature visuals", "Motion & scroll storytelling", "UI components & sections",
+        "Imagery, illustration & textures", "Project media & mockups", "Site builder & hosting",
+        "Quality checks (a11y, performance, UX)", "AI-assisted design & build"
+      ]
+    }
+  }
+}

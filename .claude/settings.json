@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch",
+      "WebSearch",
+      "Bash(python3 scripts/*)",
+      "Bash(python3 -c *)",
+      "Bash(pip install -r requirements.txt)",
+      "Bash(git *)",
+      "Bash(gh pr *)",
+      "Bash(gh api *)",
+      "Bash(curl -sS *)",
+      "Bash(date *)",
+      "Bash(echo *)"
+    ],
+    "deny": [
+      "Edit(/CLAUDE.md)",
+      "Write(/CLAUDE.md)",
+      "Edit(/.claude/**)",
+      "Write(/.claude/**)",
+      "Edit(/scripts/**)",
+      "Write(/scripts/**)",
+      "Edit(/schema/**)",
+      "Write(/schema/**)",
+      "Edit(/config/**)",
+      "Write(/config/**)",
+      "Edit(/.github/**)",
+      "Write(/.github/**)",
+      "Edit(sheet/**)",
+      "Write(sheet/**)"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION": "300"
+  }
+}

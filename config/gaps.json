@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "gaps": [
+    {
+      "id": "g01",
+      "gap": "Typography: foundries, pairing and type specimens",
+      "why_it_matters": "Type does more than anything else to make a site distinctive, yet the only type tools here are a hand-drawn font maker and a book-cover archive. There is nothing for choosing, pairing, licensing or testing web fonts.",
+      "queries": [
+        "independent type foundry web font licensing trial fonts 2026",
+        "free open-source display typefaces for websites Fontshare Velvetyne",
+        "font pairing tool variable fonts web preview",
+        "Fonts In Use typography examples websites",
+        "variable font tester playground axes"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g02",
+      "gap": "Icon systems",
+      "why_it_matters": "Every site needs a consistent icon set, and default lucide icons are part of the generic shadcn look. The collection has no icon library at all (apart from 21st.dev's search).",
+      "queries": [
+        "distinctive open source SVG icon library alternative to lucide",
+        "animated icon library React Motion free",
+        "icon set with multiple weights Phosphor-style commercial license",
+        "SVG icon search engine free commercial use 2026"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g03",
+      "gap": "Accessibility and motion-safety checking",
+      "why_it_matters": "The collection is heavy on WebGL, smooth scroll and animation, but has no contrast, screen-reader or reduced-motion tooling, so effect-rich builds can ship inaccessible.",
+      "queries": [
+        "APCA WCAG 2.2 color contrast checker tool",
+        "automated accessibility testing axe Playwright Next.js",
+        "prefers-reduced-motion best practices GSAP Motion Lenis",
+        "accessible scroll animation guidelines creative websites"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g04",
+      "gap": "Performance and Core Web Vitals for effect-heavy sites",
+      "why_it_matters": "Three.js, R3F, shader backgrounds, video grids and SVG filters all cost LCP, INP and battery. Nothing here measures bundles or profiles GPU cost.",
+      "queries": [
+        "Lighthouse CI performance budget Next.js Vercel",
+        "WebGL hero background performance mobile fallback",
+        "bundle analyzer tree-shaking three.js React Three Fiber",
+        "CSS scroll-driven animations vs JavaScript performance"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g05",
+      "gap": "Photography and video sources (licensed, non-generic)",
+      "why_it_matters": "Apart from public-domain archives and AI generators with murky rights, there is no source of real, licensable photography or b-roll for heroes and case studies.",
+      "queries": [
+        "high quality non-generic stock photography for websites 2026",
+        "editorial stock photo library licensing startups",
+        "free stock video loops for website hero backgrounds",
+        "authentic diverse photography library commercial license"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g06",
+      "gap": "3D scene authoring and 3D assets",
+      "why_it_matters": "The collection has 3D-flavored effects but no scene editor, 3D model library or R3F learning resource for building a real 3D moment.",
+      "queries": [
+        "Spline 3D design tool pricing export React",
+        "React Three Fiber examples gallery drei",
+        "free GLB 3D models for web commercial license",
+        "three.js creative coding course 2026"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g07",
+      "gap": "Marketing-site section galleries (heroes, pricing, landing pages)",
+      "why_it_matters": "Awwwards skews experimental and Refero/Mobbin skew toward product UI. There is no mid-fidelity gallery of real landing-page sections to benchmark structure and conversion patterns.",
+      "queries": [
+        "landing page design inspiration gallery by section",
+        "SaaS hero section examples gallery 2026",
+        "pricing page design examples gallery",
+        "Land-book Lapa Ninja alternatives curated landing pages"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g08",
+      "gap": "Copywriting and UX microcopy",
+      "why_it_matters": "A distinctive site needs a distinctive voice, and nothing here covers headlines, microcopy or content structure.",
+      "queries": [
+        "website headline copywriting examples swipe file",
+        "UX writing microcopy guidelines library",
+        "landing page copy teardown newsletter",
+        "brand voice guide examples for startups"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g09",
+      "gap": "Layout systems: fluid type and spacing scales, grids",
+      "why_it_matters": "The DESIGN.md token sets are thin on spacing and type scale, and there are no tools for fluid clamp() scales or editorial grid systems that make layouts feel intentional.",
+      "queries": [
+        "Utopia fluid type scale space calculator clamp",
+        "modular type scale generator Tailwind v4",
+        "CSS grid editorial layout examples web",
+        "responsive grid system design tool Figma to CSS"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    },
+    {
+      "id": "g10",
+      "gap": "CSS-native motion (View Transitions, scroll-driven animations)",
+      "why_it_matters": "The browser can now do page transitions and scroll-linked animation without JS weight, but every motion resource in the collection is a JS library.",
+      "queries": [
+        "View Transitions API demos gallery Next.js",
+        "CSS scroll-driven animations examples animation-timeline",
+        "CSS-only animation effects library 2026",
+        "cross-document view transitions examples"
+      ],
+      "runs_without_yield": 0,
+      "retired": false
+    }
+  ]
+}
