@@ -1,0 +1,115 @@
+{
+  "id": "figma-weave",
+  "name": "Figma Weave (formerly Weavy)",
+  "url": "https://weave.figma.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Figma's node-based AI canvas for making and editing images, video and 3D, using many AI models at once.",
+  "what_it_offers": "A browser canvas where you connect nodes to chain image, video and 3D AI models from providers like Google, OpenAI, Black Forest Labs, Bytedance, Kling, Runway, Luma, LTX, Wan, Grok, Recraft and Bria into repeatable workflows. The models include Flux 2 Pro, Nano Banana 2/Pro, GPT Image 1.5, Seedream V5, Recraft V4, Kling 3, Veo 3.1, Runway Gen-4.5, Hunyuan 3D V3, Rodin V2 and Topaz Upscale. Editing nodes include layers, type and blend modes, masking, inpainting, outpainting, relighting, upscaling, cropping, channels, z-depth extraction and an image describer. You can turn a complex workflow into a simple 'tool' interface for teammates. Showcase workflows include product relighting, camera-angle control, a ControlNet structure reference, Wan LoRA effects and a Figma Weave logo workflow. Since June 24, 2026, a curated set of 20+ Weave tools has been in open beta inside Figma Design for paid Figma plans, and workflows can be published to Figma Community. A Figma node (beta) now lets you paste a Figma frame into a Weave workflow, wire its text and image layers to Weave inputs, and push the results back to the Figma file.",
+  "resource_type": "AI design / agent",
+  "tags": [
+    "AI image generation",
+    "AI video",
+    "node-based workflow",
+    "generative assets",
+    "Figma",
+    "Weavy",
+    "image editing",
+    "3D generation",
+    "MCP"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Hosted web app (N/A); outputs are raster images, video and 3D files",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics",
+    "Research & moodboard"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Repeatable node workflows keep generated imagery on one art direction across a portfolio, and the Figma node fills mockup frames; still asset-only, with no layouts or code, and credit-hungry for video.",
+  "portfolio_jobs": [
+    "Imagery, illustration & textures",
+    "Project media & mockups",
+    "Hero & signature visuals"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Terms 4.4 say you own Output and Free lists a commercial license; Unverified models carry their providers' own terms, so use Verified models for client sites.",
+  "best_use_for_portfolio": "Build one house-style workflow (style reference, generate, relight, upscale) to produce consistent case-study cover images, section textures and relit product shots. Use the Figma node to populate portfolio mockup frames with variants before exporting AVIF/WebP.",
+  "category": "AI design & generative media",
+  "subcategory": "Node-based generative asset workflows",
+  "tier": "Situational",
+  "tier_reason": "Repeatable node workflows keep generated imagery on one art direction and fill mockup frames. Asset-only, and credit-hungry for video.",
+  "overlap_group": "AI image & video generation",
+  "pick_over_overlaps": "Choose it over Higgsfield for repeatable, brand-consistent pipelines, Figma integration and clearer billing.",
+  "website_design_score": 4,
+  "score_rationale": "Custom imagery is one of the biggest things that separates a distinctive site from a template, and Weave is a strong way to get it. Chained model pipelines keep an art direction consistent across a whole site, and on a paid plan packaged tools can be called from AI coding agents through the Figma MCP. The Figma node can fill real Figma frames with generated content. It does not produce layouts, components or code, and video credit costs add up quickly, which keeps it from a 5.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "$0/mo: 150 credits a month (about 375 Flux Fast images), all AI image models, and the 3D models Hunyuan 3D V3 and Rodin V2 (about 1 and 4 generations). Video models are not available on Free. It also includes the pro editing tools, a commercial license and up to 5 workflows. There are no credit top-ups or rollover. MCP access is not included (the help center lists it only for Starter, Pro, Team and Enterprise).",
+  "paid_entry_usd_month": 24,
+  "paid_entry_label": "Starter $24/mo billed monthly ($19/mo billed annually = $228/yr); 1,500 credits/mo, unlimited workflows, top-ups $10 per 1,000 credits",
+  "paid_top_label": "Team $60/user/mo billed monthly ($48/user/mo annually = $576/yr), 4,500 credits/user, shared credit pool. Professional (also called 'Pro' on the same page and in the help center) is $45/mo ($36/mo annually = $432/yr) with 4,000 credits, 3-month rollover and top-ups at $10 per 1,200 credits. Enterprise is custom (contact sales).",
+  "one_time_usd": null,
+  "pricing_source_url": "https://weave.figma.com/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Yes for most uses, but read the model terms. The Figma Weave Terms of Service (Figma Inc., last updated July 30, 2026) say in section 4.4 that, as between you and Figma, you own all Output, and you keep your rights in your Input (4.3). The Free plan also lists 'Commercial license', and the pricing FAQ says the platform gives full commercial rights and does not train on your work. Limits in the ToS: use is 'solely for your own business purposes' (2.1); you may not use Weave or its Output to build a product that competes with Figma (4.2g); Output comes with no warranty, including no warranty of non-infringement (7.1); and you indemnify Figma if your Output infringes someone else's rights (section 9). Figma also reminds you that other users can get similar or identical output. Model terms: the ToS splits models into Verified and Unverified (section 6). Verified models (the list was updated September 8, 2026, and includes Flux, Nano Banana, GPT Image, Kling, Veo, Runway, Seedream/Seedance, Recraft, Bria, Luma Ray 3.2 and Topaz) have contracts that stop the provider from training on your content. Unverified models (Higgsfield, Ideogram 2.0/Inpaint, Reve, Vectorizer, Luma Ray 2/Ray 2 Flash/Reframe, Hunyuan and Hunyuan 3D via Replicate, and Beeble SwitchX) are provided as-is and are also governed by each provider's own terms and license, which may allow the provider to train on your data. The FAQ's claim of a per-model 'commercial rights status' list is not accurate: its link goes to a credit-cost table, and the Trust Center's model list covers training and data terms only. No public per-model commercial-rights list exists.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "Partly. There is no public REST API yet; the Enterprise plan lists 'Run workflows through API - coming soon' and 'Your own API keys'. Weave tools can be run through the official Figma MCP server (for example from Claude, ChatGPT or Cursor), and no separate Weave MCP is needed. Through MCP an agent can list your own tools and tools shared with you in your active Weave workspace, check a tool's required inputs, upload an image, video, audio or 3D file, run a tool, track the run and read the output, and cancel a run. Runs use Weave credits, not Figma AI credits. The agent shows the cost and asks for confirmation before any run that costs credits, and it warns when the cost can't be quoted in advance (for example with dynamic iterators). You need a Weave account on Starter, Pro (called Professional on the pricing page), Team or Enterprise, not Free, and must link your Figma account under Settings > Profile > Linked accounts. Only tools in the active workspace are visible. Creating or editing workflows through MCP is not supported yet. No llms.txt (weave.figma.com/llms.txt returns 404), npm package or shadcn registry was found.",
+  "maintenance_signal": "Very active. Figma bought Weavy in October 2025 and rebranded it as Figma Weave. On June 24, 2026 the Figma blog announced Weave tools in Figma Design (open beta, 20+ tools) and Weave workflows in Figma Community, with a Figma node expected 'later this summer'. The Figma node has since shipped in beta; its help article was last updated August 17, 2026. Weave announced MCP access to Weave tools on LinkedIn around August 11, 2026, and the MCP help article was updated August 28, 2026. The Terms of Service were updated July 30, 2026, and the Verified Models list was updated September 8, 2026 (it includes new models such as Seedance 2.5, GPT Image 2 and Luma Ray 3.2). The pricing page runs a Seedance 2.5 launch promo. Its FAQ still says Weave is 'not yet' connected to Figma, but the help center FAQ has been updated to say Weave tools are available in Figma. SOC 2 Type II certified.",
+  "caveats": "Credit-based: video models are not on Free, and a Starter plan gets only about 15 Kling 3 or 17 Veo 3.1 generations a month. Weave billing and credits are separate from Figma plans, and a paid Figma seat does not include a Weave subscription. The Weave tools inside Figma Design need a Figma Professional, Organization or Enterprise plan; they are free during the open beta but will use Figma AI credits once generally available. The Figma node is still in beta, and edits made in Figma need a manual Update to sync back into Weave. There is no public API yet. MCP needs a paid Weave plan, can only run packaged tools in the active workspace, and cannot create or edit workflows. The ToS gives no warranty of non-infringement and makes you indemnify Figma for infringing Output. Unverified models (for example Higgsfield, Ideogram 2.0, Reve, Luma Ray 2, and Hunyuan via Replicate) carry their provider's own license and data terms, and no per-model commercial-rights list is published. Fees are non-refundable. Output is only raster, video or 3D assets, not UI or code. The pricing-page FAQ is out of date: it still says Weave is 'not yet' connected to Figma, and its 'Trust Center model list' link actually goes to a credit-cost table.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://weave.figma.com/",
+    "https://weave.figma.com/pricing",
+    "https://content.weave.figma.com/terms-of-service",
+    "https://content.weave.figma.com/figma-weave-verified-and-unverified-models",
+    "https://content.weave.figma.com/",
+    "https://content.weave.figma.com/models-pricing",
+    "https://help.weavy.ai/en/articles/16202764-running-weave-tools-from-external-agents-mcp",
+    "https://help.weavy.ai/en/articles/16440592-figma-node",
+    "https://help.weavy.ai/en/articles/12692387-figma-weave-faq",
+    "https://www.figma.com/blog/connecting-figma-and-weave/",
+    "https://help.figma.com/hc/en-us/articles/35965787376919-Figma-Weave-FAQ",
+    "https://help.figma.com/hc/en-us/articles/40779260614935-Use-Weave-tools-in-Figma",
+    "https://www.linkedin.com/posts/figmaweave_weave-tools-now-via-mcp-connect-chatgpt-activity-7492942917800591360-QAi4",
+    "https://flora.ai/",
+    "https://github.com/Comfy-Org/ComfyUI"
+  ],
+  "aliases": [
+    "s58",
+    "Weavy"
+  ],
+  "dedupe_keys": [
+    "host:weave.figma.com",
+    "host:weavy.ai",
+    "host:help.weavy.ai",
+    "host:content.weave.figma.com",
+    "name:figma-weave"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "FLORA",
+      "url": "https://flora.ai/",
+      "why": "An infinite AI creative canvas that combines 50+ image, video and text models with reusable 'Techniques' workflows, aimed at designers and brand teams; the closest direct competitor to Weave."
+    },
+    {
+      "name": "Krea",
+      "url": "https://www.krea.ai/",
+      "why": "Multi-model image and video generation with real-time models, a Nodes editor and Enhancer upscaling; strong for fast art direction."
+    },
+    {
+      "name": "ComfyUI",
+      "url": "https://www.comfy.org/",
+      "why": "Open-source (GPL-3.0, about 133K GitHub stars) node-based pipeline for diffusion models. It is free to run yourself, with Comfy Cloud and a workflow-as-API developer platform."
+    }
+  ],
+  "user_notes": ""
+}

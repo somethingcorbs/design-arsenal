@@ -1,0 +1,117 @@
+{
+  "id": "watermelon-ui",
+  "name": "Watermelon UI",
+  "url": "https://ui.watermelon.sh",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Open-source React/Tailwind catalog of components, animated components, and blocks, installable via the shadcn CLI, with a hosted MCP server.",
+  "what_it_offers": "The catalog has 850 entries: 516 components (mostly numbered variants such as Accordion 1-4), 131 animated components, 189 landing and product blocks, 11 dashboards, 1 template and 2 showcases. Each item installs as editable source with npx shadcn@latest add https://registry.watermelon.sh/r/<slug>.json. Machine-readable surfaces include llms.txt, OpenAPI, a public catalog JSON API, and a hosted MCP server that needs no key. It is run by Watermelon (watermelon.sh), which sells design services, systems and inspiration to startups.",
+  "resource_type": "Component library",
+  "tags": [
+    "react",
+    "tailwind",
+    "shadcn registry",
+    "animated components",
+    "blocks",
+    "dashboards",
+    "mcp",
+    "open source",
+    "motion"
+  ],
+  "output_type": "Code",
+  "tech_stack": "React 19 + TypeScript + Tailwind CSS 4 + Motion (Vite 8 platform; shadcn registry)",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Layout & UX patterns",
+    "Motion & interaction",
+    "Research & moodboard"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "A big free shadcn catalog with strong MCP tooling speeds up building portfolio sections. But most of it is generic SaaS and dashboard variants, and there are almost no portfolio templates, so you'll need to restyle heavily.",
+  "portfolio_jobs": [
+    "UI components & sections",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Both repos are MIT. The site terms note that some items are inspired by public designs or name real brands, so remove brand references before shipping.",
+  "best_use_for_portfolio": "Connect the Watermelon MCP to a coding agent and pull a few animated components, such as a testimonial marquee, contact form or FAQ accordion, into a Next.js + Tailwind 4 portfolio as editable source. Then restyle them to your own type and color tokens so the site doesn't look like stock shadcn.",
+  "category": "Component & section libraries (code)",
+  "subcategory": "Blocks & dashboards registry",
+  "tier": "Situational",
+  "tier_reason": "A large free shadcn catalog with good MCP tooling, but it is mostly SaaS and dashboard sections. Portfolio use means picking a few pieces and restyling them heavily.",
+  "overlap_group": "Animated React/Tailwind component sources",
+  "pick_over_overlaps": "Use it for product blocks and dashboards through a no-key MCP. Expect to restyle heavily.",
+  "website_design_score": 3,
+  "score_rationale": "A large, free, MIT-licensed catalog with excellent agent tooling (shadcn registry, MCP, API), which makes it a strong fit for AI coding workflows. But the project is young, and much of the count is generic numbered variants of common shadcn-style components. It speeds up the build more than it adds a distinctive design direction.",
+  "pricing_model": "Open source (free)",
+  "billing_type": "None",
+  "free_tier": "The whole catalog (components, animated components, blocks, dashboards, templates) is free to browse and install. The public API and MCP need no login or API key.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://ui.watermelon.sh/about",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "MIT license on both GitHub repos (watermelon-platform and watermellon-registry), so commercial use is allowed. The site Terms say use must follow the repository licenses. They also note that some items take visual inspiration from publicly shared designs, and there is a claims and removal process.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "Strong. Items install from the shadcn registry (npx shadcn@latest add https://registry.watermelon.sh/r/<slug>.json). Hosted MCP at https://mcp.watermelon.sh/mcp (Streamable HTTP, no key; verified live as watermelon-mcp v2.0.0). Its tools are search, get_component, get_inspiration, compose_page and list_categories, plus catalog_summary, list_catalog_entries and get_catalog_entry. There are also llms.txt, openapi.json, and a /api/catalog JSON API that returns install commands. The repo ships Claude, Codex and Cursor plugin manifests and a SKILL.md. The @watermelon-ui/cli installer is not on npm yet (404).",
+  "maintenance_signal": "GitHub WatermelonCorp/watermelon-platform: about 505 stars, 15 contributors, created 2026-02-05, last push 2026-09-13. Registry repo: about 96 stars, 10 contributors, pushed 2026-08-30. Very active but young.",
+  "caveats": "New (February 2026) with a small community (about 15 contributors), so quality and longevity are unproven. Many entries are near-duplicate variants of generic components, so the default look is common and needs restyling. Few templates or showcases (1 and 2). Some animated components are named after or inspired by real products (e.g. 'Aave Swap Component'), so remove brand references before shipping. The MCP docs page lists only the 3 compatibility tools, while the server and llms.txt list 8. The CLI is not published yet. Assumes Tailwind 4 and React 19 conventions.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "component quality (not visually reviewed)",
+    "similar_sites_outside_list (existence verified; absence from the original list not checkable here)"
+  ],
+  "evidence_urls": [
+    "https://ui.watermelon.sh",
+    "https://ui.watermelon.sh/llms.txt",
+    "https://ui.watermelon.sh/api/catalog/summary",
+    "https://ui.watermelon.sh/api/catalog/entries?kind=components",
+    "https://ui.watermelon.sh/api/catalog/entries?kind=animated-components",
+    "https://ui.watermelon.sh/developers/mcp",
+    "https://ui.watermelon.sh/terms",
+    "https://ui.watermelon.sh/about",
+    "https://mcp.watermelon.sh/llms.txt",
+    "https://mcp.watermelon.sh/mcp",
+    "https://github.com/WatermelonCorp/watermelon-platform",
+    "https://github.com/WatermelonCorp/watermellon-registry",
+    "https://watermelon.sh",
+    "https://registry.npmjs.org/@magicuidesign/mcp"
+  ],
+  "aliases": [
+    "s03"
+  ],
+  "dedupe_keys": [
+    "host:ui.watermelon.sh",
+    "host:registry.watermelon.sh",
+    "host:mcp.watermelon.sh",
+    "github:watermeloncorp/watermelon-platform",
+    "github:watermeloncorp/watermellon-registry",
+    "name:watermelon-ui"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Magic UI",
+      "url": "https://magicui.design",
+      "why": "Popular animated React/Tailwind/Motion components distributed through the shadcn registry, with an MCP server (@magicuidesign/mcp)."
+    },
+    {
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "why": "Eye-catching animated landing-page components and blocks for Next.js + Tailwind + Motion."
+    },
+    {
+      "name": "React Bits",
+      "url": "https://reactbits.dev",
+      "why": "Large free collection of creative animated React components and backgrounds, installable with the shadcn or jsrepo CLI."
+    }
+  ],
+  "user_notes": ""
+}

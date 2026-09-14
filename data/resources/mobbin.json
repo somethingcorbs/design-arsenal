@@ -1,0 +1,114 @@
+{
+  "id": "mobbin",
+  "name": "Mobbin",
+  "url": "https://mobbin.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Large curated library of real iOS and web app screens, flows and animations, with a paid MCP server.",
+  "what_it_offers": "A reference library of 1,428 apps, 621,500+ screens and 323,900 flows from iOS and web products, plus about 200 marketing sites. It is searchable in plain language across screens, flows and sections, including text inside screenshots, with AI Deep Search, version history, video flows, animations, collections and copy-to-Figma. Paid plans add a remote MCP server (api.mobbin.com/mcp) so agents can search and reason over the screens. Team adds API access, and a Finance+ add-on is available on Team and Enterprise.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "UI references",
+    "mobile app design",
+    "web app design",
+    "user flows",
+    "animations",
+    "UX patterns",
+    "MCP",
+    "Figma"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "N/A (reference library). App and pricing pages built with Next.js (App Router/RSC) with Stripe billing; the MCP marketing page is built on Framer; MCP over HTTP with OAuth",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Layout & UX patterns",
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "A huge library of app UI screens with only about 200 marketing sites, and its IP terms are restrictive. It's marginally useful for product-design case studies, but it offers little for a portfolio's own look.",
+  "portfolio_jobs": [
+    "UI components & sections",
+    "Layout & case-study structure",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "Terms clause 10.1 claims derivative works produced with the Services belong to Mobbin. Section 3 bars AI-made derivatives and commercial exploitation of Platform content.",
+  "best_use_for_portfolio": "Product designers can use it to benchmark the flows their case studies cover (onboarding, paywalls, settings) and write a short \"how others solve this\" comparison. Keep it to pattern notes in your own words, and never embed Mobbin screenshots or layouts derived from them in the portfolio.",
+  "category": "Web & product UI inspiration",
+  "subcategory": "App screen & flow library + MCP",
+  "tier": "Low fit",
+  "tier_reason": "Mostly app UI screens with few marketing sites and restrictive IP terms. Marginal help for product-design case studies, little for a portfolio's own look.",
+  "overlap_group": "Product screen & flow libraries",
+  "pick_over_overlaps": "Use it only for app-style screens, onboarding and flows, or animation and video flows. Refero is the better fit for a website.",
+  "website_design_score": 4,
+  "score_rationale": "It is the most comprehensive real-product UI library, and the MCP lets coding agents use it directly for patterns like onboarding, pricing, paywalls and settings. It is weighted toward mobile and web app UI rather than distinctive marketing websites (about 200 sites), so it helps UX and page patterns more than bold visual identity. Restrictive IP terms (clause 10.1 and the Section 3 AI/derivative-work limits) mean outputs should stay at the pattern-note level.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "Limited apps and sites, max 3 collections, limited copy/download and version history, best-effort email support. No flows, animations, search, Deep Search, MCP or API. Some SEO explore pages can be viewed logged out.",
+  "paid_entry_usd_month": 15,
+  "paid_entry_label": "Pro $15/mo billed quarterly ($45 every 3 months); $10/mo billed yearly ($120/yr). The pricing page offers only Yearly and Quarterly. Student Pro (via /education, verification required) is advertised 'from $5/mo while in school', Pro plan only, valid 2 years.",
+  "paid_top_label": "Team $24/member/mo billed quarterly ($72 every 3 months) or $16/member/mo billed yearly ($192/yr); Finance+ add-on $399/mo billed yearly ($4,788/yr; Team and Enterprise only); Enterprise is custom",
+  "one_time_usd": null,
+  "pricing_source_url": "https://mobbin.com/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Proprietary Terms of Service (mobbin.com/terms, effective 2026-05-16, Mobbin Pte. Ltd., Singapore law). Clause 10.1 (Mobbin's Rights), second paragraph, says: \"All derivative works produced with the use of the Services ... belong to Mobbin.\" It sits in tension with clause 10.5 (User-Generated Content), which says that, subject to 10.1, you keep ownership of content you create using the Services and Mobbin will not claim it, though that ownership is subject to third-party and Mobbin rights in any material you use. Section 3 (Limitations of Use) bars preparing derivative works of Platform materials; selling, licensing or commercially exploiting access to or content of the Platform; and using AI/ML tools to create derivative works of Platform content, to train or benchmark models, or for other commercial purposes, unless the Terms allow it or Mobbin consents in writing. The same section limits API/MCP use to personal or internal business use, or integration into your own proprietary products. Reselling or sublicensing access, building competing products, and creating a standalone content repository are prohibited. Clause 10.3 says the screenshots and recordings are third parties' IP, and citations, images and paraphrasing may be published elsewhere only to a limited extent with credit to the IP holders. Clause 10.4 preserves fair use under Singapore's Copyright Act 2021. Clause 10.2 licenses downloaded Software for personal, non-commercial transitory use only. Clause 4.3 says API/MCP usage runs on non-refundable AI Credits. Clause 8: strictly no refunds unless required by law or at Mobbin's discretion. Practical reading: use it for inspiration and pattern notes only, not as assets or copied designs.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Remote MCP server at https://api.mobbin.com/mcp (OAuth sign-in, no API key; setup documented for Claude Code, Cursor, Codex and v0, plus Claude Desktop; included on all paid plans; unlimited during beta, though Terms clause 4.3 already describes a credit-based AI Credits system for API/MCP usage). Public GitHub repos (all MIT): mobbin/mobbin-mcp-server (38 stars, pushed 2026-08-20), mobbin/skills (20 stars, pushed 2026-05-04) and mobbin/mobbin-agent-plugin (2 stars, pushed 2026-09-03). API access on Team and Enterprise. llms.txt at /llms.txt lists explore categories and patterns.",
+  "maintenance_signal": "Very active: changelog entry 2026-08-05 (new search and Deep Search), community features 2026-01-13, Animations launched Nov 2025, MCP repo pushed 2026-08-20, agent plugin repo pushed 2026-09-03. Terms revised 2026-05-16. Current quarterly and yearly Stripe prices were created in late June 2026.",
+  "caveats": "Most useful content is paywalled, with no monthly billing option in the UI and a strict no-refund policy (clause 8). The focus is app and product UI, not expressive marketing sites. Terms clause 10.1 claims ownership of derivative works produced with the Services, which conflicts with clause 10.5's promise that you own what you create. Section 3 also bars AI-made derivative works of Platform content and commercial exploitation of its content. Treat MCP output as abstract pattern notes, never copied layouts, screenshots or code closely derived from them. API/MCP is metered by AI Credits under clause 4.3, so pricing may change after beta. The API is Team-only. The education discount applies to individual Pro only and cannot be combined with other offers.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "Student Pro billing cadence behind 'from $5/mo' (monthly vs yearly-equivalent) and the exact percentage off",
+    "Educator discount amount (the education FAQ says educators are eligible but gives no rate)",
+    "Whether monthly billing can still be purchased (legacy Stripe monthly price objects of $20 Pro and $24 Team are in page data and Terms section 6 mentions monthly recurrence, but the UI offers only Yearly and Quarterly)"
+  ],
+  "evidence_urls": [
+    "https://mobbin.com/terms",
+    "https://mobbin.com/pricing",
+    "https://mobbin.com/education",
+    "https://mobbin.com/mcp",
+    "https://mobbin.com/changelog",
+    "https://mobbin.com/llms.txt",
+    "https://mobbin.com/",
+    "https://github.com/mobbin/mobbin-mcp-server",
+    "https://github.com/mobbin/skills",
+    "https://github.com/mobbin/mobbin-agent-plugin",
+    "https://screensdesign.com/"
+  ],
+  "aliases": [
+    "s54"
+  ],
+  "dedupe_keys": [
+    "host:mobbin.com",
+    "host:api.mobbin.com",
+    "github:mobbin/mobbin-mcp-server",
+    "github:mobbin/skills",
+    "github:mobbin/mobbin-agent-plugin",
+    "name:mobbin"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Page Flows",
+      "url": "https://pageflows.com/",
+      "why": "Direct competitor with video-recorded user flows from web and mobile products."
+    },
+    {
+      "name": "Screensdesign",
+      "url": "https://screensdesign.com/",
+      "why": "iOS app screen and video library with a focus on onboarding and paywall patterns."
+    },
+    {
+      "name": "Nicely Done",
+      "url": "https://nicelydone.club/",
+      "why": "Web app UI screens and flows library (500+ SaaS apps), a lighter alternative for SaaS patterns."
+    }
+  ],
+  "user_notes": ""
+}

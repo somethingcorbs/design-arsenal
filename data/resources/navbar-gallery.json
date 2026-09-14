@@ -1,0 +1,106 @@
+{
+  "id": "navbar-gallery",
+  "name": "Navbar Gallery",
+  "url": "https://www.navbar.gallery/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free, hand-curated gallery of real-world website navigation bar designs, filterable by nav type and style.",
+  "what_it_offers": "A curated gallery of navigation designs from live websites: about 450-500 entries (the llms.txt says 450+; the sitemap lists 496 /navbar/ pages; the homepage paginates across 38 pages). Entries are sorted by recency and filterable by 8 types in the main nav (static/sticky, dropdown, mega menu, sidebar, search bar, announcement bar, full-screen, breadcrumbs). The sitemap also has tabs and progress-bar type pages. There are 118 style tags (dark, minimal, animated, brutalist, glassmorphism, GSAP, bento, large type, SaaS, agency, etc.). Each entry has desktop and mobile screenshots, a link to the live site, type and website-type tags, the build platform, and designer and submitter credit. There are also pages for mobile navigation, Webflow navbars and Framer navbars, plus 11 blog guides (mega menus, sidebars, breadcrumbs, a GSAP color-on-scroll tutorial with a Webflow cloneable).",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "navigation",
+    "navbar",
+    "mega-menu",
+    "header",
+    "inspiration",
+    "ux-patterns",
+    "webflow",
+    "framer",
+    "curated",
+    "mobile-navigation"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Built on Webflow (data-wf-site markup, Webflow CDN); featured sites span Webflow, Framer and custom builds",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Layout & UX patterns",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "A useful, well-tagged reference for a portfolio's header and menu, with agency, large-type, full-screen and animated styles. It covers only one component and gives no code.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "UI components & sections"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "Screenshots of third-party sites with no reuse license published. The designs belong to their owners, so use them as inspiration only.",
+  "best_use_for_portfolio": "Filter by full-screen or sticky nav and the agency, minimal or large-type tags to plan the portfolio header and mobile menu. Save three to five references and study their hover and mobile behavior on the live sites. Then describe the pattern to a coding agent instead of copying a design outright.",
+  "category": "Web & product UI inspiration",
+  "subcategory": "Navigation pattern gallery",
+  "tier": "Situational",
+  "tier_reason": "Well-tagged reference for designing a portfolio header or full-screen menu. It covers one component and has no code.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 3,
+  "score_rationale": "A high-quality, well-tagged reference for one important component. The style tags (brutalist, large type, animated, GSAP) help you find a distinctive header direction fast. The scope is narrow, though: no code, no tokens, nothing beyond the navbar, so it informs one decision rather than the whole site.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything is free: the full gallery, type and style filters, individual entry pages and blog guides. There is an optional Substack newsletter and a free submission form. The site is sponsored by Mobbin, and a /sponsor page offers ad placement to advertisers, not paid plans for users.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.navbar.gallery/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No reuse license or terms page is published (none in the sitemap). Entries are screenshots of third-party websites and link back to them, so the designs belong to their owners. Use them as inspiration only, not as copyable assets or code. No code is provided except the blog's linked Webflow cloneable.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "Has an llms.txt at https://www.navbar.gallery/llms.txt that maps core pages, all 8 main type pages, 14 selected style categories and 10 blog posts. A sitemap.xml lists all 496 entry pages, 118 style pages and 10 type pages. No API, MCP or code output, and the screenshots are images, so an agent needs vision to use the content.",
+  "maintenance_signal": "Created November 2023 by Christina Liubynska (Supercharged Design, Barcelona), per llms.txt. The Webflow HTML comment says it was last published 2026-06-06, and the HTTP last-modified header was 2026-09-12. The llms.txt says new navbars are added regularly and the site has 1M+ pageviews. The current Mobbin sponsorship and 496 entry pages in the sitemap (versus 450+ in llms.txt) suggest it is still active. No per-entry dates are shown.",
+  "caveats": "Screenshots only: no code, videos, font or color specs, and no dates added. Designs belong to the featured sites, so don't copy them outright. It leans toward Webflow and Framer sites. It covers navigation only.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license"
+  ],
+  "evidence_urls": [
+    "https://www.navbar.gallery/",
+    "https://www.navbar.gallery/llms.txt",
+    "https://www.navbar.gallery/sitemap.xml",
+    "https://www.navbar.gallery/navbar/supaste",
+    "https://www.navbar.gallery/browse",
+    "https://www.navbar.gallery/sponsor",
+    "https://godly.website",
+    "https://recent.design/"
+  ],
+  "aliases": [
+    "s05"
+  ],
+  "dedupe_keys": [
+    "host:navbar.gallery",
+    "name:navbar-gallery"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "footer.design",
+      "url": "https://www.footer.design",
+      "why": "The single-component gallery for website footers that inspired Navbar Gallery (per its llms.txt)."
+    },
+    {
+      "name": "Mobbin",
+      "url": "https://mobbin.com",
+      "why": "Large searchable library of real app and web UI screens and flows, including navigation patterns (the site's sponsor)."
+    },
+    {
+      "name": "Recent (formerly Godly)",
+      "url": "https://recent.design",
+      "why": "The curated standout-website gallery formerly at godly.website, which now 301-redirects here. Updated daily and filterable by web, typography, motion and more, so it works for whole-page and header inspiration."
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,108 @@
+{
+  "id": "cari",
+  "name": "CARI (Consumer Aesthetics Research Institute) – Index of Aesthetics",
+  "url": "https://cari.institute/aesthetics",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Nonprofit research archive naming and documenting 90 consumer design aesthetics, from the mid-century to today.",
+  "what_it_offers": "A searchable, filterable A–Z index of 90 named aesthetics (for example Frutiger Aero, Corporate Memphis, Y2K Aesthetic, McBling, Cassette Futurism, Memphis-Milano, Indie Sleaze). You can filter by earliest known example, end of popularity and relevant decade (1970s–2010s, plus 'Timeless'). Each page has a namesake explanation, a list of visual traits and motifs, a timeline, alternate names, attribution (foundational research, who coined the name), links to the matching Are.na channel, an image gallery, and related aesthetics. The site also has articles, a glossary, attribution guidelines, a project history, a team page and a press page.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "aesthetics",
+    "design history",
+    "moodboard",
+    "visual culture",
+    "retro",
+    "Y2K",
+    "Frutiger Aero",
+    "Memphis",
+    "nonprofit",
+    "research archive"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Server-rendered HTML behind Cloudflare. The backend looks like Spring (Spring Security-style _csrf token object and CDATA script blocks), but that is inferred. Front end uses jQuery 3.7.1 (code.jquery.com), a custom JS UI (chad-miller-official/cari-bantam-ui served from jsDelivr), infinite-scroll v5 from unpkg, and images on AWS S3 (cari-prod bucket).",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Rigorous, well-documented named aesthetics give a portfolio a distinctive, defensible art direction that avoids generic templates. It's direction-stage only: no tokens, code or reusable imagery.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Typography",
+    "Color & theming"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "The FAQ and footer say artifacts are for research and inspiration only, not free assets. Gallery images are third-party copyrighted and not licensed for commercial reuse.",
+  "best_use_for_portfolio": "Choose one named aesthetic (such as Cassette Futurism or Memphis-Milano) as the art direction for a portfolio that needs a strong point of view. Copy its trait list into the design brief to set type, color, texture and motif rules, and use the linked Are.na channel as a moodboard. Then create original assets in that style.",
+  "category": "Aesthetic vocabulary & design specs",
+  "subcategory": "Researched aesthetics index",
+  "tier": "Situational",
+  "tier_reason": "Rigorously documented named aesthetics support a distinctive, defensible art direction. Useful only at the direction stage: no tokens, code or reusable imagery.",
+  "overlap_group": "Named-aesthetic references",
+  "pick_over_overlaps": "Choose it over the UX Planet article when you need researched traits, history and image galleries. It covers mainstream 1970s–2010s aesthetics only.",
+  "website_design_score": 4,
+  "score_rationale": "Unusually rigorous vocabulary for distinctive, period-specific visual directions. Each aesthetic gets named motifs, typography and color traits, and a timeline, which makes for strong briefs that steer away from generic SaaS looks. It provides no code, tokens or reusable assets, and the images can't be used commercially, so it only helps at the direction stage.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything: the full aesthetics index, detail pages, galleries, articles and glossary, with no account. It is a nonprofit that takes voluntary donations through Donorbox (donorbox.org/support-cari).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://cari.institute/faq",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Not licensed for commercial reuse. The footer and FAQ say the artifacts are for research and reference, that CARI should be 'a source of inspiration and analysis, not a source of free assets or images', and that most images were granted to CARI in good faith. Educational or nonprofit use must credit the original creators. Artifacts reused for profit or without attribution are open to copyright enforcement by their original owners. Use it only for inspiration and analysis.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "No official API, MCP server or llms.txt (/llms.txt returns 404). There is an undocumented public JSON endpoint, /api/aesthetics?page=0..4 (20 per page, 90 in total, grouped by letter), that returns each aesthetic's name, urlSlug, start/end years, decadeYear and display image URL. Detail pages are server-rendered HTML at /aesthetics/<slug>. WebFetch gets HTTP 403 from Cloudflare, but curl with a browser user agent works. Each aesthetic links to an Are.na channel, and Are.na has its own public API.",
+  "maintenance_signal": "Active. The front-end repo github.com/chad-miller-official/cari-bantam-ui was last pushed 2026-09-13, with a commit about fetching Are.na channels from a new server endpoint (0 stars, no license, created 2025-08). The footer reads © 2026. The FAQ says it has hundreds of members and contributors.",
+  "caveats": "Reference only: no downloadable assets, and the gallery images are third-party copyrighted and explicitly not for commercial reuse. The catalog is fairly small (90 entries) and centered on mainstream consumer and corporate aesthetics grouped into the 1970s–2010s (earliest start is Mid 1950s). The FAQ says it mostly skips online subculture 'cores' such as cottagecore. Many attribution fields say 'Pending Research'. Cloudflare blocks some automated fetchers (WebFetch gets 403). There are no color or type tokens, so you have to turn traits into specs yourself.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "tech_stack (Spring backend inferred from page markup only)"
+  ],
+  "evidence_urls": [
+    "https://cari.institute/aesthetics",
+    "https://cari.institute/api/aesthetics?page=0",
+    "https://cari.institute/api/aesthetics?page=4",
+    "https://cari.institute/aesthetics/corporate-memphis",
+    "https://cari.institute/faq",
+    "https://cari.institute/attribution-guidelines",
+    "https://cari.institute/history",
+    "https://cari.institute/articles",
+    "https://github.com/chad-miller-official/cari-bantam-ui"
+  ],
+  "aliases": [
+    "s22"
+  ],
+  "dedupe_keys": [
+    "host:cari.institute",
+    "github:chad-miller-official/cari-bantam-ui",
+    "name:cari"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Aesthetics Wiki",
+      "url": "https://aesthetics.fandom.com",
+      "why": "A much larger community wiki of named aesthetics and subculture 'cores', with visual descriptions. Broader than CARI but less rigorous."
+    },
+    {
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com",
+      "why": "A searchable archive of real-world typography, tagged by typeface, period and format. Good for turning a chosen aesthetic into concrete type choices."
+    },
+    {
+      "name": "Are.na",
+      "url": "https://www.are.na",
+      "why": "The moodboard platform CARI itself uses for per-aesthetic channels. Lets you build and share your own research boards, and has an API."
+    }
+  ],
+  "user_notes": ""
+}

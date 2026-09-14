@@ -1,0 +1,94 @@
+{
+  "id": "pattern-club",
+  "name": "Pattern Club",
+  "url": "https://patternclub.io/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Curated gallery of patterns, textures and graphic visuals, filterable by tags and linked to their sources.",
+  "what_it_offers": "A single-page gallery of 642 pattern and texture images (unique Airtable record IDs, loaded 36 at a time with Load More). You can filter by 92 category tags such as bauhaus, glitch, grain, geometric, print, noise and zigzag. Clicking an item opens a panel with its name and credit (e.g. 'Film Noir Text Effect by Pixelbuddha on Dribbble'), its categories, and a 'View this pattern source' link. Sources are mostly Dribbble, with others from Pinterest, Google, Foundation, Adobe Stock and Behance. The site offers no downloads, code or pattern files of its own.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "patterns",
+    "textures",
+    "backgrounds",
+    "graphic motifs",
+    "inspiration",
+    "no-code",
+    "Airtable"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Carrd one-pager + Basefront gallery embed (config fetched from dash.basefront.app) that loads records from the Airtable API on the client (the site's own stack)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "Tags like grain, noise and bauhaus make it quick to pick a texture direction for portfolio backgrounds. But it is small, has had no new items since 2023, offers no assets and depends on third-party licenses.",
+  "portfolio_jobs": [
+    "Imagery, illustration & textures",
+    "Visual direction & moodboard"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "No license stated. It only curates and links out, so rights belong to each source (Dribbble, Behance, Adobe Stock, Pinterest). Check each creator's terms, or recreate the motif yourself.",
+  "best_use_for_portfolio": "Filter by two or three mood tags to choose a texture or motif, then rebuild it yourself as an SVG or CSS grain, noise or geometric tile. Use it for section backgrounds, case-study dividers or a hero backdrop, so no third-party image ends up on the site.",
+  "category": "Graphic, print & visual-culture inspiration",
+  "subcategory": "Pattern & texture inspiration",
+  "tier": "Low fit",
+  "tier_reason": "Texture tags help name a background direction, but the collection is small, hasn't grown since 2023, has no assets and depends on third-party licenses.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 3,
+  "score_rationale": "The tag taxonomy (grain, glitch, bauhaus, noise) makes it quick to find a texture or motif direction for a distinctive brand surface. But it is small (642 items), provides no usable assets or code, has unclear licensing through third-party sources, and hasn't been updated since late 2023.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Full gallery, tag filters and source links, with no account",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://patternclub.io/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No license stated. Pattern Club only curates and links out, so rights belong to each original creator or source (Dribbble and Behance shots, Foundation NFTs, Adobe Stock and other stock images, Pinterest pins). Check each source's license before using a pattern commercially.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. The gallery is rendered client-side by a third-party Basefront/Airtable widget, so a plain HTTP fetch returns an empty shell. In a headless browser, each rendered card carries a data-record JSON with name, categories, source link and created date. There is no official API, llms.txt, npm package or MCP.",
+  "maintenance_signal": "Dormant. Every one of the 642 records has an Airtable created date between 2022-04-03 and 2023-11-22 (610 from 2023), so nothing has been added since Nov 2023. The page was re-skinned later: the title reads 'Pattern Club (all new)', the HTML Last-Modified header is 2024-10-03, and the Basefront embed config was modified 2024-11-08. Sidebar.io lists the site from 2023-04-24. No changelog or GitHub repo was found.",
+  "caveats": "Inspiration only, with no downloads. Licensing depends on each third-party source. Roughly a quarter of source links go to Pinterest pins or Google results rather than the creator, and some come from Adobe Stock. The client-side gallery isn't crawlable without JS. The curator isn't identified on the site. No new items since Nov 2023.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no terms page exists; per-source licenses not checked)"
+  ],
+  "evidence_urls": [
+    "https://patternclub.io/",
+    "https://armory.visualsoldiers.com/pattern-club/",
+    "https://sidebar.io/domain/patternclub.io",
+    "https://search.muz.li/ZmE1MjUyYmVi",
+    "https://heropatterns.com/"
+  ],
+  "aliases": [
+    "s15"
+  ],
+  "dedupe_keys": [
+    "host:patternclub.io",
+    "name:pattern-club"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Pattern Monster",
+      "url": "https://pattern.monster",
+      "why": "Free, customizable SVG pattern generator that exports copy-paste SVG/CSS, closing the gap from inspiration to production."
+    },
+    {
+      "name": "Hero Patterns",
+      "url": "https://heropatterns.com",
+      "why": "Classic set of free repeatable SVG background patterns (CC BY 4.0) with adjustable color and opacity, ready for CSS backgrounds."
+    }
+  ],
+  "user_notes": ""
+}

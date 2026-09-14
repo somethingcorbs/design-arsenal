@@ -1,0 +1,105 @@
+{
+  "id": "ascii-magic",
+  "name": "ASCII Magic",
+  "url": "https://www.ascii-magic.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free in-browser tool turning photos and videos into ASCII, dither, pixel art, halftone, voxel, mosaic, glitch or LEGO art.",
+  "what_it_offers": "A client-side editor (HTML5 Canvas, WebGL, WebCodecs; no upload) with 13-15 render styles depending on the page (context.md lists Characters/ASCII, Block, Dots, Lines, Diagonal, Cross, Diamond, Mixed, Pixel Art, LEGO, Mosaic, Voxel, Disco, Dither with 11 algorithms and 16 palettes, and Glitch), stackable post-FX (CRT curvature, scanlines, bloom, chromatic aberration, film grain, glitch, RGB split, vignette), animated ASCII and lighting. Exports PNG/JPG at 1-4x, animated GIF and MP4 (H.264); one-click recipes with shareable recipe links/codes, plus extra tools: Text-to-ASCII (20+ FIGlet fonts, 10 animated WebGL effects, MP4 export), Text Faces, Glitch Text Generator, Blur Text, Backgrounds Supply, Dither animation builder and Gradient Shader.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "ascii art",
+    "dither",
+    "halftone",
+    "pixel art",
+    "image effects",
+    "video effects",
+    "retro",
+    "crt",
+    "generator",
+    "free"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Vanilla JS, HTML5 Canvas + WebGL + WebCodecs, fully client-side",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Assets & graphics",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "A free, no-signup way to give a developer or designer portfolio a distinctive ASCII/dither/CRT look for hero images, portraits and project thumbnails. Output is baked raster/video only, so it's niche art direction, not a build tool.",
+  "portfolio_jobs": [
+    "Imagery, illustration & textures",
+    "Hero & signature visuals",
+    "Visual direction & moodboard"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "FAQ explicitly allows commercial and client-work use of exports; Terms (May 2026) say you keep all rights to outputs. You still need rights to the source media.",
+  "best_use_for_portfolio": "Run a headshot, project screenshots or a short demo clip through one ASCII or dither recipe to make a consistent techy-retro set of hero art, project thumbnails and OG images. Share the recipe link so every new case study gets the same treatment, and compress MP4 loops before shipping.",
+  "category": "Visual generators & image effects",
+  "subcategory": "ASCII/CRT/glitch effects",
+  "tier": "Situational",
+  "tier_reason": "A free, no-signup ASCII, dither and CRT look for portraits, heroes and thumbnails. Output is baked raster or video, so it only suits that art direction.",
+  "overlap_group": "Lo-fi image & video effects",
+  "pick_over_overlaps": "Use it for CRT and glitch post-processing, animated ASCII video, or text-to-ASCII headlines.",
+  "website_design_score": 3,
+  "score_rationale": "An excellent free, zero-friction way to make distinctive retro, ASCII and dither imagery and looping video for hero sections, backgrounds and OG images, with clear commercial rights. But the output is flat raster or video, not live code, so it shapes a visual direction rather than building interactive effects.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything: all styles, post-effects, recipes, PNG/JPG up to 4x, GIF and MP4 export, images up to 40 MB/25 MP and videos up to 150 MB; no signup, no watermark, no export limits, no ads, no Pro tier.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.ascii-magic.com/llms.txt",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Commercial use allowed: the FAQ (context.md) says exports can be used commercially, for client work, posters, merch, music videos, etc.; Terms (last updated May 25, 2026) say you retain all rights to outputs. You need rights to the source media. Tool code itself is proprietary (All rights reserved, not open source).",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "llms.txt at /llms.txt and a detailed /context.md describing every style, control, export and FAQ; recipe deep links (/app?recipe=Matrix) and shareable ?r=<base64> recipe URLs. No API, npm package or MCP (explicitly 'no API, no account'), so agents can only point humans to it or read docs.",
+  "maintenance_signal": "Active: changelog entries July 30, 2026 (post-launch patch drop), July 6, 2026 (editor redesign), June 29 and June 24, 2026; v1.0 released June 16, 2026 after v0.1 launch March 17, 2026; solo project by Kailash (@kail_designs); terms updated May 2026.",
+  "caveats": "Raster/video export only (no SVG or PDF, no embeddable shader/React component), so effects are baked and not responsive or interactive; single-creator project with no SLA; heavy videos will need compression for web performance; browser/GPU dependent; the site's own pages disagree on the style count (13/14/15); anonymous analytics (PostHog, Ahrefs) are collected.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "Exact number of built-in recipes (20+ claim not found on a live page)",
+    "Exact style count (site pages say 13, 14 and 15)"
+  ],
+  "evidence_urls": [
+    "https://www.ascii-magic.com/",
+    "https://www.ascii-magic.com/llms.txt",
+    "https://www.ascii-magic.com/context.md",
+    "https://www.ascii-magic.com/terms",
+    "https://www.ascii-magic.com/changelog",
+    "https://www.ascii-magic.com/recipes"
+  ],
+  "aliases": [
+    "s38"
+  ],
+  "dedupe_keys": [
+    "host:ascii-magic.com",
+    "name:ascii-magic"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Paper Shaders",
+      "url": "https://shaders.paper.design",
+      "why": "Open-source React/vanilla shader components (dithering, halftone, grain, mesh gradients) that render these looks live in code."
+    },
+    {
+      "name": "Unicorn Studio",
+      "url": "https://www.unicorn.studio",
+      "why": "No-code WebGL effects editor (ASCII, dither, pixelate, distortion) that exports embeddable, interactive scenes for websites."
+    },
+    {
+      "name": "play.core (ertdfgcvb)",
+      "url": "https://play.ertdfgcvb.xyz",
+      "why": "Live-coding playground for real-time, text-mode ASCII animations in the browser, for code-driven ASCII UI."
+    }
+  ],
+  "user_notes": ""
+}

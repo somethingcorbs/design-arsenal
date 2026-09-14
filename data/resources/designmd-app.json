@@ -1,0 +1,110 @@
+{
+  "id": "designmd-app",
+  "name": "designmd.app – DESIGN.md Library",
+  "url": "https://designmd.app/library",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Open library of 759 ready-to-copy DESIGN.md design-system files (tokens plus prose) for AI coding agents.",
+  "what_it_offers": "759 DESIGN.md files in the Google Stitch/@google/design.md format: YAML front matter with color, typography, spacing and component tokens, followed by Markdown sections (Overview, Colors, Typography, Layout, Elevation, Shapes, Components, Do's and Don'ts). The library is filterable by category (Brutalism, Swiss/Grid, Retro, Editorial, Glassmorphism, etc.) and by era (from Ancient Egyptian and Gothic through Art Deco to 2024–2026). A separate /for section groups patterns by industry (SaaS, e-commerce, fintech). Each entry has a page with historical context, when to use it and design principles, plus a raw /library/<slug>/design.md download. The site also has a 'Real Brands' section with tokens extracted from public CSS (Stripe, Apple, Nubank, etc.), setup guides for Claude Code, Cursor, Kiro, Windsurf and Stitch, a blog, and installable agent skills such as design-md-validator.",
+  "resource_type": "Asset library",
+  "tags": [
+    "DESIGN.md",
+    "design tokens",
+    "AI agents",
+    "Claude Code",
+    "Cursor",
+    "design systems",
+    "style presets",
+    "Google Stitch",
+    "llms.txt",
+    "CC BY 4.0"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Astro static site (_astro asset bundles) with utility-class styling. The files are Markdown with YAML front matter, compatible with the @google/design.md CLI (v0.4.0), which does lint/diff and exports to a Tailwind v4 @theme CSS block (css-tailwind), a Tailwind v3 theme JSON, or DTCG tokens.json.",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Visual direction",
+    "Build",
+    "Research & moodboard"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "For portfolios built with AI coding agents, a drop-in DESIGN.md sets a consistent, distinctive visual system in minutes and exports to Tailwind. Token sets are often thin and need expanding.",
+  "portfolio_jobs": [
+    "AI-assisted design & build",
+    "Color & theming",
+    "Typography"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Library files are CC BY 4.0 (Terms section 3): commercial use is allowed with credit to designmd.app. Real Brands files are reference only, so don't use them to imitate a brand.",
+  "best_use_for_portfolio": "Pick a style (for example Swiss/Grid for a clean case-study portfolio, or Editorial for a writing-heavy one) and download its design.md into the project root. Run 'npx @google/design.md export --format css-tailwind' to get a Tailwind v4 @theme block, then have the coding agent build the project grid and case-study pages against it.",
+  "category": "Aesthetic vocabulary & design specs",
+  "subcategory": "Era/style DESIGN.md presets",
+  "tier": "Strong",
+  "tier_reason": "For agent-built portfolios, a drop-in DESIGN.md sets a consistent visual system in minutes and exports to Tailwind. Token sets are often thin and need expanding.",
+  "overlap_group": "DESIGN.md token libraries",
+  "pick_over_overlaps": "Use it for a stylistic or historical starting point that isn't a real brand's system. Expand the tokens and credit per CC BY 4.0.",
+  "website_design_score": 4,
+  "score_rationale": "It plugs directly into an AI-agent build workflow: a commercially licensed DESIGN.md file gives a coding agent a consistent visual system in seconds, across a wide range of distinctive historical and stylistic directions. Held back by uneven file depth (Art Deco has only 2 typography tokens and 3 spacing steps), untranslated Portuguese in English descriptions, and near-duplicate entries.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "All 759 library files, the Real Brands files, guides and blog, with raw design.md downloads and no account. No paid tier exists (/pricing returns 404).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://designmd.app/terms-of-use",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The library's DESIGN.md files are CC BY 4.0 under Terms of Use section 3 (last updated July 5, 2026): you may copy, modify, distribute and use them for any purpose, including commercial, as long as you credit designmd.app. Section 5 forbids reproducing the entire site to build a competing service, server-overloading scraping or bots, and removing attribution or license notices. Section 6 says Real Brands tokens come from third-party public CSS, the site is not affiliated with those brands, the trademarks belong to their owners, and the files are for educational and technical reference. So don't use them to pass off a site as the brand. The terms are governed by Brazilian law.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "Very high. There is /llms.txt and /llms-full.txt (about 300 KB, full catalog), and a raw Markdown file per entry at https://designmd.app/library/<slug>/design.md that you can drop into a project root for Claude Code or Cursor. Files validate and export with the official npx @google/design.md CLI (lint/diff/export to Tailwind or DTCG). Agent skills install with 'npx skills add https://github.com/fabricioctelles/skills -s design-md-validator'. No MCP server or npm package for the library itself was found.",
+  "maintenance_signal": "Active in 2026. The library shows 759 files as of 2026-09-14. The latest RSS post is dated 2026-07-05 and the terms were updated July 5, 2026. It is maintained by ft.ia.br (Fabricio Telles), who also runs skill.dev.br. The underlying spec repo google-labs-code/design.md has about 27.9k stars (Apache-2.0), was last pushed 2026-07-27, and its npm package @google/design.md is at 0.4.0. The footer's GitLab link (gitlab.com/fabriciotelles/vibe-styles) is not public: the API returns 404 and the page redirects to sign-in, so repo activity can't be checked.",
+  "caveats": "Token sets are often thin (a few colors, 2–3 type styles, 3 spacing steps) and need expanding for a real site. Some English descriptions contain untranslated Portuguese (the Art Deco file mentions 'embalagens de luxo'). There are near-duplicate entries (americana-diner and american-diner-americana), and the filter taxonomy is messy (Brutalism and Brutalismo both appear, and era values are inconsistent free text). Attribution is required under CC BY 4.0. The DESIGN.md format is still marked 'alpha'. Real Brands tokens are only approximations of live sites. It is a single-maintainer project whose source repo is not public.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "maintenance_signal (source repo is private, so commit activity is unknown)"
+  ],
+  "evidence_urls": [
+    "https://designmd.app/library/",
+    "https://designmd.app/llms.txt",
+    "https://designmd.app/about",
+    "https://designmd.app/terms-of-use",
+    "https://designmd.app/skills",
+    "https://designmd.app/library/art-deco",
+    "https://designmd.app/library/art-deco/design.md",
+    "https://designmd.app/rss.xml",
+    "https://github.com/google-labs-code/design.md",
+    "https://github.com/VoltAgent/awesome-design-md",
+    "https://gitlab.com/api/v4/projects/fabriciotelles%2Fvibe-styles"
+  ],
+  "aliases": [
+    "s23"
+  ],
+  "dedupe_keys": [
+    "host:designmd.app",
+    "name:designmd-app"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "getdesign.md (VoltAgent awesome-design-md)",
+      "url": "https://getdesign.md",
+      "why": "A very popular MIT-licensed collection of DESIGN.md files for well-known brand design systems (github.com/VoltAgent/awesome-design-md, about 116k stars)."
+    },
+    {
+      "name": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "why": "The official DESIGN.md spec and CLI (lint/diff/export to Tailwind/DTCG) that these files are built on."
+    },
+    {
+      "name": "Google Stitch",
+      "url": "https://stitch.withgoogle.com",
+      "why": "Google's AI UI design tool that introduced DESIGN.md. It generates and consumes design systems in this format."
+    }
+  ],
+  "user_notes": ""
+}

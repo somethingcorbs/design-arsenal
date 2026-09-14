@@ -1,0 +1,99 @@
+{
+  "id": "flyer-archive-jp",
+  "name": "FAJP / FLYER ARCHIVE JP",
+  "url": "https://flyer-jp.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Japanese gallery of scanned printed flyers and chirashi, 1982–2022, as a graphic-design reference archive.",
+  "what_it_offers": "A personal archive run by a Tokyo web-production-company designer who used to work in print. It holds scanned Japanese flyers and leaflets (front and back) for film, theater, art and design exhibitions, music, events, games and products. There are about 650 items: 40 full pages of 16 plus 11 on page 41. You can filter by year (1982–2022), genre, size (A4/A5/B5/postcard/other), style (avant-garde, illustration, elegant, surreal, simple, stylish, dark, typography, pop, Japanese-style, flashy, brush lettering) and 12 dominant colors. A POST page has a form for requesting a flyer listing, with front and back image upload.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "print-design",
+    "japanese-graphic-design",
+    "flyers",
+    "typography",
+    "layout",
+    "color",
+    "archive",
+    "moodboard"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "WordPress (All in One SEO Pack 2.4.3) on Xserver hosting (nginx; reverse DNS sv5143.xserver.jp); N/A for users",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "A niche, dormant archive of Japanese print flyers that can spark a distinctive editorial or typographic direction for a portfolio, but it is Japanese-only, small, reference-only and offers nothing for building.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Typography"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "All rights reserved; flyers are copyrighted by original designers, so use them only as visual reference and never copy artwork or type treatments.",
+  "best_use_for_portfolio": "Filter by the typography, brush-lettering or avant-garde style plus a dominant color to collect bold editorial layouts. Translate the grid, type scale and color contrasts into your own tokens for a poster-like portfolio home page or case-study title spreads.",
+  "category": "Graphic, print & visual-culture inspiration",
+  "subcategory": "Japanese flyer archive",
+  "tier": "Low fit",
+  "tier_reason": "A small, dormant, Japanese-only print flyer archive. It can spark an editorial direction but gives nothing to build with.",
+  "overlap_group": "Graphic & print design archives",
+  "pick_over_overlaps": "Use it for bold Japanese print typography and color-saturated layouts; filter by style and color.",
+  "website_design_score": 3,
+  "score_rationale": "A rare, well-tagged source of Japanese print typography, brush lettering and bold color and layout ideas that can make a web design distinctive. It is reference only, hasn't been updated since about 2022-2023, is in Japanese, and offers nothing for build or assets.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything. You can browse and filter the full archive with no account. The site is funded by Google AdSense and Amazon Japan affiliate links (both disclosed on the About page).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://flyer-jp.com/about/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No reuse license. The footer reads 'Copyright © FLYER ARCHIVE JP All Rights Reserved', and the About page gives no reuse permission, only a no-liability disclaimer. The flyers themselves are copyrighted works of their original designers and rights holders. Use them only as visual reference; don't copy the artwork or type treatments into a commercial site.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. There's no API or llms.txt, and the WordPress REST API (/wp-json/) returns 403. The static HTML pages and sitemap.xml can be fetched, but the content is images with Japanese tags.",
+  "maintenance_signal": "Dormant. The newest flyers are from 2022. Of the sitemap lastmod dates, most fall in 2018–2019 (461 in 2018 and 115 in 2019), with 44 in 2020, 3 in 2021, 26 in 2022 and 3 in 2023 (latest 2023-02-20). The homepage Last-Modified header is 2023-02-20. The site still returns HTTP 200 as of 2026-09-14.",
+  "caveats": "Japanese-only UI, effectively unmaintained since about 2022–2023. The archive is small (about 650 flyers) and scans are web resolution. The artwork is copyrighted by third parties, so use it only for inspiration. Pages carry ads. There's no English search and no API.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://flyer-jp.com/",
+    "https://flyer-jp.com/about/",
+    "https://flyer-jp.com/post/",
+    "https://flyer-jp.com/contact/",
+    "https://flyer-jp.com/page/41/",
+    "https://flyer-jp.com/sitemap.xml"
+  ],
+  "aliases": [
+    "s12"
+  ],
+  "dedupe_keys": [
+    "host:flyer-jp.com",
+    "name:fajp"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com",
+      "why": "Huge searchable archive of real-world typography on posters, flyers and ephemera, tagged by typeface, format and period."
+    },
+    {
+      "name": "Letterform Archive Online",
+      "url": "https://oa.letterformarchive.org",
+      "why": "High-resolution scans of historic graphic design and print ephemera, searchable by designer, era and format."
+    },
+    {
+      "name": "Tokyo Type Directors Club",
+      "url": "https://tdctokyo.org",
+      "why": "Annual award archive of cutting-edge Japanese and international typographic graphic design."
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,121 @@
+{
+  "id": "21st-dev",
+  "name": "21st (21st.dev)",
+  "url": "https://21st.dev/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Community registry of 12,000+ React/Tailwind/shadcn components, templates and themes, with an MCP server, CLI and AI generator.",
+  "what_it_offers": "A marketplace of community-published React + TypeScript + Tailwind components: heroes, pricing, navbars, backgrounds, text animations, AI chat, dashboards and more. It hosts libraries such as Aceternity UI, Magic UI, Kokonut UI, Origin UI and Motion Primitives, each with live previews and copyable TSX. Components install through `npx shadcn add` with a 21st registry URL. The site also offers themes, templates (verified open-source templates included with a plan, plus paid templates sold by authors), a 29,000-icon semantic icon search, SVG logo search, shader/gradient/ASCII-art makers and open-source app starters. Paid add-ons are 21st AI, a multi-model prompt-to-component generator (formerly Magic Chat), and Design Bug Bot, which reviews PRs for design issues.",
+  "resource_type": "Component library",
+  "tags": [
+    "react",
+    "tailwind",
+    "shadcn-registry",
+    "mcp",
+    "ai-generation",
+    "components",
+    "templates",
+    "themes",
+    "icons",
+    "marketplace"
+  ],
+  "output_type": "Code",
+  "tech_stack": "React + TypeScript + Tailwind CSS + shadcn/ui (components often use Motion). The site is built on Next.js. Works with Next.js, Vite, Remix and Astro.",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Research & moodboard",
+    "Build",
+    "Layout & UX patterns",
+    "Motion & interaction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "The broadest shadcn-compatible source of heroes, backgrounds, text animations and navbars, with MCP and CLI install that suits agent-built portfolios. Community quality and licensing vary, and popular pieces look generic without restyling.",
+  "portfolio_jobs": [
+    "UI components & sections",
+    "AI-assisted design & build",
+    "Hero & signature visuals"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "Licensing varies per item; Terms give no explicit end-user commercial grant, so confirm each component's license field (e.g. MIT) and each template's own terms.",
+  "best_use_for_portfolio": "Connect the 21st MCP to a coding agent and have it search for hero, background, text-animation and project-grid components, then install the best candidates into a Next.js or Vite portfolio through the shadcn CLI. Restyle them to your own type and color tokens, and check each component's license before shipping a client site.",
+  "category": "Component & section libraries (code)",
+  "subcategory": "Community component registry + MCP",
+  "tier": "Strong",
+  "tier_reason": "The broadest shadcn-compatible source of heroes, backgrounds and text animations, installable by CLI or MCP. Quality and licenses vary, and popular pieces look generic without restyling.",
+  "overlap_group": "Animated React/Tailwind component sources",
+  "pick_over_overlaps": "The default when searching broadly or pulling components through MCP. Check each component's license field, and restyle to your tokens, because popular pieces are everywhere.",
+  "website_design_score": 5,
+  "score_rationale": "The largest shadcn-compatible catalog of modern marketing-site components for React and Tailwind. It is built for AI coding agents (MCP, CLI, markdown versions of pages) and is cheap to unlock. Quality varies because the content is community-published, but the breadth and agent workflow make it a top build and research resource.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "Hobby ($0) lets you browse all public components, themes and templates, and includes the component, UI inspiration and theme libraries, the meaning-based icon library, unlimited UI inspirations, unlimited SVG logo search, free marketplace search across Web, CLI and MCP, and community support. Code access is capped at 2 per day as one shared pool: the llms.txt pricing section says '2 component code retrievals, copies, or installs per day total across Web, MCP, and CLI'. A copy that fails doesn't count (changelog 2026-09-01). CLI/MCP retrieval needs sign-in and an API key. Downloading verified templates needs a paid plan. Design Bug Bot gives 5 free reviews with no time limit.",
+  "paid_entry_usd_month": 8,
+  "paid_entry_label": "Builder $8/mo billed quarterly ($6/mo billed yearly). No monthly-billed option. Unlimited copies, installs and MCP retrieval; no AI credits.",
+  "paid_top_label": "Builder + AI with 2,000 credits costs $80/mo billed quarterly ($60/mo yearly). Credit tiers are 500, 1K and 2K at $20/$40/$80 quarterly or $15/$30/$60 yearly. Team (2–50 seats, billed yearly) is $7.50/seat/mo for Team Builder or $18.75/seat/mo for Team Builder + AI, which shares one credit pool. Extra credits cost $5 per 100 and roll over. Author templates are bought per template.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://21st.dev/pricing.md",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "It varies by item, and the Terms (updated 2026-07-20) give users no explicit commercial-use grant. They say Marketplace content belongs to its authors and 21st Labs Inc., and users may view and use it only through the official 21st.dev platform. They ban redistributing, selling or licensing content without authorization; reposting components elsewhere without a visible link back to 21st; using Marketplace content to train AI; and reusing 21st's demos, previews and metadata. So check each component's license field, e.g. 'License: MIT' on Kokonut UI's Minimalist Hero Fashion. Since 2026-08-28 that field only appears once the license is confirmed, and components indexed from open-source projects link to the repo's own license file. Verified templates are open-source projects, and each card credits its repository and license. Paid templates come two ways. Some are sold on 21st's own checkout (since 2026-08-31); the listing only says 'One payment, yours for good, including every future version' and shows no license, and the Terms don't cover these purchases, so commercial rights are unconfirmed. Others link out to the author's checkout, e.g. Aceternity's $49 Simplistic SaaS Template goes to ui.aceternity.com. Aceternity's license allows unlimited end products for yourself or clients but bans reselling or redistributing the item.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Very strong. There's a hosted MCP server at https://21st.dev/api/mcp (formerly Magic MCP; the `@21st-dev/magic` npm package still works). Set it up with `npx @21st-dev/cli@latest init --client cursor|claude|codex|vscode|devin`. The free MCP tools are search, search_logo and get_inspiration; get_component and generate count against your quota or credits. Components install through the shadcn CLI (`npx shadcn@latest add \"https://21st.dev/r/<author>/<slug>?api_key=$API_KEY_21ST\"`). Agents can also use llms.txt, `.md` versions of pages (or the `Accept: text/markdown` header), a REST API documented at /openapi.json, and an RFC 9727 API catalog at /.well-known/api-catalog. An API key is required for retrieval and install.",
+  "maintenance_signal": "Very active. The changelog lists 73 releases; the latest is dated 2026-09-13, with entries on 09-11, 09-10, 09-09, 09-07, 09-02 and 09-01. The 21st-dev/magic-mcp GitHub repo has 5,859 stars (ISC license) and was last pushed 2026-09-09. The older serafimcloud/21st open-source repo has 5,453 stars (MIT) and was last pushed 2025-05-28.",
+  "caveats": "The free tier allows only 2 code retrievals, copies or installs per day in total across web, CLI and MCP, and CLI/MCP retrieval needs an API key. Quality and licensing vary by component, so check each license field. The Terms don't explicitly grant users commercial rights; they ban reposting components without a link back and using content for AI training, and 21st owns the demos and previews. Templates sold through 21st's own checkout show no license terms. Popular components are widely used, so they need heavy customization to look distinctive. AI features run on credits. Payments are non-refundable. The shortest billing term is quarterly, and Team plans are yearly only. Some templates are paid per item, and verified template downloads need a plan.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no license terms shown for templates sold through 21st's own checkout; not checked past the Buy button, and the Terms have no explicit end-user commercial grant)"
+  ],
+  "evidence_urls": [
+    "https://21st.dev/",
+    "https://21st.dev/pricing",
+    "https://21st.dev/pricing.md",
+    "https://21st.dev/llms.txt",
+    "https://21st.dev/mcp.md",
+    "https://21st.dev/changelog.md",
+    "https://21st.dev/terms",
+    "https://21st.dev/community/templates",
+    "https://21st.dev/@lyanchouss/templates/dali-ai-agency-agent-studio-site",
+    "https://21st.dev/@aceternity-templates/templates/simplistic-saas-template",
+    "https://ui.aceternity.com/licence",
+    "https://21st.dev/@kokonutd/components/hero-fashion.md",
+    "https://github.com/21st-dev/magic-mcp",
+    "https://github.com/serafimcloud/21st",
+    "https://21st.dev/blog/introducing-21st-membership"
+  ],
+  "aliases": [
+    "s11",
+    "Magic MCP"
+  ],
+  "dedupe_keys": [
+    "host:21st.dev",
+    "github:21st-dev/magic-mcp",
+    "github:serafimcloud/21st",
+    "npm:@21st-dev/magic",
+    "npm:@21st-dev/cli",
+    "name:21st"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "shadcn/ui Registry Directory",
+      "url": "https://ui.shadcn.com/docs/directory",
+      "why": "Official index of third-party shadcn registries that install with the same CLI; free and open."
+    },
+    {
+      "name": "shadcnblocks",
+      "url": "https://www.shadcnblocks.com",
+      "why": "Large curated set (2,000+) of shadcn/Tailwind marketing blocks with a consistent visual quality bar."
+    },
+    {
+      "name": "v0 by Vercel",
+      "url": "https://v0.app",
+      "why": "Prompt-to-React/Tailwind/shadcn UI generator comparable to 21st AI, with deploy to Vercel."
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,122 @@
+{
+  "id": "manus",
+  "name": "Manus",
+  "url": "https://manus.im",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "General-purpose autonomous AI agent that researches, codes and deploys full-stack websites, slides, designs and more.",
+  "what_it_offers": "A cloud AI agent (web, desktop and mobile) that runs multi-step tasks: Wide Research, slides (including PowerPoint), image, music and video generation, a browser operator, scheduled tasks, Plan Mode, and Design View image editing (Nano Banana Pro integration). Its website builder produces full-stack apps with a database, Manus auth, third-party integrations (Stripe, Shopify, Google Maps, REST APIs), project analytics, SEO, Figma import, custom domains, hosting, full code download, and two-way sync with a private GitHub repo. There is also a public API v2 (tasks, projects, files, webhooks, skills, agents, websites, structured output) and support for MCP connectors, including custom MCP servers.",
+  "resource_type": "AI design / agent",
+  "tags": [
+    "AI agent",
+    "website builder",
+    "vibe coding",
+    "full-stack",
+    "hosting",
+    "slides",
+    "research",
+    "API",
+    "MCP connectors",
+    "credits"
+  ],
+  "output_type": "Hosted design/app",
+  "tech_stack": "Generated web apps use the Manus 'Web App Template (tRPC + Manus Auth + Database)': React 19 + Tailwind 4 + Vite 7 + Express 4 + tRPC 11 + Drizzle ORM, with Manus OAuth and vite-plugin-manus-runtime. This comes from the template README and package.json in a public 'Built with Manus' repo. The Manus site itself is Next.js, and published apps run on managed Manus cloud infrastructure (Google Cloud Run autoscale or reserved instance).",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Build",
+    "Visual direction",
+    "Assets & graphics",
+    "Research & moodboard"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "Can research, build and host a portfolio site end to end. But it's a general agent: output looks generically AI-made, billing is credit-metered, hosting needs a paid plan, and the platform's ownership has been unstable.",
+  "portfolio_jobs": [
+    "Site builder & hosting",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Terms section 5.2: Manus claims no ownership of Output, so you own generated sites and code. Caveats: a 'Made with Manus' watermark may be irremovable (1.1), and Free users can't publish on Manus hosting.",
+  "best_use_for_portfolio": "Use Wide Research to gather reference portfolios in your field, or have it spin up a quick hosted prototype of a portfolio from a brief and a DESIGN.md file. Then sync the code to GitHub and refine or self-host it, rather than relying on usage-based Manus hosting for a long-lived portfolio.",
+  "category": "AI design & generative media",
+  "subcategory": "General autonomous agent / site builder",
+  "tier": "Low fit",
+  "tier_reason": "A general agent that can build and host a site, but output looks generically AI-made, billing is credit-metered, hosting is paid and ownership has been unstable.",
+  "overlap_group": "AI UI & site generators",
+  "pick_over_overlaps": "Use it only for Wide Research or slides, never as the site's build path.",
+  "website_design_score": 3,
+  "score_rationale": "A capable end-to-end builder (research, design, code, hosting) with exportable React/Tailwind code and GitHub sync, which suits quick prototypes. It's a general agent rather than a design resource, though: output tends toward generic AI-site aesthetics, costs are credit-metered and hard to predict, Free users can't publish on Manus hosting, and it adds little design distinctiveness over a local AI coding workflow.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "A Free plan still exists per Manus's official docs (manus.im/docs 'Plans and Pricing' lists Free, Pro and Team), but the live pricing page (checked 2026-09-14) shows only paid cards. The help center (article updated 2026-03-16) gives these Free limits: $0, Chat Mode plus only Manus 1.6 Lite in Agent Mode, 300 daily refresh credits, 1 concurrent task, 2 scheduled tasks. Free users can't publish on Manus hosting: that article says Free users 'do not have access to professional website deployment services', and a custom-domain article (updated 2026-07-24) says Free users can request a code package to self-deploy. Every account gets free monthly website hosting allowances of $10 cloud, $1 AI and $1 API usage. Output may carry a 'Made with Manus' watermark that 'cannot be removed at this time' (Terms 1.1).",
+  "paid_entry_usd_month": 20,
+  "paid_entry_label": "Pro $20/mo billed monthly, or $17/mo billed yearly ('Annually · Save 17%' toggle). Includes 4,000 credits/mo, 300 daily refresh credits, 20 concurrent tasks and 20 scheduled tasks (live pricing page, 2026-09-14). The live cards are unnamed ('Standard monthly usage'). The 'Pro' name is confirmed by Manus's official docs Plans and Pricing page and the help center, not by the card itself.",
+  "paid_top_label": "Pro 'Extended usage for productivity' card: $200/mo ($167/mo billed yearly) for 40,000 credits plus a Free Cloud Computer. Its dropdown (live) goes up to 5,000,000 credits/mo, reported at $20,000/mo ($16,667/mo billed yearly). The middle 'Customizable monthly usage' card is $40/mo ($34/mo billed yearly) for 8,000 credits, with a 7-day free trial per the help center. Team is US$20/seat/mo or US$200/seat/yr with 4,000 pooled credits per seat, SSO, admin dashboard and audit logs (manus.im/team).",
+  "one_time_usd": null,
+  "pricing_source_url": "https://manus.im/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Terms of Use section 5.2 (last updated 28 November 2025): Manus claims no ownership of Input or Output, and as between you and Manus you own all right, title and interest in Your Content, so commercial use of generated sites and code is allowed. Caveats: output may not be unique across users, IP protectability isn't warranted, you grant Manus a license to Your Content (section 5.3), a 'Made with Manus' watermark may be irremovable (1.1), and Space owners warrant that their content doesn't infringe third-party rights. Team plan and API use fall under a separate Master Services Agreement.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "Public REST API v2 (open.manus.ai/docs) for creating and polling tasks, webhooks, projects, files, skills and agents, managing Manus-built websites, and structured JSON output. There are llms.txt indexes at https://open.manus.ai/docs/llms.txt and https://manus.im/docs/llms.txt, and an official 'Manus API skill' for Codex and other compatible coding agents. Manus consumes MCP (connector catalog plus custom MCP servers). No official Manus-as-MCP-server was found; community wrappers exist, such as nanameru/Manus-MCP. Code syncs to a private GitHub repo for local editing with Claude Code.",
+  "maintenance_signal": "Very active: blog posts on 2026-09-09, 09-01 ('Manus Resumes Independent Operations'), 08-11 ('A Note to Our Users') and 08-03 (ElevenLabs), with earlier July launches (Supabase, Plan Mode, PowerPoint slides). The pricing page banner now reads 'Manus has resumed independent operations.' No pricing or plan changes were announced with the Sept 1 transition. Corporate turbulence: Meta acquired Manus for about $2B on 2025-12-29, China ordered the deal unwound in April 2026, and Manus resumed independent operations on 2026-09-01. Users in certain affected jurisdictions had data created on or after 2025-12-29 deleted on Aug 23–25, 2026 (SGT). A restoration portal for backed-up data is open with no deadline.",
+  "caveats": "Credit-based billing: building and editing use credits, and hosting, AI and API usage past the free allowances is billed separately. A site can go offline if the balance runs out and auto top-up is off. Publishing on Manus hosting and full custom-domain support need a paid plan; Free users get a code package to self-deploy. Recent ownership upheaval and the regional deletion of post-2025-12-29 user data, including websites, are a platform-risk signal. The exported stack (Express + tRPC + Manus OAuth) is not Next.js and stays tied to Manus auth until rewired. A 'Made with Manus' watermark may appear. The pricing page is JS-rendered with unnamed plan cards and no Free card. Free-plan limits come from a March 2026 help article and couldn't be re-checked in-app without an account.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "free_tier (Free plan existence confirmed by official docs, but exact limits come from a 2026-03-16 help article and weren't re-checkable in-app after the Sept 1 transition)",
+    "paid_entry_label ('Pro' name from official docs and help center, not shown on the pricing cards or checked at checkout)",
+    "paid_top_label (the $20,000/mo price for the 5,000,000-credit option and the 7-day trial on the $40 tier weren't re-checked live)",
+    "tech_stack (confirmed from one public Manus template export; may vary by project)"
+  ],
+  "evidence_urls": [
+    "https://manus.im/pricing",
+    "https://manus.im/team",
+    "https://manus.im/docs/introduction/plans.md",
+    "https://help.manus.im/en/articles/11711111-what-is-the-current-membership-pricing-for-manus",
+    "https://help.manus.im/en/articles/11711203-how-can-i-connect-the-website-created-by-manus-to-my-custom-domain",
+    "https://manus.im/terms",
+    "https://manus.im/docs/llms.txt",
+    "https://manus.im/docs/website-builder/getting-started/usage-and-pricing.md",
+    "https://manus.im/docs/website-builder/publishing.md",
+    "https://manus.im/docs/website-builder/github-integration.md",
+    "https://manus.im/docs/integrations/mcp-connectors",
+    "https://open.manus.ai/docs/llms.txt",
+    "https://manus.im/blog",
+    "https://manus.im/blog/manus-resumes-independent-operations",
+    "https://github.com/sophiasummers971-del/osiris-web",
+    "https://help.manus.im/en/articles/16147831-service-change-overview-what-s-happening-and-am-i-affected",
+    "https://techstartups.com/2026/09/01/ai-startup-manus-resumes-independent-operations-after-china-kills-metas-2-billion-deal/"
+  ],
+  "aliases": [
+    "s24"
+  ],
+  "dedupe_keys": [
+    "host:manus.im",
+    "host:manus.ai",
+    "host:open.manus.ai",
+    "host:help.manus.im",
+    "name:manus"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "v0 by Vercel",
+      "url": "https://v0.app",
+      "why": "AI app and site builder generating Next.js + shadcn/ui + Tailwind code with one-click Vercel deploy, a closer fit to a React/Next workflow."
+    },
+    {
+      "name": "Lovable",
+      "url": "https://lovable.dev",
+      "why": "Direct competitor Manus compares itself against (manus.im has a 'VS Lovable' page): prompt-to-full-stack web apps with GitHub sync and Supabase."
+    },
+    {
+      "name": "Bolt.new",
+      "url": "https://bolt.new",
+      "why": "Browser-based AI full-stack builder (StackBlitz WebContainers) with code export and hosting."
+    }
+  ],
+  "user_notes": ""
+}

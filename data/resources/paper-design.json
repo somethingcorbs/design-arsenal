@@ -1,0 +1,115 @@
+{
+  "id": "paper-design",
+  "name": "Paper",
+  "url": "https://paper.design/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Agent-native design canvas built on real HTML/CSS, with a read/write MCP server and React/Tailwind export.",
+  "what_it_offers": "A collaborative design tool (web app plus Paper Desktop for macOS ARM, Windows x64, and Linux AppImage/Deb/RPM) whose canvas renders actual HTML/CSS. You can paste from Figma, snapshot live webpages into editable layers (Paper Snapshot), use design tokens, edit vectors with a pen tool, apply shader filters, and export JSX/Tailwind or PDF. Video export is Pro-only. Paper Desktop runs a local MCP server with 21 read/write tools (get_jsx, get_computed_styles, get_screenshot, write_html, update_styles, create_artboard, and more) so Claude Code, Cursor, Codex, Copilot, and others can see and edit designs.",
+  "resource_type": "Design & build platform",
+  "tags": [
+    "design tool",
+    "MCP",
+    "AI agents",
+    "HTML/CSS canvas",
+    "Figma alternative",
+    "Tailwind export",
+    "design tokens",
+    "shaders",
+    "collaboration"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Web-standards (HTML/CSS) canvas; exports React JSX + Tailwind; desktop app plus web app; open-source @paper-design/shaders-react (Apache-2.0)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Visual direction",
+    "Layout & UX patterns",
+    "Build",
+    "Assets & graphics",
+    "Research & moodboard"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "A design canvas built on real HTML/CSS, with MCP read/write and JSX/Tailwind export, lets portfolio layouts and case-study pages move straight from design into code with AI agents. It is a general tool, not portfolio-specific.",
+  "portfolio_jobs": [
+    "AI-assisted design & build",
+    "Layout & case-study structure",
+    "Hero & signature visuals"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The ToS (2026-03-30) says Paper claims no ownership of your content and does not restrict commercial use of exports. The shaders library is Apache-2.0.",
+  "best_use_for_portfolio": "Lay out the portfolio home, project grid and case-study template in Paper, seeding it with Snapshot captures of reference portfolios. Have a coding agent pull the structure and styles over MCP into a Next.js + Tailwind build. Use @paper-design/shaders-react for an animated hero background.",
+  "category": "Design, motion & site-building platforms",
+  "subcategory": "Agent-native HTML/CSS design canvas",
+  "tier": "Strong",
+  "tier_reason": "A canvas built on real HTML and CSS, with MCP read/write and JSX/Tailwind export, moves portfolio layouts from design into agent-built code. It is general-purpose.",
+  "overlap_group": "Visual design canvases",
+  "pick_over_overlaps": "Choose it over Framer when the site will live in your own React/Tailwind repo.",
+  "website_design_score": 4,
+  "score_rationale": "An excellent fit for code-first builders working with AI coding agents: designs are real HTML/CSS, agents read and write the canvas over MCP, and JSX/Tailwind export shortens design-to-code. It is a tool, not a source of taste, so how distinctive the result looks still depends on the designer's direction. The free plan's 100 MCP calls a week is tight for agent-heavy work, and the product is still pre-1.0.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "$0: unlimited viewers and editors, 100 MCP tool calls per week, limited image generation, 25 MB max image size. No video export.",
+  "paid_entry_usd_month": 20,
+  "paid_entry_label": "Pro $20/editor/mo billed monthly ($16/editor/mo billed yearly, save 20%). Includes 1M MCP tool calls/week, 100x more image gen, video export, and a 100 MB image limit.",
+  "paid_top_label": "Pro $20/editor/mo (Organizations tier is custom pricing via sales: SAML/SSO, admin controls, custom contracts, dedicated support)",
+  "one_time_usd": null,
+  "pricing_source_url": "https://paper.design/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Proprietary SaaS operated by Lost Coast Labs, Inc. (dba Paper). Per the ToS (last updated 2026-03-30), Paper does not claim ownership of your content, and no clause restricts commercial use of your exported designs or code. The only commercial-exploitation ban covers the Service itself. You grant Paper a broad, perpetual, sublicensable license to your content, limited to operating and providing the Service. AI-agent outputs are provided as-is, and you are solely responsible for using them. The separate shaders library (paper-design/shaders, @paper-design/shaders-react) is Apache-2.0.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "Strong. There is a local MCP server at http://127.0.0.1:29979/mcp that starts with Paper Desktop when a design file is open. It is documented for Claude Code, Cursor, Codex, VS Code Copilot, Antigravity, and OpenCode. Read tools include get_jsx, get_computed_styles, get_screenshot, get_tree_summary, and export. Write tools include write_html, update_styles, create_artboard, and set_text_content. The site also has llms.txt, a public openapi.json, and the npm package @paper-design/shaders-react (Apache-2.0, v0.0.80).",
+  "maintenance_signal": "Very active and well-funded. A $34M Series A led by Accel and ICONIQ was announced 2026-07-23 ($38.5M total raised). The build log shows releases through August 2026 (comments, free editors, desktop tabs, tokens in app). Desktop is at v0.5.9, released 2026-09-12. The paper-design/shaders repo has 3,448 stars and was last pushed 2026-09-04. The homepage says designers at Vercel, Perplexity, Tailwind, PostHog, Zed, and others use it in production.",
+  "caveats": "MCP is local-only and requires Paper Desktop running with a file open. The free tier caps MCP at 100 tool calls per week, so heavy agent use needs Pro, and video export is Pro-only. The app is pre-1.0 (v0.5.9), so expect feature gaps versus Figma. Content is stored in a proprietary cloud with a broad service license. The Organizations tier has no public price.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "tech_stack (internal implementation beyond HTML/CSS canvas not documented)"
+  ],
+  "evidence_urls": [
+    "https://paper.design/",
+    "https://paper.design/pricing",
+    "https://paper.design/docs/mcp",
+    "https://paper.design/build-log",
+    "https://paper.design/downloads",
+    "https://paper.design/llms.txt",
+    "https://paper.design/legal/tos",
+    "https://paper.design/compare/pencil",
+    "https://paper.design/blog/series-a",
+    "https://www.businesswire.com/news/home/20260723608438/en/Paper-Raises-$34-Million-Series-A-with-Accel-and-ICONIQ-to-Build-the-Design-Platform-for-the-Agentic-Era",
+    "https://github.com/paper-design/shaders",
+    "https://www.npmjs.com/package/@paper-design/shaders-react",
+    "https://www.pen.dev/"
+  ],
+  "aliases": [
+    "s47"
+  ],
+  "dedupe_keys": [
+    "host:paper.design",
+    "github:paper-design/shaders",
+    "npm:@paper-design/shaders-react",
+    "name:paper"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Pen (formerly Pencil)",
+      "url": "https://www.pen.dev",
+      "why": "Agentic HTML/CSS design canvas embedded in IDE workflows (pencil.dev now redirects to pen.dev); Paper publishes its own comparison against it at paper.design/compare/pencil"
+    },
+    {
+      "name": "Subframe",
+      "url": "https://www.subframe.com",
+      "why": "Visual editor for React + Tailwind UI that exports production code and connects to Cursor/Claude Code via MCP"
+    },
+    {
+      "name": "Onlook",
+      "url": "https://onlook.com",
+      "why": "Open-source visual editor that edits a real Next.js + Tailwind codebase with AI"
+    }
+  ],
+  "user_notes": ""
+}

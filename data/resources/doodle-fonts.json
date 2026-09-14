@@ -1,0 +1,107 @@
+{
+  "id": "doodle-fonts",
+  "name": "Doodle Fonts",
+  "url": "https://doodlefonts.app/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Browser and iPad app for drawing every glyph by hand and exporting it as a real OTF/WOFF font.",
+  "what_it_offers": "A web font editor where you draw each character (A–Z, a–z, numbers, punctuation, currency symbols, accents, ligatures) with 30+ brushes like calligraphy, chalk, ink, pixel, halftone, rope, stitch and crayon, with a live preview. You can trace over starter templates (Blocky, Dingbats, Dots, Shakey). Since July 2026 the web also does font families (Light to Black, each with italics, with a 'magic wand' that redraws missing styles). The web language picker has 20 sets, including Japanese, Korean and Simplified/Traditional Chinese. Drawing is free; exporting a font (every style) as .otf, .woff and an editable .doodlefont costs 2.99 EUR once per font, and re-exporting edits is free. A small Font shop lists ready-made fonts at 2.99 EUR each. A separate iPad app (US$8.99 one-time) gives unlimited exports with no per-font fee. It adds variable-font export, Motion animated exports (video/GIF/MOV), kerning pairs, Restyle, Shape Studio and 29 language sets: the web's 20 plus Arabic, Persian, Urdu, Hebrew, Amharic, Georgian, Armenian, Cherokee and Serbian/Macedonian.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "fonts",
+    "typography",
+    "hand-drawn",
+    "custom font",
+    "woff",
+    "otf",
+    "ipad",
+    "handwriting"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Vite + React SPA with fabric.js canvas and Supabase edge functions (web); native iPadOS app; Lemon Squeezy payments (merchant of record)",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "A cheap way to get a truly one-off hand-drawn display font for a portfolio name, wordmark or accent labels. It's narrow, though: display use only, not a full type system.",
+  "portfolio_jobs": [
+    "Typography",
+    "Hero & signature visuals"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Once exported (2.99 EUR per font), the font carries a perpetual, royalty-free commercial license that explicitly covers client work, logos and products. Only the .doodlefont project file can't be redistributed.",
+  "best_use_for_portfolio": "Draw your name or studio mark as a custom hand-lettered font for the hero heading and section labels. Export the WOFF, load it with next/font/local, and pair it with a clean variable sans so case-study text stays readable.",
+  "category": "Color & type tools",
+  "subcategory": "Hand-drawn font maker",
+  "tier": "Situational",
+  "tier_reason": "A cheap route to a one-off hand-drawn font for a name, wordmark or accent labels. Display use only, not a type system.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 3,
+  "score_rationale": "A cheap, simple way to get a truly one-off hand-drawn display typeface or wordmark with clear commercial rights, which can make a site feel distinctive. It's narrow, though: a doodled font is a display/accent asset, not a body-text system. Kerning-pair tuning is iPad-only, and there's no hinting or professional type-design depth.",
+  "pricing_model": "Freemium",
+  "billing_type": "One-time / lifetime",
+  "free_tier": "Draw, preview and edit fonts in the browser as a guest with no account. Work is saved only in local browser storage. Exporting usable font files needs a purchase (2.99 EUR per font on the web, or buy the iPad app).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "No subscription: 2.99 EUR one-time per exported font on the web. Lemon Squeezy checkout charges in EUR even with a United States billing address (about US$3.47 at the ECB rate of 1.1592 on 2026-09-11). Alternatively, the iPad app is US$8.99 one-time on the US App Store and includes unlimited font exports.",
+  "paid_top_label": "N/A (no subscription tiers; iPad app US$8.99 one-time with unlimited exports)",
+  "one_time_usd": 3.47,
+  "pricing_source_url": "https://doodlefonts.app/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Custom ToS (updated July 2026). One export purchase gives a perpetual, worldwide, royalty-free license for personal and commercial use (logos, products, apps, print, video, client work). The exported font files can even be sold or distributed as fonts. Only the .doodlefont project file can't be resold or redistributed. You own what you draw, and exported fonts carry a small 'made with Doodle Fonts' attribution in their metadata. Changing a font into a substantially different one counts as a new purchase.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. No API, MCP, npm package or llms.txt (the /llms.txt path just returns the SPA shell). The exported WOFF can be dropped into a project by hand via @font-face or next/font/local.",
+  "maintenance_signal": "Actively maintained. iPad app first released 2026-07-21; v1.4 released 2026-09-07 (Shape Studio, Hebrew, new brushes). On-site What's New log shows web 1.1 (July 2026, font families) and 1.2 (August 2026, 14 brushes, Korean composition), plus iPad 1.3 (August 2026, Motion, variable fonts, Arabic/Persian/Urdu, five more scripts). App Store rating 5.0 from 2 ratings. Terms of Service last updated July 2026. Solo developer (Carlos Fernandez Plaza).",
+  "caveats": "Guest-only for now: new accounts are closed and web work lives in browser storage, so clearing site data or switching devices loses unpurchased drafts. Keep the .doodlefont backup. Web pricing is EUR-only at checkout (Lemon Squeezy, taxes may apply, US cards may add foreign-transaction fees), and purchases are generally non-refundable. Hand-drawn glyphs only suit display sizes. Variable-font export, Motion, Restyle, kerning-pair tuning (web exports keep pairs tuned on iPad) and the right-to-left and extra scripts (Arabic, Persian, Urdu, Hebrew, Amharic, Georgian, Armenian, Cherokee, Serbian/Macedonian) are iPad-only. The App Store description still says '20 character sets', which is out of date next to the site's 29. The iPad app needs iPadOS 17+ and an Apple Pencil, and is sold separately.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "one_time_usd (the live Lemon Squeezy checkout shows only €2.99, even with United States billing, so 3.47 is an ECB conversion; the actual card charge after FX and taxes may differ)",
+    "iPad in-app language picker count (29 comes from the website's iPad page FAQ and What's New changelog; the iPad app itself couldn't be inspected, and the App Store description still says 20 character sets)"
+  ],
+  "evidence_urls": [
+    "https://doodlefonts.app/",
+    "https://doodlefonts.app/whats-new",
+    "https://doodlefonts.app/ipad",
+    "https://doodlefonts.app/shop",
+    "https://doodlefonts.app/terms",
+    "https://doodlefonts.app/assets/IpadAppPage-BezGSsIm.js",
+    "https://doodlefonts.app/assets/WhatsNewPage-ZmiAUzF6.js",
+    "https://carlostv.lemonsqueezy.com",
+    "https://apps.apple.com/us/app/doodle-fonts/id6788513235",
+    "https://itunes.apple.com/lookup?id=6788513235&country=us",
+    "https://api.frankfurter.dev/v1/latest?base=EUR&symbols=USD"
+  ],
+  "aliases": [
+    "s19"
+  ],
+  "dedupe_keys": [
+    "host:doodlefonts.app",
+    "name:doodle-fonts"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Calligraphr",
+      "url": "https://www.calligraphr.com",
+      "why": "Turn your handwriting (printed template scans) into OTF/TTF fonts, with a free tier."
+    },
+    {
+      "name": "FontStruct",
+      "url": "https://fontstruct.com",
+      "why": "Free browser tool for building geometric/modular fonts from bricks, with a large shared gallery."
+    },
+    {
+      "name": "Fontself",
+      "url": "https://www.fontself.com",
+      "why": "Illustrator/Photoshop extension that turns vector lettering into OpenType (including color) fonts."
+    }
+  ],
+  "user_notes": ""
+}

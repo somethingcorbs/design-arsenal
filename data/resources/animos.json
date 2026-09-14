@@ -1,0 +1,105 @@
+{
+  "id": "animos",
+  "name": "animos",
+  "url": "https://animos.app/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Browser app that turns your screenshots or videos into looping motion-showcase clips from ready-made templates.",
+  "what_it_offers": "A beta browser editor with 63 looping templates in 9 groups: 3D & Perspective 12, Multiscene 7, Isometric 3, Orbit 8, Carousel & Flow 10, Grid 8, Spotlight & Focus 4, Reveal & Wipe 4, Stack & Scatter 7. You drop images or videos into media slots (12 by default), set loop length (5-30s), add text and logo layers and a colour, gradient or image background, and tune each template's settings with optional keyframes. It exports MP4 or WebM at 30 or 60fps (transparent backgrounds survive in WebM only), in 16:9, 4:3, 1:1, 4:5, 3:4 or 9:16, from 720p up to 8K. Projects and media stay in the browser's IndexedDB and are never uploaded.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "motion templates",
+    "design showcase",
+    "portfolio video",
+    "mockup animation",
+    "MP4 export",
+    "WebM",
+    "browser-based",
+    "no-code"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "React SPA (Vite-style hashed bundle) with Supabase auth/DB, PostHog and Google Analytics, Cloudflare. Payments go through Polar (merchant of record) and Mayar (Indonesia). Video renders client-side to MP4/WebM.",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Assets & graphics",
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "Built for exactly the case-study job: turning static UI screenshots into looping showcase videos. Shared template motions look familiar, and commercial rights for free exports are unclear.",
+  "portfolio_jobs": [
+    "Project media & mockups",
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "No terms of service exist. The in-app upgrade dialog lists 'Commercial usage rights' as a Pro/token feature, so free 720p exports may not include them.",
+  "best_use_for_portfolio": "Drop a project's key screens into a Cover Flow or Feed Scroll template and export a 16:9 or 4:5 loop as the muted autoplay video at the top of a case study. Use transparent WebM to layer it over your page background, and keep real text beside it for accessibility and SEO.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Case-study showcase video templates",
+  "tier": "Strong",
+  "tier_reason": "Built for a recurring case-study task: turning static UI screenshots into looping showcase videos. Template motions look familiar, and rights for free exports are unclear.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 3,
+  "score_rationale": "A fast, polished way to make hero, portfolio or case-study motion loops from static UI shots, with a free 720p tier (free account required) and a cheap HD tier. It only produces video assets, though: nothing about layout, code or design direction. Every user shares the same template motions, and commercial rights for free exports are ambiguous.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "Free: every template, unlimited edits and 720p MP4/WebM export. You can open the editor and build a project with no account, but exporting at any resolution needs a free account. Tested live on 2026-09-14: clicking Export while signed out opened a dialog reading 'Sign in to export your video — your project is saved.' The editor code agrees: the Export button opens the export dialog only when a user is signed in, and otherwise shows sign-in. That contradicts the homepage, the FAQ ('no account needed') and the privacy policy, which say an account is needed only above 720p. The client-side export code has no watermark or brand overlay step: the word 'watermark' doesn't appear in the bundles, the animos logo is used only in the editor toolbar, and 720p is the only resolution not flagged Pro. A real export was not completed, because that would mean creating an account.",
+  "paid_entry_usd_month": 9,
+  "paid_entry_label": "Pro (worldwide) $9/mo or $90/yr: 1080p, 2K, 4K and 8K export, unlimited exports, every template. The in-app upgrade dialog also lists 50+ templates, up to 10 projects, folders and 'Commercial usage rights'.",
+  "paid_top_label": "Pro $9/mo ($90/yr). Indonesia instead gets prepaid HD tokens (1 token = 1 HD export) in packs of 10 for Rp30.000, 30 for Rp90.000 or 100 for Rp300.000, paid by QRIS or e-wallet. The in-app dialog also lists commercial usage rights for tokens.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://animos.app/#pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Unclear, and possibly Pro-only. There is no Terms of Service or license page: the app's only routes are /, /projects, /editor, /account, /privacy and /admin, the footer links only a Privacy Policy, and the operator is Herdetya Priambodo. The in-app upgrade dialog, however, lists 'Commercial usage rights' as a feature of Pro and of Indonesian HD tokens, which suggests free 720p exports may not include commercial rights. No document defines those rights. The maker's Product Hunt launch comment and the MakerStack review don't address commercial use.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "None found. There is no API, MCP server, npm package or llms.txt, and it is a GUI video exporter, so an agent can only use MP4/WebM files a human exports. In a Product Hunt reply the maker said MCP integration is on the roadmap.",
+  "maintenance_signal": "Labeled BETA. Solo developer Herdetya Priambodo launched it on Product Hunt on July 14, 2026 (confirmed on the PH launches page: #10 of the day, 132 upvotes, 246 followers). His launch comment says 5,000+ beta users made over 9,000 exports. The privacy policy was updated 25 August 2026. A paid Pro plan and Indonesian token packs have replaced the earlier fully free model. The editor has 63 templates, several marked NEW, while the homepage still says 25 and the upgrade dialog says 50+, so copy lags behind active template work.",
+  "caveats": "Beta. Output is baked video, not interactive or code, so its text is neither accessible nor SEO-indexable. Projects live only in your browser's local storage, so clearing site data deletes them. Template motions are recognizable because everyone uses the same ones. There are no terms of service or license, and the upgrade dialog lists 'Commercial usage rights' as a paid feature, which makes commercial use of free exports ambiguous. Marketing copy (homepage, FAQ, privacy policy) says 720p export needs no account, but the live editor requires sign-in for every export. Template counts disagree: 25 on the homepage, 50+ in the upgrade dialog, 63 in the editor. Older third-party reviews and the Product Hunt page still call it fully free. The export code shows no watermark, but no real export was run. Refunds are available only within 7 days of buying Pro, and only if no HD export has been made.",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no ToS; only an in-app upgrade dialog lists 'Commercial usage rights' as a Pro/token feature)",
+    "free-tier watermark on an actual exported file (the code shows no watermark step, but a real export needs an account, which was not created)"
+  ],
+  "evidence_urls": [
+    "https://animos.app/",
+    "https://animos.app/editor",
+    "https://animos.app/privacy",
+    "https://animos.app/assets/EditorPage-D5vt8ldF.js",
+    "https://animos.app/assets/index-RNjwTSJq.js",
+    "https://www.producthunt.com/products/animos-app",
+    "https://www.producthunt.com/products/animos-app/launches",
+    "https://www.producthunt.com/posts/animos-app",
+    "https://makerstack.co/reviews/animos-app-review/"
+  ],
+  "aliases": [
+    "s35"
+  ],
+  "dedupe_keys": [
+    "host:animos.app",
+    "name:animos"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Rotato",
+      "url": "https://rotato.app",
+      "why": "Animated 3D device-mockup videos from your screenshots; stronger for product-in-device showcase clips"
+    },
+    {
+      "name": "Jitter",
+      "url": "https://jitter.video",
+      "why": "Browser motion-design tool with templates plus real timeline control, exporting video, GIF and Lottie"
+    },
+    {
+      "name": "Shots.so",
+      "url": "https://shots.so",
+      "why": "Browser mockup and animated-showcase generator for turning UI screenshots into social and portfolio visuals"
+    }
+  ],
+  "user_notes": ""
+}

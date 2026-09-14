@@ -1,0 +1,105 @@
+{
+  "id": "public-domain-review",
+  "name": "The Public Domain Review: Collections",
+  "url": "https://publicdomainreview.org/collections/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Curated, annotated archive of public-domain images, books, films and audio from historical collections, with rights labels.",
+  "what_it_offers": "A browsable index of 1,257 curated collection posts (53 pages of about 24). You can filter by medium (Images, Books, Film, Audio), epoch and theme (such as Design & Typography, Animals & Beasts, Natural World). Each post pairs rare historical material (scientific illustration, type specimens, flap books, maps, ephemera) with a short text. Each carries rights labels for the underlying work and the digital copy, plus links back to the source institution for downloads.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "public-domain",
+    "archival-imagery",
+    "historical-illustration",
+    "typography-history",
+    "editorial-inspiration",
+    "moodboard",
+    "cc0",
+    "free-to-use"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Gatsby (React) static site on Netlify",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "A rich source of non-generic historical imagery and type specimens for moodboards, editorial art direction and section illustration. Rights vary by item and files live at source institutions, so it's supporting material, not core tooling.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Imagery, illustration & textures",
+    "Typography"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "Rights vary per item: PD Worldwide / No Additional Rights items are reusable commercially, but some digital copies are CC BY-NC or Unclear. PDR's own text is CC BY-SA 4.0.",
+  "best_use_for_portfolio": "Build a moodboard from the Design & Typography theme to set an editorial direction for a designer portfolio. Pull a PD Worldwide / No Additional Rights scientific plate or map from the source institution to use as a textured hero or chapter divider in long-form case studies.",
+  "category": "Illustration & image asset sources",
+  "subcategory": "Public-domain historical imagery archive",
+  "tier": "Situational",
+  "tier_reason": "Rich, non-generic historical imagery and type specimens for editorial art direction. Rights vary by item and files live at source institutions.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 4,
+  "score_rationale": "A top-tier source of distinctive, non-generic visual material and editorial art direction, with clear per-item rights labels so assets can go on commercial sites. It is inspiration and raw assets, not a build tool.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "All collections, essays and linked source images are free to browse and reuse, with no paywalls (per the Support page). The site runs on reader donations, and there are no paid tiers. Optional donations: PDR will send its edited high-res image files, if available, in exchange for a $10 donation (Reusing Material page). One-off gifts are welcome. 'Friend of the PDR' recurring annual donations ($40/$80/$120/$250/$500, or GBP/EUR equivalents) come with postcard packs, 15% off the shop, optional donor listing, first access to future publications and an annual editor's letter. None of these is needed to access content.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://publicdomainreview.org/support/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Varies by item. PDR focuses on public-domain works that are generally free to reuse, even commercially, and asserts no rights of its own, including over its edited image versions. Underlying-work labels: PD Worldwide, PD 70 Years, PD 50 Years, PD U.S., PD GOV, No Known Restrictions, Effectively PD. Digital-copy labels: No Additional Rights (often PDM/CC0), Attribution (CC BY), Share-Alike (CC BY-SA), PD Wikimedia, Non-commercial (CC BY-NC), Unclear. For commercial use PDR advises checking the source institution. Crediting PDR is appreciated but not required. PDR's own unquoted text in Collections posts is CC BY-SA 4.0, as are most essays (some book excerpts are more restrictive), so reuse needs attribution to the author and PDR plus share-alike.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. No public API, MCP or llms.txt. It is a static Gatsby site, so an agent can fetch collection pages as HTML or Gatsby page-data JSON (e.g. /page-data/collections/page-data.json lists all collections with medium/theme) and follow source links, but must check each item's rights label itself.",
+  "maintenance_signal": "Actively published. The latest collection post is dated Sep 10, 2026, recent essays are dated 13 May, 28 May, 17 Jun, 8 Jul and 29 Jul 2026, and the newsletter goes out fortnightly. Founded in 2011 and registered as a UK Community Interest Company (#11386184). It also runs a shop, PDR Press and the sister Public Domain Image Archive (10,000+ images).",
+  "caveats": "Rights vary per item. Some digital copies are Non-commercial or Unclear, some institutions (e.g. BnF) restrict commercial use, and some Internet Archive material may fall under CC BY-NC-SA, so read labels before commercial use. PDR says its rights guidance isn't legal advice. High-res files usually live at the source institution, so downloads aren't one-click. Historical material may need restoration or cropping and can carry dated or offensive content. PDR text is CC BY-SA, which means share-alike if reused. No API.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://publicdomainreview.org/collections/",
+    "https://publicdomainreview.org/page-data/collections/page-data.json",
+    "https://publicdomainreview.org/rights-labelling-on-our-site/",
+    "https://publicdomainreview.org/reusing-material/",
+    "https://publicdomainreview.org/support/",
+    "https://publicdomainreview.org/support/become-a-friend/",
+    "https://publicdomainreview.org/about/",
+    "https://publicdomainreview.org/collection/metamorphosis-early-modern-flap-book/",
+    "https://publicdomainreview.org/",
+    "https://creativecommons.org/2020/02/27/smithsonian-releases-2-8-million-images-data-into-the-public-domain-using-cc0/"
+  ],
+  "aliases": [
+    "s41"
+  ],
+  "dedupe_keys": [
+    "host:publicdomainreview.org",
+    "name:the-public-domain-review"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Public Domain Image Archive",
+      "url": "https://pdimagearchive.org/",
+      "why": "PDR's sister site: 10,000+ curated public-domain images built for direct browsing and reuse"
+    },
+    {
+      "name": "Smithsonian Open Access",
+      "url": "https://www.si.edu/openaccess",
+      "why": "Millions of CC0 2D/3D images and data with a public API an agent can query"
+    },
+    {
+      "name": "Rijksmuseum Collection",
+      "url": "https://www.rijksmuseum.nl/en/collection",
+      "why": "High-res public-domain Dutch art and design objects with free downloads and an API"
+    }
+  ],
+  "user_notes": ""
+}

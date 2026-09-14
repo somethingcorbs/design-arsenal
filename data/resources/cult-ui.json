@@ -1,0 +1,106 @@
+{
+  "id": "cult-ui",
+  "name": "Cult UI",
+  "url": "https://www.cult-ui.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free MIT shadcn/ui library of 78+ animated React components, plus a paid Cult Pro marketing-block tier.",
+  "what_it_offers": "78+ free animated components and effects (dither/liquid-metal heroes, texture buttons and cards, Dynamic Island, macOS dock, 3D carousel, pixel headings, shader lens blur, SVG bands). Each one installs through its own shadcn registry URL, e.g. `shadcn add https://cult-ui.com/r/shift-card.json`; the public registry.json currently lists 157 items. The homepage also promotes AI SDK Agents (aisdkagents.com), a separate paid product with 100+ AI patterns and 4 full-stack templates, and Cult Pro. The Cult Pro pricing page lists 10 Next.js templates, 58 components, 42 full-stack blocks (Stripe + Supabase + AI) and 134 marketing blocks (heroes, CTAs, pricing, bento, device mockups). The homepage Pro section shows 6 of the starter templates.",
+  "resource_type": "Component library",
+  "tags": [
+    "shadcn/ui",
+    "React",
+    "Tailwind",
+    "Motion",
+    "animated components",
+    "marketing blocks",
+    "Next.js templates",
+    "open source",
+    "MIT"
+  ],
+  "output_type": "Code",
+  "tech_stack": "React + Next.js + Tailwind CSS + shadcn/ui + Motion (framer-motion); TypeScript",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Motion & interaction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "MIT animated shadcn components (dither and liquid-metal heroes, texture cards, browser-window frames) give a React portfolio instant motion and texture. Popular pieces can look generic, and the marketing blocks are paid.",
+  "portfolio_jobs": [
+    "UI components & sections",
+    "Hero & signature visuals",
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Free library is MIT-licensed. Cult Pro's license permits commercial projects but bans redistribution, resale and publishing in public repos.",
+  "best_use_for_portfolio": "Register @cult-ui in components.json and pull in one signature hero (Hero Dithering or Liquid Metal), a Browser Window frame to present project screenshots, and Texture Cards for the project grid. Restyle them to your tokens so they don't read as stock.",
+  "category": "Component & section libraries (code)",
+  "subcategory": "Free textured/shader effect components",
+  "tier": "Strong",
+  "tier_reason": "MIT animated shadcn pieces (dither and liquid-metal heroes, texture cards, browser frames) add motion and texture to React portfolios. Popular pieces can look generic, and marketing blocks are paid.",
+  "overlap_group": "Animated React/Tailwind component sources",
+  "pick_over_overlaps": "Use it for distinctive tactile effects at no cost. Install from its registry URLs; plain HTTP fetches hit a Vercel bot checkpoint (429).",
+  "website_design_score": 4,
+  "score_rationale": "High-quality, distinctive animated pieces (textures, dithering, liquid metal, neumorphic buttons) that install straight into a React/Tailwind/shadcn stack, and a coding agent can pull them through the registry and MCP. Commits have slowed to about one every 1-2 months, the premium marketing sections cost extra, and popular components risk looking generic when used as-is.",
+  "pricing_model": "Freemium",
+  "billing_type": "One-time / lifetime",
+  "free_tier": "All 78+ open-source components (MIT), with docs, live previews and shadcn registry install. No account needed.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "Cult Pro Lifetime License: $129 one-time (Summer Sale, list price $179; taxes/VAT added at checkout). Includes all current and future templates, blocks and components, commercial projects, ongoing updates with no renewal, and a 30-day money-back guarantee.",
+  "paid_top_label": "Cult Pro Lifetime $129 one-time (sale; $179 list) is the only Cult Pro plan. AI SDK Agents is a separate product, also one-time: Pro $199 (list $249), Premium $299 (list $399), Team $999 for 10 seats.",
+  "one_time_usd": 129,
+  "pricing_source_url": "https://pro.cult-ui.com/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The free library is MIT (GitHub LICENSE), and the homepage says the library stays MIT-licensed. Cult Pro gives a non-exclusive, non-transferable license for personal and commercial projects (pro.cult-ui.com/terms). You may not redistribute, resell or sublicense the code, build derivative UI kits or templates (for sale or free), publish it in public repos, or use it to build a competing service.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Strong. The public shadcn registry at https://cult-ui.com/r/registry.json (157 items) serves per-item JSON at /r/{name}.json; add it to components.json as \"@cult-ui\": \"https://cult-ui.com/r/{name}.json\". The /docs/mcp-server page explains the shadcn MCP server (`shadcn@latest mcp init --client claude`), which lets Claude Code, Cursor or VS Code browse and install Cult components in plain language. /llms.txt returns 404. Pro items are accessed after logging in to pro.cult-ui.com.",
+  "maintenance_signal": "GitHub nolly-studio/cult-ui: 6,130 stars, 335 forks, MIT, not archived. Last push 2026-07-22 (feat: cache improvements). Earlier commits: 2026-05-21 (metal button + new categories), 2026-04-21 (dither-image), 2026-04-15 (grid beam + border-beam-button).",
+  "caveats": "Commits are infrequent (months apart). React/Tailwind/shadcn only. Pro is gated behind purchase and login, the $129 figure is a 'limited time' sale price, and the Pro license bans redistribution and use in public repos. The Pro FAQ and Terms still mention an Annual plan, but only Lifetime is sold now. Homepage and registry sit behind a Vercel bot checkpoint, so plain HTTP fetches get HTTP 429 (browsers load fine). No llms.txt. Shader and canvas effects can hurt performance and should be tested on mobile.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://www.cult-ui.com/",
+    "https://www.cult-ui.com/docs/mcp-server",
+    "https://cult-ui.com/r/registry.json",
+    "https://cult-ui.com/r/shift-card.json",
+    "https://pro.cult-ui.com/pricing",
+    "https://pro.cult-ui.com/terms",
+    "https://www.aisdkagents.com/pricing",
+    "https://github.com/nolly-studio/cult-ui"
+  ],
+  "aliases": [
+    "s34"
+  ],
+  "dedupe_keys": [
+    "host:cult-ui.com",
+    "host:pro.cult-ui.com",
+    "github:nolly-studio/cult-ui",
+    "name:cult-ui"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Magic UI",
+      "url": "https://magicui.design",
+      "why": "Larger MIT library of animated shadcn-compatible React components, with a registry, MCP and paid Pro templates"
+    },
+    {
+      "name": "Motion Primitives",
+      "url": "https://motion-primitives.com",
+      "why": "Open-source Motion + Tailwind primitives focused on tasteful micro-interactions, installable via the shadcn CLI"
+    },
+    {
+      "name": "Kokonut UI",
+      "url": "https://kokonutui.com",
+      "why": "Free shadcn-registry components and blocks with a similar modern, animated marketing aesthetic"
+    }
+  ],
+  "user_notes": ""
+}

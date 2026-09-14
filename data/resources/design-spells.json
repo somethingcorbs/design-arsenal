@@ -1,0 +1,102 @@
+{
+  "id": "design-spells",
+  "name": "Design Spells",
+  "url": "https://designspells.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Curated gallery of delightful micro-interactions, animations and Easter eggs from real apps and websites.",
+  "what_it_offers": "334 numbered 'spells' as of September 2026. Each one is a short screen recording of a design detail in a real product (ChatGPT, Pinterest, Granola, iOS, Find My, Transit, Arc, etc.). Spells are tagged by platform (Mobile, Desktop, Tablet) and by type (Interaction, Animation, Easter Egg, Skeuomorphic, 404, Confetti, Transition, 3D and more). The site also runs a free 'Spells Digest' newsletter every other Saturday (10,000+ subscribers) with an RSS feed, plus per-app pages and submissions by email or Tally. Made by Chester How and Duncan Leo.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "micro-interactions",
+    "animation",
+    "easter eggs",
+    "delight",
+    "motion inspiration",
+    "ui details",
+    "newsletter",
+    "mobile",
+    "desktop"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "N/A (reference site; React SPA with Vite-style hashed assets + Tailwind, hosted on Vercel)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Motion & interaction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Personal portfolios are where small moments of delight (playful 404s, Easter eggs, tactile hovers) pay off most, and this is a strong source of them. It is reference-only and skews toward native mobile app UI.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "Visual direction & moodboard",
+    "UI components & sections"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "No license granted; clips are recordings of third-party products, so study the ideas and recreate them in your own code without reusing videos or branded assets.",
+  "best_use_for_portfolio": "During the polish pass, browse the Interaction, Easter Egg, Confetti and 404 tags and pick two or three details that match your personality. Recreate them with CSS or Motion as a custom 404 page, a hidden Easter egg on the about page, or a satisfying hover on project cards.",
+  "category": "Web & product UI inspiration",
+  "subcategory": "Micro-interaction & delight gallery",
+  "tier": "Situational",
+  "tier_reason": "A source of delightful details (playful 404s, Easter eggs, tactile hovers) that suit personal portfolios. Reference only, and it leans toward native mobile UI.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 4,
+  "score_rationale": "The best source for small moments of delight, such as hover/press feedback, playful transitions, 404 pages and Easter eggs, that make a site feel crafted rather than templated. It is mostly native app UI rather than full website layouts, and it provides no code.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything is free: all spells, tag and app browsing, the newsletter archive and the RSS feed. The site is funded by sponsor slots (e.g. Mobbin, Readymag).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://designspells.com/newsletter",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No license is granted. The clips are recordings of third-party products, so use them only to study and get inspired. Recreate the idea in your own code, and don't reuse the videos or copy branded assets.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "RSS feed at /feed (newsletter digests), plus stable slugs like /spells/<slug> and /apps/<app>. No API, MCP server or llms.txt (/llms.txt returns 404). A Vercel Security Checkpoint returns HTTP 429 to non-browser fetches (curl/WebFetch) on both www and the apex domain, so agents need a real browser.",
+  "maintenance_signal": "Actively maintained. The newest spell is #334 (Pinterest long-press menu). Spells Digest #76 came out 2026-09-12, with #75 on Aug 29, #74 on Aug 15 and #73 on Aug 1. There was a six-week gap between #72 (Jun 20) and #73. Footer reads © 2026.",
+  "caveats": "No code, no downloads and no rights to the clips. It leans heavily toward iOS and mobile app details, so translating them to the web takes judgment. Bot protection blocks automated agent access. Individual spell pages show no dates.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://designspells.com/",
+    "https://designspells.com/newsletter",
+    "https://designspells.com/feed",
+    "https://designspells.com/spells/long-press-menu-in-pinterest",
+    "https://sponsor.designspells.com/mobbin-mcp-q3-2026"
+  ],
+  "aliases": [
+    "s09"
+  ],
+  "dedupe_keys": [
+    "host:designspells.com",
+    "host:sponsor.designspells.com",
+    "name:design-spells"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Mobbin",
+      "url": "https://mobbin.com",
+      "why": "Large searchable library of real app and web screens and flows, including recorded interactions (paid tiers)"
+    },
+    {
+      "name": "60fps.design",
+      "url": "https://60fps.design",
+      "why": "Curated UI/UX animation and interaction recordings from top iOS and web apps"
+    },
+    {
+      "name": "Refero",
+      "url": "https://refero.design",
+      "why": "Searchable reference library of real web and app UI patterns for designers"
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,105 @@
+{
+  "id": "anime-js",
+  "name": "Anime.js",
+  "url": "https://animejs.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free, lightweight, modular JavaScript animation engine for CSS, SVG, DOM attributes and JS objects.",
+  "what_it_offers": "All-in-one vanilla JS animation engine (v4.5.0) with per-property parameters, keyframes, individual CSS transforms, timelines, stagger utilities, scroll observer, draggable, layout animations, SVG morphing/line drawing/motion paths, text utilities (splitText, scrambleText), a WAAPI mode and a Three.js adapter. Its tree-shakable modules total about 24.5 KB. The site also has full docs, an interactive easing editor, a 'Using with React' guide and CodePen examples.",
+  "resource_type": "Animation library",
+  "tags": [
+    "animation",
+    "vanilla-js",
+    "svg",
+    "timeline",
+    "stagger",
+    "scroll",
+    "draggable",
+    "text-animation",
+    "open-source",
+    "mit"
+  ],
+  "output_type": "Code",
+  "tech_stack": "Vanilla JavaScript/TypeScript ES modules; works in React/Vue via refs and scopes; optional Three.js adapter",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Tiny, free MIT engine for the signature moments portfolios live on: SVG logo line-draws, split-text name reveals and staggered project-grid intros. Less React-native and agent-optimised than Motion or GSAP.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "Hero & signature visuals",
+    "Typography"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "MIT licence (GitHub repo and npm license field); commercial use allowed with the copyright notice retained.",
+  "best_use_for_portfolio": "Build a hero where a monogram or signature SVG draws itself, the name headline splits and staggers in, and the project grid cascades on load. Its draggable module works well for a playful about-page element; wrap it in createScope for React cleanup.",
+  "category": "Animation & motion libraries (code)",
+  "subcategory": "Modular vanilla animation engine",
+  "tier": "Situational",
+  "tier_reason": "A tiny MIT engine for SVG line-draws and staggered reveals, but it largely duplicates GSAP and Motion. Best for vanilla or lightweight builds.",
+  "overlap_group": "JS animation engines",
+  "pick_over_overlaps": "Only when you want a light modular vanilla engine (about 24.5KB for all modules) that no company owns, or you are working outside React and don't want GSAP's license terms.",
+  "website_design_score": 4,
+  "score_rationale": "An excellent, tiny, free engine for expressive SVG, text and staggered animations that make a site feel distinctive, and the homepage itself is a strong motion-design reference. It is less React-native and less agent-optimised than Motion, and has no ready-made components.",
+  "pricing_model": "Open source (free)",
+  "billing_type": "None",
+  "free_tier": "Everything: the full library, all modules, docs and the easing editor are free. Funded by GitHub Sponsors.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://animejs.com/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "MIT (GitHub repo license and npm license field), so commercial use is allowed with the copyright notice retained.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "npm package `animejs` (ES modules, tree-shakable) and a public GitHub repo. No official llms.txt (animejs.com/llms.txt redirects to the homepage), official MCP server or shadcn registry. Unofficial community MCP servers and agent skills for Anime.js v4 exist (e.g. on Glama and in GitHub skill collections), but they are third-party. Otherwise agents rely on the HTML docs and model knowledge, so check for v3-vs-v4 API confusion.",
+  "maintenance_signal": "GitHub juliangarnier/anime: ~72.8k stars, MIT, last push 2026-08-21. Release v4.5.0 on 2026-06-22 (v4.4.1 on 2026-04-30); npm beta tag 5.0.0-beta.2 (2026-08-17); ~767k weekly npm downloads. Essentially single-maintainer: Julian Garnier has 809 commits, and the next contributor has 7.",
+  "caveats": "Imperative API, so React needs manual cleanup with scopes. There are big breaking changes from v3 to v4, and AI agents often emit old v3 `anime({...})` syntax. v5 is in beta and may change APIs again. No component library, no layout-animation integration with the React tree, and no official agent docs (llms.txt/MCP). Bus-factor risk from a single maintainer.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://animejs.com/",
+    "https://animejs.com/documentation",
+    "https://github.com/juliangarnier/anime",
+    "https://registry.npmjs.org/animejs",
+    "https://api.npmjs.org/downloads/point/last-week/animejs",
+    "https://glama.ai/mcp/servers/Padalogu/mcp-animejs-v4",
+    "https://github.com/theatre-js/theatre"
+  ],
+  "aliases": [
+    "s56"
+  ],
+  "dedupe_keys": [
+    "host:animejs.com",
+    "github:juliangarnier/anime",
+    "npm:animejs",
+    "name:anime-js"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "GSAP",
+      "url": "https://gsap.com/",
+      "why": "More feature-rich timeline and scroll engine with plugins (ScrollTrigger, SplitText, MorphSVG), free for commercial use under its own Standard License."
+    },
+    {
+      "name": "Theatre.js",
+      "url": "https://www.theatrejs.com/",
+      "why": "Visual keyframe editor plus JS animation library for choreographing complex DOM/Three.js sequences. Note that the GitHub repo has had no push since 2024-08."
+    },
+    {
+      "name": "LottieFiles",
+      "url": "https://lottiefiles.com/",
+      "why": "Designer-made vector animations exported as lightweight JSON/dotLottie for web playback."
+    }
+  ],
+  "user_notes": ""
+}

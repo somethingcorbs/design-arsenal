@@ -1,0 +1,98 @@
+{
+  "id": "ux-planet-50-design-styles",
+  "name": "50 Design Styles Every Designer Should Know for Better Prompting (UX Planet article by Himanshu Bhardwaj)",
+  "url": "https://uxplanet.org/50-design-styles-every-designer-should-know-for-better-prompting-56c09d55db62",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free Medium/UX Planet guide naming 50 visual design styles, with elements and moods, for sharper AI prompts.",
+  "what_it_offers": "A 17-minute illustrated article that lists 50 named styles, from Neoclassical, Baroque, Art Deco, Bauhaus and Memphis to Y2K, Synthwave, Bento Box, Glassmorphism, Neo Frutiger Aero and Neo-Brutalism. Each gets a short description (often with its origin), a 'Core Elements' line (fonts, motifs, colors, textures, layout traits) and a 'Mood & Occasion' line (mood plus best-fit uses), plus a sample image (52 images in total). It ends with a 'How I Use This List With AI' section: start prompts with a style name, mix styles into hybrids, generate moodboard options, and brief teams.",
+  "resource_type": "Reference / education",
+  "tags": [
+    "design styles",
+    "aesthetics",
+    "prompting",
+    "visual vocabulary",
+    "moodboard",
+    "article",
+    "medium"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "N/A",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "A free vocabulary of named styles that helps turn a vague portfolio vibe into a concrete prompt or brief. It's shallow and not web-specific, with no CSS, type pairings or live site examples.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "Reference article: its text and images are the author's copyrighted content and can't be republished. Style names themselves are general knowledge and free to use as prompt vocabulary.",
+  "best_use_for_portfolio": "Skim it to shortlist two named styles that fit how you want your work to feel (for example Neo-Brutalism with a Bento Box project grid, or Swiss minimalism). Put those names and their core-element notes into the design brief or AI-agent prompt for your portfolio, then find live examples to turn them into real tokens.",
+  "category": "Aesthetic vocabulary & design specs",
+  "subcategory": "Style list for prompting",
+  "tier": "Low fit",
+  "tier_reason": "A shallow list of style names for turning a vague vibe into a prompt. Not web-specific, with no CSS, type pairings or live examples.",
+  "overlap_group": "Named-aesthetic references",
+  "pick_over_overlaps": "Use it for fast prompt vocabulary on UI-era trends CARI skips (Bento, Glassmorphism, Neo-Brutalism, Neo Frutiger Aero).",
+  "website_design_score": 3,
+  "score_rationale": "A handy, free vocabulary list for telling AI coding agents or image/UI generators exactly which aesthetic to aim for, turning vague 'vibes' into named directions. It isn't web-specific, though: many styles lean toward print, decor or interiors, the descriptions are shallow with no CSS, type pairings or live site examples, and it's a one-off 2025 article.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "The full article is free to read. It isn't member-only: re-checked 2026-09-14, the page's schema.org data says isAccessibleForFree: true, there is no member-only label, and the full text renders. A Medium membership is optional and not needed.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A (free article; optional Medium membership starts at $5/mo, verified on medium.com/plans 2026-09-14)",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://medium.com/plans",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The article text and images are the author's copyrighted content (Medium's standard terms, all rights reserved) and can't be republished. Style names and descriptive ideas are general knowledge and free to use as prompt vocabulary.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. It's a plain web article with no API, llms.txt or structured data beyond schema.org metadata. Medium blocks basic fetchers (HTTP 403 / Cloudflare block to curl and WebFetch), so a user or real browser has to read it; the style names are easy to jot into a prompt.",
+  "maintenance_signal": "Static article: published 2025-08-01, last modified 2025-08-12 (dateModified re-confirmed 2026-09-14). About 1.5K claps and 31 responses. UX Planet is an active Medium publication.",
+  "caveats": "Medium blocks bots (403 for fetchers) and may show sign-up nags. Content is general aesthetics, not implementation guidance. Sample images look generic and possibly AI-generated. No updates since Aug 2025, so newer web trends aren't covered. Don't copy its text or images into your site. For reference, Medium membership pricing verified 2026-09-14: Member $5/mo or $50/yr, Friend of Medium $15/mo or $150/yr. A current welcome offer applies to annual billing only: the first year is $35 (Member) or $105 (Friend), then $50 or $150 per year. None of this is needed for this article.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "caveats: whether sample images are AI-generated"
+  ],
+  "evidence_urls": [
+    "https://uxplanet.org/50-design-styles-every-designer-should-know-for-better-prompting-56c09d55db62",
+    "https://medium.com/plans",
+    "https://www.uxlift.org/articles/50-design-styles-every-designer-should-know-for-better-prompting/",
+    "https://daily.dev/posts/50-design-styles-every-designer-should-know-for-better-prompting-t0hjkcx0y"
+  ],
+  "aliases": [
+    "s21"
+  ],
+  "dedupe_keys": [
+    "host:uxplanet.org/50-design-styles-every-designer-should-know-for-better-prompting-56c09d55db62",
+    "name:50-design-styles-every-designer-should"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Midlibrary",
+      "url": "https://midlibrary.io",
+      "why": "Large visual catalog of named art/design styles with sample outputs for AI prompting."
+    },
+    {
+      "name": "Aesthetics Wiki",
+      "url": "https://aesthetics.fandom.com",
+      "why": "Deep community reference on over 1,000 named aesthetics (Frutiger Aero, Cottagecore, etc.) with visuals and key motifs."
+    },
+    {
+      "name": "Web Design Museum",
+      "url": "https://www.webdesignmuseum.org",
+      "why": "Archive of thousands of screenshots of real websites from the 1990s to late 2000s, useful for grounding retro style names in actual web examples."
+    }
+  ],
+  "user_notes": ""
+}

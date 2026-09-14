@@ -1,0 +1,114 @@
+{
+  "id": "refero",
+  "name": "Refero",
+  "url": "https://refero.design/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Searchable library of real web and iOS product screens, flows and AI-readable styles, with an MCP server.",
+  "what_it_offers": "A curated reference library of 142,000+ screens and user flows from 400+ web and iOS products, searchable by page type, UX pattern, UI element, company and text, with a Research mode (agentic search), batch downloads and a Figma plugin. Refero Styles (beta, styles.refero.design) offers 2,000+ AI-readable design systems from product websites. Each style page has colors, typography, spacing and components, with copyable DESIGN.md, Tailwind v4, CSS variables and design-token exports, and currently needs no account. A paid remote MCP server plus an MIT-licensed Refero Skill/plugin give agents structured access to styles, screens and flows.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "UI references",
+    "UX patterns",
+    "user flows",
+    "SaaS web design",
+    "iOS",
+    "design systems",
+    "MCP",
+    "AI agent design research",
+    "Figma plugin"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "N/A (reference library). Site is a client-rendered React SPA; MCP over HTTP at api.refero.design/mcp; docs on Mintlify (hosted on Vercel)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Refero Styles offers free DESIGN.md and Tailwind token exports, handy for quickly setting a portfolio's theme with an agent. The screen library is mostly SaaS product UI, not art-directed portfolio sites.",
+  "portfolio_jobs": [
+    "Color & theming",
+    "Typography",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The Terms allow ordinary design work, and the pricing FAQ explicitly permits client work. Third-party screenshots and logos stay reference-only and can't be redistributed.",
+  "best_use_for_portfolio": "Pick a Refero Style close to the look you want and drop its DESIGN.md or Tailwind v4 tokens into the repo so an agent can theme the portfolio consistently. Product designers can also use the paid MCP to pull real onboarding or pricing screens when writing case studies about similar flows.",
+  "category": "Web & product UI inspiration",
+  "subcategory": "Product screen & flow library + MCP",
+  "tier": "Situational",
+  "tier_reason": "Token and DESIGN.md exports help theme quickly, but the core screen library is SaaS product UI, and its companion styles library is the stronger portfolio pick.",
+  "overlap_group": "Product screen & flow libraries",
+  "pick_over_overlaps": "Choose it over Mobbin for web SaaS page patterns, and because one subscription also gives agents MCP access to Styles. Don't pay for both.",
+  "website_design_score": 5,
+  "score_rationale": "It is one of the best fits for an agent-driven React/Tailwind workflow. The MCP lets a coding agent pull real screens, flows and style systems before writing UI, and Styles' free DESIGN.md and Tailwind v4 exports turn visual direction into tokens an agent can apply. Coverage is mostly polished SaaS and product UI rather than expressive art-directed sites.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "Screen library: a limited preview of about 3% of the collection, basic search by tag or company, Research mode limited to 3 searches a day, and limited screen downloads. No MCP, Figma plugin or batch downloads. Refero Styles (beta) is free to browse with full DESIGN.md/Tailwind/CSS-variable/token exports and no login. No time-limited free trial.",
+  "paid_entry_usd_month": 17,
+  "paid_entry_label": "Pro $17/mo billed monthly, or $10/mo billed annually ($120/yr). Refero is running a random A/B pricing test (stored per browser), so about half of visitors see Quarterly instead of Monthly: $45 every 3 months ($15/mo). Lifetime is $250 one-time. Students get 40% off monthly and annual Pro.",
+  "paid_top_label": "Team, priced per seat with volume tiers. Monthly: $20/seat (1-5 seats), $18 (6-10), $16 (11+). Quarterly: $50/seat every 3 months (shown as $17/mo), then $45 and $40. Annual: $140/seat/yr (shown as $12/mo), then $130 and $120. Visitors see either the monthly or the quarterly option depending on their A/B group; annual is always shown. Enterprise is custom.",
+  "one_time_usd": 250,
+  "pricing_source_url": "https://refero.design/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The Terms of Use (updated 2026-08-03) allow Refero Content to be used for lawful design research, inspiration, internal reference and ordinary product design work. Third-party screenshots, logos and trademarks stay with their owners, and you may not resell, redistribute, sublicense or scrape the content. The pricing FAQ explicitly allows use in client and internal work (moodboards, Figma files, presentations). MCP/API access on self-serve plans (Pro, Team, Lifetime) may be used for your own design research and product-design work, including commercial products. A separate business plan is required if Refero powers a customer-facing feature. Accounts are single-user.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Strong: a remote MCP server (https://api.refero.design/mcp, OAuth or Bearer token, setup documented for Claude Code, Cursor, Codex, ChatGPT and others; needs a Pro, Team or Lifetime plan; up to 8,000 MCP tool calls per licensed user per monthly period). Also llms.txt at refero.design and doc.refero.design, and the Refero Skill on GitHub (referodesign/refero_skill, MIT, 263 stars, pushed 2026-09-05). The skill installs via npx skills add, as a Claude Code or Codex plugin marketplace entry, or as a Gemini extension. There is also a ChatGPT/Codex plugin, and Styles exports AI-readable DESIGN.md files for free.",
+  "maintenance_signal": "Very active: the pricing page says 'Updated 4 days ago' for new screens, llms.txt was last updated 2026-09-05, the skill repo was pushed 2026-09-05, Terms were updated 2026-08-03, a live A/B pricing test is running, and Styles is in beta.",
+  "caveats": "MCP and the Figma plugin need a paid plan, and the free tier shows only about 3% of the screen library. Pricing is under a live A/B test: depending on the browser, the page offers Monthly ($17 Pro, $20/seat Team) or Quarterly ($45 Pro, $50/seat Team), plus Annual and Lifetime. That explains why the FAQ's $20 monthly Team price differs from the $17/seat plan card some visitors see. There is no free trial, and refunds are reviewed case by case. Content leans toward SaaS and product apps, with few experimental or brand-led marketing sites. Screenshots are third-party IP, so use them as references, not as assets. Styles is in beta and free today, and that could change.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://refero.design/pricing",
+    "https://api.refero.design/v1/subscription_plans?key=team",
+    "https://api.refero.design/v1/subscription_plans?key=ab_monthly",
+    "https://api.refero.design/v1/subscription_plans?key=ab_quarterly",
+    "https://refero.design/static/js/main.745a90d7.js",
+    "https://refero.design/llms.txt",
+    "https://doc.refero.design/help/plans.md",
+    "https://doc.refero.design/mcp/getting-started.md",
+    "https://doc.refero.design/legal/terms-of-use.md",
+    "https://github.com/referodesign/refero_skill",
+    "https://styles.refero.design/",
+    "https://styles.refero.design/style/68c15685-5db9-4869-b71d-27240568c9d8",
+    "https://nicelydone.club/",
+    "https://pageflows.com/",
+    "https://saaslandingpage.com/"
+  ],
+  "aliases": [
+    "s53"
+  ],
+  "dedupe_keys": [
+    "host:refero.design",
+    "host:doc.refero.design",
+    "host:api.refero.design",
+    "github:referodesign/refero_skill",
+    "name:refero"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Page Flows",
+      "url": "https://pageflows.com/",
+      "why": "A library of recorded user-flow videos and screenshots from real web and mobile products."
+    },
+    {
+      "name": "SaaS Landing Page",
+      "url": "https://saaslandingpage.com/",
+      "why": "A focused gallery of landing page examples from SaaS companies."
+    },
+    {
+      "name": "Nicely Done",
+      "url": "https://nicelydone.club/",
+      "why": "Curated web app screens and flows (203,000+ screenshots from 500+ SaaS apps), with a narrower SaaS focus."
+    }
+  ],
+  "user_notes": ""
+}

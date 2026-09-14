@@ -1,0 +1,125 @@
+{
+  "id": "rive",
+  "name": "Rive",
+  "url": "https://rive.app/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Interactive graphics editor plus open-source runtimes that ship state-machine-driven vector animations to web, apps and games.",
+  "what_it_offers": "A browser/desktop editor for designing, rigging and animating vector graphics with state machines, data binding (view models), Luau scripting and WGSL shaders. Work exports as small .riv files that play back through MIT-licensed runtimes for Web (JS/WASM), React, React Native, Flutter, Apple, Android, Unity and Unreal. It also has a community Marketplace of remixable CC BY files and an in-editor AI Agent: Free and Cadet get 'Agent with limits' (a capacity that recharges hourly), and Voyager/Enterprise get monthly Agent credits, advanced models, top-up credits and bring-your-own API key. An MCP integration works in the desktop editor, and a Rive CLI builds .riv files from RML text and writes an AGENTS.md so coding agents can author graphics.",
+  "resource_type": "Design & build platform",
+  "tags": [
+    "animation",
+    "interactive",
+    "state machines",
+    "vector",
+    "runtime",
+    "react",
+    "webgl",
+    "motion design",
+    "mcp",
+    "cli"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Rive Editor (web + desktop) with C++ Rive Renderer; runtimes @rive-app/canvas / webgl2 (WASM), @rive-app/react-canvas, React Native, Flutter, Apple, Android, Unity, Unreal; Luau scripts, WGSL shaders; marketing site built on Framer",
+  "skill_level": "Any",
+  "design_stages": [
+    "Motion & interaction",
+    "Assets & graphics",
+    "Build"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "One of the best tools for a memorable interactive hero, mascot or animated icon set, with a first-class React runtime and an agent authoring path. The paid export requirement and learning curve keep it just below essential.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Motion & scroll storytelling",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Runtimes are MIT. Shipping a .riv needs the Cadet plan or higher, since Free can't export. Marketplace files are CC BY 4.0 and need attribution. The Student plan excludes commercial work.",
+  "best_use_for_portfolio": "Build a signature interactive element, such as an avatar or mascot that reacts to the cursor or a logo that animates with scroll progress, as a .riv state machine. Embed it in the homepage hero with @rive-app/react-canvas. Keep your name and headline as real HTML text for accessibility and SEO.",
+  "category": "Design, motion & site-building platforms",
+  "subcategory": "Interactive state-machine animation",
+  "tier": "Situational",
+  "tier_reason": "Excellent for an interactive hero, mascot or animated icon set with a solid React runtime, but most portfolios don't need it, and paid export plus a learning curve limit it.",
+  "overlap_group": "Interactive animation authoring",
+  "pick_over_overlaps": "Choose it over Lottielab for interactive, state-driven or data-bound animation, and when you want coding agents to author graphics.",
+  "website_design_score": 5,
+  "score_rationale": "One of the few production tools for interactive, stateful vector motion on a real website (hero illustrations, mascots, animated icons, hover- or scroll-reactive UI). It has a first-class React runtime and an agent authoring path (CLI and MCP) that suits AI coding workflows. Shipping costs money and there's a learning curve, but little else matches its quality.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "Free editor seat ($0, unlimited seats): unlimited personal files, 3 collaborative files, 1 project, 10 MB per imported asset. State machines, data binding and scripting are included. The live pricing page lists 'Agent with limits' on Free, and Rive's 2026-04-30 blog says the Agent is available to everyone including Free users, with a capacity that recharges hourly. No .riv runtime exports, so you can learn and prototype but can't ship. Marketplace files can be remixed under CC BY.",
+  "paid_entry_usd_month": 17,
+  "paid_entry_label": "Cadet $17/seat/mo billed monthly ($9/seat/mo billed yearly = $108/seat/yr); max 3 seats; unlocks .riv exports, unlimited files and 100 MB/asset; Agent with limits",
+  "paid_top_label": "Voyager $49/seat/mo billed monthly, or $32/seat/mo billed yearly (max 25 seats; Libraries, embed URL/CDN hosting, advanced Agent models, $20/seat monthly Agent credits, top-up credits, bring-your-own Agent API key). Enterprise $120/seat/mo, yearly only ($1,440/seat/yr), requires $10M+ annual revenue, sales-led, $40/seat monthly Agent credits.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://rive.app/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Runtimes (rive-wasm, rive-react, rive-runtime, rive-flutter) are MIT. Exports are paid-only, so shipping a .riv needs Cadet or higher. Marketplace community files are CC BY 4.0, so attribution is required. The discounted Student plan is for personal educational work only, not commercial use.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "Strong. npm packages (@rive-app/react-canvas: about 736k weekly downloads, v4.34.2 released 2026-09-11, MIT). Docs llms.txt at rive.app/docs/llms.txt with .md versions of pages. Official Rive MCP integration in the desktop editor (Mac/Windows; Cursor/Claude setup documented). Rive CLI: 'rive create' writes AGENTS.md; agents write RML/Luau and check with 'rive <dir> --verify', 'rive inspect' and '--screenshot'. '--publish' needs 'rive login' and writes a watermarked build until the project is bound to an account file ('rive push' is 'coming soon'). Third-party MCPs also exist (e.g. StormXX/rive-docs-mcp, paradoxsyn RiveMCP, ODU33104/rive-mcp).",
+  "maintenance_signal": "Very active. GitHub rive-runtime (1,177 stars) and rive-wasm (967 stars) both pushed 2026-09-14; rive-react (1,157 stars) pushed 2026-09-11; rive-flutter (1,512 stars) pushed 2026-09-07. rive-wasm release 2.42.1 on 2026-09-10. Pricing blog post ($9/mo plan) dated 2025-10-20; free AI Agent blog post dated 2026-04-30; pricing page re-checked live 2026-09-14.",
+  "caveats": "Can't export .riv on the Free plan, so shipping needs Cadet or higher; the headline '$9/mo' and '$32/mo' are yearly-billed rates, and month-to-month is $17 (Cadet) and $49 (Voyager). The pricing page's sticky comparison header always shows the yearly prices, even with the Monthly toggle on. Rive's docs are out of date: the account pricing doc still lists Voyager at $39/mo or $304/yr, and the AI Agent doc still says Cadet, Voyager and Enterprise only, which contradicts the pricing page and the April 2026 blog (Agent with limits on Free). Only Voyager/Enterprise get monthly Agent credits and advanced models; Free/Cadet usage is capped, and heavy use needs top-up credits. Content renders to canvas/WASM, so add accessible text fallbacks, keep SEO-critical copy out of animations, and mind the runtime payload on first load. The MCP only works in the desktop editor on Mac/Windows. CLI --publish output is watermarked until the project is bound to an account file. Editor lock-in: .riv files can only be edited in Rive's tooling. Marketplace files need CC BY attribution.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "paid_top_label (Voyager $49 monthly / $32 yearly read from the live pricing page's Monthly/Yearly toggle on 2026-09-14; checkout not viewed because it requires signing in)",
+    "free_tier Agent hourly-recharge detail (from the 2026-04-30 blog; pricing page only says 'Agent with limits')",
+    "whether CLI-built .riv files from a Free account can be shipped unwatermarked (--once writes unsigned .riv; --publish is watermarked until bound)"
+  ],
+  "evidence_urls": [
+    "https://rive.app/pricing",
+    "https://rive.app/docs/account-admin/pricing.md",
+    "https://rive.app/blog/rive-s-new-9-mo-plan",
+    "https://rive.app/blog/free-rive-ai-agent",
+    "https://rive.app/blog/rive-ai-coding-agent-faq",
+    "https://rive.app/docs/llms.txt",
+    "https://rive.app/docs/editor/ai/mcp.md",
+    "https://rive.app/docs/cli/agents.md",
+    "https://rive.app/docs/cli/reference/commands.md",
+    "https://rive.app/docs/editor/ai-agent/ai-agent.md",
+    "https://rive.app/docs/community/marketplace-overview.md",
+    "https://github.com/rive-app/rive-runtime",
+    "https://github.com/rive-app/rive-wasm",
+    "https://www.npmjs.com/package/@rive-app/react-canvas",
+    "https://github.com/StormXX/rive-docs-mcp",
+    "https://github.com/paradoxsyn/rivemcp-releases"
+  ],
+  "aliases": [
+    "s16",
+    "2Dimensions"
+  ],
+  "dedupe_keys": [
+    "host:rive.app",
+    "github:rive-app/rive-runtime",
+    "github:rive-app/rive-wasm",
+    "github:rive-app/rive-react",
+    "github:rive-app/rive-flutter",
+    "npm:@rive-app/react-canvas",
+    "npm:@rive-app/canvas",
+    "npm:@rive-app/webgl2",
+    "name:rive"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "LottieFiles",
+      "url": "https://lottiefiles.com",
+      "why": "Largest library and tooling for Lottie JSON animations, with web players and a free asset marketplace; the main alternative format to Rive."
+    },
+    {
+      "name": "Spline",
+      "url": "https://spline.design",
+      "why": "Browser-based 3D design with interactivity and a React export, for 3D heroes where Rive covers 2D vector."
+    },
+    {
+      "name": "Jitter",
+      "url": "https://jitter.video",
+      "why": "Fast, Figma-like motion design tool for UI animations, exporting to Lottie/video for marketing sites."
+    }
+  ],
+  "user_notes": ""
+}

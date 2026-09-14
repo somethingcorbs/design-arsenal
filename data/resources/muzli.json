@@ -1,0 +1,105 @@
+{
+  "id": "muzli",
+  "name": "Muzli",
+  "url": "https://muz.li/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Curated design-inspiration feed delivered as a new-tab browser extension, with collections, search and a color tool.",
+  "what_it_offers": "A free extension for Chrome/Chromium, Edge, Safari (Mac) and Firefox (experimental) that turns each new tab into a feed drawn from 200+ design sources, mixed with editorial picks. The wider ecosystem adds roughly 60 themed inspiration collections (landing pages, UI/UX, branding, portfolios and more), Muzli Search, the Muzli Colors palette generator and color-names index, a creative-tools directory, an asset store, designer profiles, a blog/Medium publication and a design job board. Muzli Pro adds an ad-free feed, Muzli Web (the feed in any browser, including mobile), custom hero content, premium collections, 3 nominations/month and cross-device sync. A contact-sales Enterprise plan offers unlimited seats and managed browser deployment.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "design inspiration",
+    "browser extension",
+    "curation",
+    "UI/UX",
+    "web design trends",
+    "color palette generator",
+    "collections",
+    "moodboard"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Nuxt (Vue) site; Pro billing via Lemon Squeezy",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "A free, constantly refreshed inspiration feed. It includes a dedicated portfolio collection and a palette tool, so it's a good daily source of references, but it produces no code or assets.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Color & theming",
+    "Layout & case-study structure"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "Muzli's Terms allow personal use only and ban republishing. Featured work belongs to its creators, and palettes come with no explicit license.",
+  "best_use_for_portfolio": "Before designing, open Muzli's portfolio and landing-page collections and save 5 to 10 references for the hero, project grid and case-study pages. Try out an accent palette in Muzli Colors, then hand the screenshots and hex values to a coding agent as the visual brief.",
+  "category": "Web & product UI inspiration",
+  "subcategory": "New-tab inspiration feed",
+  "tier": "Strong",
+  "tier_reason": "A free, constantly refreshed inspiration feed with a dedicated portfolio collection and a palette tool. A strong daily reference, though it produces no code or assets.",
+  "overlap_group": "Curated website showcases",
+  "pick_over_overlaps": "Use it for passive daily browsing, not targeted research. Awwwards is better when you need to search by technique or category.",
+  "website_design_score": 4,
+  "score_rationale": "Broad, constantly refreshed and free inspiration that fits both passive daily discovery and targeted pattern research (e.g., its landing-page and portfolio collections). It doesn't produce code or reusable assets, and much of it is aggregated from other galleries, so it informs rather than builds.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "Free forever, no trial or card: the extension, new-tab feed from 200+ sources, daily editorial picks, personalization, Muzli Colors, Search, profiles and work uploads, inspiration collections, the tools directory, blog, jobs and 1 lifetime project nomination. Limits: the feed has ads, and there's no Muzli Web or premium collections.",
+  "paid_entry_usd_month": 9,
+  "paid_entry_label": "Muzli Pro $9/mo billed monthly ($60/yr billed annually = $5/mo; list price $90/yr)",
+  "paid_top_label": "Muzli Pro Lifetime $350 one-time. All Pro plans share an identical feature set. Enterprise (unlimited seats, managed deployment) is contact-sales with no public price.",
+  "one_time_usd": 350,
+  "pricing_source_url": "https://muz.li/pricing.md",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Not licensed for reuse. Muzli's Terms (muz.li/terms/) say Muzli and/or its licensors own the IP in site material. Access is for your own personal use, and republishing, reproducing, redistributing or sub-licensing material is prohibited. Featured work belongs to its original creators. Use it for inspiration only. Palettes are just color values, but the terms grant no explicit license.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Partial. Publishes https://muz.li/llms.txt, llms-full.txt and a machine-readable pricing.md (last updated 2026-08-17) that an agent can read for product and pricing facts. No public API docs, MCP server or npm package; the inspiration content sits behind Nuxt pages.",
+  "maintenance_signal": "Very active. Chrome Web Store: v33.1.9 updated Sept 10, 2026, rated 4.5 from 833 ratings, 400,000 Chrome users. llms.txt claims 800,000+ total users, 'approaching 900,000'. pricing.md last updated 2026-08-17. The Medium publication RSS shows posts on Sept 10-11, 2026. (The inspiration page's 'Last updated' date renders as the current day, so it isn't a reliable signal.)",
+  "caveats": "Replaces your new-tab page, which some users won't want, and the free feed has ads. Content is aggregated from other galleries (overlap with Dribbble and Behance), and shot-style work can favor pretty over shippable. No self-serve team plan (Enterprise is contact-sales only). No partial refunds. Firefox support is experimental and there's no mobile app (Muzli Web is Pro-only). The terms restrict use to personal use with no reuse.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://muz.li/",
+    "https://muz.li/pro/",
+    "https://muz.li/llms.txt",
+    "https://muz.li/pricing.md",
+    "https://muz.li/terms/",
+    "https://muz.li/enterprise/",
+    "https://muz.li/inspiration/",
+    "https://chromewebstore.google.com/detail/glcipcfhmopcgidicgdociohdoicpdfc",
+    "https://medium.muz.li/feed"
+  ],
+  "aliases": [
+    "s50"
+  ],
+  "dedupe_keys": [
+    "host:muz.li",
+    "host:medium.muz.li",
+    "name:muzli"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Recent (formerly Godly)",
+      "url": "https://recent.design",
+      "why": "Godly's curated gallery of standout, motion-heavy websites now lives here, run by the same team (godly.website 301-redirects to recent.design); high signal for distinctive web design"
+    },
+    {
+      "name": "Siteinspire",
+      "url": "https://www.siteinspire.com",
+      "why": "Long-running curated web design showcase filterable by style, type and subject; still updated daily"
+    },
+    {
+      "name": "Land-book",
+      "url": "https://land-book.com",
+      "why": "Large landing-page gallery organized by section and style, with a free Basic plan per third-party listings; good for layout pattern research"
+    }
+  ],
+  "user_notes": ""
+}

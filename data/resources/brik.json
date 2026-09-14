@@ -1,0 +1,119 @@
+{
+  "id": "brik",
+  "name": "Brik",
+  "url": "https://brik.space/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Wix's agentic platform that turns prompts into reusable, parameterized interactive motion/2D/3D design tools with exports.",
+  "what_it_offers": "You describe a visual behavior in plain language and a Brik agent builds a controllable 'tool' (kinetic type, shader and image effects, 3D/WebGL scenes, animated galleries, logo motion) with sliders and toggles that you or clients can adjust. The platform includes a community Tools Gallery, Collections, Showroom, Remix and a Projection Studio. Exports include PNG, JPEG or AVIF images at 1x-5x (transparent backgrounds on PNG/AVIF) and GIF. MP4/WebM video comes from in-browser Canvas Recording at 15/24/30/60fps, or from a higher-quality server-side Video Render on paid plans. Paid plans also export self-contained HTML with control values baked in, live iframe embeds and a React export. The app code also has a 'Source (dev)' HTML round-trip export.",
+  "resource_type": "AI design / agent",
+  "tags": [
+    "AI",
+    "generative motion",
+    "WebGL",
+    "kinetic typography",
+    "shaders",
+    "3D",
+    "interactive embeds",
+    "HTML export",
+    "React export",
+    "Wix",
+    "no-code"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Hosted web app built on Wix's Base44: a Wix exec's X post says so, and the app calls Base44 /api/apps endpoints. Tools run as browser WebGL/creative-coding canvases. Video comes from in-browser MediaRecorder capture (MP4/WebM) or server-side render. Exports are images, GIF, video, self-contained HTML, iframe embed and React.",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Motion & interaction",
+    "Assets & graphics",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Can produce a signature interactive hero (shader, kinetic type, 3D) exported as React or HTML. But credits are metered, code export and unbranded output need a paid plan, and the platform is young.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Motion & scroll storytelling",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "There is no Brik-specific output license, only generic Wix Terms of Use. Free exports carry Brik branding, and the docs warn that AI output may resemble protected material.",
+  "best_use_for_portfolio": "Remix a kinetic-type or shader tool into a hero that animates your name or tagline, and tune its sliders to your palette. On Standard, export the React component into the home page. On lighter project pages, use a server-rendered MP4 loop instead.",
+  "category": "AI design & generative media",
+  "subcategory": "Prompt-built interactive WebGL/kinetic-type tools",
+  "tier": "Situational",
+  "tier_reason": "Generates interactive shader, kinetic-type or 3D heroes exported as React or HTML. Credits are metered, code export is paid and the platform is young.",
+  "overlap_group": "Code-exportable WebGL effects",
+  "pick_over_overlaps": "Use it when you can't hand-code a shader or kinetic-type effect, or want sliders a client can tweak.",
+  "website_design_score": 4,
+  "score_rationale": "Unusual among AI design tools because it produces parameterized interactive visuals (shader heroes, kinetic type, 3D) that export as live HTML, React or embeds instead of only static images. That makes it a strong source of signature hero or background moments for a distinctive site. Downsides: credit-metered AI, a young platform, code/embed export only on paid plans, and no API or agent integration.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "Free: 80 AI credits/month, up to 20/day per the pricing page (the docs' AI Credits and Pricing pages say 30/day), and core Brik features. No card required. Exporting requires signing in: tested 2026-09-14, the signed-out Export button opens a sign-in dialog. Free accounts can export images (PNG/JPEG/AVIF), GIF and MP4/WebM video through in-browser 'Canvas Recording', with Brik branding added. This resolves the earlier contradiction. The export dialog code offers two video methods, and the high-quality server-side 'Video Render' shows the message 'render is available for Standard and Pro plans'. So the pricing card's 'Render to video' means that server render, not video export as such. HTML, live Embed and React exports are locked to paid plans. Checked in the docs and the live app code; no real export was made on a free account, because that would mean creating one.",
+  "paid_entry_usd_month": 15,
+  "paid_entry_label": "Standard $15/mo monthly ($12/mo billed annually): 240 credits/mo, no daily limit, no Brik branding, embed anywhere, server-side Video Render ('Render to video'), and HTML/React code export",
+  "paid_top_label": "Pro $50/mo monthly ($40/mo billed annually): 1,000 credits/mo, lowest cost per credit, plus everything in Standard",
+  "one_time_usd": null,
+  "pricing_source_url": "https://brik.space/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No Brik-specific output license was found. The footer's Terms of Service and Privacy Policy links go to the general Wix.com Terms of Use and Privacy Policy. Marketing copy calls outputs production-ready for websites, products, social and campaigns. The docs' 'Using AI Safely' page warns that AI outputs may resemble copyrighted material or trademarks and that users are responsible for checking them. Rights to remixed community tools are not spelled out.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "None found. There is no public API, MCP server or llms.txt. The closest options are the paid exports: a React component, self-contained HTML, or an iframe embed, which a coding agent can drop into a React/Next.js page.",
+  "maintenance_signal": "Went online April 1, 2026 per third-party listings (it began as an internal Wix Design Guild tool). dev.ua reported worldwide availability on June 10, 2026. The docs have 35 articles in 7 sections. Since the earlier review the export dialog has gained formats (AVIF, GIF, React, Source, server-side Video Render), and a Projection Studio was added. Discord, Instagram and LinkedIn are active, and there was an NYU ITP Camp 2026 workshop. Footer reads © 2026 Brik by Wix.com.",
+  "caveats": "New (April 2026) and owned by Wix, so product direction is tied to Wix. Every AI action consumes credits: the pricing FAQ says actions from building to exporting draw from the balance, and the docs say there is no set cost per generation. Unused credits don't roll over. The free daily cap is inconsistent (20/day on the pricing page, 30/day in the docs). Free exports carry Brik branding and use lower-quality in-browser canvas recording, while the high-quality Video Render is paid. Any export needs an account. Iframe embeds depend on Brik hosting. Performance, accessibility and bundle size of exported WebGL/HTML/React are unknown. There is no output license beyond the generic Wix ToS. Pricing and docs render client-side, so crawlers see little.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no Brik-specific terms found)",
+    "credit cost per action (official sources say it varies; the app bundle has placeholder billing data showing create 8, iterate 4, remix 0, media image 1, media video 2, but it looks like mock data)",
+    "transparent MP4/WebM video export (the 'What is Brik' docs page lists 'transparent video', but the export docs and code confirm transparency only for PNG/AVIF images and GIF)",
+    "free-plan monthly export quota (the app has an export quota bar, and placeholder data shows 5/month for free, but this is unconfirmed)",
+    "watermark appearance on a real free-account export (confirmed from docs and code only; no account was created)",
+    "exact April 1, 2026 launch date (third-party search snippet)"
+  ],
+  "evidence_urls": [
+    "https://brik.space/",
+    "https://brik.space/pricing",
+    "https://brik.space/about",
+    "https://brik.space/toolviewer?slug=topographic-echo-type-ms1tunnb",
+    "https://docs.brik.space/",
+    "https://docs.brik.space/docs/exporting",
+    "https://docs.brik.space/docs/ai-credits",
+    "https://docs.brik.space/docs/pricing-plans",
+    "https://docs.brik.space/docs/what-is-brik",
+    "https://docs.brik.space/docs/signing-up",
+    "https://dev.ua/en/news/brik-1781081438",
+    "https://itp.nyu.edu/camp/2026/session/225",
+    "https://x.com/nirzo/status/2051661648109207949"
+  ],
+  "aliases": [
+    "s36"
+  ],
+  "dedupe_keys": [
+    "host:brik.space",
+    "host:docs.brik.space",
+    "name:brik"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Unicorn Studio",
+      "url": "https://unicorn.studio",
+      "why": "No-code WebGL effects and scene builder exporting embeddable interactive hero backgrounds for websites"
+    },
+    {
+      "name": "Spline",
+      "url": "https://spline.design",
+      "why": "Browser 3D/interactive design tool with React and web embed export for immersive site visuals"
+    },
+    {
+      "name": "Paper Shaders",
+      "url": "https://shaders.paper.design",
+      "why": "Open-source, zero-dependency shader components (React/vanilla) for distinctive animated backgrounds, directly code-consumable"
+    }
+  ],
+  "user_notes": ""
+}

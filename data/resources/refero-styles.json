@@ -1,0 +1,110 @@
+{
+  "id": "refero-styles",
+  "name": "Refero Styles",
+  "url": "https://styles.refero.design/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free beta gallery of 2,000+ design systems extracted from real product sites, exported as DESIGN.md for AI agents.",
+  "what_it_offers": "You can search, filter by style chips (for example Clean SaaS, Editorial Type, Monochrome UI, Premium Design; the chip set rotates) and sort (Trending, Popular, Newest) styles pulled from real sites such as Linear, Apple, Modal, Mercury, Dub and Calendly. Each style page documents the color palette, typography with specific typefaces, spacing and radius and shadow tokens, and component specs, with the full DESIGN.md text (compact or extended) rendered on the page. Each style also exports as Tailwind v4, CSS Variables or Design Tokens, with copy and .md download. The site hosts pages of DESIGN.md examples, AI design resources and design prompts, and its 'Connect to your AI' buttons promote the paid Refero MCP.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "DESIGN.md",
+    "design systems",
+    "AI agents",
+    "claude code",
+    "design tokens",
+    "tailwind v4",
+    "css variables",
+    "mcp",
+    "typography",
+    "color"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Next.js on Vercel; outputs Markdown (DESIGN.md), Tailwind v4 theme, CSS variables and design tokens",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction",
+    "Build"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "A free, agent-ready library of real design systems with type, color and spacing tokens. Great for choosing and building a direction fast, but it leans toward SaaS product brands rather than expressive portfolio aesthetics.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "AI-assisted design & build",
+    "Typography"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Refero Terms allow ordinary commercial design work, and the pricing FAQ explicitly allows client work. Redistribution is banned, and brands' trademarks and trade dress belong to their owners.",
+  "best_use_for_portfolio": "Pick two or three styles whose typography and color rationing fit the tone you want, then blend them into your own DESIGN.md in the repo. Seed Tailwind @theme from the v4 export so an AI coding agent builds case-study pages consistently, without cloning any one brand.",
+  "category": "Aesthetic vocabulary & design specs",
+  "subcategory": "DESIGN.md systems extracted from real sites",
+  "tier": "Strong",
+  "tier_reason": "A free, agent-ready library of real design systems with type, color and spacing tokens for setting a direction fast. It leans toward SaaS brands over expressive portfolio aesthetics.",
+  "overlap_group": "DESIGN.md token libraries",
+  "pick_over_overlaps": "Use it when you want production-grade token depth. Blend several styles instead of cloning one, to avoid trade-dress look-alikes of Linear, Apple and others.",
+  "website_design_score": 5,
+  "score_rationale": "Fits an AI-agent React/Tailwind workflow unusually well. Each entry is a full, real-world design system written for an agent to read, with Tailwind v4 and CSS variable exports. It is free with no signup, and the optional paid MCP lets a coding agent research references on its own. It helps both with picking a distinctive direction and with building it consistently.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything on the Styles site, with no login. Tested logged out on 2026-09-14: infinite scroll loaded 180+ style cards with no gate. The Extended DESIGN.md tab rendered in full (about 26K characters for the Modal style), and so did the Compact tab and the Tailwind v4 @theme export (CSS Variables and Design Tokens tabs are also present). Copy and Download DESIGN.md buttons are shown. The page contains no sign-in, upgrade, Pro or paywall text. There is no bulk export, and the Refero terms ban scraping or systematic extraction. The one Styles-related paid feature is agent access to styles through the Refero MCP ('Live access to Refero styles, screens, and flows'), which requires Refero Pro, Team or Lifetime. The main Refero screen library is a separate product with its own Free plan (about 3% of 142K+ screens, 3 Research-mode searches per day).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A (Styles is free). Optional add-on, needed only for MCP access to styles plus the full screen/flow library: Refero Pro $15/mo billed quarterly ($45 every 3 months) or $10/mo billed annually ($120/yr). The pricing toggle offers only Quarterly, Annual and Lifetime, although the FAQ mentions monthly student pricing.",
+  "paid_top_label": "N/A for Styles. Parent Refero add-on: Lifetime Pro $250 one-time (includes MCP). Team is $17/seat/mo billed quarterly ($50 per 3 months) or $12/seat/mo billed annually ($140/yr). The FAQ lists per-seat pricing of '$20 monthly or $140 annually' for 1–5 seats, $18 or $130 for 6–10, and $16 or $120 for 11+. Enterprise is contact sales.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://styles.refero.design/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Proprietary. The Refero Terms of Use (updated 2026-08-03) allow using the content for lawful design research, inspiration, internal reference and ordinary product design work, including on your own commercial products, and the pricing FAQ explicitly allows client work. They prohibit reselling, redistributing or sublicensing the content, scraping or systematic extraction, publishing it as a standalone library or dataset, building competing datasets, and training or evaluating ML models. Using MCP data to power a customer-facing feature needs a separate business plan. Screenshots and trademarks belong to their owners, so borrow a style's principles and don't clone a brand's identity. The Terms say payments are non-refundable except where the law requires, while the FAQ says refund requests are reviewed case by case.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Strong. Each style offers a free copy-paste DESIGN.md plus Tailwind v4, CSS variable and token exports that Claude Code can use directly, with no login. The official Refero MCP (styles, 142K+ screens and 12K+ flows; browser sign-in on first use) is paid: the MCP page says access is included in the Pro plan, and it is also in Team and Lifetime. It has setup for Claude Code, Cursor, ChatGPT/Codex, Antigravity, Lovable, Manus and others. The Refero Skill installs with `npx skills add https://github.com/referodesign/refero_skill` (MIT, 263 stars). There is also a small unofficial MCP for Styles, fidgetcoding/refero-design-mcp (MIT, 14 stars).",
+  "maintenance_signal": "Very active. It is labeled Beta, with 2,000+ styles and a Newest sort, and Styles appears in the main refero.design navigation. The Refero pricing page says the library was updated 4 days ago (checked 2026-09-14). The refero_skill repo was last pushed 2026-09-05, the unofficial Styles MCP 2026-09-10, and the terms were updated 2026-08-03.",
+  "caveats": "Styles are extracted from real brands, so copying one wholesale risks trademark and trade-dress look-alikes. Treat them as references. Extraction is AI-assisted and in beta, so token accuracy can vary. Agent (MCP) access to Styles requires a paid Refero Pro, Team or Lifetime plan, while the website itself is free. The Refero pricing toggle offers only quarterly, annual or lifetime billing, and the FAQ's monthly figures ($20/seat Team, monthly student discount) contradict it. The terms ban scraping or bulk extraction, dataset building and ML training. The DESIGN.md format is still emerging.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "exact count of styles beyond the '2,000+' claim",
+    "accuracy of extracted tokens versus live source sites",
+    "whether a month-to-month Refero Pro/Team option exists at checkout (the FAQ mentions monthly prices; the pricing and MCP page toggles show only quarterly, annual and lifetime; checkout needs sign-in)",
+    "whether the Download DESIGN.md button completes without login (button present and ungated in the page; not clicked, to avoid a file download)"
+  ],
+  "evidence_urls": [
+    "https://styles.refero.design/",
+    "https://styles.refero.design/style/68c15685-5db9-4869-b71d-27240568c9d8",
+    "https://refero.design/pricing",
+    "https://refero.design/mcp",
+    "https://doc.refero.design/legal/terms-of-use",
+    "https://github.com/referodesign/refero_skill",
+    "https://github.com/fidgetcoding/refero-design-mcp",
+    "https://github.com/VoltAgent/awesome-design-md"
+  ],
+  "aliases": [
+    "s33"
+  ],
+  "dedupe_keys": [
+    "host:styles.refero.design",
+    "name:refero-styles"
+  ],
+  "parent_id": "refero",
+  "comparables": [
+    {
+      "name": "awesome-design-md (VoltAgent)",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "why": "Open (MIT) GitHub collection of DESIGN.md files inspired by popular sites, for AI coding agents"
+    },
+    {
+      "name": "Mobbin",
+      "url": "https://mobbin.com",
+      "why": "Large paid library of real app and web screens and flows for UX pattern research"
+    },
+    {
+      "name": "Google Stitch",
+      "url": "https://stitch.withgoogle.com",
+      "why": "AI UI design tool behind the DESIGN.md format; generates designs and exports to code"
+    }
+  ],
+  "user_notes": ""
+}

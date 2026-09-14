@@ -1,0 +1,104 @@
+{
+  "id": "humaaans",
+  "name": "Humaaans",
+  "url": "https://www.humaaans.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Pablo Stanley's free CC0 mix-and-match vector library of people illustrations with swappable poses, hair, and clothes.",
+  "what_it_offers": "A modular illustration kit of people with interchangeable bodies, hairdos, tops, bottoms, and shoes that can be rotated and positioned, plus backgrounds, scenes, and templates for empty/error/success states, onboarding flows, and landing pages. The download is a source library for Sketch, Figma, InVision Studio, and Adobe XD, plus flat SVG and PNG assets, via Gumroad (pay what you want, $0 allowed). It can also be customized in the browser through the Humaaans collection on Blush.",
+  "resource_type": "Asset library",
+  "tags": [
+    "illustrations",
+    "people",
+    "CC0",
+    "vector",
+    "SVG",
+    "Figma",
+    "Sketch",
+    "mix-and-match",
+    "empty states",
+    "Pablo Stanley"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "N/A (SVG/PNG assets; Sketch, Figma, InVision Studio, Adobe XD source files; landing page on Webflow)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Assets & graphics",
+    "Visual direction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "The CC0 people illustrations are safe to use but carry a dated, generic late-2010s SaaS look. That undercuts a portfolio's goal of looking distinctive, so the kit only suits low-stakes spots or modest small-business client sites.",
+  "portfolio_jobs": [
+    "Imagery, illustration & textures"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "CC0 public domain per humaaans.com and the Gumroad listing: free for commercial use with no credit. Through Blush, Blush's license applies (commercial use allowed, no redistribution).",
+  "best_use_for_portfolio": "Fill a portfolio's 404, empty contact-form success state, or a simple services section on a small-business client site with a friendly figure. Recolour the SVGs to the site palette so they read less like stock. Avoid them in heroes or case studies, where they look generic.",
+  "category": "Illustration & image asset sources",
+  "subcategory": "Mix-and-match people illustrations",
+  "tier": "Low fit",
+  "tier_reason": "CC0 people illustrations with a dated, generic SaaS look that undercuts distinctiveness. Fine only for low-stakes small-business client sites.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 2,
+  "score_rationale": "CC0, flexible, and fast for filling empty or error states or a friendly hero. But the flat corporate illustration style is very widely used, dated, and strongly tied to generic late-2010s SaaS sites, so it works against a distinctive, high-quality look. There is no code or agent integration, and the kit has not been updated since 2020.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "The full library (Sketch/Figma/Studio/XD source plus flat SVG and PNG) is free on Gumroad: enter $0 in the pay-what-you-want field (suggested $14.99), then give an email address at checkout. No Gumroad account is needed. On Blush, a signed-out visitor can customize a free Humaaans illustration and download a Small PNG without an account. Medium/Large PNG and SVG open a Pro upsell. The free Doodler plan (sign-up, no card) adds saving up to 5 designs. SVG vectors, high-resolution PNGs, and the full 10,000+ illustration catalog need Blush Pro, and some items in the Humaaans collection on Blush are marked PRO.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A. Humaaans itself is free (optional Gumroad tip, suggested $14.99). Blush Pro, which adds SVG export when customizing in the browser, is optional: $20/mo billed monthly, $15/mo billed quarterly, or $12/mo billed annually, with a 7-day free trial.",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://pablostanley.gumroad.com/l/humaaans",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "CC0 public domain per humaaans.com and the Gumroad listing, which says it is free for commercial and personal use with no credit needed. If you use it through Blush, Blush's own license applies: commercial use allowed with no attribution, but no reselling or redistribution, no merchandise, no claiming ownership, and no building a competing service.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "None found: no npm package, API, MCP, or llms.txt. An agent can only use the SVG files once a human downloads them from Gumroad and places them in the project (e.g. /public or inlined as React SVG components).",
+  "maintenance_signal": "Legacy but still hosted. The Gumroad listing has 4,512 ratings averaging 4.9. Its changelog's most recent entry is April 11, 2020 (naming fixes and Sketch override cleanup), so no new parts in over six years. The landing page is on Webflow (x-wf-region header; its last-modified date of 2026-09-13 reflects hosting, not content) and now mainly cross-promotes Lummi.",
+  "caveats": "The 'corporate Memphis' flat-people style is overused and can make a site look generic. There have been no updates since April 2020. The kit lives in design-tool source files, so customizing poses outside Figma/Sketch or Blush is tedious. The free Gumroad download is gated behind an email address: the $0 checkout shows only an Email address field and a Get button (reCAPTCHA-protected), and access is delivered through the emailed receipt. On Blush, signed-out downloads are limited to a Small PNG; larger PNGs, SVG and some collection items are paywalled ($12-20/mo).",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://www.humaaans.com",
+    "https://pablostanley.gumroad.com/l/humaaans",
+    "https://gumroad.com/checkout?product=YenKa&quantity=1&price=0",
+    "https://gumroad.com/help/article/199-how-do-i-access-my-purchase",
+    "https://blush.design/collections/humaaans",
+    "https://blush.design/collections/humaaans/humaaans/pose-sitting/Wty6zmd26nL_Q6A4",
+    "https://blush.design/license",
+    "https://blush.design/plans",
+    "https://storyset.com/faqs",
+    "https://creativecommons.org/share-your-work/public-domain/cc0/"
+  ],
+  "aliases": [
+    "s48"
+  ],
+  "dedupe_keys": [
+    "host:humaaans.com",
+    "name:humaaans"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Open Peeps",
+      "url": "https://www.openpeeps.com",
+      "why": "Pablo Stanley's hand-drawn CC0 mix-and-match people library with a more characterful sketch style"
+    },
+    {
+      "name": "unDraw",
+      "url": "https://undraw.co",
+      "why": "Large free open-license SVG illustration set with on-site color customization"
+    },
+    {
+      "name": "Storyset",
+      "url": "https://storyset.com",
+      "why": "Customizable and animatable illustrations with multiple styles and SVG/animated export (free tier requires attribution)"
+    }
+  ],
+  "user_notes": ""
+}

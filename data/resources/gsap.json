@@ -1,0 +1,113 @@
+{
+  "id": "gsap",
+  "name": "GSAP (GreenSock Animation Platform)",
+  "url": "https://gsap.com",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Professional JavaScript animation library, backed by Webflow and now fully free, including all former paid plugins.",
+  "what_it_offers": "A high-performance tweening and timeline engine that animates CSS, SVG, canvas, WebGL and JS objects. Plugins include ScrollTrigger, ScrollSmoother, ScrollTo, Observer, Draggable, Inertia, Flip, SplitText, ScrambleText, DrawSVG, MorphSVG, MotionPath, Physics2D, PhysicsProps, CustomBounce, CustomWiggle and GSDevTools. The site has full v3 docs, a React guide (useGSAP), video lessons, CodePen demos, a showcase, forums, and a private Discord for free account holders.",
+  "resource_type": "Animation library",
+  "tags": [
+    "animation",
+    "javascript",
+    "scrolltrigger",
+    "svg animation",
+    "text animation",
+    "timeline",
+    "react",
+    "webflow",
+    "motion design"
+  ],
+  "output_type": "Code",
+  "tech_stack": "Vanilla JS (framework-agnostic); @gsap/react hook for React; works with Vue, Svelte, Next.js",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Motion & interaction",
+    "Build",
+    "Research & moodboard"
+  ],
+  "portfolio_fit": 5,
+  "portfolio_fit_reason": "GSAP is the go-to engine for signature portfolio motion: scroll-driven case studies, SplitText headline reveals, Flip transitions between project grid and detail views. Every plugin is now free, and there are official agent skills.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "Hero & signature visuals",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The GSAP Standard no-charge license explicitly allows commercial use. It only bans use inside no-code animation builders that compete with Webflow.",
+  "best_use_for_portfolio": "Use useGSAP in Next.js to animate the hero name or tagline with SplitText. Pin and scrub a ScrollTrigger timeline through each case study's process steps, and animate from the project grid into the detail page with Flip. Install gsap-skills so a coding agent writes correct cleanup and reduced-motion handling.",
+  "category": "Animation & motion libraries (code)",
+  "subcategory": "Timeline & scroll animation engine",
+  "tier": "Core",
+  "tier_reason": "The main engine behind signature portfolio motion: scroll-driven case studies, SplitText reveals, Flip grid-to-detail transitions. All plugins are free, and it has agent skills.",
+  "overlap_group": "JS animation engines",
+  "pick_over_overlaps": "Use it for long scroll-driven timelines, SVG drawing and morphing, text splitting and framework-agnostic sequencing. Its license bars building a competing no-code animation tool.",
+  "website_design_score": 5,
+  "score_rationale": "GSAP is the industry-standard engine behind most award-winning motion sites, and every premium plugin is now free. The llms.txt docs and official agent skills help coding agents generate correct code. It is the most useful building block for distinctive interaction design.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything is free: the core library and all plugins (ScrollTrigger, SplitText, MorphSVG, etc.), including for commercial use, under the GSAP Standard 'no charge' license. A free account adds the private Discord, forums, and feature announcements.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://gsap.com/pricing/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "GSAP Standard 'no charge' license (proprietary, not OSI open source; effective 2025-04-30, last modified 2025-05-30). Commercial use is explicitly allowed. It prohibits using GSAP in no-code visual animation builder tools that compete with Webflow, and bans reverse engineering to build competing products. The FAQ says AI-generated GSAP code is explicitly not a prohibited use.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "npm package 'gsap' (all plugins included) and '@gsap/react'. gsap.com/llms.txt indexes the full docs as per-page .md files. Official AI agent skills are at github.com/greensock/gsap-skills (MIT, installable with the skills CLI for Claude Code, Cursor, Codex, etc.). No official MCP server found, only third-party community ones.",
+  "maintenance_signal": "GitHub greensock/GSAP: about 28.4k stars, last push 2026-04-13. npm latest is 3.15.0 (2026-04-13). About 3.5M npm downloads a week (2026-09-05 to 09-11). greensock/gsap-skills: about 15.2k stars, pushed 2026-07-29.",
+  "caveats": "The license is not true open source and bars use in no-code animation builders that compete with Webflow, so avoid it if you are building a visual animation tool. Webflow ownership is a long-term governance risk. The imperative API needs cleanup in React (use useGSAP or gsap.context). The last core release was April 2026, a slower cadence. Heavy scroll animation can hurt performance and accessibility if you ignore prefers-reduced-motion.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "similar_sites_outside_list (existence verified; absence from the original list not checkable here)"
+  ],
+  "evidence_urls": [
+    "https://gsap.com",
+    "https://gsap.com/pricing/",
+    "https://gsap.com/community/standard-license/",
+    "https://gsap.com/llms.txt",
+    "https://registry.npmjs.org/gsap",
+    "https://api.npmjs.org/downloads/point/last-week/gsap",
+    "https://github.com/greensock/GSAP",
+    "https://github.com/greensock/gsap-skills",
+    "https://github.com/theatre-js/theatre"
+  ],
+  "aliases": [
+    "s02",
+    "GreenSock"
+  ],
+  "dedupe_keys": [
+    "host:gsap.com",
+    "host:greensock.com",
+    "github:greensock/gsap",
+    "github:greensock/gsap-skills",
+    "npm:gsap",
+    "npm:@gsap/react",
+    "name:gsap"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Motion",
+      "url": "https://motion.dev",
+      "why": "React-first declarative animation library (formerly Framer Motion) with layout and scroll animations. MIT core."
+    },
+    {
+      "name": "Anime.js",
+      "url": "https://animejs.com",
+      "why": "Lightweight MIT-licensed JS animation engine with timelines, SVG, and scroll-observer features."
+    },
+    {
+      "name": "Theatre.js",
+      "url": "https://www.theatrejs.com",
+      "why": "Visual keyframe timeline editor for fine-tuning complex web and 3D animation. Note: last npm release was May 2024 and the repo has been inactive since August 2024."
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,113 @@
+{
+  "id": "awwwards",
+  "name": "Awwwards",
+  "url": "https://www.awwwards.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Web design awards gallery with daily Site of the Day, agency directory, courses and template market.",
+  "what_it_offers": "A juried showcase of award-winning websites (Site of the Day/Month/Year, Honorable Mentions, Nominees, Developer Awards), filterable by category (e-commerce, portfolio, architecture) and technology (WebGL, React, GSAP, Framer, Webflow, Three.js), plus Collections, Elements and a Magazine. It also runs Academy (100+ video courses on UI, creative coding and Figma, 3+ new each month), a Market selling Framer/HTML/Figma templates, a jobs board, and paid Pro memberships that include a Directory listing. On 2026-09-14 the Site of the Day was Léo Parpeix - Portfolio 2026.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "awards",
+    "web design inspiration",
+    "site of the day",
+    "WebGL",
+    "creative development",
+    "agency directory",
+    "courses",
+    "templates",
+    "motion"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "N/A (gallery). Site itself: server-rendered backend with an API Platform-style OpenAPI/JSON:API and a Stimulus-style JS front end (data-action controllers)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction",
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 5,
+  "portfolio_fit_reason": "The standard benchmark for expressive portfolio sites. It has a portfolio category and technology filters (GSAP, WebGL, Three.js), and portfolios regularly win Site of the Day.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Motion & scroll storytelling",
+    "Hero & signature visuals"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "Showcased sites belong to their creators, and Awwwards grants no reuse rights. Market templates carry per-product licenses that were not reviewed.",
+  "best_use_for_portfolio": "Filter Sites of the Day by the Portfolio category plus a technology such as GSAP or WebGL, then pick 5 to 10 winners. Study their hero treatment, type scale and scroll choreography in DevTools, and give a coding agent those URLs along with written motion specs to rebuild in your own style.",
+  "category": "Web & product UI inspiration",
+  "subcategory": "Juried award gallery",
+  "tier": "Core",
+  "tier_reason": "The benchmark for expressive portfolio sites, with a portfolio category, technology filters and frequent portfolio Site of the Day winners.",
+  "overlap_group": "Curated website showcases",
+  "pick_over_overlaps": "The primary source for ambitious marketing and portfolio sites. Check the performance and accessibility of any awarded site before borrowing its ideas. Ignore the Academy countdown, which restarts on every visit.",
+  "website_design_score": 5,
+  "score_rationale": "This is the standard reference for ambitious, expressive marketing and portfolio sites. The technology filters (WebGL, GSAP, Three.js, Framer) link to real sites you can inspect, which is exactly what's needed when aiming for a distinctive site. It gives no code, though, and it leans toward agency showpieces over product UI.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "All awarded sites, nominees, collections, magazine articles and category/technology filters are free to browse without an account. A free account enables voting and collecting/saving.",
+  "paid_entry_usd_month": 15,
+  "paid_entry_label": "Entry tier is the Pro membership (called Directory/Professional Plans). Basic Plan Member costs $15/mo billed monthly or $6.70/mo billed annually, and includes a Directory listing, 10% off submissions and Market products, and 60% off courses. For courses only, the Academy Creative Pass is $25/mo billed monthly or $12/mo on the yearly plan ($144/yr). Its 'This offer ends in' countdown is a script timer that always counts down 7 days from the current visit, so it restarts on every visit and is not a real deadline. Site submissions ($65) are a separate fee, not a plan.",
+  "paid_top_label": "Pro International Plan Member: $555/mo billed monthly or $324/mo billed annually. The middle Professional Plan Member is $26/mo billed monthly or $13.75/mo billed annually ($165/yr). That matches the $165/yr 'Standard Submission + User Pro' bundle, since Professional already includes one free submission a year, so 'User Pro' appears to be this plan.",
+  "one_time_usd": 9.99,
+  "pricing_source_url": "https://www.awwwards.com/pro/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Reference only. The showcased websites belong to their creators and Awwwards grants no reuse rights. Market templates are sold by third-party authors under per-product licenses, which were not reviewed.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "llms.txt at /llms.txt plus a small read-only public OpenAPI spec (/openapi.json) that only covers Annual Awards categories and nominees. There is no MCP server, npm package or gallery API, so agents have to read the public HTML pages.",
+  "maintenance_signal": "Very active: Site of the Day dated 2026-09-14, 2026 Annual Awards nominee API live, llms.txt and OpenAPI published, and Academy says 3+ new courses are added each month.",
+  "caveats": "No downloadable code or assets. Awarded sites are often heavy, experimental and less accessible, so copying them wholesale can hurt performance and UX. Pricing covers three separate products: Pro memberships/Directory (subscription), Academy (Creative Pass subscription or $9.99 single courses) and award submissions ($65 per site, or $165 bundled with a year of User Pro). The pages push upsells hard. Academy shows constant 'special offer' framing: courses are listed as 91% off $100, and the Creative Pass countdown restarts on every visit, so treat the discounted prices as the normal prices. The $12 Creative Pass rate requires paying $144 a year up front. Some awarded sites decay or disappear after the award. The API does not cover the gallery.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (Market per-product license terms not reviewed)",
+    "free_tier (which actions need a free account was not tested)",
+    "paid_top_label ('User Pro' = Professional Plan Member is inferred from the matching $165/yr price; the /pro page does not use the name 'User Pro')"
+  ],
+  "evidence_urls": [
+    "https://www.awwwards.com/",
+    "https://www.awwwards.com/llms.txt",
+    "https://www.awwwards.com/openapi.json",
+    "https://www.awwwards.com/pro/",
+    "https://www.awwwards.com/plans/user-plans",
+    "https://www.awwwards.com/submit/",
+    "https://www.awwwards.com/academy/",
+    "https://www.awwwards.com/academy-plan",
+    "https://assets.awwwards.com/dist/js/redesign_academy_home.828596e1.js",
+    "https://www.awwwards.com/market/",
+    "https://www.cssdesignawards.com/",
+    "https://thefwa.com/",
+    "https://www.siteinspire.com/"
+  ],
+  "aliases": [
+    "s52"
+  ],
+  "dedupe_keys": [
+    "host:awwwards.com",
+    "name:awwwards"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "CSS Design Awards",
+      "url": "https://www.cssdesignawards.com/",
+      "why": "Another juried daily web design award gallery, with UI/UX/innovation scoring and a panel of 200+ judges."
+    },
+    {
+      "name": "The FWA",
+      "url": "https://thefwa.com/",
+      "why": "A long-running award site focused on cutting-edge interactive and experimental web work."
+    },
+    {
+      "name": "SiteInspire",
+      "url": "https://www.siteinspire.com/",
+      "why": "A calmer, well-tagged showcase of clean, typographic websites filterable by style, type and subject."
+    }
+  ],
+  "user_notes": ""
+}
