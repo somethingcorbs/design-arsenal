@@ -2,7 +2,7 @@
   "probe_version": 1,
   "run": 2,
   "started_at": "2026-09-14T20:08:44Z",
-  "finished_at": null,
+  "finished_at": "2026-09-14T20:12:43Z",
   "checks": [
     {
       "id": "env",
@@ -68,6 +68,31 @@
       "id": "git_branch",
       "ok": true,
       "detail": "git branch --show-current -> claude/probe-run2 (created via override before any commit). git log -1 --format='%an <%ae>' -> somethingcorbs <corbinsterling9@gmail.com>."
+    },
+    {
+      "id": "commit_push_branch",
+      "ok": true,
+      "detail": "Wrote data/runs/probe-run2.json (partial), git add + commit -m 'probe: M0 run2 partial results' -> exit 0. git log -1 --format='%an <%ae>' after commit -> 'Claude <noreply@anthropic.com>' (note: this differs from the repo's existing commit author 'somethingcorbs <corbinsterling9@gmail.com>' seen in check 13 before this commit -- commits made by this session are authored as Claude, not the repo owner). git push -u origin HEAD -> succeeded, exit 0, new branch 'claude/probe-run2' created on origin, tracking set up."
+    },
+    {
+      "id": "push_main",
+      "ok": true,
+      "detail": "echo probe > data/runs/probe-main-push.txt; git add; git commit -m 'probe: main push test' -> exit 0 (commit 365dbd5). git push origin HEAD:main -> REJECTED as expected. Exact remote message: 'remote: error: GH013: Repository rule violations found for refs/heads/main.' / 'remote: Review all repository rules at https://github.com/somethingcorbs/design-arsenal/rules?ref=refs%2Fheads%2Fmain' / 'remote: - Changes must be made through a pull request.' / '! [remote rejected] HEAD -> main (push declined due to repository rule violations)'. Local exit code 1. Confirms a repository ruleset now enforces PR-only changes to main (did not exist as an enforced block in run 1). git reset --hard HEAD~1 run afterward to discard the test commit, confirmed HEAD back at the prior commit."
+    },
+    {
+      "id": "pr",
+      "ok": true,
+      "detail": "'gh' not installed; used mcp__github__create_pull_request(owner=somethingcorbs, repo=design-arsenal, head=claude/probe-run2, base=main, draft=true, title='probe: run 2 results') -> succeeded, created PR #2, url https://github.com/somethingcorbs/design-arsenal/pull/2, draft=true. Labeling: no dedicated 'add label' tool found; used mcp__github__issue_write(method=update, owner=somethingcorbs, repo=design-arsenal, issue_number=2, labels=['scout-run']) -> succeeded (PRs are addressable as issues for labeling). Verified via mcp__github__pull_request_read(method=get, pullNumber=2): labels=['scout-run'] confirmed applied, state=open, draft=true, mergeable_state=unstable. Tools used across checks 12/16: mcp__github__get_me, mcp__github__get_file_contents, mcp__github__search_repositories, mcp__github__create_pull_request, mcp__github__issue_write, mcp__github__pull_request_read."
+    },
+    {
+      "id": "timing",
+      "ok": true,
+      "detail": "Started 2026-09-14T20:08:44Z, finished 2026-09-14T20:12:43Z (probe.json final write). Approx 4 minutes total."
+    },
+    {
+      "id": "session_limits",
+      "ok": true,
+      "detail": "Env var CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION=300 (name and value, not secret). .claude/settings.json contains env.CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION='300', matching the live env var exactly -> settings.json env was applied to this session. Note: config/arsenal.config.json separately sets limits.max_web_searches_per_run=120 (an app-level config value, distinct from and lower than the session env var ceiling of 300)."
     }
   ]
 }
