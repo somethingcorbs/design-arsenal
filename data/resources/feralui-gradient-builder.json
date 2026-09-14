@@ -1,0 +1,113 @@
+{
+  "id": "feralui-gradient-builder",
+  "name": "FeralUI Gradient Builder",
+  "url": "https://feralui.dev/gradients",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free no-signup gradient editor blending mesh, grainy and animated gradients from traditional Japanese colours.",
+  "what_it_offers": "A full gradient editor inside the FeralUI showcase with 20+ gradient types (animated mesh, grainy blobs, aurora ribbons, waves, linear/radial/conic, pixel grids, skyline wallpapers, SVG shape posters with type) and a large searchable palette of named traditional Japanese colours. Exports PNG, JPG, SVG, HTML, CSS and JSON, plus MP4 for animated gradients, and copied SVG pastes into Figma as named editable layers. Dedicated sub-pages exist for each type (mesh, grainy, animated, aurora, wave, etc.).",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "gradients",
+    "mesh-gradient",
+    "grainy",
+    "animated-gradient",
+    "japanese-colors",
+    "svg",
+    "css",
+    "mp4",
+    "figma",
+    "free"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "React + TypeScript SPA (Vite-style hashed module chunks), Canvas 2D plus raw WebGL/WebGL2 contexts for rendering, mp4-muxer for video, Cloudflare Turnstile on export; hosted on Cloudflare",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics",
+    "Build"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Free, unlimited mesh, grainy and aurora gradients with CSS, SVG and MP4 exports suit portfolio heroes and case-study headers directly. The curated Japanese palette also helps set colour direction. Export licensing is unstated.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Color & theming",
+    "Imagery, illustration & textures"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "No license or commercial-use statement covers exports. The FAQ says everything is free with no watermark, and the Terms cover only site code. Confirm with the maintainer for client work.",
+  "best_use_for_portfolio": "Generate a soft mesh or grainy gradient for the portfolio hero and case-study section backgrounds. Export it as CSS or SVG so it stays sharp at any size, or as a short MP4 loop for a subtle moving hero. Pull a few named colours from the palette into your theme tokens.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Mesh/animated gradient builder",
+  "tier": "Situational",
+  "tier_reason": "Free mesh, grainy and aurora gradients with CSS, SVG and MP4 export suit heroes directly, but export licensing is unstated and it covers a single effect category.",
+  "overlap_group": "Static background, gradient & pattern generators",
+  "pick_over_overlaps": "Use it for an animated mesh or aurora gradient as CSS/HTML or MP4 without a WebGL runtime, or when you want named Japanese palettes.",
+  "website_design_score": 4,
+  "score_rationale": "Free and unlimited, with a tasteful curated palette. Its code-friendly exports (SVG, CSS, HTML) and MP4 for motion mean it can shape both a site's visual direction and its actual background code. The gaps are unstated export licensing and no programmatic access.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything: all gradient types, palettes and export formats (SVG, PNG, JPG, CSS, HTML, JSON, MP4), no signup, no watermark",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://feralui.dev/gradients",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No explicit license or commercial-use statement covers exported gradients (re-checked 2026-09-14). The FAQ on /gradients and every type sub-page (mesh, grainy, wallpaper, etc.) only answers 'is it free', saying every type, palette and export format is free with no signup and no watermark. The export dialog's HTML option invites you to open the page in a browser or lift the markup into your own site. That implies you can use exports on your site but grants no license. The Terms (/terms) say the demos are free to use and need no account. Their only licensing clause is about code: demos not published as npm packages are 'not offered under a licence and may not be copied or redistributed'. That clause governs the site's code, and the Terms never mention what users create or export. The separate FeralUI npm packages are MIT. Commercial use of exports is probably fine, but it is unconfirmed; for certainty, email the maintainer through the contact page. You are responsible for any text, logos or images you add to poster exports.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "llms.txt at https://feralui.dev/llms.txt and a sitemap describing each tool; CSS/SVG/HTML/JSON exports can be pasted straight into a codebase by an agent. No API, MCP, shadcn registry or npm package for the gradient builder itself.",
+  "maintenance_signal": "Active: sitemap lastmod for /gradients 2026-07-19, new tools added through 2026-09-12 (Brandkit 09-02, Torph 09-08, Nudge 09-12), privacy page changelog entry dated 10 September 2026; author mortspace (Sarthak Navalekar) GitHub repos pushed as recently as 2026-09-07 (playcaptcha, 521 stars, MIT).",
+  "caveats": "Export licensing is not stated anywhere. It is a solo-maintained showcase project with a sponsor slot, so longevity is uncertain. MP4 exports are heavy compared with CSS. Google Analytics and the AdSense script load on every page; the privacy page says the cookie banner records your answer but does not switch the Google tags on or off, and no ads are placed. Each export is logged with a small preview image of your design and runs an invisible Cloudflare Turnstile check. Animated gradients are not exported as live code components.",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no statement on export rights in the FAQ, export dialog or Terms; maintainer not contacted)"
+  ],
+  "evidence_urls": [
+    "https://feralui.dev/gradients",
+    "https://feralui.dev/gradients/mesh-gradient",
+    "https://feralui.dev/gradients/grainy-gradient",
+    "https://feralui.dev/gradients/gradient-wallpaper",
+    "https://feralui.dev/llms.txt",
+    "https://feralui.dev/sitemap.xml",
+    "https://feralui.dev/terms",
+    "https://feralui.dev/privacy",
+    "https://feralui.dev/assets/JapaneseGradients-COHg-cs_.js",
+    "https://feralui.dev/assets/Legal-2dkfD1sl.js",
+    "https://feralui.dev/",
+    "https://github.com/mortspace",
+    "https://www.gradientshub.com/blog/feralui-gradients-tool/",
+    "https://designtoolmark.com/resources/detail/feralui-gradients"
+  ],
+  "aliases": [
+    "s45"
+  ],
+  "dedupe_keys": [
+    "host:feralui.dev/gradients",
+    "name:feralui-gradient-builder"
+  ],
+  "parent_id": "feralui",
+  "comparables": [
+    {
+      "name": "ShaderGradient",
+      "url": "https://shadergradient.co",
+      "why": "Free animated shader gradients usable as a React component, Framer component or Figma plugin."
+    },
+    {
+      "name": "Mesher by CSS Hero",
+      "url": "https://csshero.org/mesher/",
+      "why": "Free mesh gradient generator that outputs pure CSS."
+    },
+    {
+      "name": "fffuel",
+      "url": "https://www.fffuel.co",
+      "why": "Collection of free SVG generators for grainy gradients, noise, blobs and patterns with copyable code."
+    }
+  ],
+  "user_notes": ""
+}

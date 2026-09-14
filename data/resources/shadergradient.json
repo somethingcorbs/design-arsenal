@@ -1,0 +1,116 @@
+{
+  "id": "shadergradient",
+  "name": "ShaderGradient",
+  "url": "https://shadergradient.co/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Customizable 3D animated WebGL gradients for Figma, Framer and React, with a free web editor.",
+  "what_it_offers": "A browser editor (shadergradient.co/customize) where you set shape (plane, sphere or waterPlane), colors, noise, lighting, grain, camera and animation. Every setting is saved in a shareable URL query string. You can use the same gradient through the MIT-licensed React package @shadergradient/react (built on three.js and react-three-fiber), a Framer plugin/component, or a Figma plugin (62.7k users, also works in FigJam, Slides and Buzz) that makes snapshots, adds GIFs to the canvas, and exports looping .gif/.webm files.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "gradient",
+    "webgl",
+    "shader",
+    "three.js",
+    "react-three-fiber",
+    "hero background",
+    "animation",
+    "figma plugin",
+    "framer plugin",
+    "open source"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "React + three.js + @react-three/fiber (WebGL shaders); marketing site built on Framer",
+  "skill_level": "Any",
+  "design_stages": [
+    "Visual direction",
+    "Build",
+    "Motion & interaction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "A fast route to a signature animated hero or section background on a React/Next or Framer portfolio, with a visual editor and typed component. It covers one effect only, and the look is common unless carefully art-directed.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Motion & scroll storytelling",
+    "Color & theming"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Code is MIT per README and npm metadata (repo lacks a LICENSE file). Framer plugin license listed as 'Limited'; exported GIF/WebM assets have no explicit terms.",
+  "best_use_for_portfolio": "Design a slow, brand-colored gradient in the /customize editor and render it behind the name and intro line of your portfolio home page via the urlString prop, lazy-loaded with a pixelDensity cap. Export a WebM or still as the reduced-motion and low-power fallback, and reuse the same palette as a subtle backdrop on case-study headers.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Animated WebGL gradient (React package)",
+  "tier": "Strong",
+  "tier_reason": "A quick path to a live animated gradient hero in React, Next.js or Framer, with a visual editor. It offers one effect, and the look is common without art direction.",
+  "overlap_group": "Code-exportable WebGL effects",
+  "pick_over_overlaps": "Use it when you want a live, configurable animated gradient shipped as a React component. Push the settings well off the presets.",
+  "website_design_score": 4,
+  "score_rationale": "One of the quickest ways to get a distinctive, high-quality animated hero background into a React/Next site: design it visually, then drop in a typed component. It only does one visual effect, not whole layouts, and the look is widely used, so it needs careful art direction to stay distinctive.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "Free: the web editor, the React npm package (MIT), the Framer plugin (no price listed on the Marketplace), and Figma static snapshots. In the Figma plugin, GIF/video extraction (adding a GIF or video to the canvas, or downloading .gif/.webm) has a free trial. After it ends, the plugin shows 'Upgrade to Pro'. The plugin source sets the trial to 7 days (`const trials = 7`, counted from trial_started_at, with a '(N days left)' label). I could not open the plugin inside Figma to see that screen.",
+  "paid_entry_usd_month": 4,
+  "paid_entry_label": "Figma plugin Pro $4/mo billed monthly, or $24/yr billed yearly (about $2/mo). Confirmed on the live Stripe checkout pages 'Subscribe to Shadergradient' ($4.00 per month; $24.00 per year, billed annually, plus tax) that the plugin's upgrade button opens.",
+  "paid_top_label": "Figma plugin Pro yearly $24/yr (about $2/mo), the only paid tier",
+  "one_time_usd": null,
+  "pricing_source_url": "https://buy.stripe.com/fZe5kVd2R53QcjC7su",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The code is MIT (© ruucm, stone-skipper), as stated in the README and in the npm package metadata, so you can use it on commercial sites. The GitHub repo has no LICENSE file (the API's /license endpoint returns 404). The Framer Marketplace lists the plugin license as 'Limited', linking to Framer's community terms. No explicit license terms were found for exported GIF/video assets.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "npm package @shadergradient/react with typed props. An agent can paste a /customize URL into the urlString prop (control='query') to reproduce a designed gradient exactly. The README has CodeSandbox starters for CRA, Next.js (Pages and App Router) and Vite + React 19, plus a compatibility table. No MCP server, shadcn registry or llms.txt (shadergradient.co/llms.txt returns 404).",
+  "maintenance_signal": "GitHub ruucm/shadergradient: 2,438 stars, last push 2026-09-04. The last main-branch commit is v2.4.24 on 2026-06-11. The npm latest tag is still 2.4.20 (published 2025-12-08) and got 19,047 downloads in the week of Sept 5-11, 2026. The plugin's pricing and trial code was last changed 2025-12-11. Figma plugin Version 10 (FigJam support) came out on 2025-12-16.",
+  "caveats": "Adds three.js and R3F to the bundle, which is heavy for a background, and needs a GPU with WebGL. The Next 15 App Router requires React 19 + R3F v9 (per the README). The npm release lags the repo (2.4.20 vs 2.4.24). Figma Pro is billed through external Stripe links, not Figma's built-in payments, so you cancel through the plugin's 'support' link (Stripe customer portal), not in Figma account settings; one Figma comment reports confusion about this. The 7-day trial length comes from plugin source code, not from the in-Figma screen. Some Figma comments report short or failed WebM exports and low-res snapshots. The popular 'Stripe-like gradient' look can feel generic.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "free_tier (7-day trial length taken from plugin source code; the in-Figma upgrade/trial screen was not opened, since that needs a Figma login)"
+  ],
+  "evidence_urls": [
+    "https://shadergradient.co/",
+    "https://shadergradient.co/customize",
+    "https://buy.stripe.com/fZe5kVd2R53QcjC7su",
+    "https://buy.stripe.com/00g5kV0g553QcjC9AB",
+    "https://github.com/ruucm/shadergradient/blob/main/packages/ui/src/overrides/FigmaPlugin/consts.ts",
+    "https://github.com/ruucm/shadergradient/blob/main/packages/ui/src/overrides/FigmaPlugin/Pricing.tsx",
+    "https://github.com/ruucm/shadergradient/blob/main/packages/ui/src/overrides/FigmaPlugin/UI.tsx",
+    "https://github.com/ruucm/shadergradient/blob/main/packages/ui/src/overrides/FigmaPlugin/utils.ts",
+    "https://github.com/ruucm/shadergradient",
+    "https://raw.githubusercontent.com/ruucm/shadergradient/main/README.md",
+    "https://registry.npmjs.org/@shadergradient/react",
+    "https://api.npmjs.org/downloads/point/last-week/@shadergradient/react",
+    "https://www.figma.com/community/plugin/1203016883447870818/shadergradient",
+    "https://www.framer.com/marketplace/plugins/shadergradient/"
+  ],
+  "aliases": [
+    "s07"
+  ],
+  "dedupe_keys": [
+    "host:shadergradient.co",
+    "github:ruucm/shadergradient",
+    "npm:@shadergradient/react",
+    "name:shadergradient"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Paper Shaders",
+      "url": "https://github.com/paper-design/shaders",
+      "why": "Open-source, zero-dependency canvas shader backgrounds (mesh gradient, grain, dithering) for React or vanilla JS, much lighter than three.js"
+    },
+    {
+      "name": "Unicorn Studio",
+      "url": "https://www.unicorn.studio",
+      "why": "No-code WebGL effects and scene editor with embeddable exports for richer interactive hero visuals"
+    },
+    {
+      "name": "Neat Gradients",
+      "url": "https://neat.firecms.co",
+      "why": "Free animated 3D gradient generator (25 presets) that exports code, PNG or MP4, a close functional alternative"
+    }
+  ],
+  "user_notes": ""
+}

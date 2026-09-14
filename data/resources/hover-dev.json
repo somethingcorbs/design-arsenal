@@ -1,0 +1,117 @@
+{
+  "id": "hover-dev",
+  "name": "Hover.dev",
+  "url": "https://www.hover.dev/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Copy-paste animated React + Tailwind + Framer Motion components, sections and templates, by Tom Is Loading.",
+  "what_it_offers": "A catalog of animated UI pieces. Sections cover FAQ, forms, heroes, features, pricing, sign-in, stats, testimonials, 3D and kanban boards. Components cover accordions, buttons, calendars, cards, carousels, countdowns, dropdowns, grids, inputs, links, loaders, modals, navbars, notifications, progress, tabs, tables, text effects, toggles and more. Each has a live preview and JSX/TSX code. Some components are marked Free (e.g. Encrypt, Spotlight, Draw Outline, Neubrutalism buttons) and the rest need Hover Pro. There are also 3 Next.js templates (Clean Neubrutalism, Steam Dev Portfolio, The Startup) and a free CSS color palette generator.",
+  "resource_type": "Component library",
+  "tags": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "animation",
+    "micro-interactions",
+    "landing-page-sections",
+    "copy-paste",
+    "templates"
+  ],
+  "output_type": "Code",
+  "tech_stack": "React + Tailwind CSS + Motion (formerly Framer Motion), some vanilla JS/keyframe animations; templates on Next.js (pages router)",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Motion & interaction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "High-craft animated React/Tailwind/Motion pieces (text effects, nav, cards, buttons) that give a portfolio signature motion, plus a developer portfolio template. The catalog is small, mostly Pro, and has grown little since 2024.",
+  "portfolio_jobs": [
+    "UI components & sections",
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Proprietary license allows unlimited commercial and client projects without attribution; no reselling, redistributing components, or reselling templates to multiple clients.",
+  "best_use_for_portfolio": "Paste an animated text effect into the home hero, a reveal-link or animated navbar for site navigation, and hover cards for the project grid, then adapt them to your design tokens. For a developer portfolio, the Steam Dev Portfolio template under the $49 lifetime Pro can be a starting point.",
+  "category": "Component & section libraries (code)",
+  "subcategory": "Copy-paste animated sections",
+  "tier": "Situational",
+  "tier_reason": "High-craft animated React pieces and a developer portfolio template, but the catalog is small, mostly Pro and has grown little since 2024, so better-maintained libraries come first.",
+  "overlap_group": "Animated React/Tailwind component sources",
+  "pick_over_overlaps": "Use it when a single $49 payment for a finished set of sections beats a subscription, and you don't need agent install.",
+  "website_design_score": 4,
+  "score_rationale": "High-craft, distinctive micro-interactions and animated sections in the common React, Tailwind and Motion stack. The one-time price is cheap and includes the templates. The catalog is smaller than the big registries, there is no agent or registry integration (apart from 5 components mirrored on 21st), and few components have been added since 2024-25.",
+  "pricing_model": "Freemium",
+  "billing_type": "One-time / lifetime",
+  "free_tier": "A subset of components marked Free. You can view and copy their code without signing up; on the Buttons page, 7 of 18 buttons are free. The CSS color palette generator is also free.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "No subscription. Hover Pro is $49 one-time for lifetime access, plus local taxes (Paddle checkout). The page shows it against a struck-through $149. That same $49/$149 display appears in Wayback snapshots from Jul 2024, Nov 2024, Feb 2025 and Mar 2025, and it's still live today with no countdown or limited-time wording. So $149 is a standing anchor price, not an expiring promo.",
+  "paid_top_label": "Hover Pro $49 one-time (only paid tier; no team or seat tier listed)",
+  "one_time_usd": 49,
+  "pricing_source_url": "https://www.hover.dev/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Custom proprietary license from Hover Dev, LLC. It grants a nonexclusive, worldwide license to use components on unlimited commercial, personal, open-source and client projects, with no attribution required. You may not sell or redistribute them as standalone products or compile them into a similar or competing service. The FAQ adds that you can't resell templates to multiple clients, and the footer says components may not be redistributed without written consent. There is a 30-day no-questions refund via help@hover.dev. Templates: the pricing page says Pro unlocks every component and template in the library, and the site code agrees. On a template page, the 'Unlock Template' button sends non-Pro users to /pricing, and the JS/TS downloads only appear for Pro accounts. Checkout uses a single Paddle price for Pro, so the 3 current templates are included. The FAQ only excludes future products Hover might release (courses, templates, etc.), so a new template could be sold separately. The two pages don't actually contradict each other.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "No MCP server, shadcn registry, npm package or llms.txt; /llms.txt and /r/registry.json both return 404. Code is plain copy-paste JSX/TSX that an agent can paste in. A 'Hover.Dev' library by @TomIsLoading on 21st.dev holds 5 components (Clip Path Links, Kanban, Reveal Links, Squishy Card, Vertical Accordion). Those 5 can be installed through the shadcn CLI or the 21st MCP, which needs a 21st API key.",
+  "maintenance_signal": "Low activity, but not abandoned. There is no /changelog (404), and searches found no dated launch posts; the footer still reads '© 2024 Hover Dev, LLC'. Wayback comparisons: the /components category list is identical to the Nov 2024 snapshot. About 10 category pages (carousels, inputs, notifications, modals, calendars, FAQ, pricing, 3D, testimonials, sign-in) match snapshots from Jun 2025 to Jun 2026 with no new components. The Text page gained one component (Live Users Now) after May 2025. Code-variant labels on Buttons and Text changed from 'framer' to 'motion', so the code was moved to the Motion package. Pages were rebuilt recently (HTTP Last-Modified 2026-09-09). The creator is active as @tomisloading on YouTube, TikTok and X.",
+  "caveats": "Proprietary license: you can't resell the components or package them into a template, kit or competing library. Most of the best pieces are Pro-only. There are no Figma or design files and no technical support. There's no MCP or CLI (except 5 components on 21st.dev), so agents need manual copy-paste. The catalog has grown very little since late 2024 (one new Text component found since May 2025), and the footer is dated 2024. Code variants are now labeled for the 'motion' package, but template pages still list Framer Motion, so template code may use older import paths. Future products such as new templates or courses are excluded from Pro and could cost extra.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "maintenance_signal (no first-party dated changelog; additions inferred from Wayback diffs of about 10 category pages, which only partly reveal Pro component names)",
+    "commercial_use_license (template inclusion in Pro confirmed from site code and the pricing page, not from a completed purchase)"
+  ],
+  "evidence_urls": [
+    "https://www.hover.dev/",
+    "https://www.hover.dev/pricing",
+    "https://www.hover.dev/license",
+    "https://www.hover.dev/faq",
+    "https://www.hover.dev/components",
+    "https://www.hover.dev/components/buttons",
+    "https://www.hover.dev/components/text",
+    "https://www.hover.dev/templates",
+    "https://www.hover.dev/templates/clean",
+    "https://www.hover.dev/sitemap.xml",
+    "https://www.hover.dev/css-color-palette-generator",
+    "https://web.archive.org/web/20240725041934/https://hover.dev/pricing",
+    "https://web.archive.org/web/20250314040230/https://www.hover.dev/pricing",
+    "https://web.archive.org/web/20241110220922/https://www.hover.dev/components",
+    "https://web.archive.org/web/20250518001507/https://www.hover.dev/components/text",
+    "https://web.archive.org/web/20260609181716/https://www.hover.dev/components/testimonials",
+    "https://21st.dev/@TomIsLoading/library/hover-dev",
+    "https://ui.aceternity.com",
+    "https://github.com/magicuidesign/magicui",
+    "https://github.com/ibelick/motion-primitives"
+  ],
+  "aliases": [
+    "s10"
+  ],
+  "dedupe_keys": [
+    "host:hover.dev",
+    "name:hover-dev"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "why": "Large set of flashy animated React/Tailwind/Motion sections with free components, a paid Pro/All-Access tier, and install through the shadcn CLI (@aceternity registry)."
+    },
+    {
+      "name": "Magic UI",
+      "url": "https://magicui.design",
+      "why": "Open-source (MIT, about 22k GitHub stars) animated marketing components for React/Tailwind/Motion, with a shadcn registry."
+    },
+    {
+      "name": "Motion Primitives",
+      "url": "https://motion-primitives.com",
+      "why": "Open-source (MIT) motion building blocks for React/Tailwind with a minimalist, high-craft feel."
+    }
+  ],
+  "user_notes": ""
+}

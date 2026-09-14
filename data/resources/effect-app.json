@@ -1,0 +1,118 @@
+{
+  "id": "effect-app",
+  "name": "Effect.app Explore (Effects & Presets Library)",
+  "url": "https://effect.app/explore",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Public library of about 85 presets and 71 real-time image/video effects from the Effect.app WebGL editor.",
+  "what_it_offers": "The Explore page works without logging in. It shows 'New presets' (Torn photo, Old editorial, Cross Hatch, Pencil drawing, Scribble frames, Cube hatch) and a full presets grid of about 85 looks, such as Riso print, Kodak Gold 200, Gameboy camera, PS1, MSX ASCII, Xerox, Cyanotype and Vintage Poster. A few are community presets (e.g. by legendgw39, inao72577). It also lists 71 effects in seven categories: Blur, Color, Distort, Effects (VHS, CRT screen, ASCII, Halftone screen, JPEG glitch, MacPaint), Generate, Custom and Film. Clicking a preset opens the editor to preview it in real time. The parent app processes media locally with WebGL/WebCodecs and offers keyframe animation, 4K-16K export and MP4/WebM/PNG sequences. There are also desktop apps (macOS/Windows), Figma and Photoshop plugins, a Chrome extension, an iOS beta, batch editing and a desktop MCP server.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "image effects",
+    "video effects",
+    "webgl",
+    "presets",
+    "film look",
+    "halftone",
+    "dither",
+    "glitch",
+    "figma plugin",
+    "mcp"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Vanilla JS (Vite-built assets) + WebGL + WebCodecs; Electron desktop app; Figma and Photoshop plugins",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Assets & graphics",
+    "Visual direction",
+    "Research & moodboard",
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "The login-free preset gallery works well for choosing a film, print or glitch treatment for portfolio imagery, and the editor can grade project media consistently. But output is baked media, and clean commercial exports need a paid plan.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Imagery, illustration & textures",
+    "Project media & mockups"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "Pricing page ties the commercial license to Pro ($12/mo) and above, and Free exports are watermarked at 720p. The Terms allow commercial use without naming a plan, and no legal entity is named.",
+  "best_use_for_portfolio": "Browse Explore to pick one treatment, such as Riso print, film grain or halftone. Apply it to every case-study cover, hero loop and OG image so the project grid reads as one art-directed set. On the Studio plan, an AI agent can batch-apply the preset to a whole image folder through the desktop MCP.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Film & print-process presets",
+  "tier": "Situational",
+  "tier_reason": "The preset gallery helps pick a film, print or glitch treatment and grade project media consistently. Output is baked, and clean commercial exports are paid.",
+  "overlap_group": "Lo-fi image & video effects",
+  "pick_over_overlaps": "Use it for film emulation and print-process looks at high resolution, and only if you will pay for Pro.",
+  "website_design_score": 3,
+  "score_rationale": "Explore is a strong, login-free visual reference for texture, film, print and glitch art direction, and the editor makes polished assets quickly, with an MCP for agent-driven batch grading. But output is baked images and video, not web code. The app needs an account, watermark-free and high-res exports are paid, Free-plan commercial rights are unclear, and the MCP is top-tier only.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "Explore can be browsed without an account. A free account is needed to use the app (per the FAQ and Terms). Free includes core effects, version history, the Figma and Photoshop plugins, 720p max export and 5-second max video. Exports are watermarked, the plan table shows no commercial license on Free, and the desktop app isn't included.",
+  "paid_entry_usd_month": 12,
+  "paid_entry_label": "Pro $12/mo billed monthly, or $120/yr billed yearly (shown as $10/mo). The page shows strikethrough prices of $18/mo and $15/mo under a 'Last week of the summer sale' banner. Archived price bundles from Oct 2025 to Jun 2026, before any strikethrough or sale, already had Pro at $12/mo and $120/yr. Price after the sale is unconfirmed.",
+  "paid_top_label": "Studio $30/mo billed monthly, or $300/yr billed yearly (shown as $25/mo); strikethrough $40/mo and $33/mo. Middle tier: Animate $20/mo, or $216/yr (shown as $18/mo); strikethrough $29 and $24. Animate was already $20/mo and $216/yr in a June 2026 bundle.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://effect.app/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Unresolved conflict. The pricing page, its FAQ ('Pro is for ... commercial license') and the features page ('Pro: For watermark-free commercial exports') give a commercial license only to Pro and up. The Terms (last updated 03/03/2026) say you may use the app for personal or commercial projects and export and distribute what you make, with no plan requirement. No FAQ or clause settles this, and the Terms are out of date (they name only Pro and Animate, not Studio). Treat commercial use as requiring Pro or above. No legal entity is named anywhere. The only contact is support@effect.app, and checkout goes through Stripe.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Desktop MCP server (Studio plan only), with setup commands for Claude Desktop, Claude Code and Codex (plus an 'Other' manual config). It runs locally inside the desktop app on macOS/Windows and drives the open editor to load images, stack and tune effects, keyframe, batch and export. No API key. No npm package, public web API or llms.txt (404). Explore renders client-side, so fetching it without JS returns only the page shell.",
+  "maintenance_signal": "Very active changelog: MacPaint effect Sep 11, 2026; light theme Sep 7; JPEG Glitch Sep 4; Photoshop plugin Aug 30; Studio plan with 16K, batch and MCP Aug 16; Scatter Aug 12; Infrared Film Aug 11; desktop app Jul 21, 2026. The features page lists the same recent entries as of Sep 14, 2026.",
+  "caveats": "Explore is public, but the app needs a free account (per FAQ and Terms). Free exports are 720p, up to 5 seconds of video and watermarked. The pricing page ties the commercial license to paid plans while the Terms allow commercial use without naming a plan. The strikethrough prices ($18/$29/$40 monthly, $15/$24/$33 yearly) sit under a 'Last week of the summer sale' banner, but the prices actually charged ($12/$20/$30 monthly, $120/$216/$300 yearly) match pre-sale pricing, so it's unclear whether prices rise when the sale ends. Effects can't be exported as shaders or code. The desktop app needs internet and Pro or above. The MCP is Studio-only, drives only the desktop app and has no Linux support. No company or legal entity is named.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "Company/creator identity (no legal entity named in Terms, Privacy, FAQ or footer)",
+    "Regular pricing after the summer sale (sale still running on 2026-09-14; not re-checkable yet)",
+    "Whether the Free plan may be used commercially (Terms and pricing table conflict)",
+    "Whether exporting logged out is blocked (editor opens without login; export not tested)"
+  ],
+  "evidence_urls": [
+    "https://effect.app/explore",
+    "https://effect.app/pricing",
+    "https://effect.app/assets/Auth-DynS4Cek.js",
+    "https://effect.app/faq",
+    "https://effect.app/features",
+    "https://effect.app/mcp",
+    "https://effect.app/terms",
+    "https://effect.app/privacy",
+    "https://effect.app/changelog",
+    "https://effect.app/desktop",
+    "https://web.archive.org/web/20251009204947id_/https://effect.app/assets/prices-Cj01sY5E.js",
+    "https://web.archive.org/web/20260421161827id_/https://effect.app/assets/prices-Cu7X7oL2.js",
+    "https://web.archive.org/web/20260622184345id_/https://effect.app/assets/planLimits-BwA1s54Q.js",
+    "https://web.archive.org/web/20260719182612id_/https://effect.app/assets/planLimits-BXqYFVPx.js",
+    "https://web.archive.org/web/20260729144034/https://effect.app/pricing"
+  ],
+  "aliases": [
+    "s39"
+  ],
+  "dedupe_keys": [
+    "host:effect.app",
+    "name:effect-app-explore"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Unicorn Studio",
+      "url": "https://www.unicorn.studio",
+      "why": "Similar effect stack, but it exports live, interactive WebGL scenes you can embed on websites instead of baked media."
+    },
+    {
+      "name": "Paper Shaders",
+      "url": "https://shaders.paper.design",
+      "why": "Free open-source shader components (grain, halftone, dithering, gradients) for creating these looks in React code."
+    },
+    {
+      "name": "VFX-JS",
+      "url": "https://amagi.dev/vfx-js/",
+      "why": "JS library that applies WebGL effects (glitch, RGB shift, custom shaders) directly to images, video and text on a live site."
+    }
+  ],
+  "user_notes": ""
+}

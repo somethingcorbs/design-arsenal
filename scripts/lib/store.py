@@ -58,9 +58,11 @@ def url_keys(url: str) -> list[str]:
     if not h:
         return []
     kind = SHARED_HOSTS.get(h)
+    parts = [p for p in urlparse(url if "://" in url else "https://" + url).path.lower().split("/") if p]
+    if not kind and h.endswith(".github.io") and parts:
+        return [f"host:{h}/{parts[0]}"]  # user/org pages host many projects
     if not kind:
         return [f"host:{h}"]
-    parts = [p for p in urlparse(url if "://" in url else "https://" + url).path.lower().split("/") if p]
     if kind == "github" and len(parts) >= 2:
         return [f"github:{parts[0]}/{parts[1]}"]
     if kind == "npm" and len(parts) >= 2 and parts[0] == "package":

@@ -1,0 +1,107 @@
+{
+  "id": "tooooools",
+  "name": "Tooooools.app",
+  "url": "https://www.tooooools.app/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free in-browser lo-fi image and video effects: dithering, halftone, stippling, ASCII, CRT, patterns and more.",
+  "what_it_offers": "A browser canvas with 14 effects (stippling, dots/halftone, patterns, edge, distort, displace, dithering with F-S/Bayer/random patterns and a color mode, bevel, recolor, scatter, cellular automata, gradients, CRT, ASCII) and two animate tools (slide, stack). You upload JPG/PNG or MP4 and adjust preprocessing (blur, grain, gamma, black and white point), threshold and grid settings. Exports are raster canvas, SVG for Stippling, Dots, Edge and Dithering, and GIF/MP4/WebM or frame sequences for video, encoded in the browser with ffmpeg.wasm and scaled down to at most 1920x1080.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "dithering",
+    "halftone",
+    "stippling",
+    "ascii-art",
+    "crt-effect",
+    "image-effects",
+    "video-effects",
+    "svg-export",
+    "lo-fi",
+    "texture",
+    "free"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Next.js (React) on Vercel + p5.js 1.5.0 + p5.js-svg 1.5.1 + ffmpeg.wasm for video export",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics",
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Free, no-signup dither, halftone and stipple effects, with SVG export for four of them, give portfolio portraits and project covers a distinctive lo-fi identity. It's a niche asset tool, not a build or layout resource.",
+  "portfolio_jobs": [
+    "Imagery, illustration & textures",
+    "Hero & signature visuals",
+    "Visual direction & moodboard"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Site states outputs are free for personal and commercial use with no attribution required; a custom statement rather than a formal license.",
+  "best_use_for_portfolio": "Convert a portrait or project covers with Stippling, Dots or Dithering and export SVG to get crisp, recolorable art that follows the site's theme colors. Export MP4/WebM of a short product clip for a lightweight looping hero background.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Dither/halftone/stipple effects with SVG export",
+  "tier": "Situational",
+  "tier_reason": "Free dither, halftone and stipple effects, with some SVG export, give portraits and covers a lo-fi identity. A niche asset tool, not a build resource.",
+  "overlap_group": "Lo-fi image & video effects",
+  "pick_over_overlaps": "The default of the lo-fi group, because of its SVG export and free, unwatermarked output.",
+  "website_design_score": 4,
+  "score_rationale": "A quick, free, license-clean way to make distinctive textured hero images, dithered photos, halftone portraits and SVG stipple art that set a site apart from stock visuals. Output is assets only, not code, so it is less direct for a React/Tailwind build.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything: all effects, image/SVG/GIF/MP4/WebM export, no sign-up. The /support page accepts optional crypto donations (BTC, USDT) and says donations unlock no extra features.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.tooooools.app/about",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The site says outputs are free for personal and commercial use, and attribution isn't required but is appreciated. This is a custom statement, not a formal license. No public source repository was found. The GitHub org 'tooooools' belongs to an unrelated studio called Toools.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. No API, MCP, npm package or llms.txt. It is a manual GUI tool, so an agent can only use exported files that a person drops into the repo.",
+  "maintenance_signal": "Changelog runs from 14/09/2024 to 12/09/2025 (latest entry: ASCII effect). Scatter, displace, distort, gradients and the animate tools are on the site but not in the changelog. The footer says (c) 2026 and it is served live from Vercel. It is a solo project by Daniil Sukhovskoy, whose About page says uptime isn't guaranteed.",
+  "caveats": "Manual GUI only; no scriptable or shareable presets were seen. SVG export is limited to four effects. Video export is capped at 1920x1080 and runs in the browser, so long clips are slow. It is a solo hobby project with no uptime guarantee. The 'More effects' link in the menu goes to effect.app, a separate paid product with its own terms. Effect.app's free tier needs an account, exports 720p with a watermark, and its pricing table lists no commercial license. Its paid plans are Pro/Animate/Studio at $12/$20/$30 per month billed monthly, or $10/$18/$25 per month billed yearly ($120/$216/$300 per year). As of 2026-09-14 these are shown against strikethrough prices of $18/$29/$40 and $15/$24/$33 under a 'Last week of the summer sale' banner. Effects are baked into files, not live runtime shaders.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://www.tooooools.app/",
+    "https://www.tooooools.app/about",
+    "https://www.tooooools.app/support",
+    "https://www.tooooools.app/changelog",
+    "https://www.tooooools.app/effects/dithering",
+    "https://effect.app/",
+    "https://effect.app/pricing",
+    "https://effect.app/assets/Auth-DynS4Cek.js",
+    "https://leeds.graphics/fivepoint2/tooooools-app-2/"
+  ],
+  "aliases": [
+    "s40"
+  ],
+  "dedupe_keys": [
+    "host:tooooools.app",
+    "name:tooooools-app"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Paper Shaders",
+      "url": "https://shaders.paper.design/",
+      "why": "Similar dithering, halftone and grain looks as live, code-based React shader components (@paper-design/shaders-react) instead of baked exports"
+    },
+    {
+      "name": "Dither It!",
+      "url": "https://ditherit.com/",
+      "why": "Free, focused in-browser image dithering tool with Floyd-Steinberg, Atkinson and Bayer algorithms, palettes and animated GIF support"
+    },
+    {
+      "name": "Effect.app",
+      "url": "https://effect.app/",
+      "why": "More powerful WebGL image and video effect generator, linked from Tooooools. The free tier is 720p and watermarked, and the pricing table shows no commercial license. Pro is $12/mo billed monthly or $10/mo billed yearly and adds a commercial license and 4K."
+    }
+  ],
+  "user_notes": ""
+}

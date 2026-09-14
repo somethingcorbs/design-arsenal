@@ -1,0 +1,103 @@
+{
+  "id": "ui-colors",
+  "name": "UI Colors (Tailwind CSS Color Generator)",
+  "url": "https://uicolors.app/generate",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Tailwind-style color scale generator that previews your palette on UI mockups; most previews and pro exports are paid.",
+  "what_it_offers": "Type in a hex and it builds a 50–950 Tailwind-style scale, with Brand, Neutral, Status and Fonts panels and a set of mockup tabs: Cards, Website, Branding, Dashboard, Components, Shadcn/ui, Apps, Charts, Gradients, Logos and Headings. On the free plan the Website, Dashboard, Shadcn/ui, Branding and Apps examples are locked, and Cards, Components and Logos show only some examples. Pro adds neutral, secondary, tertiary and status scales, the contrast matrix and APCA, OKLCH/HSL/RGB and CSS/SCSS/SVG/token exports, and saved, shareable palettes. The site also has reference pages for every built-in Tailwind color (including taupe, mauve, mist and olive), a Figma plugin that exports Figma Variables, a REST API sold as a separate $8/month subscription, and sister sites for contrast checking (sitecontrast.com) and shadcn themes (shadcnthemes.app).",
+  "resource_type": "Color tool",
+  "tags": [
+    "color palette",
+    "tailwind",
+    "shadcn",
+    "oklch",
+    "accessibility",
+    "contrast",
+    "figma plugin",
+    "design tokens",
+    "api"
+  ],
+  "output_type": "Code",
+  "tech_stack": "Nuxt (Vue) web app hosted on Netlify; OKLCH color tokens; PostHog analytics; Fontshare fonts; Lemon Squeezy payments",
+  "skill_level": "Any",
+  "design_stages": [
+    "Visual direction",
+    "Build"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Handy for turning one brand hue into a Tailwind 50–950 scale for a portfolio theme, but palette generation is a generic, crowded step, and the best previews, neutral scales and contrast checks are Pro-only.",
+  "portfolio_jobs": [
+    "Color & theming"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "No license is published for generated palettes, but hex color values are generally free to use commercially. The API terms restrict only API use, not palettes.",
+  "best_use_for_portfolio": "Enter your accent hex, copy the free Tailwind 4 export into @theme, and use the lighter and darker steps for hover states, tags and case-study section tints. Pay for Pro only if you want a matching neutral scale checked against the contrast matrix.",
+  "category": "Color & type tools",
+  "subcategory": "Tailwind/OKLCH color scale generator",
+  "tier": "Situational",
+  "tier_reason": "Turns one brand hue into a Tailwind 50–950 scale. Palette generation is a crowded step, and the neutral scales and contrast checks are Pro-only.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 4,
+  "score_rationale": "One of the better Tailwind palette generators, and the free Tailwind 3/4 export drops straight into a Tailwind/shadcn codebase. Its standout feature, previewing a scale on realistic website, dashboard and shadcn mockups, is mostly Pro, though Pro is cheap ($4.95/mo or $49 lifetime). Neutral and status scales, the contrast matrix, APCA and OKLCH export are also Pro. Palette generation is a crowded, fairly generic step.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "Generate a primary 50–950 scale from a hex and randomize colors. Free previews: Charts, Gradients and Headings in full, plus some Cards, Components and Logos examples (Website, Dashboard, Shadcn/ui, Branding and Apps are locked). Free exports: Tailwind 3, Tailwind 4 and Hex code. You can also browse all the Tailwind default color pages. The Neutral scale is Pro: tested logged out on 2026-09-14, the Neutral tab is visible, but clicking 'Add a neutral color scale' opens the 'Unlock all Pro features' modal. Secondary/tertiary and status scales, custom font selection and contrast-matrix values are also locked, as are CSS/SCSS/SVG/Tokens Studio/W3C token exports, OKLCH/HSL/RGB values, and saving or sharing palettes.",
+  "paid_entry_usd_month": 4.95,
+  "paid_entry_label": "Pro Monthly $4.95/mo (or Yearly $30/yr, about $2.50/mo). The site's price config also has a Weekly $2.95/week Pro plan with its own Lemon Squeezy checkout, but the plan picker does not show it.",
+  "paid_top_label": "Lifetime Pro $49 one-time (regular $99). This is a limited offer, and the live counter at /api/lifetime-licenses-left returned 41 left, 9 sold, limit 50 on 2026-09-14. The upgrade modal showed '41 left at $49', while the static fallback text says 50. The API is a separate subscription: $8/month for 5,000 API credits.",
+  "one_time_usd": 49,
+  "pricing_source_url": "https://uicolors.app/upgrade",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No license or terms are published for generated palettes. Color values are generally free to use on commercial sites, but that is not stated explicitly. The API Terms of Use (effective 2024-10-08, Netherlands law) grant a limited, revocable license to use the API 'solely for integrating and developing applications in connection with UI Colors'. They prohibit competing services, color-scale plugins or extensions, reverse-engineering, and reselling access. The rate limit is 1,000 requests/min.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Public REST API with an x-api-key header: POST https://uicolors.app/api/v1/color-scales/tailwindcss3/generate/{hex} returns the 50–950 scale with a name, hex and HSL values. It needs a paid API subscription at $8/month for 5,000 API credits per month (1 credit = 1 call). You get one API key per subscription, the key can be regenerated, credits refresh each billing period, and you can cancel anytime. You must sign in to buy, and it is separate from Pro. No MCP server, npm package or llms.txt was found (/llms.txt returns 404). An agent can also just paste the free Tailwind 3/4 export code.",
+  "maintenance_signal": "Actively maintained. The site lists the newer Tailwind palette colors (taupe, mauve, mist, olive), uses OKLCH tokens, and runs a live limited lifetime offer: the counter endpoint showed 9 of 50 sold on 2026-09-14. The upgrade page claims 50K+ designers and developers every month. It links sister sites shadcnthemes.app and sitecontrast.com, both live. The API terms have an effective date of 2024-10-08. It is a solo developer project (Erik de Vries, @erikdevries_nl).",
+  "caveats": "Much of the value is Pro-only: most mockup previews (Website, Dashboard, Shadcn/ui, Branding, Apps), the neutral, secondary, tertiary and status scales, the contrast matrix and APCA, OKLCH/HSL/RGB and CSS/SCSS/SVG/token exports, locking shades, and saving or sharing palettes. The API is a separate $8/month subscription (5,000 calls/month) not included in Pro or Lifetime, and its endpoint is named for Tailwind v3. The $49 lifetime price is a limited promo capped at 50 licenses (41 left on 2026-09-14) and reverts to $99 after that. No MCP or open-source code. www redirects to the apex domain, which redirects to /generate.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "Figma plugin last-updated date",
+    "final checkout amounts on Lemon Squeezy (checkout links need a signed-in session; prices come from the site's plan picker, API modal and bundled price config)"
+  ],
+  "evidence_urls": [
+    "https://uicolors.app/generate",
+    "https://uicolors.app/upgrade",
+    "https://uicolors.app/api",
+    "https://uicolors.app/api/lifetime-licenses-left",
+    "https://uicolors.app/terms-of-use-api",
+    "https://api.github.com/repos/SimeonGriggs/tints.dev/license",
+    "https://www.producthunt.com/products/ui-colors-2"
+  ],
+  "aliases": [
+    "s31"
+  ],
+  "dedupe_keys": [
+    "host:uicolors.app",
+    "name:ui-colors"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "tints.dev",
+      "url": "https://www.tints.dev",
+      "why": "Free Tailwind 50–950 palette generator with an API and shareable URLs; its source is public on GitHub under CC BY-NC 4.0"
+    },
+    {
+      "name": "Realtime Colors",
+      "url": "https://www.realtimecolors.com",
+      "why": "Previews a palette plus fonts on a live landing-page layout and exports CSS/Tailwind"
+    },
+    {
+      "name": "Leonardo (Adobe)",
+      "url": "https://leonardocolor.io",
+      "why": "Generates accessible color scales from contrast ratios, with an Apache-2.0 npm package for design tokens"
+    }
+  ],
+  "user_notes": ""
+}

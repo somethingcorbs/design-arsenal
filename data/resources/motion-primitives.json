@@ -1,0 +1,114 @@
+{
+  "id": "motion-primitives",
+  "name": "Motion-Primitives",
+  "url": "https://motion-primitives.com",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Open-source copy-paste React + Tailwind + Motion animation components, with a paid Pro tier of animated sections and templates.",
+  "what_it_offers": "The free, MIT-licensed core has 33 animated components. I checked the live docs sidebar in a real browser on 2026-09-14: it lists exactly the same 33 items as components/core on GitHub, with nothing extra on the site. They are accordion, animated background, animated group, border trail, carousel, cursor, dialog, disclosure, in-view, infinite slider, transition panel, 7 text effects (effect, loop, morph, roll, scramble, shimmer, shimmer wave), animated and sliding number, dock, glow effect, image comparison, scroll progress, spotlight, spinning text, tilt, dynamic and expandable toolbars, magnetic, morphing dialog and popover, and progressive blur. Each installs with the project's CLI (npx motion-primitives@latest add <name>) or through shadcn, and demos have 'Open in v0' links. The paid Pro site (pro.motion-primitives.com) advertises '50+' components, but its docs index lists 80 entries in 13 categories: CTA 3, FAQ 4, Feature 13, Footer 5, Hero 4, Testimonials 2, Team 5, Logo Cloud 10, Navigation 9, Stats 2, Text 15, Heading 5, Special 3. It also has two templates: Nim, a free personal site with a blog, and Noir, a black-and-white SaaS landing page.",
+  "resource_type": "Animation library",
+  "tags": [
+    "react",
+    "tailwind",
+    "motion",
+    "framer-motion",
+    "shadcn-registry",
+    "animation",
+    "micro-interactions",
+    "copy-paste",
+    "landing-page-sections",
+    "open-source"
+  ],
+  "output_type": "Code",
+  "tech_stack": "React + Next.js + Tailwind CSS v4 + Motion (motion.dev) + lucide-react; Pro: React/Next.js/Tailwind/Motion",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Motion & interaction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "Its tasteful, restrained motion components suit portfolios well: MorphingDialog project cards, TextEffect hero lines, image comparison. It includes Nim, a free personal-site template. The free set is small.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "UI components & sections"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The core is MIT. The Pro license allows unlimited commercial and client projects but forbids reselling, redistributing, or building templates for sale.",
+  "best_use_for_portfolio": "Start from the free Nim template for a personal portfolio with a blog, or add core pieces with npx motion-primitives add. MorphingDialog opens project cards into case-study previews, TextEffect animates the intro line, ImageComparison shows before/after redesigns, and InfiniteSlider runs a client logo strip.",
+  "category": "Component & section libraries (code)",
+  "subcategory": "Motion micro-interaction primitives",
+  "tier": "Strong",
+  "tier_reason": "Restrained motion components that fit portfolios closely (morphing project cards, text reveals, image comparison), plus a free personal-site template. The free set is small.",
+  "overlap_group": "Animated React/Tailwind component sources",
+  "pick_over_overlaps": "Use it for small, composable Motion building blocks rather than whole sections. Install with its own CLI or raw GitHub URLs, because shadcn registry fetches return 429.",
+  "website_design_score": 4,
+  "score_rationale": "The components are well crafted, tasteful and restrained, and they fit a React/Tailwind/AI-agent workflow directly: registry JSON, MIT, and you own the code. They give a site polished motion without looking gimmicky. It isn't a 5 because the free set is small (33) and has barely grown since late 2025, and the ready-made sections (80 Pro entries) require the $149 Pro license.",
+  "pricing_model": "Freemium",
+  "billing_type": "One-time / lifetime",
+  "free_tier": "All 33 core components are free and open source (MIT), with free updates. The Nim personal-website template on Pro is also marked 'Use for free'.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "Pro Individual License: $149 one-time plus local taxes. The live Stripe checkout for 'Motion-Primitives Pro - Individual License (Lifetime)' shows $149.00 and has a promo-code field. The page shows $299 struck through, but Wayback snapshots show $149 as the price continuously from March 2025 to now, so $299 is a standing reference price, not a time-limited sale. Code MP10 takes 10% off (about $134). Includes lifetime access and updates, no refunds.",
+  "paid_top_label": "Pro Individual License $149 one-time, the only paid tier. An 'Individual License (Annual)' at $99 (struck from $199) was listed through at least January 2026 and was gone by April 2026.",
+  "one_time_usd": 149,
+  "pricing_source_url": "https://pro.motion-primitives.com/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Core: MIT (GitHub LICENSE), so commercial use is fine. Pro: custom license at pro.motion-primitives.com/docs/licence. It is non-exclusive, non-transferable and worldwide, and allows unlimited personal, commercial and client projects plus modification. It forbids reselling, redistributing or sharing the code, building themes or templates for sale on marketplaces, and making competing UI kits. All sales are final, and French law governs.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Listed in the official shadcn registry directory as @motion-primitives (URL https://motion-primitives.com/c/{name}.json). That endpoint sits behind a Vercel bot checkpoint. On 2026-09-14, curl got HTTP 429 even with a Chrome user agent, for www, /docs and /c/text-effect.json, while the same JSON returned 200 from inside a real browser session. So the site is up, but bot detection blocks scripted fetches. As a result, 'npx shadcn add @motion-primitives/...' and shadcn MCP installs may fail for agents. The project's own CLI (npx motion-primitives@latest add text-effect; npm v0.1.0) reads https://raw.githubusercontent.com/ibelick/motion-primitives/main/public/c/registry.json, which responds 200, so it is the reliable path for agents. You can also pass the raw GitHub item URL straight to the shadcn CLI. Doc examples have 'Open in v0' links. The repo has no llms.txt file or route.",
+  "maintenance_signal": "GitHub ibelick/motion-primitives has 6,287 stars and 257 forks, MIT, not archived, 35 open issues. Last push 2026-09-12 (Next.js upgrade and docs perf). Before that the last component fix was 2026-03-19, then a CVE fix on 2025-12-27, and the last feature batch landed 2025-11-25. The npm CLI (v0.1.0) was last published 2025-03-04. The site and README still label it beta. New work mostly goes to Pro, which says 250+ developers have joined.",
+  "caveats": "The core is still marked beta, so APIs may change. The free library is small and updates slowed in 2026. Pro is a one-time purchase with no refunds, and its license bans redistribution or building competing kits. The Pro page's '$299 to $149' framing is a permanent anchor price, not a real deadline. Components need Tailwind, Motion and a cn() utility, so this is React only. A Vercel bot checkpoint returns 429 to non-browser requests for both the docs and the registry JSON at motion-primitives.com/c/*.json. Agents may therefore fail to install via 'npx shadcn add @motion-primitives/...'; use the project CLI or the raw GitHub URLs instead.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://motion-primitives.com/docs/installation",
+    "https://motion-primitives.com/docs/text-effect",
+    "https://pro.motion-primitives.com/",
+    "https://pro.motion-primitives.com/docs",
+    "https://pro.motion-primitives.com/templates",
+    "https://pro.motion-primitives.com/docs/licence",
+    "https://buy.stripe.com/3cs7tJ1vg5327ba6ov",
+    "https://web.archive.org/web/20250325030751/https://pro.motion-primitives.com/",
+    "https://web.archive.org/web/20260123054431/https://pro.motion-primitives.com/",
+    "https://web.archive.org/web/20260617104206/https://pro.motion-primitives.com/",
+    "https://github.com/ibelick/motion-primitives",
+    "https://api.github.com/repos/ibelick/motion-primitives",
+    "https://raw.githubusercontent.com/ibelick/motion-primitives/main/public/c/registry.json",
+    "https://ui.shadcn.com/r/registries.json",
+    "https://www.npmjs.com/package/motion-primitives"
+  ],
+  "aliases": [
+    "s04"
+  ],
+  "dedupe_keys": [
+    "host:motion-primitives.com",
+    "host:pro.motion-primitives.com",
+    "github:ibelick/motion-primitives",
+    "npm:motion-primitives",
+    "name:motion-primitives"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Animate UI",
+      "url": "https://animate-ui.com",
+      "why": "Open-source, shadcn-registry animated components built on Motion and Tailwind, a close sibling to Motion-Primitives (listed as @animate-ui, health 'healthy')."
+    },
+    {
+      "name": "Magic UI",
+      "url": "https://magicui.design",
+      "why": "Large MIT library (150+) of animated React/Tailwind/Motion components with a shadcn registry and MCP docs, plus paid Magic UI Pro blocks and templates."
+    },
+    {
+      "name": "Cult UI",
+      "url": "https://www.cult-ui.com",
+      "why": "MIT, shadcn-compatible animated components with a design-forward look, plus a one-time-purchase Cult UI Pro with blocks and templates."
+    }
+  ],
+  "user_notes": ""
+}

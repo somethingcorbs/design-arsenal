@@ -1,0 +1,121 @@
+{
+  "id": "originkit",
+  "name": "Originkit",
+  "url": "https://www.originkit.dev/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Animated React/Next.js and Framer component library with a live tweak editor, AI editor, CLI and MCP server.",
+  "what_it_offers": "A catalog of 442 animated components (backgrounds/WebGL shaders, text effects, interactive elements, galleries, buttons and more; 158 marked paid), 58 page sections (35 paid) and 23 website templates (16 paid). Each component page has live controls for its real props, an AI editor, and copy as Framer source, React code, a CLI command or an AI prompt. Sections are React/Next.js source. Templates are full projects, either React/Next.js or static HTML/CSS (most catalog entries are static Framer exports), and install through an AI prompt that runs the CLI. The docs call paid templates one-time purchases, but no template has a price and the live gallery unlocks paid ('Pro') templates with any paid plan.",
+  "resource_type": "Component library",
+  "tags": [
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer",
+    "animated-components",
+    "webgl",
+    "shaders",
+    "mcp",
+    "cli",
+    "hero-sections",
+    "templates"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "React/Next.js/Vite + Tailwind source (one authored file adapted per stack); Framer code components (components only); templates as React/Next.js projects or static HTML/CSS; some WebGL shaders; per-component third-party deps; site built on Next.js",
+  "skill_level": "Any",
+  "design_stages": [
+    "Build",
+    "Motion & interaction",
+    "Layout & UX patterns",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "A large, current catalog of animated heroes, text reveals, galleries and WebGL backgrounds, installable by CLI or MCP. That fits signature portfolio moments well, but daily copy caps and a young, shifting pricing model hold it back.",
+  "portfolio_jobs": [
+    "UI components & sections",
+    "Hero & signature visuals",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The proprietary Originkit license explicitly allows client websites and commercial projects, with a perpetual license. You can't resell templates or starter kits containing the components, or republish the catalog.",
+  "best_use_for_portfolio": "Pick one signature moment, such as a shader background behind your name or a text-reveal headline, plus an animated project gallery. Tune props in the live editor, then pull the source into the portfolio repo with the originkit CLI or MCP server. Test reduced-motion and mobile performance before launch.",
+  "category": "Component & section libraries (code)",
+  "subcategory": "Tweakable animated components (React + Framer)",
+  "tier": "Strong",
+  "tier_reason": "A large, current catalog of animated heroes, text reveals, galleries and WebGL backgrounds installable by CLI or MCP. Daily copy caps and shifting pricing are the main drawbacks.",
+  "overlap_group": "Animated React/Tailwind component sources",
+  "pick_over_overlaps": "Use it when you want to tune props visually before copying, or need the same component in both Framer and React.",
+  "website_design_score": 4,
+  "score_rationale": "A large, current catalog of distinctive animated and WebGL components for the common React/Next.js/Tailwind stack. The live prop editor, CLI and MCP make it very usable with AI coding agents. Points off for daily copy caps, a proprietary license that limits template redistribution, and a young company whose pricing and template-sales model are still changing and documented inconsistently.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "Browsing, previewing and tweaking the whole catalog is open without an account. A free account gets limited library access, 10 component copies/day, 10 section copies/day, 1 template copy/day and 5 AI credits/day. Copies through MCP and the CLI count toward the same allowance, and daily limits reset at 00:00 IST (pricing FAQ). Fair use: after 15 copies of one kind (components, sections or templates) within an hour, that kind is paused for 4 hours. Paid components and paid ('Pro') templates are locked on Free.",
+  "paid_entry_usd_month": 12,
+  "paid_entry_label": "Pro $12/mo billed monthly. This is the regular price in the plan data, not tagged as a promotion; the pricing page shows yearly by default. Or $79/yr under the 'OriginAI Launch Special', which ends 2026-09-15 18:29:59 UTC. The crossed-out $144/yr is exactly 12 x $12 monthly, not an announced post-launch yearly price. The page says early subscribers keep today's price. Includes: full library (the gallery unlocks paid components and Pro-marked templates for any paid plan), 25 component, 25 section and 5 template copies/day, and 5 daily plus 100 monthly AI credits. Extra AI credits from $5 per 50 (expire in 30 days).",
+  "paid_top_label": "Ultimate $99/yr, yearly only, under the 'OriginAI Launch Special' ending 2026-09-15 18:29:59 UTC. Crossed-out price is $209/yr. There is no monthly price and no announced post-launch price. Includes: full library, no daily copy caps (fair use), 200 AI credits/month.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.originkit.dev/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Custom proprietary Originkit license (docs/licensing, updated 19 Aug 2026), not open source despite the 'Open Source library' meta keyword. Allowed: unlimited personal and commercial projects you build and run, such as client websites, SaaS marketing sites and dashboards, internal design systems, modified components and open-source portfolios. Not allowed without a partnership: paid templates, Figma/design files, starter kits or boilerplates that contain the components, selling a design system, or republishing the catalog. Your license to use a component you have legitimately obtained is perpetual and survives cancellation. MCP-delivered code carries the same license. Terms are governed by Indian law (Bengaluru courts). The npm CLI package is MIT.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Strong. There is a hosted MCP server at mcp.originkit.dev: chat apps sign in with Originkit, code editors use an API key, and it returns working source for your stack. The npm CLI ('originkit', MIT, v0.2.25) works like shadcn: it writes source into your components directory, installs deps, rewrites import aliases, and has dry-run, API-key auth for CI, and presets. Templates install through an AI prompt for Claude Code, Cursor or Codex that runs the CLI. There is also a third-party plugin at github.com/vellum-ai/originkit. No llms.txt (404). robots.txt blocks ClaudeBot and GPTBot and sets ai-train=no, and docs pages return 403 to generic fetchers, so agents should use MCP or the CLI rather than scraping.",
+  "maintenance_signal": "Very active and very new. Catalog createdAt dates run from 2026-06-26 to 2026-09-06, templates show lastUpdated Aug 29, 2026, and the Account & Billing doc reads 'Last updated: Mon 14 Sep 2026'. The npm CLI was created 2026-07-22 and last published 2026-09-08. The pricing page features social posts with 100k+ views. No public GitHub repo for the library itself was found.",
+  "caveats": "Launch-special yearly prices ($79 Pro, $99 Ultimate) end 2026-09-15 18:29:59 UTC. The regular yearly prices after that are not published, so re-check before buying. Monthly Pro at $12 is the only non-promotional price shown. Template monetization is inconsistent. The docs (/docs/templates) say paid templates are one-time purchases through Dodo Payments with a 'Buy now' button, and the templates page meta says 'bought once and owned forever'. But every one of the 23 templates has price null, the client code has no 'Buy now', and clicking a paid template on Free opens 'Unlock this Pro template: Upgrade to Pro'. The gallery logic locks paid items only when the visitor is not on a paid plan. Copy allowances are daily, shared across the website, CLI and MCP, and reset at midnight IST. The third-party vellum-ai plugin README says midnight UTC instead. Billing docs disagree with each other. The refund example still uses old prices ($49/yr, $8/mo). The pricing FAQ says a mid-cycle upgrade keeps your renewal date and yearly refunds are prorated. The billing doc says the billing date resets and the refund is the price minus one month at the standard monthly rate. Monthly plans are non-refundable. Sections and templates do not work in Framer. Many templates are static HTML Framer exports rather than Next.js apps. Heavy WebGL components need performance and reduced-motion testing. Sharing account access is prohibited.",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "paid_entry_label / paid_top_label: regular post-launch Pro and Ultimate yearly prices after 2026-09-15 18:29:59 UTC. Research ran 2026-09-14, before expiry, so no post-expiry re-check was possible. The $144 compare-at equals 12 x the $12 monthly price, and $209 has no stated basis.",
+    "one_time_usd: no individual template price exists in the catalog data (price null for all 23 templates), so no one-time price could be recorded",
+    "whether paid templates are included in Pro/Ultimate: the live UI lock logic and upgrade modal say any paid plan unlocks them, but /docs/templates still describes separate one-time purchases",
+    "exact per-item gating of free vs paid components"
+  ],
+  "evidence_urls": [
+    "https://www.originkit.dev/",
+    "https://www.originkit.dev/pricing",
+    "https://www.originkit.dev/templates",
+    "https://www.originkit.dev/templates/operun",
+    "https://www.originkit.dev/docs/templates",
+    "https://www.originkit.dev/docs/licensing",
+    "https://www.originkit.dev/docs/account-billing",
+    "https://www.originkit.dev/docs/components",
+    "https://www.originkit.dev/docs/sections",
+    "https://www.originkit.dev/docs/terms",
+    "https://www.originkit.dev/intro",
+    "https://www.originkit.dev/robots.txt",
+    "https://mcp.originkit.dev/",
+    "https://registry.npmjs.org/originkit",
+    "https://github.com/vellum-ai/originkit"
+  ],
+  "aliases": [
+    "s27"
+  ],
+  "dedupe_keys": [
+    "host:originkit.dev",
+    "host:mcp.originkit.dev",
+    "npm:originkit",
+    "name:originkit"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "React Bits",
+      "url": "https://reactbits.dev",
+      "why": "Large animated React component collection (MIT + Commons Clause license) with CLI install"
+    },
+    {
+      "name": "Magic UI",
+      "url": "https://magicui.design",
+      "why": "MIT animated React + Tailwind + Motion components with a shadcn registry and MIT MCP server"
+    },
+    {
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "why": "Popular animated Next.js/Tailwind/Motion components and hero sections, free plus a paid Pro tier"
+    }
+  ],
+  "user_notes": ""
+}

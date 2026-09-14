@@ -1,0 +1,101 @@
+{
+  "id": "picular",
+  "name": "Picular",
+  "url": "https://www.picular.co/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free color search engine that turns any keyword into hex colors pulled from top Google Image results.",
+  "what_it_offers": "Type a word (e.g. 'tomato') and Picular shows the dominant color of each top Google Image result (about 10) as a hex swatch, plus an overall primary and secondary color. Results live at shareable URLs (/s/<term>). You can copy hex codes, pin up to 8 favorites into a palette, and share that palette as a link or to Pinterest. It's free, needs no account, and was built by Swedish studio Future Memories.",
+  "resource_type": "Color tool",
+  "tags": [
+    "color",
+    "palette",
+    "hex",
+    "search",
+    "inspiration",
+    "branding",
+    "free"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Next.js (App Router, Turbopack build) on Vercel; Google Images thumbnails (gstatic) analyzed behind an internal /api/search endpoint",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "A quick, free way to find one or two anchor hues from the ideas behind a personal brand. It only returns single dominant swatches, with no scales, pairings or contrast checks, so it helps only at the very start.",
+  "portfolio_jobs": [
+    "Color & theming",
+    "Visual direction & moodboard"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "There are no terms, but hex values aren't copyrightable, so the colors can go on a commercial site. Never reuse the Google Image thumbnails shown as sources.",
+  "best_use_for_portfolio": "Search two or three words that describe your work or a client's brand (e.g. 'terracotta', 'blueprint') to pick an accent color. Then build a full scale from it, check contrast against your text and background, and set it as the portfolio's accent token.",
+  "category": "Color & type tools",
+  "subcategory": "Keyword-to-color search",
+  "tier": "Low fit",
+  "tier_reason": "Returns single dominant swatches from keywords, with no scales, pairings or contrast checks. Useful only for a first anchor hue.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 2,
+  "score_rationale": "A fun, fast way to find the colors people associate with a concept, which helps with brand ideation. But it only gives single swatches, not complete accessible palettes, tokens or pairings, so it adds little beyond early exploration.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything: unlimited keyword color searches, hex codes with copy, shareable result pages, pinning up to 8 favorites and sharing the pinned palette. No account.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.picular.co/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No terms or license page (/terms, /privacy, /about and /license all return 404). Hex values aren't copyrightable, so colors can be used freely on a commercial site, but the source thumbnails are third-party Google Image results and must not be reused.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None official. No llms.txt (404), docs or public API. An undocumented internal JSON endpoint (/api/search?query=<term>) returns primary/secondary hex, per-image hex colors and a last_updated timestamp, but it's unsupported and shouldn't be relied on. Agents can fetch /s/<term> pages or just use hex codes a human copies.",
+  "maintenance_signal": "Live, with a recent Next.js (Turbopack) build served from Vercel cache (x-vercel-cache HIT). Tested 2026-09-14: /api/search for 'tomato' returned primary #F44409 with last_updated 2026-01-01. One sloppy detail: og:image and twitter:image metadata point to http://localhost:3000. No public changelog or repo.",
+  "caveats": "Colors come from whatever Google Images returns, so results are noisy and can change over time (results appear cached; 'tomato' was last refreshed 2026-01-01). Only dominant colors, with no palette harmony, shades or contrast checks. No API, terms or license page. Social preview metadata is broken (points to localhost).",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no terms page exists)",
+    "tech_stack image-search backend provider (SerpApi claim not confirmed; only Google gstatic thumbnails observed)",
+    "maintenance_signal (no public changelog; rebuild date inferred)"
+  ],
+  "evidence_urls": [
+    "https://www.picular.co/",
+    "https://www.picular.co/s/tomato",
+    "https://www.picular.co/api/search?query=tomato",
+    "https://www.futurememories.se/cases/picular",
+    "https://digitalsynopsis.com/design/picular-google-image-search-colors/"
+  ],
+  "aliases": [
+    "s17"
+  ],
+  "dedupe_keys": [
+    "host:picular.co",
+    "name:picular"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Adobe Color",
+      "url": "https://color.adobe.com",
+      "why": "Extract themes from images, harmony rules, contrast checker, and trend palettes; free with an Adobe account for saving."
+    },
+    {
+      "name": "Khroma",
+      "url": "https://www.khroma.co",
+      "why": "AI palette generator that learns your color preferences and produces pairings and palettes."
+    },
+    {
+      "name": "Colormind",
+      "url": "https://colormind.io",
+      "why": "Deep-learning palette generator with a website-template preview and a free API."
+    }
+  ],
+  "user_notes": ""
+}

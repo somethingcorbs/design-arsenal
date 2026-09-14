@@ -1,0 +1,114 @@
+{
+  "id": "framer",
+  "name": "Framer",
+  "url": "https://www.framer.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "No-code visual website builder with AI agents, CMS, hosting, a template marketplace, and hooks for coding agents.",
+  "what_it_offers": "A freeform design canvas that publishes production sites: responsive layouts, components, scroll and interaction effects, CMS, SEO, localization, analytics, A/B testing (Convert), staging, and branching. Built-in AI Agents (credit-based) generate and edit pages. 'External Agents' connect Claude Code, Cursor, Codex, and Antigravity to a project's canvas, components, and CMS via `npx @framer/agent setup`, with edits made on branches. There is also a Marketplace (templates, components, plugins, vectors), a Gallery of sites made with Framer, React code components/overrides, and a Server API.",
+  "resource_type": "Design & build platform",
+  "tags": [
+    "no-code",
+    "website-builder",
+    "ai-website-builder",
+    "cms",
+    "hosting",
+    "templates",
+    "animation",
+    "inspiration-gallery",
+    "agents"
+  ],
+  "output_type": "Hosted design/app",
+  "tech_stack": "Hosted proprietary platform; sites are server-rendered React; custom code components in React/TypeScript; Server API via npm 'framer-api'",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction",
+    "Layout & UX patterns",
+    "Build",
+    "Motion & interaction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 5,
+  "portfolio_fit_reason": "One of the go-to platforms for designer portfolios: a large portfolio template marketplace, scroll and interaction effects, CMS for case studies, hosting, and a Gallery full of award-level portfolio references.",
+  "portfolio_jobs": [
+    "Site builder & hosting",
+    "Visual direction & moodboard",
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "ToS 7.3: customers retain full ownership of content. Client sites need Basic or higher for a custom domain and no banner. Marketplace items carry Limited or Single-Use Commercial licenses.",
+  "best_use_for_portfolio": "Start from a Marketplace portfolio template, or browse the Gallery for case-study layouts, then build project pages as CMS collections with scroll-triggered reveals. Publish on Basic or Pro with a custom domain. Code-first builders can use Framer as a motion and layout prototype before rebuilding in Next.js.",
+  "category": "Design, motion & site-building platforms",
+  "subcategory": "No-code site builder + hosting",
+  "tier": "Core",
+  "tier_reason": "A leading no-code platform for designer portfolios: portfolio templates, scroll effects, CMS for case studies, hosting, and a gallery of award-level portfolio references.",
+  "overlap_group": "Visual design canvases",
+  "pick_over_overlaps": "Use it when non-developers must own and edit a marketing site with no code. Its free Gallery also works as inspiration.",
+  "website_design_score": 4,
+  "score_rationale": "One of the strongest tools for shipping a polished, animation-rich marketing site quickly. The Gallery and Marketplace are good inspiration, and External Agents let AI coding agents work in a Framer project. It scores 4, not 5, for a code-first React/Next.js builder: it's hosted-only with no code export, costs grow with editors, credits, and add-ons, and the output lives outside your repo.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "$0: 500 AI credits to try Agents, free Framer subdomain with a 'Made in Framer' banner, 1 GB bandwidth, design pages. Per the FAQ, free projects get 10 CMS collections, 1,000 pages, 5 MB uploads, one trial locale, and up to 3 editors. No custom domain. Framer positions Free as 'ideal for non-commercial use' (pricing FAQ) and for hobbyists and personal projects (Help Center), but the Terms of Service don't make that a contractual ban.",
+  "paid_entry_usd_month": 15,
+  "paid_entry_label": "Basic $15/mo billed monthly ($10/mo billed yearly): connect your own domain (complimentary domain only on yearly), 30 pages, 2 CMS collections, 1,000 CMS items, 50 GB bandwidth, 1,000 AI credits/mo",
+  "paid_top_label": "Pro $45/mo billed monthly ($30/mo yearly) is the top self-serve plan. As of 2026-09-14, both the monthly and yearly toggles show only Free, Basic, Pro, and Enterprise. The Scale tier (about $100/mo, yearly-only) that third-party guides listed earlier in 2026 no longer appears, and the Help Center plan guide is titled 'free, basic, pro, enterprise'. Pro includes 150 pages, 10 CMS collections, 2,500 CMS items, 100 GB, redirects, staging, branching, and 3,000 credits/mo (upgradeable in tiers up to 100,000). Seats max out at 10. Extra editors cost $30/mo monthly ($20 yearly); content editors $15 ($10). Add-ons: locales $25 ($20), Convert $60 ($50) per 500k events, Advanced hosting $250 ($200). Enterprise is custom.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.framer.com/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Sites you build are yours: Framer's Terms of Service (v1.8, effective June 16, 2026) say the customer 'retains full ownership of Customer Content' (section 7.3). The ToS has no clause restricting the Free plan to non-commercial use. The 'non-commercial' label is only plan-fit guidance in the pricing FAQ ('ideal for non-commercial use'), and the Help Center describes Free as for hobbyists and personal projects. In practice Free has no custom domain and shows a 'Made in Framer' banner, so commercial sites effectively need Basic or Pro. Marketplace content uses two standard licenses in Framer's Community Terms (section 7.3). Free items get a Limited Commercial License: use and modify them in commercial and client projects, but don't redistribute them as standalone assets or build competing templates. Paid items get a Single-Use Commercial License covering one end product or project (for vectors, one organization or client). There is no official code export, so the site stays on Framer hosting.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "Strong. /llms.txt exists, and marketing and docs pages have a Markdown version via ?md or Accept: text/markdown (verified). External Agents CLI and skills: npm @framer/agent (v0.0.44, published 2026-08-05). `npx @framer/agent setup` installs Claude Code skills and a /framer command, and it's free during preview. Server API: npm framer-api (MIT; v5.0.0 published 2026-09-08, package updated 2026-09-10 with 5.0.1-alpha.2). Plugin SDK and React code components are also available. Framer says it needs no separate MCP server.",
+  "maintenance_signal": "Very active. Site content republished 2026-09-11 (the frontmatter timestamp is site-wide, including the pricing, Terms of Service, and External Agents pages). framer-api 5.0.0 was published 2026-09-08 with an alpha on 2026-09-10, and @framer/agent 0.0.44 on 2026-08-05. The llms.txt pricing snapshot is dated 2026-08-30. The pricing page footer shows about 504.6B tokens processed this week.",
+  "caveats": "Platform lock-in: there is no official code export, hosting is tied to Framer, and the site can't live in your own Git repo or run on Vercel. The page defaults to yearly billing ($10/$30), and llms.txt also lists those as '/mo', but the monthly toggle shows $15/$45. The complimentary domain is yearly-only. Costs add up from per-editor seats (max 10 on Basic/Pro), AI credits, locales, and A/B events. Overages on monthly billing: pages $30 per 100, CMS collections $50 per 10, CMS items $30 per 10,000, bandwidth $50 per 100 GB. Free is positioned for non-commercial or hobby use, with a Framer subdomain and banner only. The old Scale tier is gone, so sites needing more than Pro's add-on caps go to Enterprise. External Agents is in preview.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "prices of Pro's higher credit tiers (5,000-100,000 credits/month dropdown) were not captured",
+    "similar_sites_outside_list (not checked against a builder's full input list, which was not provided)"
+  ],
+  "evidence_urls": [
+    "https://www.framer.com/pricing",
+    "https://www.framer.com/pricing?md",
+    "https://www.framer.com/legal/terms-of-service?md",
+    "https://www.framer.com/help/articles/best-use-cases-for-each-framer-plan/",
+    "https://www.framer.com/llms.txt",
+    "https://www.framer.com/agents/external/?md",
+    "https://www.framer.com/legal/community-terms",
+    "https://registry.npmjs.org/@framer/agent",
+    "https://registry.npmjs.org/framer-api",
+    "https://www.nocode.mba/articles/framer-pricing"
+  ],
+  "aliases": [
+    "s29"
+  ],
+  "dedupe_keys": [
+    "host:framer.com",
+    "npm:@framer/agent",
+    "npm:framer-api",
+    "name:framer"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Webflow",
+      "url": "https://webflow.com",
+      "why": "Closest visual builder rival with a deeper CMS/interactions model and code export on paid workspace plans"
+    },
+    {
+      "name": "Readymag",
+      "url": "https://readymag.com",
+      "why": "Editorial, art-directed layout builder for highly distinctive, typographic sites"
+    },
+    {
+      "name": "Wix Studio",
+      "url": "https://www.wix.com/studio",
+      "why": "Agency-focused visual builder with responsive design tools, CMS, and dev mode"
+    }
+  ],
+  "user_notes": ""
+}

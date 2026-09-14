@@ -1,0 +1,109 @@
+{
+  "id": "geometric-art",
+  "name": "GEOMETRIC — Image + Motion Art Studio",
+  "url": "https://geometric-art.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free in-browser studio that turns photos and videos into geometric contour, node-graph and dither artwork, exported as PNG or MP4.",
+  "what_it_offers": "You upload a JPG/PNG/WEBP (up to 32MB, 50MP, 10,000px long edge) or an MP4/MOV/WEBM (up to 100MB, 4K, 5 minutes). It runs Sobel edge detection and Delaunay triangulation to draw topographic contours, flow engravings, shape markers, connection graphs, grids, spectral curtains, dither print and pixel-memory layers, with 21 look presets (Contour Atlas, Dither Print, Spectral Curtain, Pixel Memory, Ortho Blueprint and others). It can optionally detect people, faces and objects with MediaPipe, and offers 9 motion programs (Contour Flow, Scan Sweep, Glitch Slice, Auto Sequence and others) plus audio/BPM reactivity from MP3/WAV/M4A. EASY mode has a one-tap ROLL through generated looks, and PRO mode gives full manual control. Output formats are Portrait 4:5, Story 9:16, Square 1:1 or Wide 16:9, or the source ratio. Exports are PNG, 3/5/8/10/12-second MP4 (Instagram Reels preset 1080×1920 at 30fps, or X preset 720×1280 at 30fps), or a realtime WebM fallback, and processing happens on your device. A press kit at /en/press has product facts and media.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "generative art",
+    "image effects",
+    "contour",
+    "delaunay",
+    "dither",
+    "motion graphics",
+    "video",
+    "hero visuals",
+    "client-side",
+    "japanese"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "React via vinext (Vite-based Next.js-compatible framework) on Cloudflare (D1, Web Analytics); client-side Canvas 2D rendering; MP4 encoding via WebCodecs/mediabunny; MediaPipe face/pose/object models loaded from Google and jsDelivr; Geist fonts",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Assets & graphics",
+    "Motion & interaction",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Makes distinctive contour, dither and node-graph treatments of your own photos or clips for an editorial hero or section art. Output is raster or video only, and it has no license terms.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Imagery, illustration & textures",
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "No terms of use or output license exist (terms pages return 404). Rights depend on your source media, so confirm with the creator before paid client use.",
+  "best_use_for_portfolio": "Run a portrait or a key project photo through a preset such as Contour Atlas or Ortho Blueprint. Export a Wide 16:9 PNG or a short looping MP4 as an about-page or hero background, and match line colors to your palette so the treatment feels like part of your identity.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Contour/node-graph photo & video art",
+  "tier": "Situational",
+  "tier_reason": "Contour, dither and node-graph treatments of your own photos or clips suit an editorial hero. Output is raster or video only, and it has no license terms.",
+  "overlap_group": "Lo-fi image & video effects",
+  "pick_over_overlaps": "Use it for contour or node-graph treatments of photos and video, which none of the other effect tools produce.",
+  "website_design_score": 3,
+  "score_rationale": "Produces distinctive, editorial, data-viz-style treatments of photos and video that can make a hero or section background stand out, and it is free with no signup. It is niche, though: it only supplies raster/video assets, not a design system or layout help, and it has no license terms, no API and a Japanese-default UI.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything. The official press kit lists access as 'Free in the browser' and calls GEOMETRIC 'a free browser-based creative app'. That covers EASY and PRO modes, all presets, PNG/MP4/WebM export, saved presets (stored in localStorage), and REMIX share links, which expire after 180 days. 'PRO' is an advanced-controls mode, not a paid tier. No pricing, paywall or account system was found. The Pro page says direct PNG/MP4 exports never add a share badge.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://geometric-art.com/en/press",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Unconfirmed. There are no terms of use or output license: /terms, /en/terms, /tos, /legal, /license, /faq and /en/faq all return 404, and the sitemap lists only the home, easy, pro, privacy and press pages. The press kit says the app is free but says nothing about rights to exports. The privacy policy (updated 2026-09-12) covers data handling only. The creator's Instagram bio (@shinichi_sisberry) makes no licensing statement. The share flow suggests the hashtag #MadeWithGEOMETRICApp and credit links, but no attribution requirement is stated, and direct downloads carry no badge. Output comes from your own uploaded media, so rights depend on your source material. The built-in demo image and the 'new photo' option use Unsplash photos (Unsplash License). For commercial use, ask the creator via Instagram DM.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. No API, MCP, npm package or llms.txt (/llms.txt returns 404). It is a manual GUI tool, and an agent can only use its exported PNG/MP4 files.",
+  "maintenance_signal": "Very new and active. Sitemap lastmod is 2026-08-28 with weekly changefreq, the privacy policy was updated 2026-09-12, and a '2026 / Current release' press kit has freshly rebuilt media, including a launch film. It is a solo creator project (SHINICHI, @shinichi_sisberry on Instagram). No public repo, and it has little web or press footprint so far.",
+  "caveats": "The default locale is Japanese (English at /en). Output is raster PNG or video only, not SVG or code, so it cannot be embedded as an interactive or live effect. Video export is capped at 12 seconds, with bitrate presets aimed at social platforms. There are no terms or commercial license. It is new and solo-maintained, so its longevity is uncertain. Person and object detection downloads models from Google/jsDelivr. Heavy media may be slow on low-end devices.",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license",
+    "whether the 'Share to social' export path adds a badge (direct downloads do not)"
+  ],
+  "evidence_urls": [
+    "https://geometric-art.com/",
+    "https://geometric-art.com/en",
+    "https://geometric-art.com/en/press",
+    "https://geometric-art.com/en/pro",
+    "https://geometric-art.com/easy",
+    "https://geometric-art.com/en/privacy",
+    "https://geometric-art.com/sitemap.xml",
+    "https://www.instagram.com/shinichi_sisberry/",
+    "https://api.github.com/repos/paper-design/shaders"
+  ],
+  "aliases": [
+    "s32"
+  ],
+  "dedupe_keys": [
+    "host:geometric-art.com",
+    "name:geometric"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Unicorn Studio",
+      "url": "https://www.unicorn.studio",
+      "why": "No-code WebGL effects and scenes you can embed live on a website instead of exporting video"
+    },
+    {
+      "name": "Paper Shaders",
+      "url": "https://shaders.paper.design",
+      "why": "Open-source (Apache-2.0) React/vanilla shader effects (dithering, halftone, mesh gradients) usable directly in code"
+    },
+    {
+      "name": "Dither It!",
+      "url": "https://ditherit.com",
+      "why": "Simple free tool for dithered image treatments with custom palettes"
+    }
+  ],
+  "user_notes": ""
+}

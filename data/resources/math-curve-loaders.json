@@ -1,0 +1,103 @@
+{
+  "id": "math-curve-loaders",
+  "name": "Math Curve Loaders",
+  "url": "https://paidax01.github.io/math-curve-loaders/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Open GitHub Pages gallery of 21 loading animations drawn from mathematical parametric curves, with code and formulas.",
+  "what_it_offers": "A dependency-free gallery of 21 SVG particle-trail loaders driven by requestAnimationFrame, based on rose curves, Lissajous, lemniscate, hypotrochoid, cardioid, spiral-petal and Fourier-style paths (e.g. 'Rose Orbit', 'Cardioid Heart', 'Fourier Flow'). Each opens in a modal with live parameter controls, the formula, copyable code, and a download button that saves a standalone HTML demo; the UI is bilingual (English/Chinese).",
+  "resource_type": "Animation library",
+  "tags": [
+    "loaders",
+    "spinners",
+    "svg",
+    "math",
+    "parametric-curves",
+    "animation",
+    "vanilla-js",
+    "loading-states"
+  ],
+  "output_type": "Code",
+  "tech_stack": "Vanilla HTML + CSS + JavaScript (SVG via createElementNS + requestAnimationFrame), hosted on GitHub Pages",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Motion & interaction",
+    "Build"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "Elegant math-curve loaders could inspire a developer portfolio's intro preloader or page-transition motif. But the set is small, covers only loading states, has no license and is dormant, so it works as reference only.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "UI components & sections"
+  ],
+  "client_ok": "No",
+  "client_ok_note": "The repo has no LICENSE file and the README states no license, so all rights are reserved. Re-implement the public math formulas instead of copying the code.",
+  "best_use_for_portfolio": "Use it as motion reference for a branded preloader or route-transition mark on a developer portfolio. Pick a curve (a rose or Lissajous, say) and rebuild it from the published formula as a small React SVG component in your own colours. Add prefers-reduced-motion handling.",
+  "category": "Animation & motion libraries (code)",
+  "subcategory": "Parametric SVG loaders",
+  "tier": "Low fit",
+  "tier_reason": "A small, dormant set of math-curve loaders with no license. Inspiration for a preloader motif only.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 3,
+  "score_rationale": "Unusual, elegant loaders that can give a site a distinctive, math-flavoured motion signature, and they are lightweight and easy to port to React. But the set is small, it covers only loading states, and the missing license blocks direct commercial copy-paste.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything: all loaders, parameter controls, formulas, copy code and standalone HTML download, no account",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://github.com/Paidax01/math-curve-loaders",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No license: the repo has no LICENSE file (GitHub API license = null; /LICENSE returns 404) and the README states no license, so by default all rights are reserved. Commercial reuse of the code is not granted; ask the author or re-implement the public-domain math formulas yourself.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "Copy-paste code and downloadable single-file HTML; an agent can read the curve definitions directly from raw main.js in the GitHub repo (github.com/Paidax01/math-curve-loaders). No npm package, registry, API or MCP. Community ports exist: a Next.js/React port (xiangshu233/math-curve-loaders-react, no license file) and an MIT-licensed Flutter package (math_curve_loaders 0.1.0 on pub.dev).",
+  "maintenance_signal": "GitHub: 2,042 stars, 138 forks, 4 open issues; created 2026-04-02, last commit 2026-04-04 ('Add downloadable standalone demos'), no commits since, so it is a finished showcase rather than an actively maintained library.",
+  "caveats": "No license file, so legal reuse is unclear; vanilla DOM code must be ported for React; no prefers-reduced-motion handling in the code; dormant since April 2026; the third-party React port also has no license file (2 stars), while the Flutter pub.dev port is MIT but Flutter-only.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://paidax01.github.io/math-curve-loaders/",
+    "https://paidax01.github.io/math-curve-loaders/main.js",
+    "https://github.com/Paidax01/math-curve-loaders",
+    "https://api.github.com/repos/Paidax01/math-curve-loaders",
+    "https://github.com/Paidax01/math-curve-loaders/blob/main/README.md",
+    "https://github.com/xiangshu233/math-curve-loaders-react",
+    "https://pub.dev/packages/math_curve_loaders",
+    "https://github.com/GriffinJohnston/ldrs",
+    "https://github.com/tobiasahlin/SpinKit"
+  ],
+  "aliases": [
+    "s44"
+  ],
+  "dedupe_keys": [
+    "host:paidax01.github.io/math-curve-loaders",
+    "github:paidax01/math-curve-loaders",
+    "name:math-curve-loaders"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "LDRS by uiball",
+      "url": "https://uiball.com/ldrs/",
+      "why": "MIT-licensed, npm-installable loaders as web components with React support, fully customizable and tree-shakable."
+    },
+    {
+      "name": "CSS Loaders (css-loaders.com)",
+      "url": "https://css-loaders.com",
+      "why": "Hundreds of single-element pure-CSS loaders with copy-ready code."
+    },
+    {
+      "name": "SpinKit",
+      "url": "https://tobiasahlin.com/spinkit/",
+      "why": "Classic MIT-licensed CSS loading spinners, simple and widely used."
+    }
+  ],
+  "user_notes": ""
+}

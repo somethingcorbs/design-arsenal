@@ -1,0 +1,98 @@
+{
+  "id": "visual-journal",
+  "name": "Visual Journal",
+  "url": "https://visualjournal.it/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Ad-free, hand-picked blog of top branding, editorial and graphic design projects from around the world.",
+  "what_it_offers": "A blog curated by Italian art director Alessandro Scarpellini (Aesse). The homepage is an infinite-scroll feed of project posts. Each post is an image gallery of a full case study credited to the studio, e.g. 'Temper by HONO' with 13 images. New posts land almost daily: 12 between Aug 23 and Sep 9, 2026, and 'Aplomb' followed on Sep 11. Studios submit work by email, the site takes no ads or sponsors, and readers can donate via Buy Me A Coffee.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "branding",
+    "visual identity",
+    "editorial design",
+    "graphic design",
+    "case studies",
+    "modernist",
+    "curation"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Kirby CMS (PHP flat-file; /panel shows 'Kirby Panel') with a custom theme, infinitescroll.js and lazyload.js (the site's own stack)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "New posts arrive almost daily, each a full brand case study told through a sequence of images. That makes it a strong model for how studios order and show project work, even though it is mostly print and identity work rather than web layouts.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Layout & case-study structure",
+    "Color & theming"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "Post pages say images are copyrighted by their respective owners. No reuse rights are granted, so use the work as inspiration and don't republish it.",
+  "best_use_for_portfolio": "Study how 5 to 10 featured studios order their case-study images (hero shot, logo system, type, color, applications) and copy that rhythm in your own project pages. Take the strongest identities' type and color choices and turn them into design tokens for the portfolio itself.",
+  "category": "Graphic, print & visual-culture inspiration",
+  "subcategory": "Branding & editorial case studies",
+  "tier": "Situational",
+  "tier_reason": "Near-daily brand case studies told as image sequences are a useful model for ordering project work, though the content is mostly print and identity, not web layouts.",
+  "overlap_group": "Graphic & print design archives",
+  "pick_over_overlaps": "The default for contemporary identity systems. It is actively updated, while FAJP and Book Cover Archive are dormant.",
+  "website_design_score": 4,
+  "score_rationale": "The curation bar is high, with complete brand case studies (logo, type, color, applications) that help set a distinctive visual identity before building a site. It loses a point because it is mostly print and brand work rather than web layouts, and there is no visible search or tag filtering.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything is free with no account; optional donations via Buy Me A Coffee",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://visualjournal.it/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Reference only. Post pages say 'Images copyright to their respective owners.' No reuse rights are granted, so use the work as inspiration and don't republish it.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "RSS feed at https://visualjournal.it/feed (lastBuildDate 2026-09-11) with project titles and links, so an agent can track new work. No API; llms.txt returns 404. Post pages are plain server-rendered HTML with direct image URLs.",
+  "maintenance_signal": "Very active. The RSS feed's latest post is 2026-09-11 ('Aplomb'), with near-daily posts through Aug and Sep 2026. Images are stored under year-labelled content folders (e.g. content/home/14_2026/).",
+  "caveats": "Branding and print focused, with few live website or UI examples. No search or category filters on the homepage. Images are copyrighted by the studios. Browsing is chronological only.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://visualjournal.it/",
+    "https://visualjournal.it/feed",
+    "https://visualjournal.it/temper",
+    "https://visualjournal.it/panel",
+    "https://fountn.design/resource/visual-journal-branding-editorial-and-graphic-design/"
+  ],
+  "aliases": [
+    "s14"
+  ],
+  "dedupe_keys": [
+    "host:visualjournal.it",
+    "name:visual-journal"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "BP&O (Branding, Packaging and Opinion)",
+      "url": "https://bpando.org",
+      "why": "Critical write-ups of identity and packaging projects with more commentary on why the work succeeds."
+    },
+    {
+      "name": "The Brand Identity",
+      "url": "https://the-brandidentity.com",
+      "why": "Curated brand identity case studies plus interviews and a typeface section. Well organized for browsing."
+    },
+    {
+      "name": "Brand New (UnderConsideration)",
+      "url": "https://www.underconsideration.com/brandnew/",
+      "why": "Long-running reviews of corporate rebrands with before and after comparisons, good for identity decisions."
+    }
+  ],
+  "user_notes": ""
+}

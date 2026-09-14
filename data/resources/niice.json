@@ -1,0 +1,111 @@
+{
+  "id": "niice",
+  "name": "Niice",
+  "url": "https://niice.co/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Brand hub / brand asset manager for creative teams: guidelines, asset libraries and creative projects on visual canvases.",
+  "what_it_offers": "Niice (Belfast, Northern Ireland) has pivoted from its old moodboard/inspiration-search tool into a brand hub for creative teams. It offers no-code brand guideline pages, asset libraries (logos, photos, video, fonts, icons), creative project and handover boards, and 16 starter templates on niice.co/templates (e.g. Brand Guidelines, Brand Kit, Campaign Toolkit, Voice & Tone, Logo/Font/Photo/Video Libraries). You also get SSO backed by ISO27001 certification, Directory Sync/SCIM groups, an Amazon S3 asset-sync integration, embeds from thousands of services, a customer API, a remote MCP server for connecting Claude and other agents, and an early Figma plugin. Named customers include The Walt Disney Company, Nordstrom and Fox Entertainment. 'Niice 4' is in Private Beta, with a 'Request early access' form.",
+  "resource_type": "Design & build platform",
+  "tags": [
+    "brand guidelines",
+    "digital asset management",
+    "brand portal",
+    "creative collaboration",
+    "moodboard (legacy)",
+    "enterprise",
+    "no-code",
+    "MCP"
+  ],
+  "output_type": "Hosted design/app",
+  "tech_stack": "The marketing homepage (niice.co) is Next.js with WordPress-sourced content (wp-content assets). The v4/pricing pages on niice.com are Next.js + Mantine. The app at niice.co (sign-in/sign-up) ships a Next.js bundle with styled-components, Stripe and Pusher; its /mcp endpoint answers from an Express server.",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 1,
+  "portfolio_fit_reason": "An enterprise brand-asset portal with quote-only pricing. It no longer offers the moodboard tool it was known for, and it does nothing to help design or build a portfolio site.",
+  "portfolio_jobs": [
+    "Project media & mockups",
+    "Visual direction & moodboard"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "Hosted SaaS for your own licensed content. The Terms make users responsible for content but don't clearly cover ownership or any license grant to Niice.",
+  "best_use_for_portfolio": "Mostly skip it. If a studio already runs Niice for a client brand, link a Niice brand portal from the portfolio's /brand or press-kit page. Otherwise, borrow its public template structure (Brand Kit, Voice & Tone) as a rough outline for a brand-identity case study.",
+  "category": "Design, motion & site-building platforms",
+  "subcategory": "Enterprise brand hub / DAM",
+  "tier": "Low fit",
+  "tier_reason": "Now an enterprise brand-asset portal with quote-only pricing and no moodboard tool. It does nothing for designing or building a portfolio.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 2,
+  "score_rationale": "Now an enterprise brand-asset portal rather than an inspiration or web-build tool. It could host a brand's guidelines, but it adds little to designing or building a distinctive website, and quote-only pricing makes it overkill for solo builders and small studios.",
+  "pricing_model": "Paid",
+  "billing_type": "Subscription",
+  "free_tier": "The official site offers no public free plan or trial. The pricing page (niice.com/v4/pricing) shows no prices and no trial, only 'Request a quote' and 'Request a demo'. Per its FAQ, external users who only need read-only access are free, and there are no hard caps on storage or members. A 'Create a hub' self-serve sign-up form (name, work email, password) exists at niice.co/auth/signup but isn't linked from the marketing pages. What plan a new hub gets wasn't tested, because that needs an account. GetApp (updated Sept 2026) lists a free version and free trial. That likely reflects the legacy self-serve product, whose app code still contains a free-boards limit ('You've used all your free boards. Upgrade for unlimited.').",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "Quote-based: 'Transparent pricing with all features included', priced by editors, viewers and storage via 'Request a quote'. No public prices. GetApp's 'from $83.25 flat rate/month' equals $999/year ÷ 12. That matches a legacy 'Workspace' upgrade screen still in Niice's app code ($99/month with 50GB storage, or $999/year). Niice's current site doesn't advertise it, so it's not confirmed as a current offer.",
+  "paid_top_label": "N/A: no self-serve tiers. Custom quote, with optional add-ons (advanced training, design services, tailored workflows, custom integrations).",
+  "one_time_usd": null,
+  "pricing_source_url": "https://niice.com/v4/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Hosted SaaS for managing your own brand assets: you put in content you've licensed yourself rather than taking content out. Niice's Terms of use (niice.com/legal/terms) say users are entirely responsible for their content and Niice may remove content or terminate access at its discretion. The terms don't explicitly spell out content ownership or a license grant to Niice.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "Moderate, but only with an account. Niice runs a remote MCP server at https://niice.co/mcp: it returns 401 without credentials and publishes OAuth 2.1 metadata with dynamic client registration and an 'mcp' scope. The August 2026 release notes mention 'Connect Claude' and agents setting page, site and link thumbnails over MCP. The pricing FAQ also mentions a 'customer API' for bespoke integrations. No public MCP or API docs, no llms.txt (404 on niice.co and niice.com), and no npm package.",
+  "maintenance_signal": "Active. The 2026 release notes have monthly entries January through August 2026: Tables block (Jan), Page analytics (Feb), Brand color palettes (Mar), mixed-source folder embeds (Apr), Share links dashboard (May), People page (Jun), Group profiles (Jul), and an activity feed plus a Figma plugin (phase one) and Claude/MCP connection fixes (Aug). The 2025 release notes put Amazon S3 asset sync in the April 2025 entry (shipped the month before) and Directory Sync/SCIM Groups in May 2025. Niice 4 is in Private Beta.",
+  "caveats": "Big pivot: older articles describe Niice as a free moodboard tool, which is outdated. Official pricing is quote/demo-only. Third-party listings (GetApp's $83.25/mo, free version and trial) appear to reflect the legacy self-serve Workspace plan, not the current offer. The domain is split: the niice.com root 302-redirects to niice.co, which is the canonical homepage (og:url) and hosts the app and MCP server. Pricing, Niice 4, blog, release notes, help and legal pages live on niice.com, and niice.co/pricing redirects to niice.com/v4/pricing. Niice 4 is Private Beta. It's aimed at teams and enterprises, with lock-in to a hosted DAM. Nothing exports to code. The Terms of use don't clearly address content ownership.",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "paid_entry_usd_month (no public price; the $999/yr Workspace plan is only in legacy app code)",
+    "free_tier (whether the unlinked self-serve sign-up creates a free or trial hub; not tested because it requires creating an account)"
+  ],
+  "evidence_urls": [
+    "https://niice.co/",
+    "https://niice.com/v4/pricing",
+    "https://niice.com/v4/overview",
+    "https://niice.co/templates",
+    "https://niice.co/auth/signup",
+    "https://niice.com/blog/release-notes",
+    "https://niice.com/blog/release-notes/2025",
+    "https://niice.co/mcp",
+    "https://niice.co/.well-known/oauth-authorization-server",
+    "https://niice.co/.well-known/oauth-protected-resource",
+    "https://niice.com/legal/terms",
+    "https://www.getapp.com/marketing-software/a/niice/",
+    "https://www.frontify.com/en/pricing",
+    "https://milanote.com/plans"
+  ],
+  "aliases": [
+    "s49"
+  ],
+  "dedupe_keys": [
+    "host:niice.co",
+    "host:niice.com",
+    "name:niice"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Frontify",
+      "url": "https://www.frontify.com",
+      "why": "Leading brand-guidelines and DAM platform and the closest direct competitor to Niice's brand hub. It also has quote-based pricing (monthly-active-user model), with no public free plan."
+    },
+    {
+      "name": "zeroheight",
+      "url": "https://zeroheight.com",
+      "why": "Design-system and brand documentation platform that syncs with Figma and code; a better fit for web and product teams"
+    },
+    {
+      "name": "Milanote",
+      "url": "https://milanote.com",
+      "why": "Visual moodboarding canvas with a free plan (100 notes/images/links, 10 uploads); covers what Niice used to be for early visual direction"
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,103 @@
+{
+  "id": "book-of-shapes",
+  "name": "Book of Shapes",
+  "url": "https://bookofshapes.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Curated gallery of minimal generative SVG patterns you can adjust in-browser and download free.",
+  "what_it_offers": "About 110 algorithmic patterns: the sitemap lists 114 pattern pages, and homepage category counts are grid 22, radial 18, noise 18, flow 17, isometric 13, organic 9, distortion 8, physics 5. Examples include Flow Dots, Iso Sphere, Lissajous Field, Phyllotaxis Bloom and Quarter Arc Truchet. Each pattern page has a player with adjustable controls and colors. 'Download SVG' gives a ZIP with a styled SVG, a raw SVG and LICENSE.txt. There is also 'Copy for Figma' (copies SVG to the clipboard), a share link, saved variations and hearts. A small 'Learn' section explains shaping functions (lerp, clamp, remap, easing, normalize, envelope shaping). Patterns were first published around 13 Aug 2026.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "generative-art",
+    "svg-patterns",
+    "backgrounds",
+    "isometric",
+    "noise",
+    "flow-fields",
+    "figma",
+    "free",
+    "poster-design"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Astro + SolidJS islands + Tailwind-style utility CSS, on Vercel",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Tunable generative SVG patterns with a clear commercial license are a fast route to a signature Swiss/generative motif across hero, dividers and OG images. Clean vectors drop straight into React/Tailwind portfolio builds.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Imagery, illustration & textures",
+    "Color & theming"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Book of Shapes Licence allows commercial use with no fee or attribution. You can't redistribute patterns as packs or generators, and the Joy Division and Brockmann patterns are study-only.",
+  "best_use_for_portfolio": "Pick one pattern, such as a flow field, isometric grid or truchet arcs, tune it to the palette, and use it as the portfolio's recurring motif in the hero, section dividers and project-card backgrounds. Inline the raw SVG as a React component using currentColor so it follows light and dark themes.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Generative SVG patterns",
+  "tier": "Situational",
+  "tier_reason": "Commercially licensed generative SVG patterns drop cleanly into code, but they serve one Swiss and generative motif, not most portfolio directions.",
+  "overlap_group": "Static background, gradient & pattern generators",
+  "pick_over_overlaps": "Use it for poster-like algorithmic patterns rather than gradients or blobs.",
+  "website_design_score": 4,
+  "score_rationale": "High-taste, license-clear generative SVGs that give a site a distinctive Swiss/generative look beyond generic blobs and gradients. Clean vector output is easy to drop into React/Tailwind. Scope is limited to static pattern assets, and the catalog is modest (about 110 patterns).",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "All patterns, customization, SVG download (ZIP with styled and raw SVG), Copy for Figma and saved variations. No fee, account or login seen.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://bookofshapes.com/license",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Custom 'Book of Shapes Licence' (dated September 2026, included as LICENSE.txt in every download). Anything you generate can be used commercially, modified or not, in print, on screen or on products, with no fee, permission or attribution needed ('Pattern from bookofshapes.com' is appreciated). One limit: you can't redistribute the patterns themselves (SVG packs, clipart sets, template libraries, generators), since a pattern can be part of a product but not the product. Three patterns recreate existing works: Joy Division, Joy Division Mesh (Unknown Pleasures cover) and Brockmann Beethoven Arcs (Müller-Brockmann poster). They are for study only and must not be published or sold at all. The node-graph definitions and site source code are not covered.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. No public API, npm, MCP or llms.txt (llms.txt returns 404). Output is plain SVG, so an agent can inline or optimize downloaded files, but generation is manual in the GUI.",
+  "maintenance_signal": "Very new and active. Pattern pages show datePublished 2026-08-13, the homepage Last-Modified header is 13 Sep 2026, the licence is dated September 2026, and it was featured in TOOOLS newsletter #23 (1 Sep 2026). It is a solo project by Nikolaj Sokolowski, so it has no long-term track record yet.",
+  "caveats": "Static SVG exports only, with no code, animation or runtime generator. You can't redistribute patterns as packs, libraries or generators. The Joy Division, Joy Division Mesh and Brockmann Beethoven Arcs patterns can't be published or sold at all. Dense patterns may produce heavy SVGs that need SVGO optimization. The site is about a month old, from a solo creator. No API for automated generation.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "specific per-pattern control parameters"
+  ],
+  "evidence_urls": [
+    "https://bookofshapes.com/",
+    "https://bookofshapes.com/license",
+    "https://bookofshapes.com/patterns/flow_dots",
+    "https://bookofshapes.com/sitemap-0.xml",
+    "https://www.toools.design/newsletter/issues/zoah-book-of-shapes-beautiful-ui-all-in-frame-vgpu",
+    "https://www.designminis.com/tools/bookofshapes"
+  ],
+  "aliases": [
+    "s42"
+  ],
+  "dedupe_keys": [
+    "host:bookofshapes.com",
+    "name:book-of-shapes"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Pattern Monster",
+      "url": "https://pattern.monster/",
+      "why": "Large free library of customizable seamless SVG patterns with CSS export"
+    },
+    {
+      "name": "Hero Patterns",
+      "url": "https://heropatterns.com/",
+      "why": "Classic free repeatable SVG background patterns with ready-to-paste CSS"
+    },
+    {
+      "name": "fffuel",
+      "url": "https://www.fffuel.co/",
+      "why": "Collection of free SVG generators (noise, grain, patterns, shapes) for backgrounds and textures"
+    }
+  ],
+  "user_notes": ""
+}

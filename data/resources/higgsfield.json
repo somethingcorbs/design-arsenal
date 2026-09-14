@@ -1,0 +1,114 @@
+{
+  "id": "higgsfield",
+  "name": "Higgsfield AI",
+  "url": "https://higgsfield.ai/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Multi-model AI creative suite for generating images, videos, voice and effects from prompts or references.",
+  "what_it_offers": "A hosted platform bundling third-party and in-house generative models: video (Seedance 2.5/2.0, Kling 3.0, Veo 3.1, Sora 2, WAN 3.0) and images (Nano Banana Pro/2, GPT Image, FLUX.2, Seedream, Soul 2.0). Around it sit tools such as Cinema Studio (camera and lens controls), a storyboard generator, Moodboard, Lipsync Studio, Upscale, Draw-to-Edit, a directory of 94 public one-click apps (per llms.txt), Effects, Marketing Studio, Supercomputer, 3D Jutsu, Genjutsu and Canvas. It also offers an MCP server, a CLI, and plugins/connections for ChatGPT, Claude, Cursor, Claude Code and others.",
+  "resource_type": "AI design / agent",
+  "tags": [
+    "ai-video",
+    "ai-image",
+    "generative-media",
+    "hero-video",
+    "moodboard",
+    "storyboard",
+    "mcp",
+    "cli",
+    "credits",
+    "marketing-assets"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "N/A (hosted web app; MCP server + CLI for agent access)",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Assets & graphics",
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Useful for bespoke hero loops, atmospheric backgrounds and mockup-style stills, but produces no layout or code, burns credits fast, and its free tier is watermarked.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Imagery, illustration & textures",
+    "Project media & mockups"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "Terms 4.4 allow commercial use and sublicensing outputs to clients, but free outputs carry an unremovable watermark and the pricing table contradicts free-plan commercial rights.",
+  "best_use_for_portfolio": "On a paid plan, generate a short looping abstract hero video or ambient background clip and stylised scene shots to frame project screenshots, then compress to WebM/AVIF. Use it for atmosphere, not to fabricate project results a case study claims.",
+  "category": "AI design & generative media",
+  "subcategory": "Multi-model image & video generation",
+  "tier": "Situational",
+  "tier_reason": "Generates bespoke hero loops, atmospheric backgrounds and mockup stills. No layout or code, credits burn fast and the free tier is watermarked.",
+  "overlap_group": "AI image & video generation",
+  "pick_over_overlaps": "Use it only when you need a specific video model or Cinema Studio camera controls. Weave is the safer default.",
+  "website_design_score": 3,
+  "score_rationale": "It produces no code or layout guidance. Its value is custom hero videos, product imagery and moodboards that can make a site visually distinctive, and it is reachable from AI coding agents via MCP/CLI. Billing complexity, credit burn and a watermarked free tier lower its practicality.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "Free account with 0 monthly credits, labelled 'Limited use' on the pricing compare table. The help center says free use covers a small set of models with no credits, and every free-account generation carries a visible Higgsfield watermark. As of 2026-09-14 the compare table marks Nano Banana Pro and FLUX.2 Pro images as 'Included' on Free (quota not stated). Video models are 0 or 'Not included', Character is up to 1 generation, and there is 1 concurrent image job and 1 concurrent video job. Effects are labelled 'Free' in the site nav. The help center says subscriptions have no trial, but the MCP page offers a 3-day free trial plan with 100 credits when you connect via MCP.",
+  "paid_entry_usd_month": 19,
+  "paid_entry_label": "Starter $19/mo (same price monthly or billed annually), fixed 270 credits/mo, selected models only (no Seedance 2.5/2.0 full)",
+  "paid_top_label": "Individual: Ultra $129/mo monthly ($99/mo billed annually), 3,000 credits (6,000/9,000 options). Business: Scale $215/seat/mo monthly ($150/seat/mo annual), 5-15 members, 2,500 credits/seat. Team $79/seat/mo ($65 annual), 2-9 members, 1,000 credits/seat. Enterprise custom.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://higgsfield.ai/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Terms of Use (last updated 2026-07-26), section 4.4: Higgsfield does not claim ownership of Inputs or Outputs and does not restrict commercial use of Outputs. Those rights survive cancellation, and you may transfer or sublicense them to clients. The help center article 'Who owns my generations, and can I use them commercially?' (2026-08-02) says this applies to all users and no separate commercial licence exists. Its FAQ answers 'No' to whether commercial use of outputs is restricted to paid plans. The pricing compare table still marks 'Commercial use: Not included' on Free, which contradicts the Terms and the help article. The practical limit is that Free outputs carry a visible watermark, and Terms 4.1 forbids removing or obscuring watermarks incorporated in or accompanying the Service. Content, Inputs and Outputs may be used to train Higgsfield models, except under Enterprise agreements. Outputs may not be used to train other AI models (Terms 5.1(iii), 5.2(iv)). Per the help article, IP indemnification is Enterprise-only. Section 8 applies third-party model providers' policies.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "MCP server (higgsfield.ai/mcp) usable from ChatGPT, Claude, Claude Code, Cursor, Grok, OpenClaw, Hermes and others. The site recommends the CLI (linked on GitHub) for Claude Code/Codex, and publishes llms.txt at higgsfield.ai/llms.txt. Unlimited models and free generations are web-only, so MCP/CLI, Canvas and Supercomputer usage always consumes credits.",
+  "maintenance_signal": "Very active: public changelog with RSS at higgsfield.ai/creator-hub/changelog. Help center articles on plans, credits, watermarks and ownership were updated 2026-08-01 to 08-03. As of 2026-09 the pricing page lists newly released models (Seedance 2.5, Kling 3.0, Wan 3.0) and new products (Genjutsu, 3D Jutsu, ChatGPT plugin). Trustpilot TrustScore 4.0/5 from ~4,350 reviews; BBB rating F with 27 complaints in 3 years (16 unanswered).",
+  "caveats": "Credit-based and complex. Subscription credits expire each cycle with no rollover; annual plans refresh credits every 30 days; add-on credits are valid for 90 days (Terms 9.6). Unlimited models are promo-driven, web-only, speed-throttled under load and excluded from MCP/CLI/Canvas/Supercomputer. Refunds are only within 7 days of initial purchase if no credits were used, may carry up to a 6% service fee, and exclude renewals (Terms 9.3). Terms 10.7 says free trials and promotions auto-convert to paid subscriptions unless stated otherwise, so check the MCP 3-day trial terms. BBB shows an F rating with complaints about denied refunds, promotions and hard cancellation. Free-plan commercial rights are contradictory: the Terms and help center allow commercial use, but the pricing table says 'Not included'. Free outputs are watermarked and the watermark may not be removed, so plan on a paid tier for site assets. Outputs may be used for model training on non-Enterprise plans. Aggressive promotional UI (rotating discount banners).",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "free_tier (exact quotas behind the 'Included' marks for Nano Banana Pro and FLUX.2 Pro on the Free plan are not published)",
+    "free_tier (whether the MCP 3-day/100-credit trial requires a payment method or auto-converts to paid)",
+    "commercial_use_license (why the pricing table still lists commercial use as 'Not included' on Free despite Terms 4.4 and the help center; no official reconciliation found)"
+  ],
+  "evidence_urls": [
+    "https://higgsfield.ai/creator-hub/help-center/account/who-owns-my-generations-and-can-i-use-them-commercially",
+    "https://higgsfield.ai/creator-hub/help-center/credits-and-usage/watermark-and-how-to-remove",
+    "https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work",
+    "https://higgsfield.ai/creator-hub/help-center/credits/how-credits-work",
+    "https://higgsfield.ai/pricing",
+    "https://higgsfield.ai/terms-of-use-agreement",
+    "https://higgsfield.ai/mcp",
+    "https://higgsfield.ai/",
+    "https://higgsfield.ai/llms.txt",
+    "https://www.trustpilot.com/review/higgsfield.ai",
+    "https://www.bbb.org/us/ca/san-francisco/profile/artificial-intelligence/higgsfield-ai-1116-977987/complaints"
+  ],
+  "aliases": [
+    "s57"
+  ],
+  "dedupe_keys": [
+    "host:higgsfield.ai",
+    "github:higgsfield-ai/cli",
+    "npm:@higgsfield/cli",
+    "name:higgsfield-ai"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Runway",
+      "url": "https://runway.com/",
+      "why": "Professional AI video generation and editing suite with its own Gen models and an API (runwayml.com now redirects here)."
+    },
+    {
+      "name": "Krea",
+      "url": "https://www.krea.ai/",
+      "why": "Real-time AI image/video generation, upscaling and multi-model access geared to designers."
+    },
+    {
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "why": "High-quality cinematic AI video and image generation with an API, good for hero footage."
+    }
+  ],
+  "user_notes": ""
+}

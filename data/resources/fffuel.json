@@ -1,0 +1,106 @@
+{
+  "id": "fffuel",
+  "name": "fffuel",
+  "url": "https://www.fffuel.co/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free collection of 60+ browser SVG generators and color tools for gradients, textures, patterns, and shapes.",
+  "what_it_offers": "Single-purpose generators, each with sliders and randomize, that export SVG (and often PNG or CSS). Examples: gggrain (grainy gradients), nnnoise (noise textures), ffflux (fluid gradients), bbblurry (blurry blobs), ssshape, sssquiggly, ooorganize (grid patterns), hhholographic, wwwatercolor, dddepth, iiisometric, and nnneon. Color tools include cccolor, pppalette, and hhhue, and utilities include rrrasterize (SVG to PNG), eeencode (SVG to Base64), and rrready (web feature support). Separately there is a paid 'Make an SVG App' video course ($24 one-time) and a cccolor desktop color-picker app ($4 one-time).",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "svg",
+    "generators",
+    "gradients",
+    "textures",
+    "noise",
+    "patterns",
+    "blobs",
+    "backgrounds",
+    "color-palettes",
+    "free"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Static site (Cloudflare) with per-generator vanilla JS modules + SVG.js and Shoelace UI; outputs plain SVG/PNG/CSS",
+  "skill_level": "Any",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "Free, commercially licensed grain, noise, gradient and shape generators that give a portfolio a crafted, non-template texture layer, plus palette tools for theming. It doesn't help with layout or case-study structure.",
+  "portfolio_jobs": [
+    "Imagery, illustration & textures",
+    "Hero & signature visuals",
+    "Color & theming"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The fffuel license allows generated images in personal and commercial projects without attribution. Redistributing or reselling the raw images themselves is prohibited.",
+  "best_use_for_portfolio": "Add a subtle nnnoise film-grain overlay and a gggrain gradient behind the hero so the portfolio feels art-directed, and use ssshape or bbblurry accents sparingly around case-study headers. Pull a palette from pppalette into theme tokens, and rasterize heavy filters for mobile.",
+  "category": "Visual generators & image effects",
+  "subcategory": "SVG texture & gradient generator suite",
+  "tier": "Strong",
+  "tier_reason": "A broad free suite of commercially licensed grain, noise, gradient and shape generators that adds a crafted texture layer to most portfolios. No help with layout.",
+  "overlap_group": "Static background, gradient & pattern generators",
+  "pick_over_overlaps": "The default for grain, noise and organic texture layers: the widest range, and free.",
+  "website_design_score": 4,
+  "score_rationale": "A deep, free, commercially licensed source of textures and decorative SVGs (grain, noise, blobs, patterns) that give a site a crafted, non-template look. Exports are lightweight vectors that drop straight into React/Tailwind. It doesn't help with layout, UX, or build tooling, and there's no programmatic access.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "All web generators, color tools, and SVG/PNG exports, free with no account. Separate optional paid products: the 'Make an SVG App' course on Teachable ($24 one-time) and the cccolor desktop app for Mac/Windows/Linux via Lemon Squeezy ($4 one-time).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A (web tools free; optional cccolor desktop app $4 one-time, 'Make an SVG App' course $24 one-time)",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.fffuel.co/make-svg-app/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Custom fffuel license (fffuel.co/license): generated images may be used in personal and commercial projects, attribution not required but appreciated. You may not sublicense, resell, share, transfer, or redistribute the images themselves (so no selling them as asset packs). Provided as-is. The footer's privacy and terms links point to syntax.fm.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. No MCP, npm, API, or llms.txt (/llms.txt returns 404). An agent can only use exported SVG markup or files that you paste or commit into the repo, for example as inline SVG or CSS background-image data URIs.",
+  "maintenance_signal": "Homepage last-modified 2026-09-10 (HTTP header). The footer still reads ©2024 Sentry.io / Syntax.fm, and there is no public changelog or repo. The site's tool directory links 65 tools and references, and the sitemap lists 70 URLs.",
+  "caveats": "Each tool is manual and one-off, with no saved projects, API, or reproducible seeds in code. Some effects (SVG turbulence filters, heavy grain) cost real render performance at full-viewport sizes, so test on mobile or rasterize. Grainy-gradient and blob looks are popular, so tune them to avoid a generic 2023 aesthetic. The license bars redistributing raw generated images.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "exact ownership relationship with Sentry/Syntax.fm (about page names creator Seb; footer credits Sentry.io / Syntax.fm)",
+    "similar_sites_outside_list (not checked against a builder's full input list, which was not provided)"
+  ],
+  "evidence_urls": [
+    "https://www.fffuel.co/",
+    "https://www.fffuel.co/license/",
+    "https://www.fffuel.co/about/",
+    "https://www.fffuel.co/make-svg-app/",
+    "https://www.fffuel.co/app/",
+    "https://www.fffuel.co/sitemap.xml",
+    "https://www.fffuel.co/gggrain/"
+  ],
+  "aliases": [
+    "s30"
+  ],
+  "dedupe_keys": [
+    "host:fffuel.co",
+    "name:fffuel"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Haikei",
+      "url": "https://haikei.app",
+      "why": "Web app generating SVG waves, blobs, layered shapes, and gradients with saved presets"
+    },
+    {
+      "name": "Pattern Monster",
+      "url": "https://pattern.monster",
+      "why": "Large library of customizable seamless SVG patterns with CSS export"
+    },
+    {
+      "name": "Blobmaker",
+      "url": "https://www.blobmaker.app",
+      "why": "Minimal organic blob SVG generator for accent shapes"
+    }
+  ],
+  "user_notes": ""
+}

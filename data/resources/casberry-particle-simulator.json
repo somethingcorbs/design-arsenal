@@ -1,0 +1,115 @@
+{
+  "id": "casberry-particle-simulator",
+  "name": "AI Particle Simulator (Casberry)",
+  "url": "https://particles.casberry.in/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free browser WebGL tool for 3D particle swarms, with code export to Vanilla JS, React, and Three.js.",
+  "what_it_offers": "A Three.js particle playground (5k-50k particles, default 20k) with preset formations (sphere, cube, helix, torus/donut) and visual styles. It can turn text (Smart Text), images, video, drawings, blueprints, and 3D models (OBJ/GLB/PLY/PDB) into particles, and it has webcam hand-gesture navigation via MediaPipe. There is a custom code editor that takes AI-written per-particle functions (the site gives a copy-paste prompt for Claude/ChatGPT/Gemini), plus a Community Cloud where people publish and load shapes. Exports: Vanilla JS, React, and Three.js code, 1080p/2K/4K wallpapers (PNG/JPEG/WebP), and PLY/GLB/OBJ files.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "webgl",
+    "three.js",
+    "particles",
+    "generative-art",
+    "3d",
+    "hero-effects",
+    "code-export",
+    "react",
+    "ai-prompt"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Vanilla JS + Three.js 0.160 (import map from unpkg) + MediaPipe Hands (jsDelivr) + Firebase 10.7 Firestore/App Check; exports Vanilla JS, React, or Three.js class",
+  "skill_level": "Low-code",
+  "design_stages": [
+    "Visual direction",
+    "Motion & interaction",
+    "Assets & graphics",
+    "Build"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "Can produce a memorable particle wordmark or logo hero for a developer or creative-tech portfolio, with React/Three.js export. But it's a single effect type, heavy on mobile, dormant, and without terms.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "No terms of service. The only license is a boilerplate-looking MIT file for site code. Rights to exports and Community Cloud shapes are not stated.",
+  "best_use_for_portfolio": "Turn your name or logo into a particle formation with Smart Text or a GLB import, then export the React version as a lazy-loaded, client-only hero canvas. Use a 4K still export as the mobile and reduced-motion fallback, and swap the unpkg Three.js import for an npm dependency.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Three.js particle playground",
+  "tier": "Low fit",
+  "tier_reason": "One particle-wordmark effect that is heavy on mobile, dormant and has no stated terms. Too narrow and risky for most portfolios.",
+  "overlap_group": "Code-exportable WebGL effects",
+  "pick_over_overlaps": "Use it for particle-text or shape-morph heroes. Swap its imports for npm packages and add a low-power fallback before shipping.",
+  "website_design_score": 3,
+  "score_rationale": "A fast way to prototype a distinctive particle hero or background and export working Three.js/React code, with no signup or cost. It produces a single effect type that can look gimmicky. Exported code quality and performance are unaudited. It is a one-person agency app with no public repo, no terms, and no code changes since spring 2026.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything: simulator, all imports, custom AI code editor, Community Cloud publishing/loading, and all export formats (code, 4K wallpapers, PLY/GLB/OBJ). No paid tier, login, or paywall code found in the page or its main.js/export-manager.js.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://particles.casberry.in/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Unconfirmed for exports. The only license text is a standard MIT LICENSE at the site root (particles.casberry.in/LICENSE), credited to 'Particles Swarm Pro Contributors' (2024). That wording and date predate the project, which Casberry's portfolio dates to Dec 2025, so it looks like boilerplate for the site's source rather than terms for outputs. There is no ToS, privacy page, FAQ, or changelog. /terms, /privacy, /faq and /changelog all return the app's own index page (catch-all). The in-app 'AI Guide' is only a prompt spec. The footer links only to casberry.in, GitHub, and X, and casberry.in has no terms page. Exported code has no license header. Nothing addresses wallpapers, PLY/GLB/OBJ exports, or Community Cloud shapes, which are stored with only a publisher name and no license. In practice: code and assets you generate from your own input carry no stated restriction and the site code is MIT, but other users' community shapes have no grant. Ask the author (x.com/Eswarprasaath_) before relying on it commercially.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "Partial. No MCP, npm package, API, or llms.txt (/llms.txt returns the SPA HTML with 200). It does publish a detailed prompt spec for writing per-particle JS functions, and its exported Vanilla JS/React/Three.js code can be pasted into a Next.js or Vite project.",
+  "maintenance_signal": "Dormant since about March-April 2026. Dated first-party snapshots in the Wayback Machine show the live /main.js (115,210 bytes) and /js/export-manager.js (49,200 bytes) byte-identical to captures from 2026-03-28. The live index.html is identical to the 2026-04-24 capture apart from Cloudflare-injected scripts, still labeled 'Version 1.2'. HTTP headers don't help: the site runs on Cloudflare, main.js's Last-Modified just echoes the request time, and export-manager.js sends only an ETag. There is no in-app changelog. Casberry is a one-person agency (Eswar Prasaath, Madurai), and its portfolio lists the project as 'Dec 2025'. Third-party coverage: daily.dev (2026-03-13), Sidebar (2026-03-20), Incrypted (2026-04-13). Casberry's GitHub (CasberryIndia) has only Physics-Notebook (288 stars, MIT, pushed 2026-08-07); the simulator's repo is not public. The site itself is live.",
+  "caveats": "Heavy WebGL: 20k+ particles will hurt mobile performance and battery, so add reduced-motion and low-power fallbacks. Exported code pulls Three.js from unpkg; swap in an npm import before production. Webcam gesture features are a novelty. There are no terms, FAQ, or changelog anywhere: the only license is a boilerplate-looking root MIT file, and community shapes have unclear ownership. The app code hasn't changed since at least 2026-03-28 (main files byte-identical to archived copies). It is a small one-person agency project, so long-term availability is uncertain. Treat the output as a prototype to own and harden in your repo rather than a maintained dependency.",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no ToS/FAQ exists; rights for code/wallpaper/3D exports and Community Cloud shapes are not stated)",
+    "maintenance_signal (Wayback shows no front-end code change since 2026-03-28/2026-04-24; backend/Firestore changes and a precise last-deploy date cannot be seen)",
+    "similar_sites_outside_list (not checked against a builder's full input list, which was not provided)"
+  ],
+  "evidence_urls": [
+    "https://particles.casberry.in/",
+    "https://particles.casberry.in/LICENSE",
+    "https://particles.casberry.in/main.js",
+    "https://particles.casberry.in/js/export-manager.js",
+    "https://web.archive.org/cdx/search/cdx?url=particles.casberry.in/*&output=json&collapse=digest",
+    "https://web.archive.org/web/20260328215224/https://particles.casberry.in/main.js",
+    "https://web.archive.org/web/20260328215224/https://particles.casberry.in/js/export-manager.js",
+    "https://web.archive.org/web/20260424211800/https://particles.casberry.in/",
+    "https://casberry.in/",
+    "https://sidebar.io/domain/particles.casberry.in",
+    "https://incrypted.com/en/3d-visual-effects-using-ai/",
+    "https://github.com/CasberryIndia",
+    "https://api.github.com/users/CasberryIndia/repos",
+    "https://github.com/meenamahanth/Particle-Swarm-AI",
+    "https://daily.dev/posts/0t1ns3wto"
+  ],
+  "aliases": [
+    "s28"
+  ],
+  "dedupe_keys": [
+    "host:particles.casberry.in",
+    "name:ai-particle-simulator"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "tsParticles",
+      "url": "https://particles.js.org",
+      "why": "Mature MIT-licensed particle library with React/Vue/vanilla packages and presets; sturdier for production"
+    },
+    {
+      "name": "Unicorn Studio",
+      "url": "https://www.unicorn.studio",
+      "why": "No-code WebGL effects and scenes that export embeddable interactive backgrounds"
+    },
+    {
+      "name": "Spline",
+      "url": "https://spline.design",
+      "why": "Browser 3D design tool with interactive scene export to React/web"
+    }
+  ],
+  "user_notes": ""
+}

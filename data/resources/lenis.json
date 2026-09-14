@@ -1,0 +1,109 @@
+{
+  "id": "lenis",
+  "name": "Lenis",
+  "url": "https://lenis.dev",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free, MIT-licensed lightweight smooth-scroll JavaScript library by darkroom.engineering, with React, Vue, Framer and snap add-ons.",
+  "what_it_offers": "A small (under 5kb, no dependencies) library that turns native scroll into smooth, lerp-interpolated scrolling in one line (new Lenis()). It uses no CSS transforms and does not hijack the scrollbar, and it keeps WebGL/DOM and GSAP ScrollTrigger in sync. It supports horizontal and vertical scroll, infinite scroll, nested scroll, and snapping via lenis/snap. There are lenis/react and lenis/vue packages and a no-code Framer plugin. The site also has a showcase of sites using it (with a submit form), templates, and docs that link to the GitHub README.",
+  "resource_type": "Animation library",
+  "tags": [
+    "smooth scroll",
+    "scroll animation",
+    "javascript",
+    "react",
+    "vue",
+    "framer",
+    "gsap scrolltrigger",
+    "webgl",
+    "open source"
+  ],
+  "output_type": "Code",
+  "tech_stack": "Vanilla TypeScript/JS; adapters for React, Vue, Framer",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Motion & interaction",
+    "Research & moodboard"
+  ],
+  "portfolio_fit": 5,
+  "portfolio_fit_reason": "Lenis is the default smooth-scroll layer on award-style creative portfolios. It syncs with GSAP ScrollTrigger and WebGL, and it takes one line to add to a Next.js or Vite portfolio.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "MIT license on the GitHub repo and the npm package, so it's fine for commercial and client sites.",
+  "best_use_for_portfolio": "Add <ReactLenis root /> to the portfolio layout and hook it to GSAP ScrollTrigger. That gives case-study pages smooth pinned sections, parallax project images and scrubbed reveals. Respect prefers-reduced-motion, and use data-lenis-prevent on scrollable galleries or modals.",
+  "category": "Animation & motion libraries (code)",
+  "subcategory": "Smooth-scroll engine",
+  "tier": "Core",
+  "tier_reason": "The default smooth-scroll layer on scroll-driven creative portfolios. Tiny, one-line setup, and it pairs directly with GSAP ScrollTrigger and WebGL.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 4,
+  "score_rationale": "Many award-style sites use Lenis for smooth scrolling, and it pairs directly with GSAP ScrollTrigger and WebGL. It is a narrow utility rather than a design source, but it is key to that premium scroll feel and easy for a coding agent to wire into Next.js or Vite.",
+  "pricing_model": "Open source (free)",
+  "billing_type": "None",
+  "free_tier": "Everything is free: the core library, the React/Vue/snap packages, and the Framer plugin. The project is funded by GitHub Sponsors and darkroom client work.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://github.com/darkroomengineering/lenis",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "MIT license (GitHub repo and npm), so commercial use is allowed.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "npm package 'lenis' (plus lenis/react, lenis/vue, lenis/snap). lenis.dev/llms.txt gives a codebase overview and the options. The README has clear copy-paste setup, including GSAP ScrollTrigger sync. No MCP server or shadcn registry found.",
+  "maintenance_signal": "GitHub darkroomengineering/lenis: about 15.8k stars, last push 2026-09-09. npm latest is 1.3.26 (2026-08-05), with 2.0.0-dev.3 on the dev tag. About 1.1M npm downloads a week (2026-09-05 to 09-11).",
+  "caveats": "Overdone smooth scroll can hurt usability and accessibility (reduced-motion users, scroll-position expectations). Limits listed in the README: no CSS scroll-snap support (use lenis/snap), capped at 60fps on Safari (30fps in low-power mode), no smooth scroll over iframes, position: fixed can lag on pre-M1 macOS Safari, and nested scroll containers need configuration (allowNestedScroll or data-lenis-prevent). It is a scroll engine only, with no animations or components. A 2.0 rewrite is in dev, so the API may change.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "similar_sites_outside_list (existence verified; absence from the original list not checkable here)"
+  ],
+  "evidence_urls": [
+    "https://www.lenis.dev",
+    "https://lenis.dev/llms.txt",
+    "https://github.com/darkroomengineering/lenis",
+    "https://raw.githubusercontent.com/darkroomengineering/lenis/main/README.md",
+    "https://registry.npmjs.org/lenis",
+    "https://api.npmjs.org/downloads/point/last-week/lenis",
+    "https://framer.lenis.dev/",
+    "https://lenis.dev/showcase",
+    "https://github.com/theatre-js/theatre"
+  ],
+  "aliases": [
+    "s01"
+  ],
+  "dedupe_keys": [
+    "host:lenis.dev",
+    "host:framer.lenis.dev",
+    "github:darkroomengineering/lenis",
+    "npm:lenis",
+    "npm:@studio-freight/lenis",
+    "name:lenis"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Locomotive Scroll",
+      "url": "https://github.com/locomotivemtl/locomotive-scroll",
+      "why": "Scroll-detection and smooth-scroll library for in-view and parallax effects. v5 is built on Lenis."
+    },
+    {
+      "name": "Motion",
+      "url": "https://motion.dev",
+      "why": "React/JS animation library with scroll-linked animation hooks (useScroll) for scroll-driven UI without GSAP."
+    },
+    {
+      "name": "Theatre.js",
+      "url": "https://www.theatrejs.com",
+      "why": "Visual timeline editor and library for choreographing complex web and WebGL motion. Note: last npm release was May 2024 and the repo has been inactive since August 2024."
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,101 @@
+{
+  "id": "warm-and-fuzzy",
+  "name": "Warm & Fuzzy",
+  "url": "https://www.warmnfuzzy.tv/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Single portfolio site of Warm & Fuzzy, a US creative, animation and VFX studio; reference for a video-led studio site.",
+  "what_it_offers": "A studio website, not a resource. Warm & Fuzzy (founded 2016; team of about 12; LA, Boulder and NYC) shows work for Dunkin', ampm, Crocs, Conair, Olipop, McLaren F1, Pearl Jam, Bose, Coca-Cola, Porsche, Under Armour and others, across creative direction, production, live experiences, design, animation, VFX, editorial/finishing, sound and AI/emerging tech. The useful part is the site itself, designed and built by Neutral Studio and named Awwwards Site of the Day on Sept 12, 2026 (7.26/10). It has a video-first grid of Mux-streamed thumbnails, Category and Client filter dropdowns on the Work page, smooth scrolling, intro and idle animations, and a playful, minimal Work/Info/Contact structure.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "studio portfolio",
+    "motion design",
+    "VFX",
+    "video-first layout",
+    "agency website",
+    "Next.js",
+    "Awwwards SOTD",
+    "smooth scroll"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Next.js (Turbopack build) on Vercel + Storyblok CMS + Mux video/thumbnails + Lenis smooth scroll",
+  "skill_level": "Any",
+  "design_stages": [
+    "Visual direction",
+    "Layout & UX patterns",
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "An Awwwards Site of the Day studio portfolio that works as a direct model for a video-led work page. It's a single reference with no reusable code, and its look suits motion studios best.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "Layout & case-study structure",
+    "Project media & mockups"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "© 2026 Warm And Fuzzy LLC, and client work belongs to the studio and its clients. Study the patterns only; don't copy video, imagery, copy or code.",
+  "best_use_for_portfolio": "Use it as the model for a studio or motion-designer work page: a grid of muted, autoplaying video with poster thumbnails, Category and Client filter dropdowns, Lenis smooth scrolling and a short Work/Info/Contact nav. Rebuild the pattern in Next.js with Mux or native video, and keep an eye on page weight.",
+  "category": "Web & product UI inspiration",
+  "subcategory": "Single-site teardown reference",
+  "tier": "Situational",
+  "tier_reason": "A single award-winning studio site that models a video-led work page well. No reusable code, and its approach suits motion studios best.",
+  "overlap_group": "Curated website showcases",
+  "pick_over_overlaps": "Use it when building a video-led studio or portfolio on a similar stack. Otherwise Awwwards covers this job.",
+  "website_design_score": 3,
+  "score_rationale": "A polished, Awwwards SOTD-winning example of a video-led creative-studio site, built on a common Next.js-on-Vercel stack with Storyblok, Mux and Lenis. It's good for motion, grid and filter patterns, but it's a single site with no reusable code or assets.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "The whole public site is free to view; nothing to buy.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://www.warmnfuzzy.tv/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "No license: © 2026 Warm And Fuzzy LLC, and client work is owned by the studio and its clients. Study the layout and interaction patterns only; don't copy the videos, imagery, copy or code.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found (llms.txt 404, no API or registry). An agent can only fetch or screenshot the public pages as visual reference, and much of the content is video.",
+  "maintenance_signal": "Current. Awwwards Site of the Day on Sept 12, 2026; © 2026 footer; 2025-2026 projects (Dunkin' Pumpkin Spice, San Diego Zoo Elephant Valley, Crocs 2025) on the Work page; live Vercel deployment. The CSS Design Awards listing (WOTD Feb 4, 2022, 8.08) covers an earlier version of the site by Stephen Hannon (now co-founder of Neutral Studio) with Thomas Aufresne.",
+  "caveats": "Filed under 'Inspiration gallery' to fit the taxonomy, but it is one studio's portfolio site, not a gallery, resource or tool. The video-heavy layout carries performance and bandwidth costs, and the look suits motion/VFX studios more than product or SaaS sites. Everything is copyrighted. The CSSDA award is for the site's 2022 version, not the current build.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://www.warmnfuzzy.tv/",
+    "https://www.warmnfuzzy.tv/work",
+    "https://www.warmnfuzzy.tv/info",
+    "https://www.awwwards.com/sites/warm-fuzzy",
+    "https://www.cssdesignawards.com/sites/warm-fuzzy/40514/",
+    "https://neutral-studio.com"
+  ],
+  "aliases": [
+    "s51"
+  ],
+  "dedupe_keys": [
+    "host:warmnfuzzy.tv",
+    "name:warm-fuzzy"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Buck",
+      "url": "https://buck.co",
+      "why": "Top-tier animation/design studio site with a video-led work grid and strong case-study pages"
+    },
+    {
+      "name": "ManvsMachine",
+      "url": "https://mvsm.com",
+      "why": "Motion design studio site known for bold, minimal presentation of video work"
+    },
+    {
+      "name": "Neutral Studio",
+      "url": "https://neutral-studio.com",
+      "why": "The agency that designed and built the Warm & Fuzzy site (listed in its work nav); its portfolio shows more of the same craft"
+    }
+  ],
+  "user_notes": ""
+}

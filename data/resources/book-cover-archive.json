@@ -1,0 +1,102 @@
+{
+  "id": "book-cover-archive",
+  "name": "Book Cover Archive",
+  "url": "https://bookcoverarchive.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Long-running curated archive of standout book cover designs, credited to their designers.",
+  "what_it_offers": "About 1,393 book covers (the sitemap lists 1,393 /book/ URLs). They sit on paginated pages of 73: the pager links pages 1 to 19, and an unlinked /20 holds 6 more. Each cover's detail page shows the author, ISBN, genre and publisher where known, plus the designer and any illustrator or other credits. Every credited name links to a /person/ page listing that person's books (1,738 person pages). The footer links portfolios of cover designers (Chip Kidd, Peter Mendelsund, David Pearson, Jamie Keenan and others) and book-design blogs. Ben Pieratt and Eric Jacobsen have run it since 2012. The old search and taxonomy pages (/search, /designer) now return 404.",
+  "resource_type": "Inspiration gallery",
+  "tags": [
+    "book covers",
+    "typography",
+    "editorial design",
+    "graphic design",
+    "print",
+    "inspiration",
+    "designer credits"
+  ],
+  "output_type": "Reference only",
+  "tech_stack": "Next.js (App Router) + Sanity CMS, images on Sanity CDN (the site's own stack; nothing is offered to users)",
+  "skill_level": "Any",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "Good typographic and editorial art direction for designers who want a bookish, print-inspired portfolio. It's print-only, has no search, can't be reused and has barely changed since late 2025, so it only suits a narrow set of portfolios.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Typography"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "The footer says all covers belong to their respective owners and grants no reuse license. Use it only as inspiration and never reproduce covers.",
+  "best_use_for_portfolio": "Collect 10 to 15 covers that use big type, bold cropping and limited palettes, then turn them into the type scale and hero composition for an editorial-style portfolio homepage or case-study title cards. Credited designer pages also show how cover designers present their own portfolios.",
+  "category": "Graphic, print & visual-culture inspiration",
+  "subcategory": "Book cover typography archive",
+  "tier": "Low fit",
+  "tier_reason": "Typographic art direction for bookish, print-inspired portfolios only. It is print-only, has no search, can't be reused and is barely updated.",
+  "overlap_group": "Graphic & print design archives",
+  "pick_over_overlaps": "Use it for typographic composition, and use the /person pages to research individual cover designers.",
+  "website_design_score": 3,
+  "score_rationale": "The covers are well chosen, with strong typography and composition, and help with editorial or poster-style art direction. But it only covers print book jackets, the rebuild removed search and filtering, and nothing on it can be used directly in a build.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Full archive browsing with no account; no paid tier exists",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://bookcoverarchive.com/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Reference only. Footer: 'All covers are the copyright of their respective owners.' No reuse license is granted, so don't reproduce covers on a commercial site. Use them only as inspiration.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "No API, and /llms.txt returns 404. The footer RSS icon points to /feed/, which also returns 404. https://bookcoverarchive.com/sitemap.xml lists every book (1,393) and person (1,738) URL. Pages are server-rendered Next.js HTML, so an agent can crawl covers and designer credits for reference.",
+  "maintenance_signal": "Rebuilt on Next.js + Sanity in 2025 (Sanity apiVersion 2025-07-04). The newest cover entries were created 2025-10-17, the latest sitemap lastmod is 2025-10-22, and the footer reads © 2025. Nothing newer was visible as of 2026-09-14, so the site is live but rarely updated.",
+  "caveats": "Print-only and not web UI. The redesign dropped site search and the index and filter pages (designer, typeface, genre); only per-person pages reached from credits remain. Typeface references exist in the page data but aren't shown, even though the footer credits Fonts In Use for font identification. Images are copyrighted. Growth looks stalled since Oct 2025.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://bookcoverarchive.com/",
+    "https://bookcoverarchive.com/19",
+    "https://bookcoverarchive.com/20",
+    "https://bookcoverarchive.com/sitemap.xml",
+    "https://bookcoverarchive.com/book/dead-astronauts",
+    "https://bookcoverarchive.com/book/the-culture",
+    "https://bookcoverarchive.com/person/jamie-keenan",
+    "https://bookcoverarchive.com/feed/",
+    "https://www.itsnicethat.com/articles/book-cover-archive",
+    "https://www.casualoptimist.com/feed/"
+  ],
+  "aliases": [
+    "s13"
+  ],
+  "dedupe_keys": [
+    "host:bookcoverarchive.com",
+    "name:book-cover-archive"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com",
+      "why": "Searchable archive of real typography (books, identities, web), indexed by typeface, format and industry. Great for finding type pairings."
+    },
+    {
+      "name": "Letterform Archive Online",
+      "url": "https://oa.letterformarchive.org",
+      "why": "Museum-grade digitized archive of lettering, graphic design and book design with rich metadata and high-res scans."
+    },
+    {
+      "name": "The Casual Optimist",
+      "url": "https://www.casualoptimist.com",
+      "why": "Book cover design blog that is still active (e.g. 'Book Covers of Note, August 2026', posted Sept 1, 2026), so it's more current than the archive. Book Cover Archive's own footer also links to it."
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,109 @@
+{
+  "id": "cosmos",
+  "name": "Cosmos",
+  "url": "https://www.cosmos.so/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Ad-free visual inspiration search and moodboard app for creatives, a curated Pinterest alternative.",
+  "what_it_offers": "A visual discovery feed plus clusters/collections (private, public or collaborative) for saving images, links, videos, articles and text. You can save from anywhere with the Chrome/Safari extensions and import existing Pinterest boards, Are.na channels and Tumblr blogs. Search works by keyword, color/hex and visual similarity. AI 'Captions' credit the original artist or source, and likely AI-generated content can be shown, blurred or hidden. It also has an Explore feed, a new Shop tab, the 'Sequence' newsletter, and web, iOS and Android apps.",
+  "resource_type": "Moodboard / curation",
+  "tags": [
+    "moodboard",
+    "inspiration",
+    "visual search",
+    "color search",
+    "collections",
+    "pinterest alternative",
+    "art direction",
+    "no AI content filter"
+  ],
+  "output_type": "Hosted design/app",
+  "tech_stack": "N/A (hosted Next.js web app + native iOS/Android apps)",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Useful for finding a distinctive visual direction before building a portfolio, with color and similarity search and an AI-content filter. It produces no code or reusable assets and skews toward fashion, art and photography over UI.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "Terms license the app for personal non-commercial use only; saved images belong to their original creators and carry no reuse rights.",
+  "best_use_for_portfolio": "Start a cluster for your portfolio's art direction: search by your chosen accent hex, follow similar results, and collect type, grid, photography and texture references. Share the cluster link or screenshots as the visual brief before designing the home page and case-study template.",
+  "category": "Graphic, print & visual-culture inspiration",
+  "subcategory": "Moodboard & visual search app",
+  "tier": "Situational",
+  "tier_reason": "Good for finding a distinctive direction early, with color and similarity search. No code or assets, and it leans toward fashion, art and photography over web UI.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 4,
+  "score_rationale": "Excellent for building a distinctive, high-taste moodboard and finding a visual direction, thanks to color search, similarity search and the AI-content filter. It produces no code or reusable assets and blocks automated access, so it only helps in the early research stage.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "Free with no save limit in any official source. The help-center FAQ (updated 2026-08-14) says 'Everyone can use Cosmos for free' and 'Premium is totally optional'. The homepage schema.org data describes Free as 'Full access to core features — saving, organizing, searching, discovering, and collaborating.' Official sources list these as Premium extras: any username (including short handles, first names and dictionary words), early access to beta features, bulk export of elements as a .zip, and a customizable grid. The Premium help article and the FAQ also list collaborating on collections as a Premium capability, which contradicts llms.txt ('Collaboration is free for all users'). The 500-save free cap from third-party guides does not appear in the help center, the Premium upsell copy, or the web app's translation strings, so it looks outdated or wrong. The web app code does have a per-account cap of 50,000 elements (ELEMENT_COUNT_LIMIT), with the message 'You've reached the cap on this account. Reach out to hey@cosmos.so to go further.' That message does not mention Premium.",
+  "paid_entry_usd_month": 8,
+  "paid_entry_label": "Premium $8/mo billed monthly ($72/yr billed yearly, about $6/mo). Confirmed by the App Store in-app purchases (Monthly $8.00, Yearly $72.00), the homepage schema.org offer ($8, billed monthly) and llms.txt. The web app's subscription strings mention a free trial before first payment; the trial length is not shown.",
+  "paid_top_label": "Premium yearly $72/yr (same single paid tier)",
+  "one_time_usd": null,
+  "pricing_source_url": "https://apps.apple.com/us/app/cosmos-curated-inspiration/id1577975475",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Reference only. The Terms (last updated 2025-09-25) license the app 'solely for your own personal non-commercial purposes' and ban spiders, robots, crawlers and data-mining tools. Saved images belong to their original creators, so you cannot reuse them on a commercial site without the creator's license.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "There is an official llms.txt at cosmos.so/llms.txt that describes the product, features and pricing. There is no official public API or MCP server, and the Terms prohibit automated access and scraping. An unofficial MIT-licensed MCP server exists (github.com/mrmos/cosmos-mcp, 6 stars, created and last pushed 2026-08-05), but using it is a ToS risk.",
+  "maintenance_signal": "Very active. iOS app v2.56.0 was released 2026-09-10 and added a Shop tab. It is rated 4.7/5 from about 5,000 ratings and has an Apple Editors' Choice badge. The help-center FAQ was updated 2026-08-14, the Sequence newsletter is live, and the company is hiring (careers page). Per its llms.txt it has raised $21M+ (GV, Accel, Shine, Matrix).",
+  "caveats": "Images are third-party and credited, so they are for inspiration only with no reuse rights. There is no public pricing page (/pricing shows 'Content not found', and /upgrade requires login). Prices come from the App Store in-app purchases, homepage structured data and llms.txt. Official sources disagree on whether collaboration is free: llms.txt says free, while the help center (Premium article and the Aug 2026 FAQ) lists it as a Premium capability. The 500-save free cap in third-party guides is not supported by any official source. The app has a 50,000-element account cap. The ToS bans scraping. Some users report irrelevant text search results. It leans toward fashion, art, architecture and photography rather than UI.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "free_tier (whether the 50,000-element cap in the web app code applies to free and Premium accounts alike; could not log in to the web app to check the Settings > Subscription screen)",
+    "paid_entry_label (length of the Premium free trial mentioned in the web app's subscription strings)"
+  ],
+  "evidence_urls": [
+    "https://www.cosmos.so/",
+    "https://www.cosmos.so/llms.txt",
+    "https://help.cosmos.so/en/articles/11717954-cosmos-premium",
+    "https://help.cosmos.so/en/articles/12710666-faqs",
+    "https://help.cosmos.so/en/articles/11717930-elements",
+    "https://www.cosmos.so/upgrade",
+    "https://www.cosmos.so/pricing",
+    "https://apps.apple.com/us/app/cosmos-curated-inspiration/id1577975475",
+    "https://itunes.apple.com/lookup?id=1577975475",
+    "https://www.cosmos.so/legal/terms-conditions",
+    "https://www.wix.com/studio/blog/cosmos-app",
+    "https://invernessdesignstudio.com/cosmos-app-guide-7-ways-to-optimise-creative-vision-in-2026",
+    "https://github.com/mrmos/cosmos-mcp"
+  ],
+  "aliases": [
+    "s08"
+  ],
+  "dedupe_keys": [
+    "host:cosmos.so",
+    "host:help.cosmos.so",
+    "name:cosmos"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Are.na",
+      "url": "https://www.are.na",
+      "why": "Research-oriented visual bookmarking with a public API, favored by designers for moodboards"
+    },
+    {
+      "name": "Savee",
+      "url": "https://savee.com",
+      "why": "Design-focused inspiration saving and discovery with a strong graphic/web design corpus"
+    },
+    {
+      "name": "mymind",
+      "url": "https://mymind.com",
+      "why": "Private AI-tagged visual bookmarking for collecting references without social noise"
+    }
+  ],
+  "user_notes": ""
+}

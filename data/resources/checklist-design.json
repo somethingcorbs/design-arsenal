@@ -1,0 +1,107 @@
+{
+  "id": "checklist-design",
+  "name": "Checklist Design",
+  "url": "https://www.checklist.design/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free library of 129 UX/UI design checklists, also packaged as an MIT agent skill and a Figma plugin.",
+  "what_it_offers": "Checklists of must-have items for website pages (pricing, 404, FAQ, footer, landing, blog), web-app screens, mobile screens, design-system components (button, modal, tokens, typography, accessibility) and flows (checkout, password reset). Each page has tickable items with short rationale, related checklists, an 'Inspiration' tab, and copy-as-text export formatted for Notion, Linear, Jira, GitHub, Confluence, Google Docs, Asana, ClickUp, Trello and Slack. It also offers a Figma plugin (4.1k users) with an AI design checker (10 free checks/month, then one-time credit packs), a Figma skill, and an open-source MIT Agent Skill ('npx skills add checklist-design/skills') that audits or critiques screenshots and running pages in Claude Code, Cursor, Codex and others.",
+  "resource_type": "Reference / education",
+  "tags": [
+    "ux",
+    "checklist",
+    "design review",
+    "components",
+    "page patterns",
+    "agent skill",
+    "figma plugin",
+    "accessibility",
+    "quality assurance"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Vite + React SPA with Supabase, hosted on Vercel; agent skill follows the open Agent Skills standard (Markdown/text bundle); plugin AI checker uses Anthropic's Claude API, payments via Polar",
+  "skill_level": "Any",
+  "design_stages": [
+    "Layout & UX patterns",
+    "Build"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "It won't make a portfolio look distinctive, but its page and component checklists (landing, footer, 404, contact, accessibility) and a free agent skill make it a solid final QA pass on a portfolio before launch.",
+  "portfolio_jobs": [
+    "Quality checks (a11y, performance, UX)",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The agent skill is MIT. The Terms allow use in personal or commercial design projects. Sharing checklist content in outputs needs attribution, and the content stays owned by Checklist Design.",
+  "best_use_for_portfolio": "Before launch, work through the landing, footer, 404 and accessibility checklists for your homepage and case-study pages. Then install the agent skill and run an audit against the local build to catch gaps like a missing contact route, weak calls to action or no 404 page.",
+  "category": "Aesthetic vocabulary & design specs",
+  "subcategory": "UX checklists + agent audit skill",
+  "tier": "Situational",
+  "tier_reason": "Page and component checklists (404, contact, footer, accessibility) plus an agent skill make it a solid pre-launch QA pass. It doesn't shape the look.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 4,
+  "score_rationale": "It won't make a site look distinctive, but it's a strong completeness and QA layer for every page and component a real site needs. The free MIT agent skill runs against localhost pages in AI coding tools, which makes it especially useful for AI-built sites.",
+  "pricing_model": "Freemium",
+  "billing_type": "Usage / credits",
+  "free_tier": "All 129 checklists on the site with no account; the Figma plugin and Figma skill; the MIT agent skill (no account, runs on your own agent's usage); and 10 free AI Checker analyses per month in the Figma plugin (needs a magic-link account, resets monthly, no rollover).",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "No subscription. Optional one-time AI Checker credit packs (USD, non-expiring, non-refundable, sold via Polar): Starter $5 for 50 checks ($0.10/check)",
+  "paid_top_label": "Power pack $20 for 400 checks ($0.05/check); middle Pro pack $10 for 120 checks ($0.08/check)",
+  "one_time_usd": 5,
+  "pricing_source_url": "https://www.checklist.design/plugin",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Agent skill repo is MIT (GitHub Checklist-Design/skills). Figma plugin is under Figma's Community Free Resource License. The site Terms (last updated 10 May 2026) grant a limited, revocable licence to use the plugin/services for personal or commercial design projects and to 'use and share checklist content in your design outputs with appropriate attribution'. The checklist content itself stays owned by Checklist Design Pty Ltd, and redistributing the plugin or credits is prohibited.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Excellent. Official Agent Skill ('npx skills add checklist-design/skills', also a Claude Code plugin, listed on skills.sh) with 'audit' and 'critique' modes. It bundles the checklists locally (FAQ says 112) with no API or network calls, and reviews screenshots, live URLs/localhost via a browser MCP (e.g. Playwright MCP), or Figma frames via Figma MCP. Also a Figma skill. No llms.txt or public API.",
+  "maintenance_signal": "Active. Skill repo (49 stars, MIT, created 2026-07-16) last pushed 2026-09-07 with an automated 'Refresh bundled checklists (v3.2.4)' commit. Figma plugin Version 8 on 2026-08-18 added mobile and web-app categories plus 40 new checklists. Homepage shows 'Browse all 129 checklists'. Terms and Privacy updated 10 May 2026.",
+  "caveats": "About completeness and conventions, not visual originality. Checklist counts are inconsistent (site 129, skill FAQ says 112 bundled, marketing says 100+). There is no public pricing page: credit-pack prices only appear on the login-gated account page at /plugin (Terms say prices are 'displayed at time of purchase' and are in USD). /about and /terms return a Vercel 404 on direct load, though the Terms render when reached from inside the app, and /privacy loads. The skill can't use your own custom checklists yet. Items are brief and opinionated, with no research citations. Sponsored placements (Mobbin, Rectangles). The plugin's AI checker is capped at 10 free checks/month; purchased credits are non-refundable and must be linked to the plugin via API key, and frames are sent to Anthropic's Claude API.",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "paid_entry_label / paid_top_label / one_time_usd (pack prices $5/50, $10/120, $20/400 and '10 free checks every month' are the live code of the login-gated /plugin credits page, which is the purchase UI; neither that rendered page nor the Polar checkout could be viewed without creating an account, and neither the Figma plugin listing nor the Terms publish prices)"
+  ],
+  "evidence_urls": [
+    "https://www.checklist.design/",
+    "https://www.checklist.design/plugin",
+    "https://www.checklist.design/assets/App-D9UftUn_.js",
+    "https://www.checklist.design/skill",
+    "https://www.checklist.design/website/pricing",
+    "https://www.checklist.design/privacy",
+    "https://www.checklist.design/terms",
+    "https://github.com/Checklist-Design/skills",
+    "https://www.figma.com/community/plugin/1548640679824154718/checklist-design",
+    "https://www.skills.sh/checklist-design/skills/checklist-design"
+  ],
+  "aliases": [
+    "s18"
+  ],
+  "dedupe_keys": [
+    "host:checklist.design",
+    "github:checklist-design/skills",
+    "name:checklist-design"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Laws of UX",
+      "url": "https://lawsofux.com",
+      "why": "Curated psychology-based UX principles with examples, a good complement to the checklists' 'what' with the 'why'."
+    },
+    {
+      "name": "Page Flows",
+      "url": "https://pageflows.com",
+      "why": "Recorded real-product user flows (onboarding, checkout, cancel) to see how the checklist items are executed in practice."
+    },
+    {
+      "name": "The Component Gallery",
+      "url": "https://component.gallery",
+      "why": "Cross-design-system reference for how dozens of systems name, structure and document each UI component."
+    }
+  ],
+  "user_notes": ""
+}

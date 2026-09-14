@@ -1,0 +1,112 @@
+{
+  "id": "variant",
+  "name": "Variant",
+  "url": "https://variant.com/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "AI UI generator: type an app/site idea, then scroll an endless feed of distinct design directions.",
+  "what_it_offers": "You enter a prompt (optionally with reference images and a chosen style) and get an endlessly scrolling feed of fully rendered UI/website designs without re-prompting. Tools include Style Dropper (launched Feb 2026; copies one design's palette, type and density onto another), shuffle layout, remix colors, boards for saving, and copy-prompt. Each design is rendered as its own HTML document (served as /design/<id>.html in the production app). The live JS bundle confirms an 'Export as React' action, which converts a design and downloads a react-app.js file. A downloadable HTML export is reported by third-party reviews (Abduzeedo and others) but isn't visible in the logged-out bundle. Built by Variant Design, Inc. (YC F24, San Francisco).",
+  "resource_type": "AI design / agent",
+  "tags": [
+    "ai ui generator",
+    "design exploration",
+    "visual direction",
+    "react export",
+    "html export",
+    "moodboard",
+    "landing page"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "Next.js (App Router, server actions) + React; Supabase backend; Stripe billing; outputs HTML designs and React code",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Research & moodboard",
+    "Visual direction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Fast at showing many polished visual directions for a portfolio homepage or case-study layout before you commit. Unclear output rights, public free designs and samey results limit it to exploration.",
+  "portfolio_jobs": [
+    "Visual direction & moodboard",
+    "Layout & case-study structure",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "ToS limits the service to personal, noncommercial use and requires written permission for anything else. Output ownership isn't granted, and free-tier designs are public.",
+  "best_use_for_portfolio": "Prompt a portfolio concept (for example a minimal developer portfolio with a project grid and case-study pages), save 3 to 5 strong directions to a board, and mix them with Style Dropper. Then treat the winner as a visual reference and rebuild it in your own code with your own tokens, rather than shipping the exported code.",
+  "category": "AI design & generative media",
+  "subcategory": "Divergent UI direction generator",
+  "tier": "Situational",
+  "tier_reason": "Shows many polished homepage and case-study directions quickly. Unclear output rights, public free designs and samey results keep it at the exploration stage.",
+  "overlap_group": "AI UI & site generators",
+  "pick_over_overlaps": "Choose it over Manus for exploring visual directions. Carry the chosen direction into Claude Code as a DESIGN.md rather than using its export.",
+  "website_design_score": 4,
+  "score_rationale": "Very good for the hardest early step: quickly seeing dozens of distinct, polished visual directions for a site concept and pulling out a style worth keeping. React/HTML export gives a coded build a head start. Held back by possibly samey output across prompts, no image generation, unclear commercial output rights, login-gated pricing, and no agent/API integration.",
+  "pricing_model": "Freemium",
+  "billing_type": "Subscription",
+  "free_tier": "300 fast designs per month (60/day), 0 quality designs, 6 concurrent generations, 1 board, and designs are public (confirmed from the default free-plan limits in variant.com's production JS bundle, checked 2026-09-14). No credit card, but sign-in (Google or email) is required.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "Unconfirmed officially. Pro is reported at $20/mo billed monthly, or $16/mo billed yearly (Banani review, Aug 5 2026: 500 quality + 1,500 fast designs/mo, 18 concurrent generations). An older competitor comparison (UXMagic) lists a legacy Pro at $20/mo or $192/yr with 3,000 designs and 16 concurrent generations. The live app bundle shows that Pro prices are loaded after login from a server-side plan catalog. Pro has a quota selector with several quality/fast tiers, each priced separately, so $20 is likely the lowest tier. The yearly toggle shows a '-20% Yearly' badge. Pro features: unlimited boards, private designs, access control, more concurrent generations.",
+  "paid_top_label": "Business: custom pricing via 'Contact us' (mailto team@variant.ai), with dedicated support, onboarding, org-wide access control, centralized team billing, pooled usage and SAML/OIDC SSO. The top self-serve tier is Pro at its highest quota option, and its price is unconfirmed.",
+  "one_time_usd": null,
+  "pricing_source_url": "https://variant.com/pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Unclear, so treat with caution. Re-checked variant.com/terms-and-privacy on 2026-09-14: 'As between you and Variant, you retain ownership rights in your Materials' (your inputs). Output gets no matching ownership grant, and you are 'responsible for your Materials and use of the Outputs'. The service license covers 'your own personal, noncommercial use', and other uses need prior written permission. Variant gets a perpetual, irrevocable, sublicensable license to Materials and Output. Output can't be used to create, train, test or improve any ML/AI system or to build competing foundation models. No separate commercial-use FAQ or help center was found: /faq, /help, /docs and /support all redirect to login, and the only support channel is help@variant.ai. Free-tier designs are public. Get written confirmation before shipping exported designs or code commercially.",
+  "license_quote": null,
+  "signup_required": "Yes",
+  "agent_friendly": "None found. No public API, MCP server, npm package or llms.txt (/llms.txt redirects to auth). The ToS forbids building apps that interact with the service without consent, and forbids scraping. Manual handoff works: export React/HTML or copy the prompt, then paste it into Claude Code as a visual reference or starting code (mind the ToS restriction on using Output to improve AI systems).",
+  "maintenance_signal": "Active startup (YC Fall 2024). The production bundle checked 2026-09-14 has a current Free/Pro/Business upgrade modal with a multi-tier Pro quota selector, a plan-change ('update design limit') flow, React export, and a leftover '3000 designs per month' feature list from an older plan, so the plan structure changed recently. Style Dropper launched Feb 2026 (Fast Company). Banani review dated Aug 5, 2026.",
+  "caveats": "Pricing is visible only after sign-in, and prices come from a server-side catalog. No official public price could be read (checking would have required creating an account). Paid prices and quotas are unconfirmed third-party figures from competitors Banani and UXMagic. A Product Hunt user comment complains that key features like code export moved behind paid plans (unverified). Free designs are public. The ToS commercial-use wording is ambiguous and bans using Output to improve any AI system. React export downloads a single generated react-app.js, not a maintainable component system. Reviewers note it can't generate images, has some layout/padding glitches, and output variety can feel flat. You cancel by emailing help@variant.ai. Binding JAMS arbitration clause (30-day opt-out).",
+  "confidence": "medium",
+  "fact_checked": true,
+  "unverified_fields": [
+    "paid_entry_usd_month (official price is login-gated; third-party reports say $20/mo, so left null)",
+    "paid_entry_label (Pro quotas and prices are from competitor reviews Banani and UXMagic; the Pro tier count and per-tier prices are unknown)",
+    "paid_top_label (highest Pro tier price unknown)",
+    "commercial_use_license (Output ownership not stated in the ToS; no commercial-use FAQ exists publicly)",
+    "what_it_offers: downloadable HTML export (third-party reviews only; React export and HTML-rendered designs confirmed in the bundle)",
+    "caveats: whether code export requires a paid plan (single Product Hunt user comment)"
+  ],
+  "evidence_urls": [
+    "https://variant.com/",
+    "https://variant.com/terms-and-privacy",
+    "https://variant.com/authentication?next=%2Fpricing",
+    "https://www.banani.co/blog/variant-ai-review-and-pricing",
+    "https://uxmagic.ai/variant-ai",
+    "https://abduzeedo.com/variant-ai-design-tool-thinks-scrolls",
+    "https://www.producthunt.com/products/variant-2",
+    "https://www.ycombinator.com/companies/variant",
+    "https://designtools.fyi/tools/variant-ml91ax19",
+    "https://www.fastcompany.com/91491205/this-new-ai-eyedropper-tool-brings-one-of-the-most-powerful-ux-tricks-into-the-ai-age"
+  ],
+  "aliases": [
+    "s20"
+  ],
+  "dedupe_keys": [
+    "host:variant.com",
+    "host:variant.ai",
+    "name:variant"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Google Stitch",
+      "url": "https://stitch.withgoogle.com",
+      "why": "Free Google AI UI generator with multiple variants and Figma/HTML export."
+    },
+    {
+      "name": "Magic Patterns",
+      "url": "https://www.magicpatterns.com",
+      "why": "AI prototyping of on-brand UI with React code export and design-system import."
+    },
+    {
+      "name": "v0 by Vercel",
+      "url": "https://v0.app",
+      "why": "Generates production-ready React/Next.js + Tailwind/shadcn UI that deploys directly to Vercel."
+    }
+  ],
+  "user_notes": ""
+}

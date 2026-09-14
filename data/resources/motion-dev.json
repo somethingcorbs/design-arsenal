@@ -1,0 +1,122 @@
+{
+  "id": "motion-dev",
+  "name": "Motion (formerly Framer Motion) + Motion+",
+  "url": "https://motion.dev/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Production-grade open-source animation library for React, JavaScript and Vue, with a paid Motion+ toolkit.",
+  "what_it_offers": "MIT-licensed animation library (npm `motion`, v13.2.0) covering springs, gestures (hover/press/drag), layout and shared-element animations, AnimatePresence exit animations, scroll-linked animation, timelines and motion values. Motion+ adds 450+ copy-paste examples, a premium API library (Ticker, Carousel, AnimateNumber, Cursor, Typewriter, ScrambleText, splitText, Curtains), Motion UI (30 animated site sections such as heroes, pricing, navigation, testimonials and page transitions, installable through shadcn), 110+ tutorials, a visual transition editor for IDEs, and the AI Kit (MCP server, /motion best-practice skill, MotionScore performance audits, CSS spring generation).",
+  "resource_type": "Animation library",
+  "tags": [
+    "animation",
+    "react",
+    "vue",
+    "vanilla-js",
+    "springs",
+    "layout-animation",
+    "scroll-animation",
+    "gestures",
+    "mcp",
+    "shadcn",
+    "ai-kit",
+    "open-source"
+  ],
+  "output_type": "Code",
+  "tech_stack": "TypeScript; packages for React (motion/react), vanilla JS and Vue (motion-v); hybrid JS + WAAPI/ScrollTimeline engine",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Motion & interaction",
+    "Layout & UX patterns"
+  ],
+  "portfolio_fit": 5,
+  "portfolio_fit_reason": "The default motion layer for React/Next.js portfolios: page transitions, scroll reveals, shared-element project-card-to-case-study transitions and micro-interactions, free under MIT and very agent-friendly.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "UI components & sections",
+    "AI-assisted design & build"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Core library is MIT; the Motion+ FAQ says its APIs and examples are MIT too. Personal licence covers one person; teams need Business seats.",
+  "best_use_for_portfolio": "Use layout and shared-element animations so a project thumbnail expands smoothly into its case-study page, add scroll-linked reveals for case-study sections, and spring hover states on project cards. Motion+ Ticker or splitText suits a client-logo marquee or an animated name headline.",
+  "category": "Animation & motion libraries (code)",
+  "subcategory": "React-first animation library",
+  "tier": "Core",
+  "tier_reason": "The default motion layer for React and Next.js portfolios: page transitions, scroll reveals, shared-element card-to-case-study transitions. MIT and highly agent-friendly.",
+  "overlap_group": "JS animation engines",
+  "pick_over_overlaps": "Use it for component state, layout and exit animations in React. Pair it with GSAP for long scroll timelines rather than forcing one to do both. Skip Motion+ unless you want the AI Kit or Motion UI sections.",
+  "website_design_score": 5,
+  "score_rationale": "The default animation layer for React/Next.js sites. It is free, MIT, actively released and very agent-friendly (llms.txt, MCP, shadcn). Motion+ adds ready-made animated sections and examples that directly raise the polish of a distinctive site, for a one-time $399 for a solo developer.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "The full core Motion library (MIT, open source), all public docs, a basics set of examples and tutorials, and free AI Kit docs search (no token or account needed). Motion+ is required for the /motion best-practice skill, examples search, MotionScore, CSS spring generation, the transition editor, Motion UI and shadcn install, premium APIs (AnimateNumber, Carousel, Cursor, Ticker, Typewriter, ScrambleText, splitText, Curtains), the full 450+ examples and 110+ tutorials, and the private GitHub/Discord.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "Motion+ Personal $399 one-time with lifetime updates, for a single user (US checkout on 2026-09-14 showed $399.00 USD total before tax; PPP pricing shows a local discount in some currencies). There is no monthly plan.",
+  "paid_top_label": "Motion+ Business $249/seat/year (annual subscription, minimum 2 seats, transferable seats; e.g. 5 seats = $1,245/yr + tax). The Builder's License for products that resell Motion+ capabilities has no public price (contact sales).",
+  "one_time_usd": 399,
+  "pricing_source_url": "https://motion.dev/plus",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The core library is MIT (GitHub LICENSE.md, npm license field). The Motion+ FAQ says its APIs and examples are also MIT-licensed, so code added to your site is yours and can be used in commercial projects. Personal is a single-user licence, and the FAQ says use by more than one person requires Business seats. If your product effectively resells Motion+ capabilities to your users, you need a separate Builder's License. The FAQ's 'see above' points to no visible section on /plus, and the AI Kit SDK docs say to contact Motion (via X) about it for externally facing tooling, so its terms and price are unpublished. A 'builders' value of 4999 (USD) appears in the site's public pricing API (api.motion.dev/pricing/v2), but it is not displayed or described as an offer.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "Very strong. npm package `motion`; llms.txt at motion.dev/llms.txt indexing the docs; AI Kit plugin with its own MCP server (one-click for Cursor, install guide for Claude Code and Codex). Docs search is free; the examples MCP/search, /motion skill, MotionScore and CSS springs are paid. Motion UI sections install through the shadcn CLI from a private registry.",
+  "maintenance_signal": "GitHub motiondivision/motion: ~33.6k stars, MIT, last push 2026-09-13. npm motion v13.2.0 published 2026-09-02. About 15.4M weekly downloads for `motion` plus ~34.3M for `framer-motion` (2026-09-05 to 09-11). README sponsors include Framer (partner), Cursor, Linear, Figma and Sanity.",
+  "caveats": "The premium layer is a paid one-time purchase for solo use. Teams need annual per-seat Business licences (minimum 2 seats), and products that resell Motion+ capabilities need a Builder's License with no public price or terms. The page's JSON-LD (£299 GBP) is a hardcoded fallback in the site code, not the live price. The live pricing API and US Stripe checkout both show $399 USD. PPP and student discounts are available on request by email. The React bundle is heavier than CSS-only animation unless you use LazyMotion. The 14-day refund is void once GitHub is linked or source is accessed. Some things that look basic (splitText, agent best-practice skill) are Motion+ only.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "Builder's License price and terms (not published; the pricing API's 'builders: 4999' USD value is not presented as an offer)",
+    "Size of PPP and student discounts (issued case by case via support@motion.dev)"
+  ],
+  "evidence_urls": [
+    "https://motion.dev/plus",
+    "https://api.motion.dev/pricing/v2",
+    "https://motion.dev/assets/motion-plus-checkout-C3Crpkfb.js",
+    "https://checkout.motion.dev/b/aFa8wIg9XdbMcMGawO2VG05",
+    "https://motion.dev/docs/ai-kit-sdk",
+    "https://motion.dev/",
+    "https://motion.dev/docs/ai-kit",
+    "https://motion.dev/llms.txt",
+    "https://github.com/motiondivision/motion",
+    "https://raw.githubusercontent.com/motiondivision/motion/main/README.md",
+    "https://registry.npmjs.org/motion/latest",
+    "https://api.npmjs.org/downloads/point/last-week/motion",
+    "https://api.npmjs.org/downloads/point/last-week/framer-motion",
+    "https://github.com/ibelick/motion-primitives",
+    "https://gsap.com/community/standard-license/"
+  ],
+  "aliases": [
+    "s55",
+    "Framer Motion"
+  ],
+  "dedupe_keys": [
+    "host:motion.dev",
+    "github:motiondivision/motion",
+    "npm:motion",
+    "npm:framer-motion",
+    "npm:motion-v",
+    "name:motion"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "GSAP",
+      "url": "https://gsap.com/",
+      "why": "Industry-standard timeline/scroll animation engine (ScrollTrigger, SplitText, MorphSVG), framework-agnostic. Free for commercial use under GSAP's own no-charge Standard License, not MIT."
+    },
+    {
+      "name": "React Spring",
+      "url": "https://www.react-spring.dev/",
+      "why": "Spring-physics animation library for React (pmndrs, ~29k GitHub stars); an open-source alternative for natural motion."
+    },
+    {
+      "name": "Motion Primitives",
+      "url": "https://motion-primitives.com/",
+      "why": "MIT, open-source copy-paste animated React + Tailwind components built on Motion, a free counterpart to Motion UI."
+    }
+  ],
+  "user_notes": ""
+}

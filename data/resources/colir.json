@@ -1,0 +1,101 @@
+{
+  "id": "colir",
+  "name": "Colir",
+  "url": "https://colir.space/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Browser-based WebGL gradient editor that uses X/Y curves and effects to make non-default raster gradients.",
+  "what_it_offers": "A GPU-accelerated (WebGL) editor where you set color stops, then drag separate X and Y curves to shape how color flows across the canvas, layering noise, glitter, feathering, distortion and patterns with 12 blend modes and 9 color-theory palettes. Exports PNG or WebP at 1x-4x scale, has a share link, a templates library (Aurora, Magma, Plasma, etc.) and a Figma Community plugin; animated gradients are on the roadmap.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "gradients",
+    "background",
+    "webgl",
+    "noise",
+    "grain",
+    "figma-plugin",
+    "raster-export",
+    "color"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Vanilla JS + WebGL shader programs (plain script files, lz-string for share links); landing page uses GSAP + ScrollTrigger; Google Sign-In (GSI); Paddle billing",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Visual direction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "Makes distinctive grainy, curve-shaped gradient art that can set a portfolio's mood, but it exports raster images only, and client work needs PRO. It is a niche background-asset tool, not a core build resource.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Imagery, illustration & textures",
+    "Color & theming"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "The free plan is personal use only. Commercial and client use needs PRO ($9/mo, $59/yr or $99 lifetime), and the Terms say exported output belongs to you.",
+  "best_use_for_portfolio": "Design one signature gradient for the portfolio hero or case-study cover backgrounds, export it at 2x-4x WebP, and serve it as an optimized background image. Keep the share link so the gradient can be re-tuned for a colour refresh or a client's palette.",
+  "category": "Visual generators & image effects",
+  "subcategory": "Curve-shaped raster gradients",
+  "tier": "Low fit",
+  "tier_reason": "Grainy curve-shaped gradient art can set a mood, but it exports raster only and needs PRO for client use. Live-code gradient tools cover the same need better.",
+  "overlap_group": "Static background, gradient & pattern generators",
+  "pick_over_overlaps": "Use it only for one-off curve-shaped gradient art you will bake into images anyway.",
+  "website_design_score": 3,
+  "score_rationale": "Produces genuinely distinctive, banding-free gradient art that can set a site's visual tone. It only outputs raster images (no CSS, SVG or code), and the free tier is capped and non-commercial, so in a coded site it is limited to hero and background image assets.",
+  "pricing_model": "Freemium",
+  "billing_type": "Mixed",
+  "free_tier": "Full editor; 3 exports per day, max 10 per month; capped at Full HD (1x); no watermark; personal use only (no commercial or client work); login with a confirmed email required to export",
+  "paid_entry_usd_month": 9,
+  "paid_entry_label": "PRO $9/mo billed monthly (or $59/yr billed annually, about $4.92/mo); VAT may apply",
+  "paid_top_label": "Lifetime PRO License $99 one-time (same PRO features: unlimited exports, no resolution cap, commercial + client use, unlimited Figma plugin, beta features)",
+  "one_time_usd": 99,
+  "pricing_source_url": "https://colir.space/#pricing",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Proprietary SaaS. Terms (last updated 2026-03-20, governed by Ukrainian law) say output you create (e.g. exported gradients) is yours, but the site FAQ states the free plan is personal use only; commercial and client work requires PRO ($9/mo, $59/yr or $99 lifetime). 30-day money-back guarantee via Paddle.",
+  "license_quote": null,
+  "signup_required": "For some features",
+  "agent_friendly": "None found: no API, npm package, MCP or llms.txt (llms.txt returns 404). Outputs are PNG/WebP files an agent could only use as static assets once a human exports them.",
+  "maintenance_signal": "Active: Terms last updated 2026-03-20; roadmap shows Templates Library and Figma plugin marked Done, animated gradients next (animation scripts already loaded in the app); Product Hunt listing live; copyright 2026.",
+  "caveats": "Raster only (PNG/WebP), so not responsive or animatable in code and adds page weight; free exports are few, Full HD only, and not licensed for commercial use; login plus email confirmation needed to export; desktop-only app (mobile shows a message); no developer integration.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://colir.space/",
+    "https://colir.space/legal/terms/",
+    "https://colir.space/app/",
+    "https://colir.space/app/export-quota.js",
+    "https://colir.space/legal/refund/",
+    "https://www.figma.com/community/plugin/1673800851873344284/colir-gradients",
+    "https://www.producthunt.com/products/colir"
+  ],
+  "aliases": [
+    "s43"
+  ],
+  "dedupe_keys": [
+    "host:colir.space",
+    "name:colir"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "ShaderGradient",
+      "url": "https://shadergradient.co",
+      "why": "Free animated 3D shader gradients with a React/npm component and Framer/Figma plugins, so the gradient stays live in code."
+    },
+    {
+      "name": "Haikei",
+      "url": "https://haikei.app",
+      "why": "Generator for SVG backgrounds (blobs, waves, grain, mesh) with vector exports suited to responsive sites."
+    },
+    {
+      "name": "fffuel",
+      "url": "https://www.fffuel.co",
+      "why": "Large set of free SVG generators (noise, grain, gradients, patterns) with copyable SVG/CSS output."
+    }
+  ],
+  "user_notes": ""
+}

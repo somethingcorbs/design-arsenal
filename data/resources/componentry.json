@@ -1,0 +1,113 @@
+{
+  "id": "componentry",
+  "name": "Componentry",
+  "url": "https://componentry.dev/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Open-source animated React/Tailwind components and WebGL visual effects, installable through the shadcn CLI registry and MCP.",
+  "what_it_offers": "50 animated components in 5 groups per llms.txt: Text Animations (7), Components (23), Hero Backgrounds (9), Visual Effects (10), ASCII Effects (1). Examples: Kinetic Text Reveal, Particle Typography, Split Flap Display, Text Morph, Magnetic Dock, Wheel Carousel, Fisheye Infinite Grid, Aurora Flow, Liquid Chrome, WebGL Liquid, Dither Gradient, Circuit Board, Matrix Rain, Image Ripple Effect, Scroll Choreography, Eye Tracking. An Annotated Text component was added 2026-09-13. Every component is copy-paste TypeScript source with light and dark modes. The docs include an MCP setup guide. The /blocks page announces 'Componentry Pro' blocks as coming soon and links to pro.componentry.dev, which does not resolve yet.",
+  "resource_type": "Component library",
+  "tags": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "gsap",
+    "three.js",
+    "webgl",
+    "shadcn-registry",
+    "mcp",
+    "hero-backgrounds",
+    "text-animation",
+    "open-source"
+  ],
+  "output_type": "Code",
+  "tech_stack": "React 19 + TypeScript + Tailwind CSS v4 + Framer Motion 12, plus GSAP, Three.js / React Three Fiber / drei, Lenis, Base UI, @paper-design/shaders-react; Next.js 16 docs site in a Turborepo/pnpm monorepo",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Build",
+    "Motion & interaction",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 4,
+  "portfolio_fit_reason": "Expressive WebGL, dither and kinetic-type effects give a portfolio hero a signature look instead of stock shadcn. Everything is MIT and registry/MCP-ready. The project is young, has one maintainer, and its heavy effects need performance care.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Motion & scroll storytelling",
+    "UI components & sections"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "MIT license (LICENSE file on GitHub). The README allows personal and commercial use as long as the notice is kept. Terms for the future Pro blocks are unknown.",
+  "best_use_for_portfolio": "Pick one signature effect for the portfolio hero, such as Liquid Chrome, Dither Gradient or Aurora Flow behind a Kinetic Text Reveal or Particle Typography name. Install it through the @componentry shadcn registry. Keep the case-study pages quiet, and lazy-load or disable the effect on mobile and for reduced motion.",
+  "category": "Component & section libraries (code)",
+  "subcategory": "WebGL heroes & kinetic text",
+  "tier": "Strong",
+  "tier_reason": "MIT WebGL, dither and kinetic-type effects give a portfolio hero a signature look, and it is registry and MCP ready. It is young, has one maintainer and needs performance care.",
+  "overlap_group": "Animated React/Tailwind component sources",
+  "pick_over_overlaps": "Use it for WebGL hero backgrounds and headline type effects without paying. Gate each one behind reduced-motion and mobile fallbacks.",
+  "website_design_score": 4,
+  "score_rationale": "Unusually expressive effects (WebGL liquid and chrome, ASCII and dither, split-flap, particle typography) can make a site look genuinely different from stock shadcn. It is MIT, registry- and MCP-ready, and actively maintained. It isn't a 5 because it is a young project with essentially one maintainer and far fewer stars, and the heavy effects need restraint and performance care.",
+  "pricing_model": "Open source (free)",
+  "billing_type": "None",
+  "free_tier": "All 50 components are free and open source (MIT), with shadcn CLI and MCP install. The README says 'Free forever.' Funding comes from GitHub Sponsors (github.com/sponsors/harshjdhv) and a Shadcnblocks.com header sponsorship.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A (Componentry Pro blocks announced as 'coming soon'; no pricing published)",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://componentry.dev/blocks",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "MIT License (Copyright 2026 Harsh Jadhav, per the LICENSE file on GitHub). The README says the components can be used in personal and commercial projects; keep the notice. Terms for the future Pro blocks are unknown.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "Strong. Listed in the official shadcn registry directory as @componentry, with health 'healthy' and score 97.8. Install with npx shadcn@latest add @componentry/<name>. The directory entry still points at componentry.fun/r/{name}.json, which 301-redirects to componentry.dev/r/{name}.json (200). The MCP guide at componentry.dev/docs/mcp covers shadcn mcp init plus adding '@componentry': 'https://componentry.dev/r/{name}.json' to components.json. The llms.txt at https://componentry.dev/llms.txt lists all 50 components with descriptions. The repo is also indexed on Context7 and DeepWiki.",
+  "maintenance_signal": "GitHub harshjdhv/componentry has 483 stars and 36 forks, MIT, created 2025-12-24, 0 open issues. Active: about 15 commits since mid-August 2026, several per week, the latest on 2026-09-13 (AnnotatedText component). Registry command updates landed 2026-09-09 and registry preview videos 2026-08-17. It is in the Vercel Open Source Program (2026 badge). One main maintainer, with occasional outside PRs (e.g. #25).",
+  "caveats": "The componentry.fun domain now 301-redirects to componentry.dev, so update bookmarks and registry config. WebGL/Three.js and GSAP effects add bundle weight and can hurt mobile performance or reduced-motion accessibility; the README itself says to validate accessibility. The project is young (Dec 2025) with essentially one maintainer, so APIs may change. Pro blocks are announced but not live, and their pricing is unknown.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "paid_entry_label"
+  ],
+  "evidence_urls": [
+    "https://componentry.dev/",
+    "https://componentry.dev/llms.txt",
+    "https://componentry.dev/docs/mcp",
+    "https://componentry.dev/blocks",
+    "https://github.com/harshjdhv/componentry",
+    "https://api.github.com/repos/harshjdhv/componentry/commits",
+    "https://raw.githubusercontent.com/harshjdhv/componentry/main/LICENSE",
+    "https://raw.githubusercontent.com/harshjdhv/componentry/main/packages/ui/package.json",
+    "https://ui.shadcn.com/r/registries.json",
+    "https://context7.com/harshjdhv/componentry",
+    "https://deepwiki.com/harshjdhv/componentry"
+  ],
+  "aliases": [
+    "s06"
+  ],
+  "dedupe_keys": [
+    "host:componentry.dev",
+    "host:componentry.fun",
+    "github:harshjdhv/componentry",
+    "name:componentry"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "React Bits",
+      "url": "https://reactbits.dev",
+      "why": "Popular open-source collection of animated text, backgrounds and WebGL-style effects for React, in the shadcn registry as @react-bits (health 'healthy')."
+    },
+    {
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "why": "Flashy Tailwind + Motion hero effects and backgrounds with a free library and paid templates and blocks; in the shadcn registry as @aceternity."
+    },
+    {
+      "name": "Skiper UI",
+      "url": "https://skiper-ui.com",
+      "why": "Design-forward shadcn-registry (@skiper-ui) animated components and effects aimed at distinctive landing pages."
+    }
+  ],
+  "user_notes": ""
+}

@@ -1,0 +1,125 @@
+{
+  "id": "feralui",
+  "name": "FeralUI",
+  "url": "https://feralui.dev/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Showcase of playful, physics-driven React components plus free gradient, motion, and brand-board generator tools.",
+  "what_it_offers": "About 16-18 hand-built interactive demos, each on its own route: PullCord (Verlet-rope theme switch), ClawCaptcha, Blob mascot, Blinds spring carousel, Fur, Hologram card, Crumple/Vacuum delete effects, Nudge, DeskFolio book portfolio, AniMaps, Matchday, Torph, and Screenery app-screen transitions. Several ship as standalone MIT npm packages (pullcord, playcaptcha, feral-blob, feral-blinds, feral-fur, deskfolio, animaps-react). It also has free generators: a Gradient Builder using named Japanese traditional colours (flow, sky, aurora, mesh and other types; exports PNG, JPG, SVG, MP4, HTML, CSS, or JSON at preset or custom sizes), MotionView (image loops to MP4), and Brandkit (bento brand-board PNG).",
+  "resource_type": "Animation library",
+  "tags": [
+    "react",
+    "physics",
+    "micro-interactions",
+    "springs",
+    "verlet",
+    "whimsical",
+    "npm",
+    "gradient generator",
+    "typescript",
+    "motion"
+  ],
+  "output_type": "Mixed",
+  "tech_stack": "React + TypeScript (Vite SPA); some packages peer-depend on Motion (feral-blob, deskfolio); canvas/SVG/rAF physics",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Research & moodboard",
+    "Motion & interaction",
+    "Build",
+    "Assets & graphics"
+  ],
+  "portfolio_fit": 3,
+  "portfolio_fit_reason": "Physics micro-interactions give a personal portfolio a memorable signature moment, and Deskfolio is itself a book-style portfolio component. MIT npm packages make them easy to install, but the library is small and whimsical.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling",
+    "UI components & sections",
+    "Hero & signature visuals"
+  ],
+  "client_ok": "Check license",
+  "client_ok_note": "The npm packages (pullcord, playcaptcha, feral-blob, fur, animaps-react and others) are MIT. Unpackaged demos are explicitly unlicensed, and no terms cover generator exports.",
+  "best_use_for_portfolio": "Add one personality moment to a creative portfolio: PullCord as the light/dark toggle, feral-blob as a mascot on the 404 or contact page, or feral-blinds for a project gallery. Deskfolio suits presenting work as a flip-through book. Use the gradient builder for hero backgrounds.",
+  "category": "Animation & motion libraries (code)",
+  "subcategory": "Physics micro-interaction packages",
+  "tier": "Situational",
+  "tier_reason": "Physics micro-interactions and a book-style portfolio component can create a memorable moment, but the library is small and whimsical, so it fits only playful personal sites.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 4,
+  "score_rationale": "Unusually distinctive, well-crafted physics micro-interactions that can give a site a memorable signature moment. The components are real MIT npm packages with clean APIs, and the free generators export web-ready CSS, SVG and MP4. It loses a point because the library is small and single-maintainer, many demos are unlicensed and look-only, and the whimsical style fits only some brands.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Everything is free with no account: all demos, the MIT npm packages, and the Gradient Builder, MotionView, and Brandkit generators. The site pays for itself with Google AdSense, a single paid sponsor slot sold to advertisers (from $42), and a Buy Me a Coffee link. None of that gates anything for users.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://feralui.dev/terms",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "The site's Terms (last reviewed 2026-09-10) name five npm packages as MIT: pullcord, playcaptcha, feral-blob, feral-fur, and animaps-react. Each package's own LICENSE governs. feral-blinds and deskfolio also declare MIT in their npm metadata but are not on the Terms list. LICENSE files exist in the pullcord, playcaptcha, feral-blob, and fur GitHub repos. The Deskfolio and animaps repos have no LICENSE file (MIT only in npm metadata), and the feral-blinds source repo is not public. The Terms state that demos not published as packages (e.g. Hologram, Crumple, Vacuum, Nudge, Screenery, Matchday) are not offered under any licence and may not be copied or redistributed. No terms were found for generator exports (gradients, MotionView, Brandkit).",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "llms.txt at feralui.dev/llms.txt lists the component and tool routes (it does not list /torph or the gradient sub-pages). Components install via npm (e.g. npm install pullcord / playcaptcha / feral-blob) with small, documented prop APIs and CSS-variable theming, which agents handle easily. There is no shadcn registry and no MCP server.",
+  "maintenance_signal": "Very active and new. The playcaptcha repo (created 2026-06-12) has 521 stars and 30 forks, last pushed 2026-09-07. Other repos are small: Deskfolio has 29 stars, pullcord and feral-blob 19 each, animaps 17, fur 7. feral-blob 0.2.0 and feral-blinds 0.3.1 were published 2026-09-06, the sitemap shows /torph modified 2026-09-08, and the Terms were reviewed 2026-09-10. npm downloads for 2026-08-13 to 2026-09-11: feral-blob 2,654, playcaptcha 1,728, pullcord 1,274, feral-blinds 722, feral-fur 284, deskfolio 92, animaps-react 81. The umbrella repo github.com/mortspace/feralui returns 404 (not public). Single maintainer (Sarthak Navalekar; npm user moratspace, GitHub mortspace). The site claims 47,000+ views a month.",
+  "caveats": "The toy-like aesthetic can feel gimmicky for serious brands. Only 7 of the roughly 16-18 demos are installable. The Terms forbid copying the rest, so treat them as inspiration only. License hygiene is uneven: two packages lack a LICENSE file in their repos, and one package's source is private. It is a single maintainer on 0.x versions, so APIs may change. Some packages need static assets copied (playcaptcha toy renders) or Motion as a peer dependency. The site runs AdSense ads and Google Analytics. ClawCaptcha is not real bot protection, as its own README notes.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "commercial_use_license (no stated terms for generator exports; the feral-blinds source repo is not public)"
+  ],
+  "evidence_urls": [
+    "https://feralui.dev/",
+    "https://feralui.dev/terms",
+    "https://feralui.dev/gradients",
+    "https://feralui.dev/llms.txt",
+    "https://feralui.dev/sitemap.xml",
+    "https://github.com/mortspace/playcaptcha",
+    "https://github.com/mortspace/pullcord",
+    "https://github.com/mortspace/feral-blob",
+    "https://github.com/mortspace/Deskfolio",
+    "https://github.com/mortspace/animaps",
+    "https://registry.npmjs.org/feral-blinds/latest",
+    "https://api.npmjs.org/downloads/point/last-month/feral-blob"
+  ],
+  "aliases": [
+    "s46"
+  ],
+  "dedupe_keys": [
+    "host:feralui.dev",
+    "github:mortspace/playcaptcha",
+    "github:mortspace/pullcord",
+    "github:mortspace/feral-blob",
+    "github:mortspace/fur",
+    "github:mortspace/deskfolio",
+    "github:mortspace/animaps",
+    "npm:pullcord",
+    "npm:playcaptcha",
+    "npm:feral-blob",
+    "npm:feral-blinds",
+    "npm:feral-fur",
+    "npm:deskfolio",
+    "npm:animaps-react",
+    "name:feralui"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Fancy Components",
+      "url": "https://www.fancycomponents.dev",
+      "why": "Copy-paste React components with a dedicated physics category (gravity, elastic line) and playful motion, closely matching FeralUI's whimsy but with a larger catalog"
+    },
+    {
+      "name": "React Bits",
+      "url": "https://reactbits.dev",
+      "why": "Large free collection of animated/interactive React components and backgrounds with shadcn/jsrepo CLI install"
+    },
+    {
+      "name": "Animata",
+      "url": "https://animata.design",
+      "why": "Open-source hand-crafted animation and interaction snippets for React + Tailwind"
+    }
+  ],
+  "user_notes": ""
+}

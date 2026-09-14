@@ -1,0 +1,98 @@
+{
+  "id": "flutter-tilt",
+  "name": "flutter_tilt",
+  "url": "https://pub.dev/packages/flutter_tilt",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Flutter package for 3D tilt and parallax hover effects with simulated light, shadow and gyroscope support.",
+  "what_it_offers": "A Flutter widget package that adds tilt and multi-layer parallax effects with simulated light and shadow. It responds to hover, touch and gyroscope sensor input (via sensors_plus) and has configurable parameters. English and Chinese docs, a live demo, and migration guides between breaking versions are available.",
+  "resource_type": "Animation library",
+  "tags": [
+    "flutter",
+    "dart",
+    "tilt",
+    "parallax",
+    "hover-effect",
+    "3d-card",
+    "gyroscope",
+    "micro-interaction"
+  ],
+  "output_type": "Code",
+  "tech_stack": "Flutter/Dart (SDK >=3.3.0 <4.0.0, Flutter >=3.19.0); depends on sensors_plus >=6.1.0 <8.0.0; Android, iOS, Web, macOS, Windows, Linux; WASM-ready",
+  "skill_level": "Developer",
+  "design_stages": [
+    "Motion & interaction"
+  ],
+  "portfolio_fit": 1,
+  "portfolio_fit_reason": "Flutter-only, so it can't go into a React, Next.js or no-code portfolio. At most it's a behavior reference for tilt-style project cards.",
+  "portfolio_jobs": [
+    "Motion & scroll storytelling"
+  ],
+  "client_ok": "N/A (reference only)",
+  "client_ok_note": "MIT-licensed, so commercial use is fine inside a Flutter app. For web portfolio sites it only works as a motion reference.",
+  "best_use_for_portfolio": "Use the live demo to pick tilt angle, glare and shadow values for hover effects on project cards. Then build the effect with a web library such as react-parallax-tilt or Atropos, or with Motion.",
+  "category": "Animation & motion libraries (code)",
+  "subcategory": "Flutter tilt/parallax widget",
+  "tier": "Low fit",
+  "tier_reason": "Flutter-only, so it can't be used in React, Next.js or no-code portfolio builds. At most a behavior reference for tilt cards.",
+  "overlap_group": "Unique",
+  "pick_over_overlaps": "",
+  "website_design_score": 2,
+  "score_rationale": "A well-maintained, high-quality package, but it is Flutter-only. For a React/Next.js/Vite/Tailwind website it is at most a reference for tilt, light and shadow behavior, not something you can install.",
+  "pricing_model": "Open source (free)",
+  "billing_type": "None",
+  "free_tier": "Everything, MIT-licensed",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://pub.dev/packages/flutter_tilt",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "MIT (OSI-approved). Commercial use allowed; keep the license notice.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "pub.dev package (flutter pub add flutter_tilt) plus the public pub.dev JSON API. No MCP server, shadcn registry or npm package. Not usable in a React/Next.js project.",
+  "maintenance_signal": "v4.1.0 published 2026-07-29. Last GitHub push 2026-09-07 (fluttercandies/flutter_tilt): 268 stars, 15 forks, 2 open issues. On pub.dev: 370 likes, 160/160 pub points, 10,899 downloads in 30 days, verified publisher amooos.com.",
+  "caveats": "Off-target platform: Flutter/Dart only, so it cannot be dropped into a React, Next.js or Vite site. Flutter Web output is a canvas app, a poor fit for SEO-focused marketing sites. Gyroscope features need sensors_plus and device sensor support.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [],
+  "evidence_urls": [
+    "https://pub.dev/packages/flutter_tilt",
+    "https://pub.dev/api/packages/flutter_tilt",
+    "https://pub.dev/api/packages/flutter_tilt/score",
+    "https://github.com/fluttercandies/flutter_tilt",
+    "https://amoshuke.github.io/flutter_tilt_book/",
+    "https://registry.npmjs.org/react-parallax-tilt"
+  ],
+  "aliases": [
+    "s26"
+  ],
+  "dedupe_keys": [
+    "pub:flutter_tilt",
+    "github:fluttercandies/flutter_tilt",
+    "name:flutter-tilt"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "Atropos",
+      "url": "https://atroposjs.com",
+      "why": "Web-native 3D parallax tilt with React/Vue/vanilla builds and multi-layer depth"
+    },
+    {
+      "name": "react-parallax-tilt",
+      "url": "https://www.npmjs.com/package/react-parallax-tilt",
+      "why": "MIT React tilt and glare component on npm with gyroscope support, a direct web equivalent"
+    },
+    {
+      "name": "vanilla-tilt.js",
+      "url": "https://micku7zu.github.io/vanilla-tilt.js/",
+      "why": "Lightweight dependency-free JS tilt/glare effect for any framework"
+    }
+  ],
+  "user_notes": ""
+}

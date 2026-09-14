@@ -1,0 +1,101 @@
+{
+  "id": "haikei",
+  "name": "Haikei",
+  "url": "https://haikei.app/",
+  "status": "active",
+  "origin": "seed-2026-09",
+  "added_at": "2026-09-14",
+  "last_verified_at": "2026-09-14",
+  "one_liner": "Free browser app that generates randomized SVG backgrounds: waves, blobs, low-poly, blurry gradients, scatters.",
+  "what_it_offers": "A web editor built around about 15 generators (Blob, Wave, Layered/Stacked Waves, Blob Scene, Blurry Gradient, Circle/Blob Scatter, Low Poly Grid, Layered/Stacked Peaks and more). You set canvas size, brand colors, complexity and contrast, then hit a dice button for new variations. The free Basic plan gives unlimited SVG and medium-resolution PNG exports and 9 basic canvas templates.",
+  "resource_type": "Generator / tool",
+  "tags": [
+    "svg",
+    "backgrounds",
+    "waves",
+    "blobs",
+    "gradients",
+    "generative",
+    "hero-graphics",
+    "no-signup"
+  ],
+  "output_type": "Downloadable assets",
+  "tech_stack": "Hosted web app (Netlify); outputs static SVG/PNG usable in any stack",
+  "skill_level": "No-code",
+  "design_stages": [
+    "Assets & graphics",
+    "Visual direction"
+  ],
+  "portfolio_fit": 2,
+  "portfolio_fit_reason": "Quick, free brand-colored SVG backgrounds and section dividers that can lift a plain portfolio, but the wave and blob looks are dated and widely recognized, and the product appears dormant.",
+  "portfolio_jobs": [
+    "Hero & signature visuals",
+    "Imagery, illustration & textures"
+  ],
+  "client_ok": "Yes",
+  "client_ok_note": "Haikei's custom terms allow personal and client/commercial use without attribution. The only restriction is using designs to build a competing generator service.",
+  "best_use_for_portfolio": "Generate a subtle layered-wave or blurry-gradient backdrop in your portfolio's accent colors to separate the intro from the project grid or case-study sections. Export SVG, run it through SVGO, and keep it low-contrast so it doesn't compete with project thumbnails.",
+  "category": "Visual generators & image effects",
+  "subcategory": "SVG waves & blobs",
+  "tier": "Low fit",
+  "tier_reason": "Free SVG waves and blobs are easy, but the look is dated and instantly recognizable, which works against a distinctive portfolio, and the product appears dormant.",
+  "overlap_group": "Static background, gradient & pattern generators",
+  "pick_over_overlaps": "Use it only for quick section dividers or wave bands in brand colors.",
+  "website_design_score": 3,
+  "score_rationale": "A fast, free way to make custom organic SVG hero and section backgrounds that match brand colors. The generators are well known and widely used, so results can look generic, and nothing new seems to be shipping.",
+  "pricing_model": "Free",
+  "billing_type": "None",
+  "free_tier": "Basic plan: 15 generators, basic generator functions, unlimited SVG downloads, unlimited medium-res PNG downloads, 9 basic canvas templates. No signup, no credit card.",
+  "paid_entry_usd_month": null,
+  "paid_entry_label": "N/A (Pro plan listed as 'Coming Soon', no price announced)",
+  "paid_top_label": "N/A",
+  "one_time_usd": null,
+  "pricing_source_url": "https://haikei.app/pricing/",
+  "pricing_quote": null,
+  "pricing_fetched_at": null,
+  "commercial_use_license": "Custom terms on the pricing page. You can use designs in personal and professional (client/commercial) projects, and attribution is not required (a backlink is appreciated). You may not use Haikei designs to offer a similar design-generator service. Not an OSI license.",
+  "license_quote": null,
+  "signup_required": "No",
+  "agent_friendly": "None found. No API, MCP or npm package. An agent can only use SVG files a human exports and commits to the repo.",
+  "maintenance_signal": "Looks dormant. The blog has only two posts, both dated 12 Mar 2021, the footer still reads (c) 2022 z creative labs GmbH, and Pro is still 'Coming Soon'. The site and app (app.haikei.app) are live and served from Netlify.",
+  "caveats": "Pro features (SVG/JSX code-snippet export, high-res PNG, all generators, 40+ templates) are promised but not shipped. The wave, blob and gradient styles were everywhere in 2021-2023 and can look dated. Output is static only, with no animation. The terms forbid using designs to build a competing generator service.",
+  "confidence": "high",
+  "fact_checked": true,
+  "unverified_fields": [
+    "maintenance_signal (exact date of last product update)"
+  ],
+  "evidence_urls": [
+    "https://haikei.app/",
+    "https://haikei.app/pricing/",
+    "https://haikei.app/generators/",
+    "https://haikei.app/blog/",
+    "https://app.haikei.app/"
+  ],
+  "aliases": [
+    "s25"
+  ],
+  "dedupe_keys": [
+    "host:haikei.app",
+    "host:app.haikei.app",
+    "name:haikei"
+  ],
+  "parent_id": null,
+  "comparables": [
+    {
+      "name": "fffuel",
+      "url": "https://www.fffuel.co",
+      "why": "Large free set of SVG generators (noise, gradients, patterns, blobs) with a more current, varied look"
+    },
+    {
+      "name": "Get Waves",
+      "url": "https://getwaves.io",
+      "why": "Focused free SVG wave and section-divider generator"
+    },
+    {
+      "name": "SVGBackgrounds.com",
+      "url": "https://www.svgbackgrounds.com",
+      "why": "Customizable SVG background patterns with CSS export for direct use in code"
+    }
+  ],
+  "user_notes": ""
+}
