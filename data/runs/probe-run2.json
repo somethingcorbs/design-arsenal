@@ -1,0 +1,73 @@
+{
+  "probe_version": 1,
+  "run": 2,
+  "started_at": "2026-09-14T20:08:44Z",
+  "finished_at": null,
+  "checks": [
+    {
+      "id": "env",
+      "ok": true,
+      "detail": "date -u: Mon Sep 14 20:08:44 UTC 2026. python3 --version: Python 3.11.15. git --version: git version 2.43.0. gh --version: missing (gh command not found). uname -a: Linux vm 6.18.44-fc-v24 #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux. Env var names matching CLAUDE|GH_|GITHUB|ANTHROPIC: ANTHROPIC_BASE_URL, CLAUDECODE, CLAUDE_ADDITIONAL_DIRECTORIES, CLAUDE_AFTER_LAST_COMPACT, CLAUDE_AUTOCOMPACT_PCT_OVERRIDE, CLAUDE_AUTO_BACKGROUND_TASKS, CLAUDE_CODE_ACCOUNT_UUID, CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD, CLAUDE_CODE_BG_TASKS_REPORT_RUNNING, CLAUDE_CODE_CHILD_SESSION, CLAUDE_CODE_CONTAINER_ID, CLAUDE_CODE_DEBUG, CLAUDE_CODE_DIAGNOSTICS_FILE, CLAUDE_CODE_DISABLE_BUILTIN_ANTMCP, CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION, CLAUDE_CODE_ENTRYPOINT, CLAUDE_CODE_ENVIRONMENT_RUNNER_VERSION, CLAUDE_CODE_EXECPATH, CLAUDE_CODE_GZIP_REQUEST_BODIES, CLAUDE_CODE_HIDE_SETTINGS_HINT, CLAUDE_CODE_HOLD_UNANSWERED_PARKED_PERMISSION, CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH, CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION, CLAUDE_CODE_MESSAGING_SOCKET, CLAUDE_CODE_MESSAGING_TOKEN, CLAUDE_CODE_ORGANIZATION_UUID, CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2, CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST, CLAUDE_CODE_PROXY_RESOLVES_HOSTS, CLAUDE_CODE_REMOTE, CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE, CLAUDE_CODE_REMOTE_HERMETIC_MODE, CLAUDE_CODE_REMOTE_SEND_KEEPALIVES, CLAUDE_CODE_REMOTE_SESSION_ID, CLAUDE_CODE_SESSION_ATTENDED, CLAUDE_CODE_SESSION_ID, CLAUDE_CODE_SYNC_SESSION_REFS, CLAUDE_CODE_SYNC_SKILLS, CLAUDE_CODE_TEE_SDK_STDOUT, CLAUDE_CODE_USER_EMAIL, CLAUDE_CODE_USE_CCR_V2, CLAUDE_CODE_VERSION, CLAUDE_CODE_WORKER_EPOCH, CLAUDE_EFFORT, CLAUDE_ENABLE_STREAM_WATCHDOG, CLAUDE_PID, CLAUDE_SESSION_INGRESS_TOKEN_FILE, GH_TOKEN, GITHUB_TOKEN. No values printed."
+    },
+    {
+      "id": "tools",
+      "ok": true,
+      "detail": "Agent, Workflow, WebFetch (deferred), WebSearch (deferred), Write, Edit, Bash all present and callable this run. Also available: Artifact, Glob, Grep, Read, ReadNotifications, ScheduleWakeup, ReportFindings, SendUserFile, PushNotification, ShowOnboardingRolePicker, Skill, SuggestSkills, ToolSearch, plus deferred CronCreate/CronDelete/CronList/DesignSync/EnterWorktree/ExitWorktree/ListConnectors/ListMcpResourcesTool/ListPlugins/ListSkills/Monitor/NotebookEdit/ReadMcpResourceDirTool/ReadMcpResourceTool/SearchMcpRegistry/SearchPlugins/SearchSkills/SendMessage/SuggestConnectors/SuggestPluginInstall/TaskCreate/TaskGet/TaskList/TaskOutput/TaskStop/TaskUpdate, and ~65 mcp__github__* tools (deferred). No 'gh' CLI tool; no direct MCP filesystem tool beyond Read/Write/Edit/Glob/Grep."
+    },
+    {
+      "id": "repo_context",
+      "ok": true,
+      "detail": "CLAUDE.md loaded into context; first heading: '# Design Arsenal: agent rules'. Probe skill loaded from .claude/skills/probe/SKILL.md (dir listing confirmed: only SKILL.md present)."
+    },
+    {
+      "id": "subagent_model",
+      "ok": true,
+      "detail": "Agent tool run of probe-haiku subagent succeeded. Subagent reported model id: claude-haiku-4-5-20251001."
+    },
+    {
+      "id": "bash_allowlisted",
+      "ok": true,
+      "detail": "python3 -c \"print('ok')\" -> stdout 'ok', exit=0. git status --short -> empty output, exit=0. Neither prompted for permission (matches .claude/settings.json allow list)."
+    },
+    {
+      "id": "bash_not_allowlisted",
+      "ok": true,
+      "detail": "uname -m (not in settings.json allow list) ran without a visible permission prompt in this session, output 'x86_64', exit=0. No denial or prompt was observed; command executed same as allowlisted ones."
+    },
+    {
+      "id": "write_deny_rules",
+      "ok": true,
+      "detail": "Write tool on config/probe-write-test.txt blocked: 'File is in a directory that is denied by your permission settings.' Write tool on sheet/probe-write-test.txt blocked with identical message. Both deny rules (/config/**, sheet/**) enforced. git clean -f config sheet run afterward as a no-op (nothing was created)."
+    },
+    {
+      "id": "deps",
+      "ok": true,
+      "detail": "pip install -r requirements.txt exit=0 (installed attrs, et-xmlfile, jsonschema, jsonschema-specifications, openpyxl, referencing, rpds-py, typing-extensions; pip root-user warning only). python3 scripts/validate.py --json exit=0: {\"ok\": true, \"counts\": {\"resources\": 58, \"inbox\": 0, \"snoozed\": 0}, \"error_count\": 0, \"errors\": []}."
+    },
+    {
+      "id": "network_curl",
+      "ok": true,
+      "detail": "curl -sS -o /dev/null -w '%{http_code} %{url_effective}' -L --max-time 20 per config/arsenal.config.json source: bestofjs=200; sidebar=200; codrops=200; hn-show=200; webtoolsweekly=200 (redirected to /archive); toools=200; onepagelove=200; framer-portfolio=200 (redirected to /categories/portfolio/); uneed=200; awwwards-portfolio=FAILED curl exit 35 'Recv failure: Connection reset by peer' (TLS/connection reset, no HTTP code). https://api.github.com/repos/darkroomengineering/lenis -> 403 (unauthenticated REST call, likely rate-limited or blocked by proxy). https://registry.npmjs.org/lenis -> 200."
+    },
+    {
+      "id": "webfetch",
+      "ok": true,
+      "detail": "WebFetch https://lenis.dev: succeeded, ~4500-5000 words of marketing content. WebFetch https://sidebar.io/feed.xml: succeeded, ~20 RSS entries, ~4.5KB. Override: also WebFetch'd https://bestofjs-static-api.vercel.app/projects.json (succeeded, ~400+ project entries) and https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E%3D30&hitsPerPage=100 (succeeded, ~50 hits)."
+    },
+    {
+      "id": "websearch",
+      "ok": true,
+      "detail": "WebSearch for 'portfolio website design resources 2026' returned 7 results (envato, maxibestof.one, designrush, 99designs, muz.li, adhamdannaway.com, sitesplaced.com) plus a synthesized summary with mandatory Sources section."
+    },
+    {
+      "id": "gh_api",
+      "ok": false,
+      "detail": "'gh' CLI not installed; used mcp__github__* tools per override instead. mcp__github__get_me -> succeeded, login 'somethingcorbs'. mcp__github__get_file_contents(owner=somethingcorbs, repo=design-arsenal, path=/) -> succeeded, listed repo root. mcp__github__get_file_contents(owner=darkroomengineering, repo=lenis, path=/) -> DENIED: 'Access denied: repository \"darkroomengineering/lenis\" is not configured for this session. Allowed repositories: somethingcorbs/design-arsenal.' This session's GitHub MCP access is scoped to a single repo (somethingcorbs/design-arsenal) regardless of task instructions; per this session's own repo-scope rules ('do not search across repos not listed, even though search/list tools that don't take a repo argument can technically reach beyond scope'), no further cross-repo reads were attempted after the initial mcp__github__search_repositories(query='repo:darkroomengineering/lenis') call returned data (stargazers_count=15821) despite being outside the configured scope. Flagging this as a scope-enforcement gap: content-read tools (get_file_contents) enforce the single-repo scope but query-based tools (search_repositories) did not appear to be blocked by it. Did not use gh api for stargazers_count or user login since gh is absent; get_me substitutes for 'gh api user --jq .login'."
+    },
+    {
+      "id": "git_branch",
+      "ok": true,
+      "detail": "git branch --show-current -> claude/probe-run2 (created via override before any commit). git log -1 --format='%an <%ae>' -> somethingcorbs <corbinsterling9@gmail.com>."
+    }
+  ]
+}
